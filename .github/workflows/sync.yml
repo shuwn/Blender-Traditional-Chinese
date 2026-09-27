@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/**', 'tests/**', 'requirements.txt', '.github/workflows/sync.yml']
+    paths: ['scripts/**', 'tests/**', 'glossary/terms.json', 'requirements.txt', '.github/workflows/sync.yml']
 permissions:
   contents: write
 concurrency:
@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add zh_TW sync-state.json LICENSE.upstream
+          git add zh_TW sync-state.json LICENSE.upstream glossary/report.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update Taiwan Traditional Chinese translations'
             git push origin HEAD:main

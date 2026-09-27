@@ -1,0 +1,244 @@
+{
+  "glossary_sha256": "7ff1b740c48f00c1d07543930491e08de45b2596ce8c73d55536bf85deb6e699",
+  "terms": [
+    {
+      "id": "render",
+      "english": "Render / Rendering",
+      "source": "渲染",
+      "target": "算繪",
+      "status": "active",
+      "note": "專案初始用詞；適用算繪引擎、算繪結果等複合詞，非官方核定譯名。",
+      "occurrences": 675,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Device to use for computation (rendering with Cycles)",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Kernels can be optimized based on scene content. Optimized kernels are requested at the start of a render. If optimized kernels are not available, rendering will proceed using generic kernels until the optimized set is available in the cache. This can result in additional CPU usage for a brief time (tens of seconds)",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Disable kernel optimization. Slowest rendering, no extra background CPU usage",
+          "msgctxt": ""
+        }
+      ]
+    },
+    {
+      "id": "keyframe",
+      "english": "Keyframe",
+      "source": "關鍵幀",
+      "target": "關鍵影格",
+      "status": "active",
+      "note": "統一動畫術語，亦套用於關鍵影格相關複合詞。",
+      "occurrences": 610,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Number specific to this Slot, unique within the Action.\nThis is used, for example, on a ActionKeyframeStrip to look up the ActionChannelbag for this Slot",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Keyframe",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Keyframe Animation Strip",
+          "msgctxt": ""
+        }
+      ]
+    },
+    {
+      "id": "frame-rate",
+      "english": "Frame Rate",
+      "source": "幀率",
+      "target": "影格率",
+      "status": "active",
+      "note": "統一動畫與影片的影格率用詞。",
+      "occurrences": 21,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Frame Rate",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Detected frame rate of the movie clip in frames per second",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Frame Rate Presets",
+          "msgctxt": ""
+        }
+      ]
+    },
+    {
+      "id": "shader",
+      "english": "Shader",
+      "source": "著色器",
+      "target": "著色器",
+      "status": "active",
+      "note": "保留並追蹤現有正確用詞。",
+      "occurrences": 125,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Shader AOV",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Displays glTF Material Output node in Shader Editor (Menu Add > Output)",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Non-Shader",
+          "msgctxt": ""
+        }
+      ]
+    },
+    {
+      "id": "mesh",
+      "english": "Mesh",
+      "source": "網格",
+      "target": "網格",
+      "status": "active",
+      "note": "保留並追蹤現有正確用詞。",
+      "occurrences": 869,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Mesh",
+          "msgctxt": "ID"
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Import the assets as copied data-block while avoiding multiple copies of nested, typically heavy data. For example the textures of a material asset, or the mesh of an object asset, don't have to be copied every time this asset is imported. The instances of the asset share the data instead.",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Meshes",
+          "msgctxt": ""
+        }
+      ]
+    },
+    {
+      "id": "vertex",
+      "english": "Vertex / Vertices",
+      "source": "頂點",
+      "target": "頂點",
+      "status": "active",
+      "note": "保留並追蹤現有正確用詞。",
+      "occurrences": 1154,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Vertex or point",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "B-Bone Vertex Mapping Mode",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Selects how the vertices are mapped to B-Bone segments based on their position",
+          "msgctxt": ""
+        }
+      ]
+    },
+    {
+      "id": "normal",
+      "english": "Normal (surface direction)",
+      "source": "法向",
+      "target": "法線",
+      "msgids": [
+        "Normal"
+      ],
+      "contexts": [
+        "",
+        "Mesh",
+        "Render Layer"
+      ],
+      "status": "active",
+      "note": "只修正幾何法線標籤；不影響 Brush 的正常或 GPencil 的標準。",
+      "occurrences": 3,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Normal",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Normal",
+          "msgctxt": "Mesh"
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Normal",
+          "msgctxt": "Render Layer"
+        }
+      ]
+    },
+    {
+      "id": "object",
+      "english": "Object",
+      "source": "物體",
+      "target": "物件",
+      "msgids": [
+        "Object"
+      ],
+      "status": "active",
+      "note": "目前只統一英文完整標籤 Object；長句保留待逐項校訂。",
+      "occurrences": 7,
+      "samples": [
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Object",
+          "msgctxt": "ID"
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Object",
+          "msgctxt": ""
+        },
+        {
+          "file": "zh_HANS.po",
+          "msgid": "Object",
+          "msgctxt": "Action"
+        }
+      ]
+    },
+    {
+      "id": "texture-review",
+      "english": "Texture",
+      "source": "紋理",
+      "target": "貼圖",
+      "status": "draft",
+      "note": "待審：程序紋理與影像貼圖未必適合使用相同譯名，尚不套用。",
+      "occurrences": 0,
+      "samples": []
+    },
+    {
+      "id": "interpolation-review",
+      "english": "Interpolation",
+      "source": "插值",
+      "target": "內插",
+      "status": "draft",
+      "note": "待審：確認動畫與數值運算語境後再決定範圍。",
+      "occurrences": 0,
+      "samples": []
+    }
+  ]
+}

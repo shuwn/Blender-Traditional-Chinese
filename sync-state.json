@@ -3,5 +3,6 @@
   "converter": "OpenCC s2twp",
   "files": {
     "zh_HANS.po": "7e5b246fdc849f4de21736e007db595088edbf82f0cfa60c8fcde74ab815a8d8"
-  }
+  },
+  "glossary_sha256": "7ff1b740c48f00c1d07543930491e08de45b2596ce8c73d55536bf85deb6e699"
 }

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "terms": [
+    {"id": "render", "english": "Render / Rendering", "source": "渲染", "target": "算繪", "status": "active", "note": "專案初始用詞；適用算繪引擎、算繪結果等複合詞，非官方核定譯名。"},
+    {"id": "keyframe", "english": "Keyframe", "source": "關鍵幀", "target": "關鍵影格", "status": "active", "note": "統一動畫術語，亦套用於關鍵影格相關複合詞。"},
+    {"id": "frame-rate", "english": "Frame Rate", "source": "幀率", "target": "影格率", "status": "active", "note": "統一動畫與影片的影格率用詞。"},
+    {"id": "shader", "english": "Shader", "source": "著色器", "target": "著色器", "status": "active", "note": "保留並追蹤現有正確用詞。"},
+    {"id": "mesh", "english": "Mesh", "source": "網格", "target": "網格", "status": "active", "note": "保留並追蹤現有正確用詞。"},
+    {"id": "vertex", "english": "Vertex / Vertices", "source": "頂點", "target": "頂點", "status": "active", "note": "保留並追蹤現有正確用詞。"},
+    {"id": "normal", "english": "Normal (surface direction)", "source": "法向", "target": "法線", "msgids": ["Normal"], "contexts": ["", "Mesh", "Render Layer"], "status": "active", "note": "只修正幾何法線標籤；不影響 Brush 的正常或 GPencil 的標準。"},
+    {"id": "object", "english": "Object", "source": "物體", "target": "物件", "msgids": ["Object"], "status": "active", "note": "目前只統一英文完整標籤 Object；長句保留待逐項校訂。"},
+    {"id": "texture-review", "english": "Texture", "source": "紋理", "target": "貼圖", "status": "draft", "note": "待審：程序紋理與影像貼圖未必適合使用相同譯名，尚不套用。"},
+    {"id": "interpolation-review", "english": "Interpolation", "source": "插值", "target": "內插", "status": "draft", "note": "待審：確認動畫與數值運算語境後再決定範圍。"}
+  ]
+}

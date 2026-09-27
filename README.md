@@ -14,6 +14,8 @@ GitHub Actions 每 6 小時檢查一次（台灣時間 02:17、08:17、14:17、2
 - 使用台灣詞彙，例如「软件」→「軟體」、「鼠标」→「滑鼠」。格式參數、URL 與標記受到保護。
 - 保留空白翻譯；不以機器翻譯補寫缺少的內容。
 - `sync-state.json` 記錄每個來源 PO 檔的 SHA-256。
+- OpenCC 轉換後會套用 [專業術語表](glossary/terms.json)，支援英文條目與語境限制；術語表變更會自動觸發同步。
+- [術語套用報告](glossary/report.json) 記錄命中次數及範例，`sync-state.json` 同時記錄術語表 SHA-256。
 - 自動轉換不等同人工校訂，也不是 Blender 官方繁中版本；專業術語與多義字仍需審閱。
 
 產物為 PO 翻譯原始檔，不是可直接安裝的 Blender 語言包。上游翻譯之著作權及授權仍屬原作者，散布與使用須遵循上游授權；本專案不重新授權上游內容。
@@ -30,7 +32,7 @@ git -C .upstream sparse-checkout set zh_HANS
 python scripts/sync.py --source .upstream/zh_HANS
 ```
 
-`zh_TW/` 是自動產物，下次同步會覆寫手動變更。轉換規則請修改 `scripts/sync.py` 並新增測試。
+`zh_TW/` 是自動產物，下次同步會覆寫手動變更。專業術語請修改 `glossary/terms.json`，參閱 [術語維護與校訂流程](glossary/README.md)；不必修改 Python 程式。轉換邏輯的變更才需要修改 `scripts/sync.py` 並新增測試。
 
 ## 原作者與授權
 
