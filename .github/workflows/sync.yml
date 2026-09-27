@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/**', 'tests/**', 'glossary/terms.json', 'requirements.txt', '.github/workflows/sync.yml']
+    paths: ['scripts/**', 'tests/**', 'installer/**', 'docs/INSTALL.md', 'zh_TW/**', 'glossary/terms.json', 'requirements.txt', '.github/workflows/sync.yml']
 permissions:
   contents: write
 concurrency:
@@ -40,3 +40,23 @@ jobs:
             git commit -m 'Update Taiwan Traditional Chinese translations'
             git push origin HEAD:main
           fi
+      - name: Build downloadable language pack
+        run: python scripts/build_release.py
+      - name: Publish release when package changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=$(cat dist/release-tag.txt)
+          if gh release view "$tag" --json isDraft --jq '.isDraft' > dist/is-draft.txt 2>/dev/null; then
+            if [ "$(cat dist/is-draft.txt)" = "false" ]; then
+              echo "Package already released: $tag"
+              exit 0
+            fi
+          else
+            gh release create "$tag" --target "$(git rev-parse HEAD)" --draft \
+              --title "Blender 台灣繁體中文 $tag" --notes-file dist/RELEASE_NOTES.md
+          fi
+          gh release upload "$tag" --clobber \
+            dist/Blender-Taiwan-Chinese.zip dist/blender.mo dist/zh_TW.po \
+            dist/metadata.json dist/INSTALL.md dist/LICENSE.upstream dist/SHA256SUMS.txt
+          gh release edit "$tag" --draft=false --latest
