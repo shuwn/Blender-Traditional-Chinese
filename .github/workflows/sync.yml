@@ -1,0 +1,42 @@
+name: Sync Taiwan Traditional Chinese
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'tests/**', 'requirements.txt', '.github/workflows/sync.yml']
+permissions:
+  contents: write
+concurrency:
+  group: translation-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Fetch official translations
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse --branch main https://projects.blender.org/blender/blender-ui-translations.git .upstream
+          git -C .upstream sparse-checkout set zh_HANS
+      - name: Convert translations
+        run: |
+          python scripts/sync.py --source .upstream/zh_HANS
+          cp .upstream/LICENSE LICENSE.upstream
+      - name: Commit updated translations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add zh_TW sync-state.json LICENSE.upstream
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Taiwan Traditional Chinese translations'
+            git push origin HEAD:main
+          fi
