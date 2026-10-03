@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-14 07:47+0000\n"
-"PO-Revision-Date: 2026-09-19 11:13+0000\n"
+"PO-Revision-Date: 2026-10-03 13:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -83956,7 +83956,7 @@ msgstr ""
 
 #. :src: bpy.types.ShaderNodeShadowRaycast
 msgid "Shadow Raycast"
-msgstr ""
+msgstr "陰影光線投射"
 
 #. :src: bpy.types.ShaderNodeSqueeze
 msgid "Squeeze Value (Legacy)"
@@ -209326,7 +209326,7 @@ msgstr "預設粗糙度。用於反射係數"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_evaluation.cc:37
 msgid "Shading reflection factor, scaled by PI"
-msgstr ""
+msgstr "著色反射係數，按 π 縮放"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_evaluation.cc:39
 msgid ""
@@ -209334,18 +209334,25 @@ msgid ""
 "Spot lights: Cutoff mask and spot attenuation.\n"
 "Sun lights: 1.0"
 msgstr ""
+"所有區域性光源：使用遮罩來平滑光線截止。\n"
+"聚光：截止遮罩和聚光衰減。\n"
+"日光：1.0"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_evaluation.cc:44
 msgid ""
 "Local lights: Normalized direction from evaluation position to light position.\n"
 "Sun lights: Sun direction * -1.0"
 msgstr ""
+"區域性光源：從評估位置到光源位置的規格化方向。\n"
+"日光：太陽方向 * -1.0"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_evaluation.cc:48
 msgid ""
 "Local lights: Distance from evaluation position to light position.\n"
 "Sun lights: 1.0"
 msgstr ""
+"區域性光源：從評估位置到光源位置的距離。\n"
+"日光：1.0"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_falloff.cc:20
 msgid "Light strength before applying falloff modification"
@@ -209361,7 +209368,7 @@ msgstr ""
 
 #: source/blender/nodes/shader/nodes/node_shader_light_info.cc:25
 msgid "Radiant intensity divided by PI"
-msgstr ""
+msgstr "輻射通量除以 π"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_info.cc:26
 msgid "Light position"
