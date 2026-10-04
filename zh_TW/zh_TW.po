@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-14 07:47+0000\n"
-"PO-Revision-Date: 2026-10-03 13:12+0000\n"
+"PO-Revision-Date: 2026-10-04 17:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -53046,14 +53046,13 @@ msgid "World used for rendering the scene"
 msgstr "用於算繪場景的世界環境"
 
 #. :src: bpy.types.Scene.wrap_timeline_navigation
-#, fuzzy
 msgid "Wrap Timeline"
-msgstr "時間線"
+msgstr "迴圈時間線"
 
 #. :src: bpy.types.Scene.wrap_timeline_navigation
 msgid ""
 "Wrap the playhead around the playback range when navigating the timeline"
-msgstr ""
+msgstr "在時間線上導航時，讓播放頭在播放範圍內迴圈"
 
 #. :src: bpy.types.Screen
 msgid "Screen data-block, defining the layout of areas in a window"
@@ -128106,12 +128105,12 @@ msgstr "選擇與活動片段引用相同源資料，且檔案目錄、場景、
 
 #. :src: bpy.types.SEQUENCER_OT_select_grouped.type:'STRIPS_UNDER_EFFECT'
 msgid "Strips Under Effect"
-msgstr ""
+msgstr "效果下方的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_select_grouped.type:'STRIPS_UNDER_EFFECT'
 msgid ""
 "Select strips that are inputs to the same effect type as the active strip"
-msgstr "選擇與活動片段屬於同一效果型別的片段"
+msgstr "選擇作為與活動片段相同效果型別的輸入項的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_select_grouped.type:'TIME_OVERLAP'
 msgid "Time Overlap"
@@ -179660,7 +179659,7 @@ msgstr "僅活動插幀集"
 
 #: scripts/startup/bl_ui/space_time.py:366
 msgid "Wrap Timeline Navigation"
-msgstr ""
+msgstr "迴圈時間線導航"
 
 #: scripts/startup/bl_ui/space_time.py:368
 msgid "Jump Unit"
