@@ -34,7 +34,7 @@
       "target": "關鍵影格",
       "status": "active",
       "note": "統一動畫術語，亦套用於關鍵影格相關複合詞。",
-      "occurrences": 610,
+      "occurrences": 611,
       "samples": [
         {
           "file": "zh_HANS.po",
@@ -86,7 +86,7 @@
       "target": "著色器",
       "status": "active",
       "note": "保留並追蹤現有正確用詞。",
-      "occurrences": 125,
+      "occurrences": 124,
       "samples": [
         {
           "file": "zh_HANS.po",
@@ -138,7 +138,7 @@
       "target": "頂點",
       "status": "active",
       "note": "保留並追蹤現有正確用詞。",
-      "occurrences": 1154,
+      "occurrences": 1156,
       "samples": [
         {
           "file": "zh_HANS.po",
