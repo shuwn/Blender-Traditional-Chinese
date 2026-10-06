@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-05 22:12+0000\n"
+"PO-Revision-Date: 2026-10-06 06:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -18322,7 +18322,7 @@ msgstr "編號排序"
 
 #. :src: bpy.types.CollectionChild.sort_index
 msgid "Custom sort index of the collection in the parent collection"
-msgstr ""
+msgstr "父集合中該集合的自定義排序索引號"
 
 #. :src: bpy.types.CollectionChildren
 #. :src: bpy.types.Collection.collection_children
@@ -18447,18 +18447,17 @@ msgid "Light linking settings of the collection"
 msgstr "集合的燈光連結設定"
 
 #. :src: bpy.types.CollectionObject.parented_sort_index
-#, fuzzy
 msgid "Sort Index Child"
-msgstr "編號排序"
+msgstr "排序編號子級"
 
 #. :src: bpy.types.CollectionObject.parented_sort_index
 msgid ""
 "Custom sort index when the object is shown under a parent of another object"
-msgstr ""
+msgstr "當物體顯示在另一個物體的父級之下時的自定義排序索引號"
 
 #. :src: bpy.types.CollectionObject.sort_index
 msgid "Custom sort index of the object in the collection"
-msgstr ""
+msgstr "集合中物體的自定義排序索引號"
 
 #. :src: bpy.types.CollectionObjects
 #. :src: bpy.types.Collection.collection_objects
@@ -18701,21 +18700,21 @@ msgstr "輸入色彩空間設定"
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.interop_id
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.interop_id
 msgid "Interop ID"
-msgstr ""
+msgstr "互操作 ID"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.interop_id
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.interop_id
 msgid ""
 "Identifier of the color space that works across OpenColorIO configurations, "
 "as defined by the ASWF Color Interop Forum"
-msgstr ""
+msgstr "由 ASWF 色彩互操作論壇定義的、可在各種 OpenColorIO 配置中通用的色彩空間識別符號"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.interop_id:'NONE'
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.interop_id:'NONE'
 #. :src: bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'NONE'
 #. :src: bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'NONE'
 msgid "The color space has no interop ID"
-msgstr ""
+msgstr "該色彩空間沒有互操作 ID"
 
 #. :src:
 #. bpy.types.ColorManagedInputColorspaceSettings.interop_id:'blender:agxlog_rec2020_scene'
@@ -20638,6 +20637,8 @@ msgid ""
 "video on Apple devices. Use to match display of video files in e.g. "
 "QuickTime exactly. Not recommended to be used for any other purpose."
 msgstr ""
+"Rec.709 1.961 指數 EOTF 顯示模式，與 Apple 裝置上對 Rec.709 影片的解釋一致。用於精確匹配影片檔案在 "
+"QuickTime 等軟體中的顯示效果。不建議用於任何其他用途。"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'S-Log3 S-Gamut3'
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'S-Log3
@@ -47756,6 +47757,7 @@ msgid ""
 "considered read-only, changing this path without proper processing "
 "afterwards can leave Blender data in an invalid state"
 msgstr ""
+"庫檔案 .blend 的路徑。警告：通常，此值應視為只讀，如果在修改此路徑後未進行適當的後續處理，可能會導致 Blender 資料處於無效狀態"
 
 #. :src: bpy.types.Library.is_archive
 msgid "Is Archive"
@@ -77506,11 +77508,11 @@ msgstr "輸入影象的色彩空間"
 
 #. :src: bpy.types.CompositorNodeConvertColorSpace.from_interop_id
 msgid "From Interop ID"
-msgstr ""
+msgstr "來源互操作 ID"
 
 #. :src: bpy.types.CompositorNodeConvertColorSpace.from_interop_id
 msgid "Interop ID of the input color space"
-msgstr ""
+msgstr "輸入色彩空間的互操作 ID"
 
 #. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space
 msgctxt "Color Management"
@@ -77523,11 +77525,11 @@ msgstr "輸出影象的色彩空間"
 
 #. :src: bpy.types.CompositorNodeConvertColorSpace.to_interop_id
 msgid "To Interop ID"
-msgstr ""
+msgstr "目標互操作 ID"
 
 #. :src: bpy.types.CompositorNodeConvertColorSpace.to_interop_id
 msgid "Interop ID of the output color space"
-msgstr ""
+msgstr "輸出色彩空間的互操作 ID"
 
 #. :src: bpy.types.CompositorNodeConvertToDisplay
 msgid "Convert to Display"
@@ -111140,7 +111142,7 @@ msgstr ""
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'NONE'
 msgid "No restrictions on vertex movement"
-msgstr ""
+msgstr "頂點移動不受限制"
 
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'RAISE'
@@ -111192,7 +111194,7 @@ msgstr "自然立方樣條，結果平滑"
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.interpolation:'LINEAR'
 msgid "Simple and fast linear algorithm"
-msgstr ""
+msgstr "簡單且快速的線性演算法"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.regular
 msgid "Distribute vertices at constant distances along the curve"
@@ -129762,18 +129764,17 @@ msgstr "重置均衡器圖"
 #. :src: bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs
 msgctxt "Sequence"
 msgid "Graphs"
-msgstr "曲線圖"
+msgstr "圖形"
 
 #. :src: bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs
 msgid "Number of graphs"
-msgstr "曲線圖數量"
+msgstr "圖形數量"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs:'SIMPLE'
-#, fuzzy
 msgctxt "Sequence"
 msgid "Unique"
-msgstr "唯一"
+msgstr "單一"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs:'SIMPLE'
@@ -129785,7 +129786,7 @@ msgstr "一個唯一的圖形定義"
 #. :src: bpy.types.WipeStrip.transition_type:'DOUBLE'
 msgctxt "Sequence"
 msgid "Double"
-msgstr "雙邊"
+msgstr "兩段"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs:'DOUBLE'
@@ -129794,10 +129795,9 @@ msgstr "兩個部分的圖形定義"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs:'TRIPLE'
-#, fuzzy
 msgctxt "Sequence"
 msgid "Triplet"
-msgstr "三連"
+msgstr "三段"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs:'TRIPLE'
@@ -184352,10 +184352,9 @@ msgid "Copy Playback Range"
 msgstr "複製回放範圍"
 
 #: scripts/startup/bl_ui/space_view3d_sidebar.py:25
-#, fuzzy
 msgctxt "Operator"
 msgid "At Playhead"
-msgstr "播放頭"
+msgstr "到播放頭"
 
 #: scripts/startup/bl_ui/space_view3d_sidebar.py:52
 msgid "These require auto-key:"
@@ -187535,15 +187534,15 @@ msgstr ""
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:534
 msgid "Copied %d %s across %d frames to the clipboard"
-msgstr ""
+msgstr "已將 %d 個 %s 跨 %d 幀複製到剪貼簿"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:813
 msgid "Pasted all %d %s over %d frames"
-msgstr ""
+msgstr "已將所有 %d 個 %s 貼上到 %d 個幀中"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:821
 msgid "Pasted the same animation to %d %s over %d frames"
-msgstr ""
+msgstr "將相同的動畫貼上到 %d %s 上，共 %d 幀"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:829
 msgid "Pasted %d/%d %s over %d frames"
@@ -190020,19 +190019,16 @@ msgid "C"
 msgstr "C"
 
 #: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:460
-#, fuzzy
 msgctxt "Color"
 msgid "H"
 msgstr "H"
 
 #: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:474
-#, fuzzy
 msgctxt "Color"
 msgid "S"
 msgstr "S"
 
 #: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:488
-#, fuzzy
 msgctxt "Color"
 msgid "V"
 msgstr "V"
@@ -192210,11 +192206,11 @@ msgstr "關聯至新集合"
 
 #. :src: source/blender/editors/object/object_edit.cc:2390
 msgid "Move Inside"
-msgstr ""
+msgstr "移入"
 
 #. :src: source/blender/editors/object/object_edit.cc:2390
 msgid "Link Inside"
-msgstr ""
+msgstr "關聯入"
 
 #: source/blender/editors/object/object_edit.cc:1578
 msgid "Clear motion paths of selected objects"
@@ -196695,54 +196691,48 @@ msgid "Link all to object"
 msgstr "全部關聯到物體"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1343
-#, fuzzy
 msgid "Link before object"
-msgstr "關聯到集合前"
+msgstr "關聯到物體前"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1344
 msgid "Link before collection"
 msgstr "關聯到集合前"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1345
-#, fuzzy
 msgid "Move before object"
-msgstr "移動到集合前"
+msgstr "移動到物體前"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1346
 msgid "Move before collection"
 msgstr "移動到集合前"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1349
-#, fuzzy
 msgid "Link between objects"
-msgstr "在集合之間關聯"
+msgstr "在物體之間關聯"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1350
 msgid "Link between collections"
 msgstr "在集合之間關聯"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1351
-#, fuzzy
 msgid "Move between objects"
-msgstr "在集合之間移動"
+msgstr "在物體之間移動"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1352
 msgid "Move between collections"
 msgstr "在集合之間移動"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1355
-#, fuzzy
 msgid "Link after object"
-msgstr "全部關聯到物體"
+msgstr "關聯到物體後"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1356
 msgid "Link after collection"
-msgstr "關聯至集合後"
+msgstr "關聯到集合後"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1357
-#, fuzzy
 msgid "Move after object"
-msgstr "移動到集合後"
+msgstr "移動到物體後"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:1358
 msgid "Move after collection"
@@ -199787,19 +199777,19 @@ msgstr "PLY 匯入: %s: %s"
 msgid ""
 "PLY Importer: Spherical harmonics degree above the supported %d, spherical "
 "harmonics are not imported"
-msgstr ""
+msgstr "PLY 匯入器：球諧函式的階數超過支援的 %d，因此未匯入球諧函式"
 
 #. :src: source/blender/io/ply/importer/ply_import_gsplat.cc:145
 msgid ""
 "PLY Importer: Unexpected number of f_rest properties %d, spherical harmonics"
 " are not imported"
-msgstr ""
+msgstr "PLY 匯入器：f_rest 屬性的數量超出預期，為 %d，球諧函式未被匯入"
 
 #. :src: source/blender/io/ply/importer/ply_import_gsplat.cc:155
 msgid ""
 "PLY Importer: Incomplete spherical harmonics band, importing %d of %d "
 "coefficients"
-msgstr ""
+msgstr "PLY 匯入器：球諧函式頻帶不完整，正在匯入 %d 個係數，共 %d 個"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:20
 msgid "Unexpected SPZ header magic 0x{:X}"
