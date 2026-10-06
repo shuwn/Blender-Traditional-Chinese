@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-05 07:12+0000\n"
+"PO-Revision-Date: 2026-10-05 22:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -11112,13 +11112,12 @@ msgid "Blend-File Color Space"
 msgstr "Blend-檔案色彩空間"
 
 #. :src: bpy.types.BlendFileColorspace.is_failed_opencolorio_config
-#, fuzzy
 msgid "Failed OpenColorIO Configuration"
-msgstr "缺少 OpenColorIO 配置"
+msgstr "OpenColorIO 配置失敗"
 
 #. :src: bpy.types.BlendFileColorspace.is_failed_opencolorio_config
 msgid "The requested OpenColorIO config failed to load"
-msgstr ""
+msgstr "無法載入所請求的 OpenColorIO 配置"
 
 #. :src: bpy.types.BlendFileColorspace.is_missing_opencolorio_config
 msgid "Missing OpenColorIO Configuration"
@@ -11132,38 +11131,36 @@ msgstr "未找到檢視或者顯示的色彩空間，這可能意味著用於建
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_path
 #. :src: bpy.types.BlenderProject.ocio_config
-#, fuzzy
 msgid "OpenColorIO Configuration"
-msgstr "缺少 OpenColorIO 配置"
+msgstr "OpenColorIO 配置"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_path
 msgid "File path or URI of the OpenColorIO configuration currently in use"
-msgstr ""
+msgstr "當前正在使用的 OpenColorIO 配置的檔案路徑或 URI"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source
-#, fuzzy
 msgid "OpenColorIO Configuration Source"
-msgstr "缺少 OpenColorIO 配置"
+msgstr "OpenColorIO 配置源"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source
 msgid "Where the OpenColorIO configuration came from"
-msgstr ""
+msgstr "OpenColorIO 的配置來自哪裡"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'BLENDER_OCIO'
 msgid "BLENDER_OCIO environment variable"
-msgstr ""
+msgstr "BLENDER_OCIO 環境變數"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'BLENDER_OCIO'
 msgid "The BLENDER_OCIO environment variable"
-msgstr ""
+msgstr "BLENDER_OCIO 環境變數"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'OCIO'
 msgid "OCIO environment variable"
-msgstr ""
+msgstr "OCIO 環境變數"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'OCIO'
 msgid "The OCIO environment variable"
-msgstr ""
+msgstr "OCIO 環境變數"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'PROJECT'
 #. :src: bpy.types.ShrinkwrapConstraint.shrinkwrap_type:'PROJECT'
@@ -11180,7 +11177,7 @@ msgstr "投影"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'PROJECT'
 msgid "The active project's OpenColorIO configuration setting"
-msgstr ""
+msgstr "活動專案的 OpenColorIO 配置設定"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'BLENDER'
 #. :src: bpy.types.BlenderProject.ocio_config:'BLENDER'
@@ -11194,7 +11191,7 @@ msgstr "Blender"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'BLENDER'
 msgid "The OpenColorIO configuration bundled with Blender"
-msgstr ""
+msgstr "Blender 隨附的 OpenColorIO 配置"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'FALLBACK'
 #. :src: bpy.types.DriverTarget.fallback_value
@@ -11204,7 +11201,7 @@ msgstr "回退"
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'FALLBACK'
 msgid ""
 "The built-in fallback configuration, if loading other configurations failed"
-msgstr ""
+msgstr "當載入其他配置失敗時，將使用內建的後備配置"
 
 #. :src: bpy.types.BlendFileColorspace.working_space
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'scene_linear'
@@ -11608,17 +11605,17 @@ msgstr "專案名稱"
 
 #. :src: bpy.types.BlenderProject.ocio_config
 msgid "OpenColorIO configuration to use for this project"
-msgstr ""
+msgstr "本專案應採用的 OpenColorIO 配置"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'BLENDER'
 msgid ""
 "The default Blender OpenColorIO configuration. Works with both ACES "
 "workflows and Blender specific views and color spaces"
-msgstr ""
+msgstr "Blender 的預設 OpenColorIO 配置。既適用於 ACES 工作流程，也適用於 Blender 特有的檢視和色彩空間"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'ACES_2_0_STUDIO'
 msgid "ACES 2.0 Studio"
-msgstr ""
+msgstr "ACES 2.0 Studio"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'ACES_2_0_STUDIO'
 msgid ""
@@ -11626,10 +11623,11 @@ msgid ""
 "with existing assets and add-ons, but more consistent with other "
 "applications using the same configuration"
 msgstr ""
+"Academy 顏色編碼系統 2.0，Studio 配置 v4.0.0。與現有資產和外掛的相容性較低，但與使用相同配置的其他應用程式更為一致"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'ACES_1_3_STUDIO'
 msgid "ACES 1.3 Studio"
-msgstr ""
+msgstr "ACES 1.3 Studio"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'ACES_1_3_STUDIO'
 msgid ""
@@ -11637,6 +11635,7 @@ msgid ""
 "with existing assets and add-ons, but more consistent with other "
 "applications using the same configuration"
 msgstr ""
+"Academy 顏色編碼系統 1.3，Studio 配置 v2.2.0。與現有資產和外掛的相容性較低，但與使用相同配置的其他應用程式更為一致"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'PATH'
 #. :src: bpy.types.Curve.use_path
@@ -11691,12 +11690,11 @@ msgstr "路徑"
 
 #. :src: bpy.types.BlenderProject.ocio_config:'PATH'
 msgid "OpenColorIO configuration from a file path or ocio:// URI"
-msgstr ""
+msgstr "從檔案路徑或 ocio:// URI 載入 OpenColorIO 配置"
 
 #. :src: bpy.types.BlenderProject.ocio_config_path
-#, fuzzy
 msgid "OpenColorIO Configuration Path"
-msgstr "缺少 OpenColorIO 配置"
+msgstr "OpenColorIO 配置路徑"
 
 #. :src: bpy.types.BlenderProject.ocio_config_path
 msgid ""
@@ -11704,6 +11702,8 @@ msgid ""
 "absolute file path, project relative path with {project_root}, or an ocio://"
 " built-in OpenColorIO config"
 msgstr ""
+"本專案要使用的 OpenColorIO 配置檔案路徑。可以是絕對檔案路徑、以 {project_root} 為基準的專案相對路徑，或者一個 "
+"ocio:// 內建的 OpenColorIO 配置檔案"
 
 #. :src: bpy.types.BlenderProject.root_path
 msgid "Root Folder"
@@ -15657,7 +15657,7 @@ msgstr "閉環"
 
 #. :src: bpy.types.BrushGpencilSettings.use_cyclic_stroke
 msgid "Create a cyclic stroke"
-msgstr ""
+msgstr "建立閉合的筆畫"
 
 #. :src: bpy.types.BrushGpencilSettings.use_edit_position
 #. :src: bpy.types.GreasePencilSmoothModifier.use_edit_position
@@ -18725,7 +18725,6 @@ msgstr ""
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'blender:agxlog_rec2020_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'blender:agxlog_rec2020_scene'
-#, fuzzy
 msgid "AgX Log"
 msgstr "AgX Log"
 
@@ -18737,7 +18736,6 @@ msgstr "AgX Log"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'blender:filmiclog_rec709_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'blender:filmiclog_rec709_scene'
-#, fuzzy
 msgid "Filmic Log"
 msgstr "Filmic Log"
 
@@ -18750,7 +18748,7 @@ msgstr "Filmic Log"
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'blender:g1961_rec709_display'
 msgid "Rec.709-A"
-msgstr ""
+msgstr "Rec.709-A"
 
 #. :src:
 #. bpy.types.ColorManagedInputColorspaceSettings.interop_id:'blender:g24_rec2020_display'
@@ -18760,7 +18758,6 @@ msgstr ""
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'blender:g24_rec2020_display'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'blender:g24_rec2020_display'
-#, fuzzy
 msgid "Rec.2020"
 msgstr "Rec.2020"
 
@@ -18772,7 +18769,6 @@ msgstr "Rec.2020"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'blender:lin_ciexyze_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'blender:lin_ciexyze_scene'
-#, fuzzy
 msgid "Linear CIE-XYZ E"
 msgstr "線性 CIE-XYZ E"
 
@@ -18784,7 +18780,6 @@ msgstr "線性 CIE-XYZ E"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'blender:lin_egamut_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'blender:lin_egamut_scene'
-#, fuzzy
 msgid "Linear FilmLight E-Gamut"
 msgstr "線性 FilmLight E-Gamut"
 
@@ -18792,7 +18787,6 @@ msgstr "線性 FilmLight E-Gamut"
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.interop_id:'data'
 #. :src: bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'data'
 #. :src: bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'data'
-#, fuzzy
 msgid "Non-Color"
 msgstr "非色彩"
 
@@ -18804,7 +18798,6 @@ msgstr "非色彩"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'g18_rec709_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g18_rec709_scene'
-#, fuzzy
 msgid "Gamma 1.8 Encoded Rec.709"
 msgstr "伽瑪 1.8 編碼 Rec.709"
 
@@ -18816,7 +18809,6 @@ msgstr "伽瑪 1.8 編碼 Rec.709"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'g22_adobergb_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g22_adobergb_scene'
-#, fuzzy
 msgid "Gamma 2.2 Encoded AdobeRGB"
 msgstr "伽瑪 2.2 編碼 AdobeRGB"
 
@@ -18828,7 +18820,6 @@ msgstr "伽瑪 2.2 編碼 AdobeRGB"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'g22_ap1_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g22_ap1_scene'
-#, fuzzy
 msgid "Gamma 2.2 Encoded AP1"
 msgstr "伽瑪 2.2 編碼 AP1"
 
@@ -18848,7 +18839,6 @@ msgstr "伽瑪 2.2 編碼 AP1"
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g22_rec709_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g22_rec709_display'
-#, fuzzy
 msgid "Gamma 2.2 Encoded Rec.709"
 msgstr "伽瑪 2.2 編碼 Rec.709"
 
@@ -18860,7 +18850,6 @@ msgstr "伽瑪 2.2 編碼 Rec.709"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'g24_rec709_display'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g24_rec709_display'
-#, fuzzy
 msgid "Rec.1886"
 msgstr "Rec.1886"
 
@@ -18872,7 +18861,6 @@ msgstr "Rec.1886"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'g24_rec709_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'g24_rec709_scene'
-#, fuzzy
 msgid "Gamma 2.4 Encoded Rec.709"
 msgstr "伽瑪 2.4 編碼 Rec.709"
 
@@ -18884,7 +18872,6 @@ msgstr "伽瑪 2.4 編碼 Rec.709"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'hlg_rec2020_display'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'hlg_rec2020_display'
-#, fuzzy
 msgid "Rec.2100-HLG"
 msgstr "Rec.2100-HLG"
 
@@ -18896,7 +18883,6 @@ msgstr "Rec.2100-HLG"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'lin_adobergb_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_adobergb_scene'
-#, fuzzy
 msgid "Linear Adobe RGB"
 msgstr "線性 Adobe RGB"
 
@@ -18908,7 +18894,6 @@ msgstr "線性 Adobe RGB"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'lin_ap0_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_ap0_scene'
-#, fuzzy
 msgid "ACES2065-1"
 msgstr "ACES2065-1"
 
@@ -18920,7 +18905,6 @@ msgstr "ACES2065-1"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'lin_ap1_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_ap1_scene'
-#, fuzzy
 msgid "ACEScg"
 msgstr "ACEScg"
 
@@ -18932,7 +18916,6 @@ msgstr "ACEScg"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'lin_ciexyzd65_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_ciexyzd65_scene'
-#, fuzzy
 msgid "Linear CIE-XYZ D65"
 msgstr "線性 CIE-XYZ D65"
 
@@ -18952,7 +18935,6 @@ msgstr "線性 CIE-XYZ D65"
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_p3d65_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_p3d65_display'
-#, fuzzy
 msgid "Linear DCI-P3 D65"
 msgstr "線性 DCI-P3 D65"
 
@@ -18972,7 +18954,6 @@ msgstr "線性 DCI-P3 D65"
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_rec2020_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_rec2020_display'
-#, fuzzy
 msgid "Linear Rec.2020"
 msgstr "線性 Rec.2020"
 
@@ -18992,7 +18973,6 @@ msgstr "線性 Rec.2020"
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_rec709_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'lin_rec709_display'
-#, fuzzy
 msgid "Linear Rec.709"
 msgstr "線性 Rec.709"
 
@@ -19004,7 +18984,6 @@ msgstr "線性 Rec.709"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:acescc_ap1_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:acescc_ap1_scene'
-#, fuzzy
 msgid "ACEScc"
 msgstr "ACEScc"
 
@@ -19016,7 +18995,6 @@ msgstr "ACEScc"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:acescct_ap1_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:acescct_ap1_scene'
-#, fuzzy
 msgid "ACEScct"
 msgstr "ACEScct"
 
@@ -19028,7 +19006,6 @@ msgstr "ACEScct"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:adx10_apd_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:adx10_apd_scene'
-#, fuzzy
 msgid "ADX10"
 msgstr "ADX10"
 
@@ -19040,7 +19017,6 @@ msgstr "ADX10"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:adx16_apd_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:adx16_apd_scene'
-#, fuzzy
 msgid "ADX16"
 msgstr "ADX16"
 
@@ -19052,7 +19028,6 @@ msgstr "ADX16"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:applelog_applewg_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:applelog_applewg_scene'
-#, fuzzy
 msgid "Apple Log 2"
 msgstr "Apple Log 2"
 
@@ -19064,7 +19039,6 @@ msgstr "Apple Log 2"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:applelog_rec2020_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:applelog_rec2020_scene'
-#, fuzzy
 msgid "Apple Log"
 msgstr "Apple Log"
 
@@ -19076,7 +19050,6 @@ msgstr "Apple Log"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:arrilogc3_awg3_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:arrilogc3_awg3_scene'
-#, fuzzy
 msgid "ARRI LogC3 (EI800)"
 msgstr "ARRI LogC3 (EI800)"
 
@@ -19088,7 +19061,6 @@ msgstr "ARRI LogC3 (EI800)"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:arrilogc4_awg4_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:arrilogc4_awg4_scene'
-#, fuzzy
 msgid "ARRI LogC4"
 msgstr "ARRI LogC4"
 
@@ -19100,7 +19072,6 @@ msgstr "ARRI LogC4"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:bmdfilm5_wg5_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:bmdfilm5_wg5_scene'
-#, fuzzy
 msgid "BMDFilm WideGamut Gen5"
 msgstr "BMDFilm 廣色域 Gen5"
 
@@ -19112,7 +19083,6 @@ msgstr "BMDFilm 廣色域 Gen5"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:canonlog2_cgamutd55_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:canonlog2_cgamutd55_scene'
-#, fuzzy
 msgid "CanonLog2 CinemaGamut D55"
 msgstr "CanonLog2 CinemaGamut D55"
 
@@ -19124,7 +19094,6 @@ msgstr "CanonLog2 CinemaGamut D55"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:canonlog3_cgamutd55_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:canonlog3_cgamutd55_scene'
-#, fuzzy
 msgid "CanonLog3 CinemaGamut D55"
 msgstr "CanonLog3 CinemaGamut D55"
 
@@ -19136,7 +19105,6 @@ msgstr "CanonLog3 CinemaGamut D55"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:davinci_dwg_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:davinci_dwg_scene'
-#, fuzzy
 msgid "DaVinci Intermediate WideGamut"
 msgstr "DaVinci Intermediate WideGamut"
 
@@ -19148,7 +19116,6 @@ msgstr "DaVinci Intermediate WideGamut"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:djilog_dgamut_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:djilog_dgamut_scene'
-#, fuzzy
 msgid "D-Log D-Gamut"
 msgstr "D-Log D-Gamut"
 
@@ -19160,7 +19127,6 @@ msgstr "D-Log D-Gamut"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_awg3_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_awg3_scene'
-#, fuzzy
 msgid "Linear ARRI Wide Gamut 3"
 msgstr "線性 ARRI 廣色域 3"
 
@@ -19172,7 +19138,6 @@ msgstr "線性 ARRI 廣色域 3"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_awg4_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_awg4_scene'
-#, fuzzy
 msgid "Linear ARRI Wide Gamut 4"
 msgstr "線性 ARRI 廣色域 4"
 
@@ -19184,7 +19149,6 @@ msgstr "線性 ARRI 廣色域 4"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_bmdwg5_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_bmdwg5_scene'
-#, fuzzy
 msgid "Linear BMD WideGamut Gen5"
 msgstr "線性 BMD 廣色域 Gen5"
 
@@ -19196,7 +19160,6 @@ msgstr "線性 BMD 廣色域 Gen5"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_cgamutd55_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_cgamutd55_scene'
-#, fuzzy
 msgid "Linear CinemaGamut D55"
 msgstr "線性 CinemaGamut D55"
 
@@ -19208,7 +19171,6 @@ msgstr "線性 CinemaGamut D55"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_dgamut_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_dgamut_scene'
-#, fuzzy
 msgid "Linear D-Gamut"
 msgstr "線性 D-Gamut"
 
@@ -19220,7 +19182,6 @@ msgstr "線性 D-Gamut"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_dwg_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_dwg_scene'
-#, fuzzy
 msgid "Linear DaVinci WideGamut"
 msgstr "線性 DaVinci 廣色域"
 
@@ -19232,7 +19193,6 @@ msgstr "線性 DaVinci 廣色域"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_rwg_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_rwg_scene'
-#, fuzzy
 msgid "Linear REDWideGamutRGB"
 msgstr "線性 REDWideGamutRGB"
 
@@ -19244,7 +19204,6 @@ msgstr "線性 REDWideGamutRGB"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_sgamut3_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_sgamut3_scene'
-#, fuzzy
 msgid "Linear S-Gamut3"
 msgstr "線性 S-Gamut3"
 
@@ -19256,7 +19215,6 @@ msgstr "線性 S-Gamut3"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_sgamut3cine_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_sgamut3cine_scene'
-#, fuzzy
 msgid "Linear S-Gamut3.Cine"
 msgstr "線性 S-Gamut3.Cine"
 
@@ -19268,7 +19226,6 @@ msgstr "線性 S-Gamut3.Cine"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_sgamut3cinevenice_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_sgamut3cinevenice_scene'
-#, fuzzy
 msgid "Linear Venice S-Gamut3.Cine"
 msgstr "線性 Venice S-Gamut3.Cine"
 
@@ -19280,7 +19237,6 @@ msgstr "線性 Venice S-Gamut3.Cine"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_sgamut3venice_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_sgamut3venice_scene'
-#, fuzzy
 msgid "Linear Venice S-Gamut3"
 msgstr "線性 Venice S-Gamut3"
 
@@ -19292,7 +19248,6 @@ msgstr "線性 Venice S-Gamut3"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:lin_vgamut_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:lin_vgamut_scene'
-#, fuzzy
 msgid "Linear V-Gamut"
 msgstr "線性 V-Gamut"
 
@@ -19304,7 +19259,6 @@ msgstr "線性 V-Gamut"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:linear_applewg_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:linear_applewg_scene'
-#, fuzzy
 msgid "Linear Apple Wide Gamut"
 msgstr "線性 Apple 廣色域"
 
@@ -19316,7 +19270,6 @@ msgstr "線性 Apple 廣色域"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:redlog3g10_rwg_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:redlog3g10_rwg_scene'
-#, fuzzy
 msgid "Log3G10 REDWideGamutRGB"
 msgstr "Log3G10 REDWideGamutRGB"
 
@@ -19328,7 +19281,6 @@ msgstr "Log3G10 REDWideGamutRGB"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:slog3_sgamut3_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:slog3_sgamut3_scene'
-#, fuzzy
 msgid "S-Log3 S-Gamut3"
 msgstr "S-Log3 S-Gamut3"
 
@@ -19340,7 +19292,6 @@ msgstr "S-Log3 S-Gamut3"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:slog3_sgamut3cine_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:slog3_sgamut3cine_scene'
-#, fuzzy
 msgid "S-Log3 S-Gamut3.Cine"
 msgstr "S-Log3 S-Gamut3.Cine"
 
@@ -19352,7 +19303,6 @@ msgstr "S-Log3 S-Gamut3.Cine"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:slog3_sgamut3cinevenice_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:slog3_sgamut3cinevenice_scene'
-#, fuzzy
 msgid "S-Log3 Venice S-Gamut3.Cine"
 msgstr "S-Log3 Venice S-Gamut3.Cine"
 
@@ -19364,7 +19314,6 @@ msgstr "S-Log3 Venice S-Gamut3.Cine"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:slog3_sgamut3venice_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:slog3_sgamut3venice_scene'
-#, fuzzy
 msgid "S-Log3 Venice S-Gamut3"
 msgstr "S-Log3 Venice S-Gamut3"
 
@@ -19376,7 +19325,6 @@ msgstr "S-Log3 Venice S-Gamut3"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'ocio:vlog_vgamut_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'ocio:vlog_vgamut_scene'
-#, fuzzy
 msgid "V-Log V-Gamut"
 msgstr "V-Log V-Gamut"
 
@@ -19388,7 +19336,6 @@ msgstr "V-Log V-Gamut"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'pq_rec2020_display'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'pq_rec2020_display'
-#, fuzzy
 msgid "Rec.2100-PQ"
 msgstr "Rec.2100-PQ"
 
@@ -19400,7 +19347,6 @@ msgstr "Rec.2100-PQ"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'srgb_ap1_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'srgb_ap1_scene'
-#, fuzzy
 msgid "sRGB Encoded AP1"
 msgstr "sRGB 編碼 AP1"
 
@@ -19412,7 +19358,6 @@ msgstr "sRGB 編碼 AP1"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'srgb_p3d65_display'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'srgb_p3d65_display'
-#, fuzzy
 msgid "Display P3"
 msgstr "Display P3"
 
@@ -19424,7 +19369,6 @@ msgstr "Display P3"
 #. bpy.types.CompositorNodeConvertColorSpace.from_interop_id:'srgb_p3d65_scene'
 #. :src:
 #. bpy.types.CompositorNodeConvertColorSpace.to_interop_id:'srgb_p3d65_scene'
-#, fuzzy
 msgid "sRGB Encoded P3-D65"
 msgstr "sRGB 編碼 P3-D65"
 
@@ -20681,7 +20625,7 @@ msgstr "Rec.2100-PQ 10000尼特峰值顯示，參考白為100尼特"
 #. :src: Colorspace name from OCIO config
 msgctxt "Color Management"
 msgid "Rec.709-A"
-msgstr ""
+msgstr "Rec.709-A"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Rec.709-A'
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Rec.709-A'
@@ -49326,11 +49270,10 @@ msgid "Corner Normals"
 msgstr "拐角法向"
 
 #. :src: bpy.types.Mesh.corner_normals
-#, fuzzy
 msgid ""
 "The \"split\" normal direction of each face corner, influenced by vertex "
 "normals, sharp faces, sharp edges, and custom normals. May be empty."
-msgstr "每個面拐角的 “狹縫” 法線方向，受頂點法線、銳面、銳邊和自定義法線的影響，可能是空的。"
+msgstr "每個面拐角的 “拆分” 法線方向，受頂點法線、銳面、銳邊和自定義法線的影響。可能是空的。"
 
 #. :src: bpy.types.Mesh.edges
 #. :src: bpy.types.BevelModifier.affect:'EDGES'
@@ -51895,11 +51838,10 @@ msgid "Raycast Visibility"
 msgstr "光線投射可見性"
 
 #. :src: bpy.types.Object.visible_raycast
-#, fuzzy
 msgid ""
 "Object visibility to raycast rays. Implicitly false for Blended materials in"
 " EEVEE."
-msgstr "物體對光線投射的可見性。對於混合的材質，預設值為假。"
+msgstr "物體對光線投射的可見性。在 EEVEE 中，對於混合材質，預設值為假。"
 
 #. :src: bpy.types.Object.visible_shadow
 msgid "Shadow Visibility"
@@ -53291,20 +53233,20 @@ msgstr "點雲資料塊"
 
 #. :src: bpy.types.PointCloud.type
 msgid "Representation type of the pointcloud"
-msgstr ""
+msgstr "點雲的表示型別"
 
 #. :src: bpy.types.PointCloud.type:'POINTS'
 msgid "Simple point cloud represented by points with position and radius"
-msgstr ""
+msgstr "由具有位置和半徑的點表示的簡單點雲"
 
 #. :src: bpy.types.PointCloud.type:'GAUSSIAN_SPLAT'
 msgid "3D Gaussian Splat"
-msgstr ""
+msgstr "3D 高斯潑濺"
 
 #. :src: bpy.types.PointCloud.type:'GAUSSIAN_SPLAT'
 msgid ""
 "A point cloud that represents the original 3D Gaussian Splats technique"
-msgstr ""
+msgstr "一種表示原始3D高斯潑濺技術的點雲"
 
 #. :src: bpy.types.Scene
 msgid ""
@@ -59597,49 +59539,41 @@ msgid "Type of event"
 msgstr "事件型別"
 
 #. :src: bpy.types.KeyMapItem.value
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Value"
-msgstr "明度"
+msgstr "值"
 
 #. :src: bpy.types.KeyMapItem.value:'ANY'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Any"
 msgstr "任意"
 
 #. :src: bpy.types.KeyMapItem.value:'PRESS'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Press"
 msgstr "按下"
 
 #. :src: bpy.types.KeyMapItem.value:'RELEASE'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Release"
 msgstr "鬆開"
 
 #. :src: bpy.types.KeyMapItem.value:'CLICK'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Click"
 msgstr "單擊"
 
 #. :src: bpy.types.KeyMapItem.value:'DOUBLE_CLICK'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Double Click"
 msgstr "雙擊"
 
 #. :src: bpy.types.KeyMapItem.value:'CLICK_DRAG'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Drag"
 msgstr "拖拽"
 
 #. :src: bpy.types.KeyMapItem.value:'NOTHING'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Nothing"
 msgstr "無"
@@ -76277,10 +76211,9 @@ msgid ""
 msgstr "在執行攝像機解算時最佳化畸變模型的切向係數"
 
 #. :src: bpy.types.MovieTrackingSettings.speed
-#, fuzzy
 msgctxt "MovieClip"
 msgid "Speed"
-msgstr "速率"
+msgstr "速度"
 
 #. :src: bpy.types.MovieTrackingSettings.speed
 msgid ""
@@ -76289,7 +76222,6 @@ msgid ""
 msgstr "限制追蹤速度, 以實現更輕鬆的目視反饋結果 (這不會影響追蹤結果的品質)"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'FASTEST'
-#, fuzzy
 msgctxt "MovieClip"
 msgid "Fastest"
 msgstr "最快"
@@ -76299,17 +76231,15 @@ msgid "Track as fast as possible"
 msgstr "以儘可能快的速度執行追蹤"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'DOUBLE'
-#, fuzzy
 msgctxt "MovieClip"
 msgid "Double"
-msgstr "雙邊"
+msgstr "雙倍"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'DOUBLE'
 msgid "Track with double speed"
 msgstr "以雙倍速度追蹤"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'REALTIME'
-#, fuzzy
 msgctxt "MovieClip"
 msgid "Realtime"
 msgstr "實時"
@@ -76319,7 +76249,6 @@ msgid "Track with realtime speed"
 msgstr "以實時速度追蹤"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'HALF'
-#, fuzzy
 msgctxt "MovieClip"
 msgid "Half"
 msgstr "一半"
@@ -76329,7 +76258,6 @@ msgid "Track with half of realtime speed"
 msgstr "以 1/2 的實時速度追蹤"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'QUARTER'
-#, fuzzy
 msgctxt "MovieClip"
 msgid "Quarter"
 msgstr "四分之一"
@@ -81180,15 +81108,14 @@ msgid "Import a point cloud from a PLY file"
 msgstr "從一個PLY檔案匯入點雲"
 
 #. :src: bpy.types.GeometryNodeImportSPZ
-#, fuzzy
 msgid "Import SPZ"
-msgstr "匯入 USD"
+msgstr "匯入 SPZ"
 
 #. :src: bpy.types.GeometryNodeImportSPZ
 msgid ""
 "Import a point cloud object that is rendered as gaussian splat from an SPZ "
 "file"
-msgstr ""
+msgstr "從一個SPZ檔案匯入一個以高斯潑濺形式算繪的點雲物體"
 
 #. :src: bpy.types.GeometryNodeImportSTL
 msgid "Import STL"
@@ -81946,12 +81873,11 @@ msgstr "檢索點在曲線內的編號"
 
 #. :src: bpy.types.GeometryNodePointsSetType
 msgid "Set Point Cloud Type"
-msgstr ""
+msgstr "設定點雲型別"
 
 #. :src: bpy.types.GeometryNodePointsSetType
-#, fuzzy
 msgid "Change the type of point cloud"
-msgstr "修改曲線型別"
+msgstr "更改點雲的型別"
 
 #. :src: bpy.types.GeometryNodePointsToCurves
 msgid "Points to Curves"
@@ -82441,9 +82367,8 @@ msgid "Set the color and opacity for the stroke fills"
 msgstr "設定筆畫填充的顏色和不透明度"
 
 #. :src: bpy.types.GeometryNodeSetGreasePencilColor.mode:'BOTH'
-#, fuzzy
 msgid "Set the color and opacity for stroke points and fills together"
-msgstr "設定筆畫或填充的顏色和不透明度"
+msgstr "同時設定筆畫點和填充的顏色和不透明度"
 
 #. :src: bpy.types.GeometryNodeSetGreasePencilDepth
 msgid "Set Grease Pencil Depth"
@@ -83244,11 +83169,11 @@ msgstr "註釋"
 
 #. :src: bpy.types.NodeComment
 msgid "Add explanations to the node group"
-msgstr ""
+msgstr "為節點組新增說明"
 
 #. :src: bpy.types.NodeComment.text
 msgid "Text to show in the node"
-msgstr ""
+msgstr "節點中顯示的文字"
 
 #. :src: bpy.types.NodeEnableOutput
 msgid "Enable Output"
@@ -94596,33 +94521,31 @@ msgstr "隱藏除被框顯之外的所有函式曲線"
 #. :src: bpy.types.ANIM_OT_world_space_copy
 msgctxt "Operator"
 msgid "Copy World Space Range"
-msgstr ""
+msgstr "複製世界空間範圍"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy
 msgid "Copy animation from selected elements to the clipboard"
-msgstr ""
+msgstr "將選定元素的動畫複製到剪貼簿"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.end
 msgid "End frame to copy from"
 msgstr ""
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode
-#, fuzzy
 msgid "Range Mode"
-msgstr "緩動模式"
+msgstr "範圍模式"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode
 msgid "Determines which range should be copied"
-msgstr ""
+msgstr "確定應複製哪個範圍"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode:'CUSTOM'
 msgid "Use the range provided in the operator properties"
-msgstr ""
+msgstr "使用操作屬性中提供的範圍"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode:'PLAYBACK'
-#, fuzzy
 msgid "Playback Range"
-msgstr "回放比例"
+msgstr "回放範圍"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode:'PLAYBACK'
 msgid "Use the playback range of the scene"
@@ -94633,14 +94556,13 @@ msgid "Start frame to copy from"
 msgstr ""
 
 #. :src: bpy.types.ANIM_OT_world_space_paste
-#, fuzzy
 msgctxt "Operator"
 msgid "Paste World Space"
-msgstr "世界空間"
+msgstr "貼上世界空間"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste
 msgid "Paste the animation from the clipboard to selected elements"
-msgstr ""
+msgstr "將剪貼簿中的動畫貼上到所選元素上"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste.offset:'NONE'
 #, fuzzy
@@ -94648,14 +94570,12 @@ msgid "Paste data to the same frames they were copied from"
 msgstr "貼上關鍵影格，使用它們複製的相同值"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste.offset:'START'
-#, fuzzy
 msgid "Start at Current Frame"
 msgstr "從當前幀開始"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste.offset:'START'
-#, fuzzy
 msgid "Paste data starting at current frame"
-msgstr "從當前幀處貼上幀"
+msgstr "從當前幀開始貼上資料"
 
 #. :src: bpy.types.ARMATURE_OT_align
 msgctxt "Operator"
@@ -111275,9 +111195,8 @@ msgid "Simple and fast linear algorithm"
 msgstr ""
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.regular
-#, fuzzy
 msgid "Distribute vertices at constant distances along the curve"
-msgstr "將頂點以恆定間距分佈在環路上"
+msgstr "將頂點以恆定間距分佈在曲線上"
 
 #. :src: bpy.types.MESH_OT_customdata_custom_splitnormals_add
 msgctxt "Operator"
@@ -116036,11 +115955,11 @@ msgstr "待移除的編號"
 #. :src: bpy.types.NODE_OT_comment_edit
 msgctxt "Operator"
 msgid "Edit Comment"
-msgstr ""
+msgstr "編輯註釋"
 
 #. :src: bpy.types.NODE_OT_comment_edit
 msgid "Enter edit mode for the comment node under the cursor"
-msgstr ""
+msgstr "進入游標所在註釋節點的編輯模式"
 
 #. :src: bpy.types.NODE_OT_comment_edit.use_active
 #. :src: bpy.types.OUTLINER_OT_item_rename.use_active
@@ -116050,7 +115969,7 @@ msgstr "使用活動項"
 
 #. :src: bpy.types.NODE_OT_comment_edit.use_active
 msgid "Edit the active comment node, rather than the one under the cursor"
-msgstr ""
+msgstr "編輯當前選中的註釋節點，而不是游標下方的那個"
 
 #. :src: bpy.types.NODE_OT_connect_to_output
 msgid "Connect active node to the active output node of the node tree"
@@ -116788,7 +116707,7 @@ msgstr "消除已遮蔽的節點並重新連線"
 
 #. :src: bpy.types.NODE_OT_nw_factor
 msgid "Change factor inputs of selected nodes"
-msgstr ""
+msgstr "更改所選節點的係數輸入值"
 
 #. :src: bpy.types.NODE_OT_nw_merge_nodes
 msgid "Merge selected nodes"
@@ -116940,15 +116859,13 @@ msgid "Join Geometry Mode"
 msgstr "合併幾何體模式"
 
 #. :src: bpy.types.NODE_OT_nw_merge_nodes.mode:'INSTANCES'
-#, fuzzy
 msgctxt "NodeTree"
 msgid "Geometry to Instance"
-msgstr "幾何體 轉為 例項"
+msgstr "幾何體轉為例項"
 
 #. :src: bpy.types.NODE_OT_nw_merge_nodes.mode:'INSTANCES'
-#, fuzzy
 msgid "Geometry to Instance Mode"
-msgstr "幾何體 轉為 例項"
+msgstr "幾何體轉為例項模式"
 
 #. :src: bpy.types.NODE_OT_nw_merge_nodes.mode:'INTERSECT'
 msgctxt "NodeTree"
@@ -124147,7 +124064,7 @@ msgstr "將已儲存的姿態貼上到當前姿態上"
 msgid ""
 "Blends the current pose to the pose to paste. At 1, the pasted pose "
 "completely overwrites the current pose"
-msgstr ""
+msgstr "將當前姿態與待貼上的姿態進行混合。當值為 1 時，貼上的姿態將完全覆蓋當前姿態"
 
 #. :src: bpy.types.POSE_OT_paste.flipped
 msgid "Flipped on X-Axis"
@@ -129843,7 +129760,6 @@ msgid "Redefine equalizer graphs"
 msgstr "重置均衡器圖"
 
 #. :src: bpy.types.SEQUENCER_OT_strip_modifier_equalizer_redefine.graphs
-#, fuzzy
 msgctxt "Sequence"
 msgid "Graphs"
 msgstr "曲線圖"
@@ -137350,14 +137266,13 @@ msgid "Open a window with information about Blender"
 msgstr "開啟一個視窗，顯示有關Blender的資訊"
 
 #. :src: bpy.types.WM_OT_spz_import
-#, fuzzy
 msgctxt "Operator"
 msgid "Import SPZ"
-msgstr "匯入 USD"
+msgstr "匯入 SPZ"
 
 #. :src: bpy.types.WM_OT_spz_import
 msgid "Import an SPZ file as a gaussian splat point cloud object"
-msgstr ""
+msgstr "匯入 SPZ 檔案作為高斯潑濺點雲物體"
 
 #. :src: bpy.types.WM_OT_stl_export
 msgctxt "Operator"
@@ -141630,18 +141545,16 @@ msgid "VR Navigation"
 msgstr "VR 導航"
 
 #. :src: bpy.types.VIEW3D_PT_copy_global_transform
-#, fuzzy
 msgid "World Space Transform"
-msgstr "使用空間變換"
+msgstr "世界空間變換"
 
 #. :src: bpy.types.VIEW3D_PT_copy_global_transform_fix_to_camera
 msgid "Fix to Camera"
 msgstr "固定到攝像機"
 
 #. :src: bpy.types.VIEW3D_PT_copy_world_space_animation
-#, fuzzy
 msgid "World Space Animation"
-msgstr "世界空間照明"
+msgstr "世界空間動畫"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_brush_presets
 msgid "Brush Presets"
@@ -146573,9 +146486,8 @@ msgid "Swedish - Svenska"
 msgstr "瑞典語 - Svenska"
 
 #. :src: bpy.types.PreferencesView.language:'sv_SE'
-#, fuzzy
 msgid "Locale code: sv_SE. Translation progress: 100%"
-msgstr "區域程式碼: sk_SK. 翻譯進度: 100%"
+msgstr "區域程式碼: sv_SE. 翻譯進度: 100%"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146628,9 +146540,8 @@ msgid "Vietnamese - Tiếng Việt"
 msgstr "越南語 - Tiếng Việt"
 
 #. :src: bpy.types.PreferencesView.language:'vi_VN'
-#, fuzzy
 msgid "Locale code: vi_VN. Translation progress: 94%"
-msgstr "區域程式碼: vi_VN. 翻譯進度: 95%"
+msgstr "區域程式碼: vi_VN. 翻譯進度: 94%"
 
 #. :src: bpy.types.PreferencesView.lookdev_sphere_size
 msgid "Reference Sphere Size"
@@ -148316,11 +148227,10 @@ msgstr "多重重要性"
 #. :src:
 #. bpy.types.CyclesMaterialSettings.volume_sampling:'MULTIPLE_IMPORTANCE'
 #. :src: bpy.types.CyclesWorldSettings.volume_sampling:'MULTIPLE_IMPORTANCE'
-#, fuzzy
 msgid ""
 "Combine distance and equiangular sampling for volumes where neither method "
 "is ideal"
-msgstr "為體積光合並距離和等角取樣, 兩種方法都不理想"
+msgstr "對於兩種方法均不理想的體積，將距離取樣與等角取樣相結合"
 
 #. :src: bpy.types.CyclesMaterialSettings.volume_step_rate
 #. :src: bpy.types.CyclesRenderSettings.volume_preview_step_rate
@@ -157253,7 +157163,7 @@ msgstr "聚焦時展開"
 
 #. :src: bpy.types.SpaceOutliner.expand_on_focus
 msgid "Uncollapse the active item when scrolling it into view"
-msgstr ""
+msgstr "當滾動至可見範圍時，展開活動項"
 
 #. :src: bpy.types.SpaceOutliner.filter_id_type
 msgctxt "ID"
@@ -157320,10 +157230,9 @@ msgid "Scroll to Active"
 msgstr "滾動到活動項"
 
 #. :src: bpy.types.SpaceOutliner.scroll_to_active
-#, fuzzy
 msgid ""
 "Scroll the active item into view when it changes outside of the outliner"
-msgstr "當活動項移出大綱範圍時，將其滾動至視野中"
+msgstr "當活動項在大綱之外發生變化時，將其滾動到視野中"
 
 #. :src: bpy.types.SpaceOutliner.show_mode_column
 #: scripts/startup/bl_ui/space_outliner.py:463
@@ -157340,48 +157249,43 @@ msgstr "僅間接"
 
 #. :src: bpy.types.SpaceOutliner.show_users_column
 #: scripts/startup/bl_ui/space_outliner.py:467
-#, fuzzy
 msgid "Show Users Column"
-msgstr "顯示模式欄"
+msgstr "顯示使用者欄"
 
 #. :src: bpy.types.SpaceOutliner.show_users_column
 msgid "Display a column showing the number of users for each data-block"
-msgstr ""
+msgstr "顯示一列，展示每個資料塊的使用者數量"
 
 #. :src: bpy.types.SpaceOutliner.sort_method
-#, fuzzy
 msgid "Sort Method"
-msgstr "匯出方法"
+msgstr "排序方法"
 
 #. :src: bpy.types.SpaceOutliner.sort_method
 msgid "Sorting method for Outliner elements"
-msgstr ""
+msgstr "大綱元素的排序方法"
 
 #. :src: bpy.types.SpaceOutliner.sort_method:'ALPHA'
-#, fuzzy
 msgid "Alphabetical"
-msgstr "按首字母排序"
+msgstr "字母"
 
 #. :src: bpy.types.SpaceOutliner.sort_method:'ALPHA'
-#, fuzzy
 msgid "Order items alphabetically"
-msgstr "按字母順序排序專案"
+msgstr "按字母排序專案"
 
 #. :src: bpy.types.SpaceOutliner.sort_method:'CUSTOM'
 msgid "Order items manually"
-msgstr ""
+msgstr "手動排序專案"
 
 #. :src: bpy.types.SpaceOutliner.sort_method:'NONE'
-#, fuzzy
 msgid "No Sorting"
-msgstr "排列"
+msgstr "不排序"
 
 #. :src: bpy.types.SpaceOutliner.sort_method:'NONE'
 msgid ""
 "Order items according to the actual internal data (matches the order in "
 "which operators will typically process them when working on "
 "collections/objects hierarchies)"
-msgstr ""
+msgstr "根據實際內部資料對專案進行排序（這與運算子在處理集合/物體層次結構時通常的處理順序一致）"
 
 #. :src: bpy.types.SpaceOutliner.use_filter_bone_collections
 msgid "Show Bone Collections"
@@ -165184,15 +165088,14 @@ msgid "The unique identifier for the asset library"
 msgstr "資產庫的唯一識別符號"
 
 #. :src: bpy.types.PreferencesAssetLibrary
-#, fuzzy
 msgid "Preferences Asset Library"
-msgstr "重新整理資產庫"
+msgstr "偏好設定資產庫"
 
 #. :src: bpy.types.PreferencesAssetLibrary
 msgid ""
 "An asset library defined in the Preferences, available whatever project or "
 "blend file is open"
-msgstr ""
+msgstr "在偏好設定中定義的資產庫，無論當前開啟的是哪個專案或 blend 檔案，均可使用"
 
 #. :src: bpy.types.PreferencesAssetLibrary.path
 #. :src: bpy.types.ProjectAssetLibrary.path
@@ -172963,9 +172866,8 @@ msgid "Limit to"
 msgstr "限制到"
 
 #: scripts/addons_core/io_scene_fbx/__init__.py:719
-#, fuzzy
 msgid "(Legacy)"
-msgstr "混合 (舊版)"
+msgstr "(舊版)"
 
 #: scripts/addons_core/io_scene_fbx/export_fbx_bin.py:3748
 msgid "%s could not be set out of Edit Mode, so cannot be exported"
@@ -173378,7 +173280,7 @@ msgstr "選中項中沒有待排列的節點。"
 
 #. :src: scripts/addons_core/node_wrangler/operators/change_factor.py:61
 msgid "No factor values were modified."
-msgstr ""
+msgstr "未修改任何係數值。"
 
 #: scripts/addons_core/node_wrangler/operators/copy_settings.py:45
 msgid "Selected nodes are not of the same type as {}"
@@ -176187,7 +176089,7 @@ msgstr "斯坦福 PLY (.ply)"
 
 #. :src: scripts/startup/bl_ui/node_add_menu_geometry.py:598
 msgid "SPZ (.spz)"
-msgstr ""
+msgstr "SPZ (.spz)"
 
 #: scripts/startup/bl_ui/node_add_menu_geometry.py:599
 msgid "STL (.stl)"
@@ -178292,7 +178194,7 @@ msgstr "自動步長"
 
 #. :src: scripts/startup/bl_ui/properties_render.py:162
 msgid "OpenColorIO Config"
-msgstr ""
+msgstr "OpenColorIO 配置"
 
 #: scripts/startup/bl_ui/properties_render.py:361
 msgid "Max Depth"
@@ -179037,10 +178939,9 @@ msgstr "外插模式"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:646
 #: scripts/startup/bl_ui/space_view3d.py:3038
-#, fuzzy
 msgctxt "Operator"
 msgid "Replace Action..."
-msgstr "替換動作"
+msgstr "替換動作..."
 
 #: scripts/startup/bl_ui/space_dopesheet.py:668
 #: scripts/startup/bl_ui/space_dopesheet.py:876
@@ -180389,12 +180290,12 @@ msgstr "浮點"
 
 #. :src: scripts/startup/bl_ui/space_project.py:201
 msgid "Overridden by the  environment variable"
-msgstr ""
+msgstr "被  環境變數覆蓋"
 
 #. :src: scripts/startup/bl_ui/space_project.py:213
 msgctxt "Operator"
 msgid "Reload to Apply Changes"
-msgstr ""
+msgstr "重新載入以應用更改"
 
 #: scripts/startup/bl_ui/space_project.py:235
 #: scripts/startup/bl_ui/space_project.py:259
@@ -181376,10 +181277,9 @@ msgid "Preferences..."
 msgstr "偏好設定..."
 
 #: scripts/startup/bl_ui/space_topbar.py:598
-#, fuzzy
 msgctxt "Operator"
 msgid "Settings..."
-msgstr "設定"
+msgstr "設定..."
 
 #: scripts/startup/bl_ui/space_topbar.py:628
 msgctxt "Operator"
@@ -181966,7 +181866,7 @@ msgstr "播放器"
 msgid ""
 "Opening blend files from the internet and other untrusted sources is unsafe "
 "with Auto-Run. Use with caution."
-msgstr ""
+msgstr "透過自動執行功能開啟來自網際網路和其他不可信來源的 blend 檔案是不安全的。請謹慎使用。"
 
 #: scripts/startup/bl_ui/space_userpref.py:2091
 msgid "Wheel"
@@ -182057,14 +181957,12 @@ msgid "Subprocesses"
 msgstr "子程序"
 
 #: scripts/startup/bl_ui/space_userpref.py:1782
-#, fuzzy
 msgid "enabled on startup, overriding the preference"
-msgstr "啟動時開啟, 覆蓋偏好設定."
+msgstr "啟動時開啟, 覆蓋偏好設定"
 
 #: scripts/startup/bl_ui/space_userpref.py:1784
-#, fuzzy
 msgid "disabled on startup, overriding the preference"
-msgstr "啟動時禁用, 覆蓋偏好設定."
+msgstr "啟動時禁用, 覆蓋偏好設定"
 
 #: scripts/startup/bl_ui/space_userpref.py:2226
 msgid "Invert Rotate"
@@ -184449,10 +184347,9 @@ msgid "Fix"
 msgstr "固定"
 
 #: scripts/startup/bl_ui/space_view3d_sidebar.py:22
-#, fuzzy
 msgctxt "Operator"
 msgid "Copy Playback Range"
-msgstr "限制回放範圍"
+msgstr "複製回放範圍"
 
 #: scripts/startup/bl_ui/space_view3d_sidebar.py:25
 #, fuzzy
@@ -184548,10 +184445,9 @@ msgid "Multi-Paint"
 msgstr "多次繪製"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1280
-#, fuzzy
 msgctxt "Operator"
 msgid "Quick Edit..."
-msgstr "快速編輯"
+msgstr "快速編輯..."
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1283
 #: source/blender/editors/interface/templates/interface_template_constraint.cc:56
@@ -187305,7 +187201,7 @@ msgstr "無效的舊/新動作對 ('%s' / '%s')"
 
 #. :src: source/blender/editors/animation/anim_ops.cc:1433
 msgid "Cannot replace Action with itself ('%s')"
-msgstr ""
+msgstr "無法將操作替換為它本身（'%s'）"
 
 #: source/blender/editors/animation/anim_ops.cc:1764
 msgid "Multiple users of an action and not all were selected: %s"
@@ -187598,24 +187494,24 @@ msgstr "新增到插幀集中的屬性: '%s'"
 msgid ""
 "Found duplicate names in selection. Not all selected were saved into "
 "clipboard."
-msgstr ""
+msgstr "在所選內容中發現了重複的名稱。並非所有選中的內容都已儲存到剪貼簿。"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:669
 #. :src: source/blender/editors/animation/world_space_copy.cc:678
 msgid "Clipboard data has no animation"
-msgstr ""
+msgstr "剪貼簿資料沒有動畫"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:710
 msgid "Clipboard contains incomplete animation data"
-msgstr ""
+msgstr "剪貼簿中包含不完整的動畫資料"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:719
 msgid "Cannot match selection to clipboard data"
-msgstr ""
+msgstr "無法將選定內容與剪貼簿資料匹配"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:740
 msgid "Failed to figure out pasting order. Potential dependency cycle"
-msgstr ""
+msgstr "未能確定貼上順序。可能存在依賴迴圈"
 
 #: source/blender/editors/animation/world_space_copy.cc:871
 #, fuzzy
@@ -187654,9 +187550,8 @@ msgid "Pasted %d/%d %s over %d frames"
 msgstr ""
 
 #: source/blender/editors/animation/world_space_copy.cc:892
-#, fuzzy
 msgid "Invalid frame range %d-%d"
-msgstr "無效幀範圍 (%d - %d)"
+msgstr "無效幀範圍 %d-%d"
 
 #: source/blender/editors/armature/armature_add.cc:1287
 msgid "No search term defined"
@@ -188353,31 +188248,28 @@ msgid "Enable catalog, making contained assets visible in the asset shelf"
 msgstr "啟用目錄，使包含的資產在資產架中可見"
 
 #: source/blender/editors/asset/intern/asset_shelf_asset_view.cc:457
-#, fuzzy
 msgid "No assets in this catalog."
-msgstr "此動作中沒有槽。"
+msgstr "此目錄中沒有資產。"
 
 #: source/blender/editors/asset/intern/asset_shelf_asset_view.cc:458
-#, fuzzy
 msgid "No assets found."
-msgstr "未找到結果"
+msgstr "未找到資產。"
 
 #. :src: source/blender/editors/asset/intern/asset_shelf_asset_view.cc:461
 msgid "No search results in this catalog."
-msgstr ""
+msgstr "此目錄中沒有搜尋結果。"
 
 #: source/blender/editors/asset/intern/asset_shelf_asset_view.cc:462
-#, fuzzy
 msgid "No results found."
-msgstr "未找到結果"
+msgstr "未找到結果。"
 
 #. :src: source/blender/editors/asset/intern/asset_shelf_asset_view.cc:477
 msgid "\"Online Only\" filter is enabled."
-msgstr ""
+msgstr "已啟用 “僅線上” 過濾。"
 
 #. :src: source/blender/editors/asset/intern/asset_shelf_asset_view.cc:480
 msgid "\"Offline Only\" filter is enabled."
-msgstr ""
+msgstr "已啟用 “僅離線” 過濾。"
 
 #: source/blender/editors/asset/intern/asset_shelf_catalog_selector.cc:161
 msgid "Toggle catalog visibility in the asset shelf"
@@ -190814,7 +190706,7 @@ msgstr "此檔案由Blender資產系統管理，不可覆蓋"
 #. :src:
 #. source/blender/editors/interface/templates/interface_template_status.cc:400
 msgid "OpenColorIO configuration failed to load"
-msgstr ""
+msgstr "無法載入 OpenColorIO 配置"
 
 #: source/blender/editors/interface/templates/interface_template_status.cc:406
 msgid ""
@@ -191120,7 +191012,6 @@ msgid "No edge loops found containing 2 or more edges"
 msgstr "未找到包含 2 條或更多邊線的邊迴圈"
 
 #: source/blender/editors/mesh/editmesh_curve_edge_loops_between_selected.cc:99
-#, fuzzy
 msgid "No vertices selected"
 msgstr "無選中頂點"
 
@@ -196439,9 +196330,8 @@ msgid "3D Float Vector"
 msgstr "3D浮點向量"
 
 #: source/blender/editors/space_node/node_socket_tooltip.cc:476
-#, fuzzy
 msgid "4D Float Vector"
-msgstr "2D浮點向量"
+msgstr "4D浮點向量"
 
 #: source/blender/editors/space_node/node_socket_tooltip.cc:483
 msgid "Float Color"
@@ -196476,18 +196366,16 @@ msgid "Float Field"
 msgstr "浮點場"
 
 #: source/blender/editors/space_node/node_socket_tooltip.cc:633
-#, fuzzy
 msgid "2D Float Vector Field"
-msgstr "3D浮點向量場"
+msgstr "2D浮點向量場"
 
 #: source/blender/editors/space_node/node_socket_tooltip.cc:636
 msgid "3D Float Vector Field"
 msgstr "3D浮點向量場"
 
 #: source/blender/editors/space_node/node_socket_tooltip.cc:639
-#, fuzzy
 msgid "4D Float Vector Field"
-msgstr "3D浮點向量場"
+msgstr "4D浮點向量場"
 
 #: source/blender/editors/space_node/node_socket_tooltip.cc:642
 msgid "Boolean Field"
@@ -196923,12 +196811,16 @@ msgid ""
 "Render object as holdout\n"
 " • Shift to set children"
 msgstr ""
+"將物體算繪為阻隔\n"
+" • Shift 設定子級"
 
 #. :src: source/blender/editors/space_outliner/outliner_draw.cc:1447
 msgid ""
 "Object will contribute indirectly as shadows\n"
 " • Shift to set children"
 msgstr ""
+"物體將透過投射陰影間接參與算繪\n"
+" • Shift 設定子級"
 
 #: source/blender/editors/space_outliner/outliner_draw.cc:1553
 #: source/blender/editors/space_outliner/outliner_draw.cc:1596
@@ -198488,7 +198380,7 @@ msgstr "U 縮放"
 #. :src: source/blender/editors/space_view3d/view3d_buttons.cc:1543
 msgid ""
 "Size of the selection, editing scales it about the transform pivot point"
-msgstr ""
+msgstr "選區大小，編輯時會以變換軸心點為基準進行縮放"
 
 #: source/blender/editors/space_view3d/view3d_buttons.cc:1591
 msgid "Displays global values"
@@ -199915,11 +199807,11 @@ msgstr ""
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:23
 msgid "Unsupported SPZ version {}"
-msgstr ""
+msgstr "不支援的 SPZ 版本 {}"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:26
 msgid "Too many points"
-msgstr ""
+msgstr "點過多"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:30
 msgid "Unsupported SH degree {}"
@@ -205800,7 +205692,7 @@ msgstr "節點必須作為工具執行"
 
 #: source/blender/nodes/geometry/node_geometry_util.cc:113
 msgid "Disabled, Blender was compiled without OpenVDB"
-msgstr "已禁用, 未使用OpenVDB編譯Blender"
+msgstr "已禁用, 未使用 OpenVDB 編譯 Blender"
 
 #: source/blender/nodes/geometry/node_geometry_util.cc:119
 msgid "Disabled, OpenVDB version is too old"
@@ -206212,7 +206104,7 @@ msgstr "每項包含一個元素的列表"
 
 #: source/blender/nodes/geometry/nodes/node_geo_convex_hull.cc:279
 msgid "Disabled, Blender was compiled without Bullet"
-msgstr "已禁用, 未使用Bullet編譯Blender"
+msgstr "已禁用, 未使用 Bullet 編譯 Blender"
 
 #: source/blender/nodes/geometry/nodes/node_geo_convex_hull.cc:26
 msgid "Points to compute the convex hull of"
@@ -207037,11 +206929,10 @@ msgid "Index of the face group inside each boundary edge region"
 msgstr "每個邊界邊緣區域內的面組的編號"
 
 #: source/blender/nodes/geometry/nodes/node_geo_enable_output.cc:178
-#, fuzzy
 msgid ""
 "This node should be linked to the group output node, optionally through "
 "switch nodes."
-msgstr "該節點應連結至組輸出節點"
+msgstr "該節點應連線到組輸出節點，可選擇透過切換節點進行連線。"
 
 #: source/blender/nodes/geometry/nodes/node_geo_enable_output.cc:177
 msgid "Invalid Output Link"
@@ -207572,7 +207463,6 @@ msgid ""
 msgstr "用非活動節點替換非活動分塊。此方法比容差修剪更快，適用於僅包含內部或外部背景值的窄帶SDF柵格等情景。"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:87
-#, fuzzy
 msgid "Max Iterations"
 msgstr "最大迭代"
 
@@ -207583,24 +207473,21 @@ msgid "Error Threshold"
 msgstr "誤差閾值"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:96
-#, fuzzy
 msgid "Threshold Mode"
-msgstr "閾值"
+msgstr "閾值模式"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:107
-#, fuzzy
 msgid "Boundary Value"
-msgstr "邊界形狀"
+msgstr "邊界值"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:111
 #, fuzzy
 msgid "Boundary Gradient"
-msgstr "線性漸變"
+msgstr "邊界漸變"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:115
-#, fuzzy
 msgid "Boundary Factor"
-msgstr "邊介面組"
+msgstr "邊界係數"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:73
 #, fuzzy
@@ -207656,9 +207543,8 @@ msgid "Right-hand side of the Poisson equation"
 msgstr ""
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:91
-#, fuzzy
 msgid "Maximum number of solver iterations"
-msgstr "解算迭代的最大次數"
+msgstr "解算器迭代的最大次數"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:95
 msgid "Error threshold below which a solution is considered valid"
@@ -207789,7 +207675,7 @@ msgstr "指向CSV檔案的路徑"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_obj.cc:87
 msgid "Disabled, Blender was compiled without OBJ I/O"
-msgstr "已禁用, 未使用OBJ I/O編譯Blender"
+msgstr "已禁用, 未使用 OBJ I/O 編譯 Blender"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_obj.cc:24
 msgid "Path to a OBJ file"
@@ -207797,25 +207683,23 @@ msgstr "指向OBJ檔案的路徑"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_ply.cc:79
 msgid "Disabled, Blender was compiled without PLY I/O"
-msgstr "已禁用, 未使用PLY I/O編譯Blender"
+msgstr "已禁用, 未使用 PLY I/O 編譯 Blender"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_ply.cc:23
 msgid "Path to a PLY file"
 msgstr "指向PLY檔案的路徑"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_spz.cc:79
-#, fuzzy
 msgid "Disabled, Blender was compiled without SPZ I/O"
-msgstr "已禁用, 未使用STL I/O編譯Blender"
+msgstr "已禁用, 未使用 SPZ I/O 編譯 Blender"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_spz.cc:23
-#, fuzzy
 msgid "Path to a SPZ file"
-msgstr "指向STL檔案的路徑"
+msgstr "指向SPZ檔案的路徑"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_stl.cc:84
 msgid "Disabled, Blender was compiled without STL I/O"
-msgstr "已禁用, 未使用STL I/O編譯Blender"
+msgstr "已禁用, 未使用 STL I/O 編譯 Blender"
 
 #: source/blender/nodes/geometry/nodes/node_geo_import_stl.cc:25
 msgid "Path to a STL file"
@@ -208120,7 +208004,6 @@ msgid ""
 msgstr "Z 方向上分塊的體素數量，或者場評估為一個體素時為 1"
 
 #: source/blender/nodes/geometry/nodes/node_geo_input_voxel_index.cc:27
-#, fuzzy
 msgctxt "Volume"
 msgid "Tile"
 msgstr "分塊"
@@ -208646,7 +208529,7 @@ msgstr "細分級別過大"
 #: source/blender/nodes/geometry/nodes/node_geo_mesh_subdivide.cc:82
 #: source/blender/nodes/geometry/nodes/node_geo_subdivision_surface.cc:244
 msgid "Disabled, Blender was compiled without OpenSubdiv"
-msgstr "已禁用, 未使用OpenSubdiv編譯Blender"
+msgstr "已禁用, 未使用 OpenSubdiv 編譯 Blender"
 
 #: source/blender/nodes/geometry/nodes/node_geo_mesh_subdivide.cc:20
 #: source/blender/nodes/geometry/nodes/node_geo_subdivision_surface.cc:31
@@ -209588,9 +209471,8 @@ msgid "Points to set the radius of"
 msgstr "要設定半徑的點"
 
 #: source/blender/nodes/geometry/nodes/node_geo_set_points_type.cc:27
-#, fuzzy
 msgid "Point cloud to change the type of"
-msgstr "要變更型別的曲線"
+msgstr "要變更型別的點雲"
 
 #: source/blender/nodes/geometry/nodes/node_geo_set_position.cc:21
 msgid "Points to modify the positions of"
@@ -210431,7 +210313,7 @@ msgstr "該資料型別對應的切換必須為常量值"
 #. :src: source/blender/nodes/intern/shader_nodes_inline.cc:1551
 #. :src: source/blender/nodes/intern/shader_nodes_inline.cc:1573
 msgid "Warnings only work when inputs are constant values"
-msgstr ""
+msgstr "警告僅在輸入為常值時才生效"
 
 #: source/blender/nodes/intern/shader_nodes_inline.cc:1607
 #, fuzzy
@@ -212363,7 +212245,7 @@ msgstr "可執行Python指令碼開啟後重新載入檔案"
 
 #. :src: source/blender/windowmanager/intern/wm_files.cc:4525
 msgid "Run potentially unsafe scripts in this blend file"
-msgstr ""
+msgstr "在此 blend 檔案中執行可能不安全的指令碼"
 
 #: source/blender/windowmanager/intern/wm_files.cc:4541
 msgid "Continue using file without Python scripts"
@@ -212390,7 +212272,7 @@ msgstr "出於安全原因, 禁止自動執行此檔案中的 Python 指令碼:"
 
 #. :src: source/blender/windowmanager/intern/wm_files.cc:4466
 msgid "This may lead to unexpected behavior. Allow at your own risk."
-msgstr ""
+msgstr "這可能會導致意外的行為。啟用此功能需自行承擔風險。"
 
 #: source/blender/windowmanager/intern/wm_files.cc:4645
 msgid "Unable to Load File"
@@ -212418,7 +212300,7 @@ msgstr "另存為新的常規檔案。"
 
 #. :src: source/blender/windowmanager/intern/wm_files.cc:4712
 msgid "OpenColorIO configuration failed to load."
-msgstr ""
+msgstr "OpenColorIO 配置載入失敗。"
 
 #: source/blender/windowmanager/intern/wm_files.cc:4713
 msgid ""
@@ -213363,19 +213245,19 @@ msgstr "HDV PAL 1080p"
 
 #. :src: Preset from render
 msgid "SQUARED 2K"
-msgstr ""
+msgstr "正方 2K"
 
 #. :src: Preset from render
 msgid "SQUARED 3K"
-msgstr ""
+msgstr "正方 3K"
 
 #. :src: Preset from render
 msgid "SQUARED 4K"
-msgstr ""
+msgstr "正方 4K"
 
 #. :src: Preset from render
 msgid "SQUARED 8K"
-msgstr ""
+msgstr "正方 8K"
 
 #. :src: Preset from render
 msgid "TV NTSC 16:9"
