@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-06 06:12+0000\n"
+"PO-Revision-Date: 2026-10-07 07:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -94531,7 +94531,7 @@ msgstr "將選定元素的動畫複製到剪貼簿"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.end
 msgid "End frame to copy from"
-msgstr ""
+msgstr "要複製的結束幀"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode
 msgid "Range Mode"
@@ -94551,11 +94551,11 @@ msgstr "回放範圍"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.range_mode:'PLAYBACK'
 msgid "Use the playback range of the scene"
-msgstr ""
+msgstr "使用場景的回放範圍"
 
 #. :src: bpy.types.ANIM_OT_world_space_copy.start
 msgid "Start frame to copy from"
-msgstr ""
+msgstr "要複製的起始幀"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste
 msgctxt "Operator"
@@ -94567,9 +94567,8 @@ msgid "Paste the animation from the clipboard to selected elements"
 msgstr "將剪貼簿中的動畫貼上到所選元素上"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste.offset:'NONE'
-#, fuzzy
 msgid "Paste data to the same frames they were copied from"
-msgstr "貼上關鍵影格，使用它們複製的相同值"
+msgstr "將資料貼上到與複製來源相同的幀中"
 
 #. :src: bpy.types.ANIM_OT_world_space_paste.offset:'START'
 msgid "Start at Current Frame"
@@ -108165,14 +108164,13 @@ msgid "Snap selected points to the nearest grid points"
 msgstr "將所選項吸附到最近的柵格點"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_stroke_carver
-#, fuzzy
 msgctxt "Operator"
 msgid "Grease Pencil Carver"
-msgstr "蠟筆圖層"
+msgstr "蠟筆切刀"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_stroke_carver
 msgid "Cuts stroke point in the intersect lasso"
-msgstr ""
+msgstr "在相交套索中裁切筆畫點"
 
 # rblc
 #. :src: bpy.types.GREASE_PENCIL_OT_stroke_material_set
@@ -142059,7 +142057,7 @@ msgstr "修剪"
 #. 'builtin.carver'
 msgctxt "Operator"
 msgid "Carver"
-msgstr ""
+msgstr "切刀"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_CURVES',
 #. 'builtin_brush.selection_paint'
@@ -170927,16 +170925,14 @@ msgid "3D View Tool: Paint Grease Pencil, Trim (fallback)"
 msgstr "3D檢視工具: 繪製蠟筆, 修剪 (回退)"
 
 #. :src: KM_HIERARCHY.EMPTY.EMPTY.VIEW_3D
-#, fuzzy
 msgctxt "WindowManager"
 msgid "3D View Tool: Paint Grease Pencil, Carver"
-msgstr "3D檢視工具: 繪製蠟筆, 曲線"
+msgstr "3D檢視工具: 繪製蠟筆, 切刀"
 
 #. :src: KM_HIERARCHY.EMPTY.EMPTY.VIEW_3D
-#, fuzzy
 msgctxt "WindowManager"
 msgid "3D View Tool: Paint Grease Pencil, Carver (fallback)"
-msgstr "3D檢視工具: 繪製蠟筆, 曲線 (回退)"
+msgstr "3D檢視工具: 繪製蠟筆, 切刀 (回退)"
 
 #. :src: KM_HIERARCHY.EMPTY.EMPTY.VIEW_3D
 msgctxt "WindowManager"
@@ -187513,24 +187509,22 @@ msgid "Failed to figure out pasting order. Potential dependency cycle"
 msgstr "未能確定貼上順序。可能存在依賴迴圈"
 
 #: source/blender/editors/animation/world_space_copy.cc:871
-#, fuzzy
 msgid "Nothing selected to copy"
-msgstr "未選中任何項進行插幀"
+msgstr "沒有選定內容可供複製"
 
 #: source/blender/editors/animation/world_space_copy.cc:959
-#, fuzzy
 msgid "Nothing selected to paste to"
-msgstr "未選中任何項進行插幀"
+msgstr "沒有選定內容可供貼上"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:963
 msgid ""
 "Selection contains constraints. Perfect world space match cannot be "
 "guaranteed"
-msgstr ""
+msgstr "選擇包含約束。無法保證與世界空間完全匹配"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:973
 msgid "No clipboard to read from"
-msgstr ""
+msgstr "沒有剪貼簿可讀取"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:534
 msgid "Copied %d %s across %d frames to the clipboard"
