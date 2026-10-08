@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-07 07:12+0000\n"
+"PO-Revision-Date: 2026-10-08 21:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -40677,7 +40677,7 @@ msgstr "手動指定動作的預期播放幀範圍 (某些工具會用到此範�
 
 #. :src: bpy.types.Annotation
 msgid "Freehand annotation sketchbook"
-msgstr "自由畫線簿"
+msgstr "自由標註畫線簿"
 
 #. :src: bpy.types.Annotation.animation_data
 #. :src: bpy.types.Armature.animation_data
@@ -53903,11 +53903,11 @@ msgstr "為動畫回放和檢視算繪使用替代的開始/結束幀範圍"
 #. :src: bpy.types.Scene.use_stamp_note
 #. :src: bpy.types.RenderSettings.use_stamp_note
 msgid "Stamp Note"
-msgstr "戳記註釋"
+msgstr "戳記註記"
 
 #. :src: bpy.types.Scene.use_stamp_note
 msgid "User defined note for the render stamping"
-msgstr "使用者定義的算繪戳記註釋"
+msgstr "用於算繪戳記的使用者定義註記"
 
 #. :src: bpy.types.Scene.view_layers
 #: source/blender/editors/space_outliner/tree/tree_element_view_layer.cc:27
@@ -88482,8 +88482,8 @@ msgid ""
 msgstr ""
 "從動作約束中取消分配已分配的動作槽。\n"
 "\n"
-"必須透過設定 \"constraint\" 上下文指標，來指定\n"
-"哪個約束應解除該動作槽的關聯，使用：\n"
+"請注意必須透過設定 \"constraint\" 上下文指標\n"
+"來指定哪個約束應解除該動作槽的關聯，使用：\n"
 "\n"
 ">>> layout.context_pointer_set(\"constraint\", constraint)"
 
@@ -136404,7 +136404,7 @@ msgstr "清除集合預覽"
 #. :src: bpy.types.WM_OT_previews_batch_clear.use_intern_data
 #. :src: bpy.types.WM_OT_previews_batch_generate.use_intern_data
 msgid "Materials & Textures"
-msgstr "材質&紋理"
+msgstr "材質與紋理"
 
 #. :src: bpy.types.WM_OT_previews_batch_clear.use_intern_data
 msgid "Clear 'internal' previews (materials, textures, images, etc.)"
@@ -152355,11 +152355,11 @@ msgstr "戳記文字顏色"
 
 #. :src: bpy.types.RenderSettings.stamp_note_text
 msgid "Stamp Note Text"
-msgstr "戳記註釋文字"
+msgstr "戳記註記文字"
 
 #. :src: bpy.types.RenderSettings.stamp_note_text
 msgid "Custom text to appear in the stamp note"
-msgstr "戳記註釋中出現的自定義文字"
+msgstr "戳記註記中出現的自定義文字"
 
 #. :src: bpy.types.RenderSettings.stereo_views
 #. :src: bpy.types.RenderSettings.views
@@ -163713,7 +163713,7 @@ msgstr "可以對自動插幀何時插入關鍵影格指定額外約束"
 
 #. :src: bpy.types.ToolSettings.auto_keying_mode:'ADD_REPLACE_KEYS'
 msgid "Add & Replace"
-msgstr "新增&替換"
+msgstr "新增 & 替換"
 
 #. :src: bpy.types.ToolSettings.curves_sculpt
 msgid "Curves Sculpt"
@@ -172925,7 +172925,7 @@ msgstr "烘焙與合併"
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1776
 msgid "Rest & Ranges"
-msgstr "靜置和範圍"
+msgstr "靜置與範圍"
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1808
 msgid "Shape Keys Animation"
@@ -180824,7 +180824,7 @@ msgstr "凍結分割"
 #: scripts/startup/bl_ui/space_sequencer.py:1424
 msgctxt "Operator"
 msgid "Delete Strip & Data"
-msgstr "刪除片段 & 資料"
+msgstr "刪除片段和資料"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1367
 msgid "Add Transition"
