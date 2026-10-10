@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-10 06:12+0000\n"
+"PO-Revision-Date: 2026-10-10 20:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -80993,13 +80993,13 @@ msgstr "透過將資料合併到塊或內部節點中，使體積柵格的儲存
 
 #. :src: bpy.types.GeometryNodeGridSolvePoisson
 msgid "Grid Solve Poisson"
-msgstr ""
+msgstr "柵格求解泊松"
 
 #. :src: bpy.types.GeometryNodeGridSolvePoisson
 msgid ""
 "Solve the Poisson equation for a scalar field. Computes a grid whose "
 "Laplacian equals the input scalar grid."
-msgstr ""
+msgstr "求解標量場的泊松方程。計算一個其拉普拉斯運算元等於輸入標量柵格的柵格。"
 
 #. :src: bpy.types.GeometryNodeGridToMesh
 msgid "Grid to Mesh"
@@ -111165,12 +111165,12 @@ msgstr ""
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.extend_loop
 msgid "Extend Loop"
-msgstr ""
+msgstr "延伸迴圈"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.extend_loop
 msgid ""
 "Extends the tool to work beyond the boundaries of the selected vertices"
-msgstr ""
+msgstr "將該工具的功能延伸到所選頂點範圍之外"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.factor
 msgid "Curving factor"
@@ -187532,15 +187532,15 @@ msgstr "已將 %d 個 %s 跨 %d 幀複製到剪貼簿"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:813
 msgid "Pasted all %d %s over %d frames"
-msgstr "已將所有 %d 個 %s 貼上到 %d 個幀中"
+msgstr "已貼上全部 %d 個 %s，共 %d 幀"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:821
 msgid "Pasted the same animation to %d %s over %d frames"
-msgstr "將相同的動畫貼上到 %d %s 上，共 %d 幀"
+msgstr "已貼上同一動畫到 %d 個 %s 上，共 %d 幀"
 
 #. :src: source/blender/editors/animation/world_space_copy.cc:829
 msgid "Pasted %d/%d %s over %d frames"
-msgstr ""
+msgstr "已貼上 %d/%d 個 %s，共 %d 幀"
 
 #: source/blender/editors/animation/world_space_copy.cc:892
 msgid "Invalid frame range %d-%d"
@@ -199787,7 +199787,7 @@ msgstr "PLY 匯入器：球諧函式頻帶不完整，正在匯入 %d 個係數�
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:20
 msgid "Unexpected SPZ header magic 0x{:X}"
-msgstr ""
+msgstr "意料之外的 SPZ 標頭魔數 0x{:X}"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:23
 msgid "Unsupported SPZ version {}"
@@ -199799,101 +199799,100 @@ msgstr "點過多"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:30
 msgid "Unsupported SH degree {}"
-msgstr ""
+msgstr "不支援的球諧函式階數 {}"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:34
 msgid "Unsupported number of position fractional bits {}"
-msgstr ""
+msgstr "不支援的位置分數位數 {}"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:51
 msgid "TOC byte offset is less than the size of the header"
-msgstr ""
+msgstr "TOC 位元組偏移量小於標頭大小"
 
 #. :src: source/blender/io/spz/intern/spz_header.cc:55
 msgid "Unexpected number of Zstd streams"
-msgstr ""
+msgstr "Zstd 流的數量超出預期"
 
 #. :src: source/blender/io/spz/intern/spz_read.cc:35
 msgid "SPZ Read: Big endian machines are not supported"
-msgstr ""
+msgstr "SPZ 讀取：不支援大端序機器"
 
 #. :src: source/blender/io/spz/intern/spz_read.cc:41
 msgid "SPZ Read: Error opening file for read"
-msgstr ""
+msgstr "SPZ 讀取：開啟檔案進行讀取時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read.cc:47
 msgid "SPZ Read: Error reading magic value from file"
-msgstr ""
+msgstr "SPZ 讀取：從檔案中讀取魔數時出錯"
 
 #: source/blender/io/spz/intern/spz_read.cc:71
-#, fuzzy
 msgid "SPZ Read: Unrecognized file format"
-msgstr "無法識別的檔案格式 '%s'"
+msgstr "SPZ 讀取：檔案格式不識別"
 
 #. :src: source/blender/io/spz/intern/spz_read_gzip.cc:130
 msgid "SPZ Read: Error initializing Zlib decompression"
-msgstr ""
+msgstr "SPZ 讀取：初始化 Zlib 解壓縮時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_gzip.cc:136
 msgid "SPZ Read: Error reading header from GZip stream"
-msgstr ""
+msgstr "SPZ 讀取：從 GZip 流中讀取頭資訊時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_gzip.cc:144
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:305
 msgid "SPZ Read: %s"
-msgstr ""
+msgstr "SPZ 讀取：%s"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:214
 msgid "SPZ Read: Error initializing positions reader"
-msgstr ""
+msgstr "SPZ 讀取：初始化位置讀取器時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:218
 msgid "SPZ Read: Error reading positions"
-msgstr ""
+msgstr "SPZ 讀取：讀取位置時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:227
 msgid "SPZ Read: Error initializing alphas reader"
-msgstr ""
+msgstr "SPZ 讀取：初始化 alphas 讀取器時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:231
 msgid "SPZ Read: Error reading alphas"
-msgstr ""
+msgstr "SPZ 讀取：讀取 alphas 時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:238
 msgid "SPZ Read: Error initializing colors reader"
-msgstr ""
+msgstr "SPZ 讀取：初始化顏色讀取器時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:242
 msgid "SPZ Read: Error reading colors"
-msgstr ""
+msgstr "SPZ 讀取：讀取顏色時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:251
 msgid "SPZ Read: Error initializing scales reader"
-msgstr ""
+msgstr "SPZ 讀取：初始化縮放值讀取器時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:255
 msgid "SPZ Read: Error reading scales"
-msgstr ""
+msgstr "SPZ 讀取：讀取縮放值時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:264
 msgid "SPZ Read: Error initializing rotations reader"
-msgstr ""
+msgstr "SPZ 讀取：初始化旋轉值讀取器時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:268
 msgid "SPZ Read: Error reading rotations"
-msgstr ""
+msgstr "SPZ 讀取：讀取旋轉值時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:277
 msgid "SPZ Read: Error initializing SH reader"
-msgstr ""
+msgstr "SPZ 讀取：初始化球諧函式讀取器時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:281
 msgid "SPZ Read: Error reading spherical harmonics"
-msgstr ""
+msgstr "SPZ 讀取：讀取球諧函式時出錯"
 
 #. :src: source/blender/io/spz/intern/spz_read_ngsp.cc:297
 msgid "SPZ Read: Error reading NGSP header"
-msgstr ""
+msgstr "SPZ 讀取：讀取 NGSP 標頭時出錯"
 
 #: source/blender/io/stl/exporter/stl_export.cc:61
 #: source/blender/io/stl/exporter/stl_export.cc:115
@@ -207465,66 +207464,63 @@ msgid "Boundary Value"
 msgstr "邊界值"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:111
-#, fuzzy
 msgid "Boundary Gradient"
-msgstr "邊界漸變"
+msgstr "邊界梯度"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:115
 msgid "Boundary Factor"
 msgstr "邊界係數"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:73
-#, fuzzy
 msgid "Solution"
-msgstr "解算"
+msgstr "解"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:78
 msgid "Absolute Error"
-msgstr ""
+msgstr "絕對誤差"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:80
-#, fuzzy
 msgid "Relative Error"
-msgstr "相對映象"
+msgstr "相對誤差"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:124
 msgid "Debug Boundary Value"
-msgstr ""
+msgstr "除錯邊界值"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:127
 msgid "Debug Boundary Gradient"
-msgstr ""
+msgstr "除錯邊界梯度"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:130
 msgid "Debug Boundary Factor"
-msgstr ""
+msgstr "除錯邊界係數"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:75
 msgid "Solution to the Poisson equation"
-msgstr ""
+msgstr "泊松方程的解"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:76
 msgid "If the solver converged successfully"
-msgstr ""
+msgstr "求解器是否成功收斂"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:77
 msgid "Number of iterations performed"
-msgstr ""
+msgstr "已執行的迭代次數"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:79
 msgid "Final absolute error of the solution"
-msgstr ""
+msgstr "解的最終絕對誤差"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:81
 msgid "Final relative error of the solution"
-msgstr ""
+msgstr "解的最終相對誤差"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:86
 msgid "Right-hand side of the Poisson equation"
-msgstr ""
+msgstr "泊松方程的右邊"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:91
 msgid "Maximum number of solver iterations"
@@ -207532,23 +207528,23 @@ msgstr "解算器迭代的最大次數"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:95
 msgid "Error threshold below which a solution is considered valid"
-msgstr ""
+msgstr "誤差閾值，低於該閾值的解被視為有效"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:101
 msgid "Mode that defines how the error threshold is interpreted"
-msgstr ""
+msgstr "定義如何解釋誤差閾值的模式"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:106
 msgid ""
 "Boundary conditions for the solution between active and inactive voxels"
-msgstr ""
+msgstr "活動體素與非活動體素之間解的邊界條件"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:121
 msgid "Mix factor between boundary conditions (0=value, 1=gradient)"
-msgstr ""
+msgstr "邊界條件之間的混合係數（0=恆值，1=梯度）"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_to_mesh.cc:21
 #: source/blender/nodes/geometry/nodes/node_geo_volume_to_mesh.cc:66
@@ -212202,7 +212198,7 @@ msgstr "允許執行"
 
 #. :src: source/blender/windowmanager/intern/wm_files.cc:4535
 msgid "Continue Safely"
-msgstr ""
+msgstr "安全繼續"
 
 #: source/blender/windowmanager/intern/wm_files.cc:4782
 #: source/blender/windowmanager/intern/wm_files.cc:5023
