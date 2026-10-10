@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-09 13:11+0000\n"
+"PO-Revision-Date: 2026-10-10 06:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -90346,34 +90346,34 @@ msgstr "複製以往設定"
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_activate
 msgctxt "Operator"
 msgid "Activate Keyconfig"
-msgstr "啟用鍵位配置"
+msgstr "啟用按鍵配置"
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_export
 msgid "Export key configuration to a Python script"
-msgstr "將鍵位配置匯出為一個Python指令碼"
+msgstr "將按鍵配置匯出為一個Python指令碼"
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_export
 msgctxt "Operator"
 msgid "Export Key Configuration..."
-msgstr "匯出鍵位配置..."
+msgstr "匯出按鍵配置..."
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_import
 msgid "Import key configuration from a Python script"
-msgstr "從 Python 指令碼匯入鍵位配置"
+msgstr "從 Python 指令碼匯入按鍵配置"
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_import
 msgctxt "Operator"
 msgid "Import Key Configuration..."
-msgstr "匯入鍵位配置..."
+msgstr "匯入按鍵配置..."
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_remove
 msgid "Remove key config"
-msgstr "移除鍵位配置"
+msgstr "移除按鍵配置"
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_remove
 msgctxt "Operator"
 msgid "Remove Key Config"
-msgstr "移除鍵位配置"
+msgstr "移除按鍵配置"
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_test
 msgid "Test key configuration for conflicts"
@@ -111126,7 +111126,7 @@ msgstr ""
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected
 msgid ""
 "Fits the unselected edge loops to a curve defined by the selected vertices"
-msgstr ""
+msgstr "將未選中的邊迴圈擬合到由所選頂點定義的曲線上"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation
 msgid "Clamp Elevation"
@@ -188730,7 +188730,7 @@ msgstr "烘焙物體變換至蠟筆"
 #. :src:
 #. source/blender/editors/grease_pencil/intern/grease_pencil_carver.cc:321
 msgid "Some curves were converted to Poly"
-msgstr ""
+msgstr "部分曲線已轉換為多段線"
 
 #: source/blender/editors/grease_pencil/intern/grease_pencil_edit.cc:1697
 msgid "Remove Loose Points"
@@ -202467,11 +202467,11 @@ msgstr "鍵位對映條目 '%s' 在鍵位對映 '%s' 中未找到"
 
 #: source/blender/makesrna/intern/rna_wm_api.cc:540
 msgid "Modal key-maps not supported for add-on key-config"
-msgstr "不支援外掛鍵位配置的模態鍵位對映"
+msgstr "不支援外掛按鍵配置的模態鍵位對映"
 
 #: source/blender/makesrna/intern/rna_wm_api.cc:590
 msgid "KeyMap '%s' not found in KeyConfig '%s'"
-msgstr "鍵位對映 '%s' 在鍵位配置 '%s' 中未找到"
+msgstr "鍵位對映 '%s' 在按鍵配置 '%s' 中未找到"
 
 #: source/blender/makesrna/intern/rna_wm_api.cc:616
 msgid "KeyConfig '%s' cannot be removed"
