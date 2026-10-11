@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Alpha (b'c02032f9693d')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-05 07:25+0000\n"
-"PO-Revision-Date: 2026-10-10 20:12+0000\n"
+"PO-Revision-Date: 2026-10-11 07:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -111121,21 +111121,21 @@ msgstr "比較顏色屬性"
 #. :src: scripts/startup/bl_ui/space_view3d.py:1360
 msgctxt "Operator"
 msgid "Curve Edge Loops Between Selected"
-msgstr ""
+msgstr "在選中項間曲線分佈邊迴圈"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected
 msgid ""
 "Fits the unselected edge loops to a curve defined by the selected vertices"
-msgstr "將未選中的邊迴圈擬合到由所選頂點定義的曲線上"
+msgstr "將未選中的邊迴圈擬合到已選中頂點定義的曲線上"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation
 msgid "Clamp Elevation"
-msgstr ""
+msgstr "鉗制高度"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation
 msgid ""
 "Restrictions on how the vertices can be moved (wire edges are not supported)"
-msgstr ""
+msgstr "對頂點移動方式的限制（不支援線框邊）"
 
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'NONE'
@@ -111144,24 +111144,23 @@ msgstr "頂點移動不受限制"
 
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'RAISE'
-#, fuzzy
 msgid "Only Raise"
-msgstr "僅邊緣"
+msgstr "僅抬升"
 
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'RAISE'
 msgid "Only allow extrusions"
-msgstr ""
+msgstr "僅允許擠出"
 
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'LOWER'
 msgid "Only Lower"
-msgstr ""
+msgstr "僅降低"
 
 #. :src:
 #. bpy.types.MESH_OT_curve_edge_loops_between_selected.clamp_elevation:'LOWER'
 msgid "Only allow indentation"
-msgstr ""
+msgstr "僅允許凹陷"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.extend_loop
 msgid "Extend Loop"
@@ -111174,7 +111173,7 @@ msgstr "將該工具的功能延伸到所選頂點範圍之外"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.factor
 msgid "Curving factor"
-msgstr ""
+msgstr "曲線化係數"
 
 #. :src: bpy.types.MESH_OT_curve_edge_loops_between_selected.interpolation
 #. :src: bpy.types.MESH_OT_relax_edge_loops.interpolation
@@ -210296,9 +210295,8 @@ msgid "Warnings only work when inputs are constant values"
 msgstr "警告僅在輸入為常值時才生效"
 
 #: source/blender/nodes/intern/shader_nodes_inline.cc:1607
-#, fuzzy
 msgid "Enable input must be a constant value for this data type"
-msgstr "該資料型別對應的編號必須為常量值"
+msgstr "啟用輸入對於此資料型別必須為常量值"
 
 #: source/blender/nodes/intern/shader_nodes_inline.cc:1687
 msgid "Node requires constant input values"
