@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-13 00:12+0000\n"
+"PO-Revision-Date: 2026-10-13 08:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -99737,13 +99737,12 @@ msgid "Filepath for the collection import"
 msgstr "集合匯入的檔案路徑"
 
 #. :src: bpy.types.COLLECTION_OT_importer_add.filter_glob
-#, fuzzy
 msgid "File Extension"
 msgstr "副檔名"
 
 #. :src: bpy.types.COLLECTION_OT_importer_add.filter_glob
 msgid "'Glob' file type extension(s), as defined by the selected file handler"
-msgstr ""
+msgstr "由所選檔案控制代碼定義的 'Glob' 檔案型別副檔名"
 
 #. :src: bpy.types.COLLECTION_OT_importer_clear
 msgctxt "Operator"
@@ -128418,7 +128417,7 @@ msgstr "片段的起始幀"
 #. :src: bpy.types.SEQUENCER_OT_sound_strip_add.move_strips_after_add
 #. :src: bpy.types.SEQUENCER_OT_text_strip_add.move_strips_after_add
 msgid "Move Strips After Add"
-msgstr ""
+msgstr "新增後移動片段"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.move_strips_after_add
@@ -128491,7 +128490,7 @@ msgid ""
 "How to resolve overlap with existing strips. If unset, fallback to the "
 "overlap mode from the tool settings, but shuffle vertically instead of "
 "horizontally"
-msgstr ""
+msgstr "如何處理與現有片段的重疊問題。如果未設定，則採用工具設定中的重疊模式，但垂直而非水平地重新排列"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.overlap_mode:'RIPPLE'
@@ -128510,7 +128509,7 @@ msgstr ""
 #. :src: source/blender/editors/transform/transform_mode_edge_seq_slide.cc:53
 #. :src: source/blender/editors/transform/transform_mode_edge_seq_slide.cc:187
 msgid "Ripple"
-msgstr ""
+msgstr "波紋"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.overlap_mode:'RIPPLE'
@@ -128528,7 +128527,7 @@ msgstr ""
 msgid ""
 "Push the strips that are in the way further along the timeline, keeping the "
 "spacing between them intact"
-msgstr ""
+msgstr "將擋在前面的片段沿時間軸往後推，同時保持它們之間的間距不變"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.overlap_mode:'OVERWRITE'
@@ -128546,7 +128545,7 @@ msgstr ""
 msgid ""
 "Replace the covered part of the strips that are in the way, trimming or "
 "splitting them"
-msgstr ""
+msgstr "將擋在前面的片段中被覆蓋的部分替換掉，將其修剪或分割"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.overlap_mode:'SHUFFLE'
@@ -128582,7 +128581,7 @@ msgstr "挪位"
 msgid ""
 "Move the transformed strips to the nearest free space, leaving every other "
 "strip where it is"
-msgstr ""
+msgstr "將變形後的片段移到最近的空位，其他片段留在原處"
 
 #. :src: bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.replace_sel
 #. :src: bpy.types.SEQUENCER_OT_effect_strip_add.replace_sel
@@ -128678,9 +128677,8 @@ msgstr "已棄用，將在 6.0 版中移除。改用 only_selected"
 
 #. :src: bpy.types.SEQUENCER_OT_box_blade.only_selected
 #. :src: bpy.types.SEQUENCER_OT_split.only_selected
-#, fuzzy
 msgid "Only split selected strips"
-msgstr "僅繪製選中的筆畫"
+msgstr "僅分離選中的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_box_blade.remove_gaps
 msgid "Remove Gaps"
@@ -129709,24 +129707,22 @@ msgstr "刪除選中的片段並填補留下的空隙"
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim.all_channels
 #. :src: bpy.types.TRANSFORM_OT_seq_slide.all_channels
 #. :src: bpy.types.SequencerToolSettings.ripple_all_channels
-#, fuzzy
 msgid ""
 "Ripple strips on other channels too, else only strips on the same channels "
 "as the edited strips"
-msgstr "同時對其他通道的片段執行波紋移動，否則僅處理與被刪除片段同一通道內的片段"
+msgstr "同時對其他通道的片段執行波紋移動，否則僅處理與被編輯片段同一通道內的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_delete.clear_ranges
 #. :src: bpy.types.SequencerToolSettings.ripple_clear_ranges
-#, fuzzy
 msgid "Clear Ranges"
-msgstr "清空影象"
+msgstr "清空範圍"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_delete.clear_ranges
 #. :src: bpy.types.SequencerToolSettings.ripple_clear_ranges
 msgid ""
 "Delete strip contents inside the removed ranges on rippled channels so later"
 " strips close the full gap, else ripple later strips only as far as they can"
-msgstr ""
+msgstr "刪除波紋通道中已移除範圍內的片段內容，以便後續片段能完全填補空隙；否則，後續片段的波紋效果僅擴充套件至其能力所及的範圍"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_delete.markers
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim.markers
@@ -129746,15 +129742,15 @@ msgstr "隨片段一同波紋移動標記"
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim
 msgctxt "Operator"
 msgid "Ripple Trim Strips"
-msgstr ""
+msgstr "波紋修剪片段"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim
 msgid "Trim strips to the current frame and close the gaps left behind"
-msgstr ""
+msgstr "將片段裁剪至當前幀，並填補留下的縫隙"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim.side
 msgid "The side of the strips to trim to the current frame"
-msgstr ""
+msgstr "需修剪至當前幀的片段一側"
 
 #. :src: bpy.types.SEQUENCER_OT_sample
 msgid "Use mouse to sample color in current frame"
@@ -130197,13 +130193,13 @@ msgstr "將所選片段一分為二"
 msgid ""
 "Split strips in all channels at the split frame, not only the one under the "
 "cursor"
-msgstr ""
+msgstr "在所有通道中，均在拆分幀處分割片段，而不僅僅是游標下方的那個"
 
 #. :src: bpy.types.SEQUENCER_OT_split.channel
 msgid ""
 "Initial channel used for the split, which may propagate to channels of "
 "effects, connections, or all other channels"
-msgstr ""
+msgstr "用於分割的初始通道，該分割可能傳播到效果通道、連線通道或所有其他通道"
 
 #. :src: bpy.types.SEQUENCER_OT_split.frame
 msgid "Frame where selected strips will be split"
@@ -130214,14 +130210,12 @@ msgid "The side that remains selected after splitting"
 msgstr "切割後保持選中狀態的一側"
 
 #. :src: bpy.types.SEQUENCER_OT_split.use_cursor_position
-#, fuzzy
 msgid "Split at Cursor"
-msgstr "在游標移動處拆分"
+msgstr "在游標處分割"
 
 #. :src: bpy.types.SEQUENCER_OT_split.use_cursor_position
-#, fuzzy
 msgid "Split at the position of the mouse cursor instead of the current frame"
-msgstr "從游標位置而非當前幀位置切割"
+msgstr "按滑鼠游標所在位置分割，而不是按當前幀分割"
 
 #. :src: bpy.types.SEQUENCER_OT_strip_color_tag_set
 msgid "Set a color tag for the selected strips"
@@ -131610,9 +131604,8 @@ msgstr "吸附到柵格"
 #. :src: bpy.types.TRANSFORM_OT_vert_slide.snap_elements:'ORIGIN'
 #. :src: bpy.types.ToolSettings.snap_elements:'ORIGIN'
 #. :src: bpy.types.ToolSettings.snap_elements_base:'ORIGIN'
-#, fuzzy
 msgid "Snap to origins"
-msgstr "吸附到片段"
+msgstr "吸附到原點"
 
 #. :src: bpy.types.TRANSFORM_OT_edge_slide.snap_elements:'VERTEX'
 #. :src: bpy.types.TRANSFORM_OT_resize.snap_elements:'VERTEX'
@@ -132065,7 +132058,7 @@ msgstr "插入"
 msgid ""
 "Split strips at the leftmost edited handle and push the remainder aside, "
 "else ripple only as far as needed to resolve the overlap"
-msgstr ""
+msgstr "在最左側的編輯控制柄處分割片段，並將剩餘部分推到一旁；否則，僅按解決重疊所需範圍進行波紋調整"
 
 #. :src: bpy.types.TRANSFORM_OT_seq_slide.overlap_mode
 #. :src: bpy.types.SequencerToolSettings.overlap_mode
@@ -172059,7 +172052,7 @@ msgstr "覆蓋"
 #. :src: KM_HIERARCHY.EMPTY:'STRIP_RIPPLE_INSERT'
 msgctxt "WindowManager"
 msgid "Ripple Insert"
-msgstr ""
+msgstr "波紋插入"
 
 #. :src: KM_HIERARCHY.EMPTY
 msgctxt "WindowManager"
@@ -173530,7 +173523,7 @@ msgstr "無效目標 %r (必須為骨架或物體)"
 #: scripts/addons_core/io_curve_svg/__init__.py:89
 msgctxt "Operator"
 msgid "IO_FH_svg_as_curves"
-msgstr ""
+msgstr "IO_FH_svg_as_curves"
 
 #: scripts/addons_core/io_curve_svg/import_svg.py:1911
 msgid "Unable to parse XML, %s:%s for file %r"
@@ -173539,13 +173532,13 @@ msgstr "無法解析 XML, %s:%s 針對檔案 %r"
 #: scripts/addons_core/io_scene_fbx/__init__.py:719
 msgctxt "Operator"
 msgid "IO_FH_fbx (Legacy)"
-msgstr ""
+msgstr "IO_FH_fbx (Legacy)"
 
 #: scripts/addons_core/io_scene_fbx/__init__.py:724
 #: scripts/startup/bl_ui/space_topbar.py:413
 msgctxt "Operator"
 msgid "IO_FH_fbx"
-msgstr ""
+msgstr "IO_FH_fbx"
 
 #: scripts/addons_core/io_scene_fbx/__init__.py:643
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1501
@@ -173647,7 +173640,7 @@ msgstr "gltfpack"
 #: scripts/addons_core/io_scene_gltf2/__init__.py:2302
 msgctxt "Operator"
 msgid "IO_FH_gltf2"
-msgstr ""
+msgstr "IO_FH_gltf2"
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:2182
 msgid "Bones & Skin"
@@ -181516,12 +181509,12 @@ msgstr "從當前幀移動/擴充套件"
 #. :src: scripts/startup/bl_ui/space_sequencer.py:886
 msgctxt "Operator"
 msgid "Ripple Trim Start"
-msgstr ""
+msgstr "波紋修剪開頭"
 
 #. :src: scripts/startup/bl_ui/space_sequencer.py:887
 msgctxt "Operator"
 msgid "Ripple Trim End"
-msgstr ""
+msgstr "波紋修剪末端"
 
 #: scripts/startup/bl_ui/space_sequencer.py:902
 msgctxt "Operator"
@@ -181529,10 +181522,9 @@ msgid "Remove Gaps (All)"
 msgstr "移除所有間隙"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1175
-#, fuzzy
 msgctxt "Sequence"
 msgid "Hard Split"
-msgstr "凍結分割"
+msgstr "硬分割"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1238
 #: scripts/startup/bl_ui/space_sequencer.py:1434
@@ -181774,7 +181766,6 @@ msgid "Taper Start"
 msgstr "錐化起始"
 
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:3387
-#, fuzzy
 msgid "Box Blade"
 msgstr "框選刀片"
 
@@ -182052,42 +182043,41 @@ msgstr "載入Blender初始設定"
 #: scripts/startup/bl_ui/space_topbar.py:435
 msgctxt "Operator"
 msgid "IO_FH_alembic"
-msgstr ""
+msgstr "IO_FH_alembic"
 
 #: scripts/startup/bl_ui/space_topbar.py:392
 #: scripts/startup/bl_ui/space_topbar.py:438
 msgctxt "Operator"
 msgid "IO_FH_usd"
-msgstr ""
+msgstr "IO_FH_usd"
 
 #: scripts/startup/bl_ui/space_topbar.py:397
-#, fuzzy
 msgctxt "Operator"
 msgid "IO_FH_grease_pencil_svg"
-msgstr "蠟筆"
+msgstr "IO_FH_grease_pencil_svg"
 
 #: scripts/startup/bl_ui/space_topbar.py:401
 #: scripts/startup/bl_ui/space_topbar.py:450
 msgctxt "Operator"
 msgid "IO_FH_obj"
-msgstr ""
+msgstr "IO_FH_obj"
 
 #: scripts/startup/bl_ui/space_topbar.py:404
 #: scripts/startup/bl_ui/space_topbar.py:453
 msgctxt "Operator"
 msgid "IO_FH_ply"
-msgstr ""
+msgstr "IO_FH_ply"
 
 #: scripts/startup/bl_ui/space_topbar.py:406
 msgctxt "Operator"
 msgid "IO_FH_spz"
-msgstr ""
+msgstr "IO_FH_spz"
 
 #: scripts/startup/bl_ui/space_topbar.py:409
 #: scripts/startup/bl_ui/space_topbar.py:456
 msgctxt "Operator"
 msgid "IO_FH_stl"
-msgstr ""
+msgstr "IO_FH_stl"
 
 #. :src: scripts/startup/bl_ui/space_topbar.py:416
 #. :src: scripts/startup/bl_ui/space_topbar.py:458
@@ -190427,9 +190417,8 @@ msgid "Shortcut Cycle: {}"
 msgstr "快捷鍵迴圈: {}"
 
 #: source/blender/editors/interface/regions/interface_region_tooltip.cc:768
-#, fuzzy
 msgid "Shortcut Hold: {}"
-msgstr "快捷鍵: {}"
+msgstr "快捷鍵按住: {}"
 
 #: source/blender/editors/interface/regions/interface_region_tooltip.cc:810
 msgid "Tool Keymap:"
@@ -192758,9 +192747,8 @@ msgid "Collection needs to be empty"
 msgstr "集合必須為空"
 
 #: source/blender/editors/object/object_collection.cc:1481
-#, fuzzy
 msgid "Add Control"
-msgstr "新增控制點"
+msgstr "新增控制項"
 
 #: source/blender/editors/object/object_collection.cc:1506
 msgid "Add Exporter"
@@ -198604,7 +198592,7 @@ msgstr "片段需要兩個輸入來交換"
 #. :src: source/blender/editors/space_sequencer/sequencer_edit.cc:1922
 #. :src: source/blender/editors/space_sequencer/sequencer_edit.cc:2190
 msgid "No selected strips to split"
-msgstr "沒有選中的片段可拆分"
+msgstr "沒有選中的片段可分割"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.cc:3916
 msgid "Please select two strips"
@@ -199782,7 +199770,7 @@ msgstr "序列滑移: %s%s | 重疊: %s"
 
 #. :src: source/blender/editors/transform/transform_mode_edge_seq_slide.cc:87
 msgid " | Insert: %s"
-msgstr ""
+msgstr " | 插入: %s"
 
 #: source/blender/editors/transform/transform_mode_edge_seq_slide.cc:163
 #: source/blender/editors/transform/transform_mode_edge_slide.cc:842
