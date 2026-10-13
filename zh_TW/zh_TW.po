@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-11 07:12+0000\n"
+"PO-Revision-Date: 2026-10-13 00:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -5163,9 +5163,8 @@ msgstr "編輯持久配置的設定"
 #. :src: bpy.types.WM_OT_tool_set_by_index.space_type:'PROJECT'
 #. :src: bpy.types.Space.type:'PROJECT'
 #. :src: bpy.types.WorkSpaceTool.space_type:'PROJECT'
-#, fuzzy
 msgid "Project Settings"
-msgstr "代理設定"
+msgstr "專案設定"
 
 #. :src: bpy.types.Area.type:'PROJECT'
 #. :src: bpy.types.AssetShelf.bl_space_type:'PROJECT'
@@ -5595,7 +5594,7 @@ msgstr "使用者庫"
 
 #. :src: bpy.types.AssetLibrary.user_library
 msgid "The preferences entry defining this library, if there is one"
-msgstr ""
+msgstr "定義此庫的偏好設定條目，如果有"
 
 #. :src: bpy.types.AssetLibraryCollection
 msgid "User Asset Libraries"
@@ -5612,9 +5611,8 @@ msgid "Active Asset Library"
 msgstr "活動資產庫"
 
 #. :src: bpy.types.AssetLibraryCollection.active
-#, fuzzy
 msgid "The asset library being edited in the Preferences UI"
-msgstr "偏好設定介面中正在編輯的資產庫的編號"
+msgstr "正在偏好設定介面中編輯的資產庫"
 
 #. :src: bpy.types.AssetLibraryReference
 msgid "Asset Library Reference"
@@ -11619,9 +11617,8 @@ msgid "Blender Project"
 msgstr "Blender 專案"
 
 #. :src: bpy.types.BlenderProject.active_asset_library
-#, fuzzy
 msgid "Index of the asset library being edited in the Project Settings UI"
-msgstr "專案設定介面中正在編輯的資產庫的編號"
+msgstr "專案設定介面中正在編輯的資產庫索引號"
 
 #. :src: bpy.types.BlenderProject.active_variable_index
 msgid "Active Project Variable"
@@ -18430,13 +18427,13 @@ msgstr "為集合配置的匯入器"
 
 #. :src: bpy.types.CollectionImport.archive_library
 msgid "Imported Library"
-msgstr ""
+msgstr "已匯入的庫"
 
 #. :src: bpy.types.CollectionImport.archive_library
 msgid ""
 "Archive library owning all imported data from this collection importer (None"
 " if no data has been imported yet)"
-msgstr ""
+msgstr "包含該集合匯入工具匯入的所有資料的存檔庫（如果尚未匯入任何資料，則為無）"
 
 #. :src: bpy.types.CollectionImport.filepath
 msgid "The file path used for importing"
@@ -56033,7 +56030,7 @@ msgstr "資產庫"
 
 #. :src: bpy.types.WindowManager.extension_type:'ASSET_LIBRARY'
 msgid "Only show asset libraries"
-msgstr ""
+msgstr "僅顯示資產庫"
 
 #. :src: bpy.types.WindowManager.extension_type:'THEME'
 #. :src: bpy.types.SCREEN_OT_userpref_show.section:'THEMES'
@@ -64446,7 +64443,7 @@ msgstr "Rigify 元骨骼"
 #. :src: bpy.types.ASSETBROWSER_MT_asset_rename
 #. :src: source/blender/editors/asset/intern/asset_ops.cc:1899
 msgid "Rename Asset"
-msgstr ""
+msgstr "重新命名資產"
 
 #. :src: bpy.types.ASSETBROWSER_MT_context_menu
 #. :src: bpy.types.OUTLINER_MT_asset
@@ -80075,13 +80072,12 @@ msgid "Combine an arbitrary number of values into a list"
 msgstr "將任意數量的值合併為一個列表"
 
 #. :src: bpy.types.GeometryNodeConstructCurves
-#, fuzzy
 msgid "Construct Curves"
-msgstr "建立一條 NURBS 曲線"
+msgstr "構造麴線"
 
 #. :src: bpy.types.GeometryNodeConstructCurves
 msgid "Construct curves from raw topology data"
-msgstr ""
+msgstr "根據原始拓撲資料構造麴線"
 
 #. :src: bpy.types.GeometryNodeConvexHull
 #. :src: bpy.types.RIGIDBODY_OT_shape_change.type:'CONVEX_HULL'
@@ -80842,14 +80838,13 @@ msgid "Get a single component of a geometry"
 msgstr "獲取幾何體中的單個元件"
 
 #. :src: bpy.types.GeometryNodeGetGridNames
-#, fuzzy
 msgid "Get Grid Names"
-msgstr "柵格名稱"
+msgstr "獲取柵格名稱"
 
 #. :src: bpy.types.GeometryNodeGetGridNames
 msgid ""
 "Retrieves the names of all grids stored in a volume as a list of strings"
-msgstr ""
+msgstr "以字串列表的形式檢索儲存在體積中的所有柵格的名稱"
 
 #. :src: bpy.types.GeometryNodeGetNamedGrid
 msgid "Get Named Grid"
@@ -89169,30 +89164,30 @@ msgstr "匯出 glTF 2.0"
 msgid ""
 "Disable this asset library in Preferences (keeps the entry for re-enabling "
 "later)"
-msgstr ""
+msgstr "在偏好設定中禁用此資產庫（保留該條目以便日後重新啟用）"
 
 #. :src: bpy.types.EXTENSIONS_OT_package_asset_library_disable
 msgctxt "Operator"
 msgid "Disable asset library extension"
-msgstr ""
+msgstr "禁用資產庫擴充套件"
 
 #. :src: bpy.types.EXTENSIONS_OT_package_asset_library_enable
 msgid "Enable this asset library in Preferences"
-msgstr ""
+msgstr "在偏好設定中啟用此資產庫"
 
 #. :src: bpy.types.EXTENSIONS_OT_package_asset_library_enable
 msgctxt "Operator"
 msgid "Enable asset library extension"
-msgstr ""
+msgstr "啟用資產庫擴充套件"
 
 #. :src: bpy.types.EXTENSIONS_OT_package_asset_library_show
 msgid "Show this asset library in Preferences"
-msgstr ""
+msgstr "在偏好設定中顯示此資產庫"
 
 #. :src: bpy.types.EXTENSIONS_OT_package_asset_library_show
 msgctxt "Operator"
 msgid "Show asset library extension"
-msgstr ""
+msgstr "顯示資產庫擴充套件"
 
 #. :src: bpy.types.EXTENSIONS_OT_package_disable
 msgid "Turn off this extension"
@@ -89407,7 +89402,7 @@ msgstr "顯示系統設定 \"網路\" 面板以允許聯機訪問"
 
 #. :src: bpy.types.EXTENSIONS_OT_userpref_show_package
 msgid "Show this extension in Preferences"
-msgstr ""
+msgstr "在偏好設定中顯示此擴充套件"
 
 #. :src: bpy.types.EXTENSIONS_OT_userpref_tags_set
 msgid "Set the value of all tags"
@@ -91774,13 +91769,12 @@ msgstr "按名稱設定工具"
 msgid ""
 "Set the tool by name while the key is held, restoring the previous tool on "
 "release (for key-maps)"
-msgstr ""
+msgstr "按住鍵的同時按名稱設定工具，鬆開鍵後恢復上一個工具（用於鍵位對映）"
 
 #. :src: bpy.types.WM_OT_tool_set_by_id_hold
-#, fuzzy
 msgctxt "Operator"
 msgid "Set Tool by Name (Hold)"
-msgstr "按名稱設定工具"
+msgstr "按名稱設定工具 (按住)"
 
 #. :src: bpy.types.WM_OT_tool_set_by_index
 msgid "Set the tool by index (for key-maps)"
@@ -97893,18 +97887,17 @@ msgstr "刪除所有資產後設資料，將資產資料塊重新轉換為普通
 #. :src: bpy.types.ASSET_OT_external_asset_rename
 msgctxt "Operator"
 msgid "Rename Asset"
-msgstr ""
+msgstr "重新命名資產"
 
 #. :src: bpy.types.ASSET_OT_external_asset_rename
 msgid ""
 "Change the name of this asset. Note that this cannot be un-done via the undo"
 " system"
-msgstr ""
+msgstr "更改此資產的名稱。請注意，此操作無法透過撤銷系統撤銷"
 
 #. :src: bpy.types.ASSET_OT_external_asset_rename.new_name
-#, fuzzy
 msgid "New Name"
-msgstr "檢視名稱"
+msgstr "新名稱"
 
 #. :src: bpy.types.ASSET_OT_library_refresh
 msgctxt "Operator"
@@ -99741,7 +99734,7 @@ msgstr "檔案路徑"
 
 #. :src: bpy.types.COLLECTION_OT_importer_add.filepath
 msgid "Filepath for the collection import"
-msgstr ""
+msgstr "集合匯入的檔案路徑"
 
 #. :src: bpy.types.COLLECTION_OT_importer_add.filter_glob
 #, fuzzy
@@ -99755,12 +99748,12 @@ msgstr ""
 #. :src: bpy.types.COLLECTION_OT_importer_clear
 msgctxt "Operator"
 msgid "Clear Importer"
-msgstr ""
+msgstr "清理匯入器"
 
 #. :src: bpy.types.COLLECTION_OT_importer_clear
 #. :src: bpy.types.COLLECTION_OT_importer_reload.COLLECTION_OT_importer_clear
 msgid "Clear the importer data"
-msgstr ""
+msgstr "清理匯入器資料"
 
 #. :src: bpy.types.COLLECTION_OT_importer_import
 msgctxt "Operator"
@@ -99775,25 +99768,24 @@ msgstr "呼叫匯入操作"
 #. :src: bpy.types.COLLECTION_OT_importer_make_local
 msgctxt "Operator"
 msgid "Make Importer Local"
-msgstr ""
+msgstr "將匯入器本地化"
 
 #. :src: bpy.types.COLLECTION_OT_importer_make_local
 msgid "Make the importer data local"
-msgstr ""
+msgstr "將匯入器的資料本地化"
 
 #. :src: bpy.types.COLLECTION_OT_importer_reload
-#, fuzzy
 msgctxt "Operator"
 msgid "Reload Importer"
-msgstr "移除匯入器"
+msgstr "重新載入匯入器"
 
 #. :src: bpy.types.COLLECTION_OT_importer_reload
 msgid "Clear and reload the importer data"
-msgstr ""
+msgstr "清除並重新載入匯入器資料"
 
 #. :src: bpy.types.COLLECTION_OT_importer_reload.COLLECTION_OT_importer_clear
 msgid "Clear Importer"
-msgstr ""
+msgstr "清理匯入器"
 
 #. :src: bpy.types.COLLECTION_OT_importer_remove
 msgctxt "Operator"
@@ -99804,7 +99796,7 @@ msgstr "移除匯入器"
 msgid ""
 "Remove Collection Importer (does not delete any of the imported data in the "
 "collection, if any)"
-msgstr ""
+msgstr "移除集合匯入器（不會刪除集合中已匯入的任何資料，如果有）"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active
 msgctxt "Operator"
@@ -103119,21 +103111,20 @@ msgid "Export visible objects only"
 msgstr "僅匯出可見的物體"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode
-#, fuzzy
 msgid "Collection Center"
-msgstr "集合編號"
+msgstr "集合中心"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode
 msgid "Scene origin of exported collection"
-msgstr ""
+msgstr "匯出的集合的場景原點"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'WORLD_ORIGIN'
 msgid "World Origin"
-msgstr ""
+msgstr "世界原點"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'WORLD_ORIGIN'
 msgid "Export at world origin as scene origin"
-msgstr ""
+msgstr "以世界原點作為場景原點進行匯出"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'CENTER_MASS'
 #. :src: bpy.types.SoftBodySettings.location_mass_center
@@ -103146,28 +103137,26 @@ msgstr "在集合根物件的集合質心處匯出"
 
 #. :src:
 #. bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'OBJECT_POSITION'
-#, fuzzy
 msgid "Object Position"
-msgstr "設定位置"
+msgstr "物體位置"
 
 #. :src:
 #. bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'OBJECT_POSITION'
 msgid "Export at object position as scene origin"
-msgstr ""
+msgstr "以物體位置作為場景原點進行匯出"
 
 #. :src:
 #. bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'INSTANCE_OFFSET'
 msgid "Export at collection Instance Offset as scene origin"
-msgstr ""
+msgstr "以集合例項偏移作為場景原點進行匯出"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_object
-#, fuzzy
 msgid "Center Object"
-msgstr "單個物體"
+msgstr "中心物體"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_object
 msgid "Object to use as exported scene origin"
-msgstr ""
+msgstr "用作匯出場景原點的物體"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_action_filter
 msgid "Filter Actions"
@@ -104347,13 +104336,12 @@ msgstr "僅同步活動儲存庫"
 
 #. :src: bpy.types.EXTENSIONS_OT_userpref_show_package.extension_id
 #. :src: bpy.types.UserAssetLibrary.extension_id
-#, fuzzy
 msgid "Extension ID"
-msgstr "擴充套件 Y"
+msgstr "擴充套件 ID"
 
 #. :src: bpy.types.EXTENSIONS_OT_userpref_show_package.extension_id
 msgid "The extension to show, formatted as \"{repo_module}.{pkg_id}\""
-msgstr ""
+msgstr "要顯示的擴充套件，格式為 \"{repo_module}.{pkg_id}\""
 
 #. :src: bpy.types.EXTENSIONS_OT_userpref_tags_set.value
 msgid "Enable or disable all tags"
@@ -112295,51 +112283,47 @@ msgstr "填補洞面所需的外圍邊數 (若值為 0, 則代表填補所有的
 #. :src: scripts/startup/bl_ui/space_view3d.py:1361
 msgctxt "Operator"
 msgid "Fit Edge Loops To Annotation"
-msgstr ""
+msgstr "適配邊迴圈到標註線"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation
 msgid "Stretch selected vertices to active stroke"
-msgstr ""
+msgstr "將選中的頂點牽拉至活動筆畫"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.delete_strokes
-#, fuzzy
 msgid "Delete Strokes"
-msgstr "刪除片段"
+msgstr "刪除筆畫"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.delete_strokes
 msgid "Remove strokes if they have been used"
-msgstr ""
+msgstr "移除用過的筆畫"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.factor
-#, fuzzy
 msgid "Annotation factor"
-msgstr "標註資料"
+msgstr "標註係數"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.method
 msgid "Method of distributing the vertices over the stroke"
-msgstr ""
+msgstr "將頂點分佈在筆畫上的方法"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.method:'SPREAD'
 msgid ""
 "Distribute vertices along the full stroke, retaining relative distances "
 "between the vertices"
-msgstr ""
+msgstr "將頂點沿整段筆畫分佈，同時保持頂點之間的相對距離"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.method:'SPREAD_EVENLY'
-#, fuzzy
 msgid "Spread Evenly"
-msgstr "均勻間隔"
+msgstr "均勻擴散"
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.method:'SPREAD_EVENLY'
-#, fuzzy
 msgid "Distribute vertices at regular distances along the full stroke "
-msgstr "將頂點以恆定間距分佈在曲線上"
+msgstr "將頂點以等間距分佈在整段筆畫上 "
 
 #. :src: bpy.types.MESH_OT_fit_edge_loops_to_annotation.method:'PROJECT'
 msgid ""
 "Project vertices onto the stroke using vertex normals and connected edges. "
 "Requires more exact annotation placement, otherwise it may do nothing"
-msgstr ""
+msgstr "利用頂點法線和相連的邊，將頂點投影到筆畫上。這需要更精確的標註定位，否則可能不會產生任何效果"
 
 #. :src: bpy.types.MESH_OT_flatten
 #: scripts/startup/bl_ui/space_view3d.py:1356
@@ -126620,7 +126604,6 @@ msgid "Add a new screen"
 msgstr "新建一個螢幕視窗"
 
 #. :src: bpy.types.SCREEN_OT_project_settings_show
-#, fuzzy
 msgctxt "Operator"
 msgid "Open Project Settings..."
 msgstr "開啟專案設定..."
@@ -126636,7 +126619,6 @@ msgid "Active Section"
 msgstr "活動部件"
 
 #. :src: bpy.types.SCREEN_OT_project_settings_show.section
-#, fuzzy
 msgid "Section to activate in Project Settings"
 msgstr "在專案設定中需啟用的部分"
 
@@ -126861,7 +126843,7 @@ msgstr "管理透過擴充套件安裝的外掛"
 #. :src: bpy.types.SCREEN_OT_userpref_show.section:'ASSETS'
 #. :src: bpy.types.Preferences.active_section:'ASSETS'
 msgid "Manage remote, local, and extension asset libraries"
-msgstr ""
+msgstr "管理遠端、本地和擴充套件資產庫"
 
 #. :src: bpy.types.SCREEN_OT_userpref_show.section:'THEMES'
 #. :src: bpy.types.Preferences.active_section:'THEMES'
@@ -128692,7 +128674,7 @@ msgstr "忽略選中項"
 #. :src: bpy.types.SEQUENCER_OT_box_blade.ignore_selection
 #. :src: bpy.types.SEQUENCER_OT_split.ignore_selection
 msgid "Deprecated, will be removed in 6.0. Use only_selected instead"
-msgstr ""
+msgstr "已棄用，將在 6.0 版中移除。改用 only_selected"
 
 #. :src: bpy.types.SEQUENCER_OT_box_blade.only_selected
 #. :src: bpy.types.SEQUENCER_OT_split.only_selected
@@ -136917,34 +136899,32 @@ msgid "Property name (as a string)"
 msgstr "屬性名稱 (字串)"
 
 #. :src: bpy.types.WM_OT_otio_export
-#, fuzzy
 msgctxt "Operator"
 msgid "Export OTIO"
-msgstr "匯出 POT"
+msgstr "匯出 OTIO"
 
 #. :src: bpy.types.WM_OT_otio_export
 msgid "Export the sequencer scene as an OpenTimelineIO timeline"
-msgstr ""
+msgstr "將序列場景匯出為 OpenTimelineIO 時間線"
 
 #. :src: bpy.types.WM_OT_otio_export.use_resolve_metadata
 msgid "Export DaVinci Resolve Metadata"
-msgstr ""
+msgstr "匯出 DaVinci Resolve 後設資料"
 
 #. :src: bpy.types.WM_OT_otio_export.use_resolve_metadata
 msgid ""
 "Write additional metadata so DaVinci Resolve can recreate generated strips, "
 "transforms, blending, audio levels and more"
-msgstr ""
+msgstr "寫入額外的後設資料，以便 DaVinci Resolve 能夠重新建立生成的片段、變換、混合、音訊電平等內容"
 
 #. :src: bpy.types.WM_OT_otio_import
-#, fuzzy
 msgctxt "Operator"
 msgid "Import OTIO"
-msgstr "匯入 STL"
+msgstr "匯入 OTIO"
 
 #. :src: bpy.types.WM_OT_otio_import
 msgid "Import OpenTimelineIO Timeline into Sequencer Scene"
-msgstr ""
+msgstr "將 OpenTimelineIO 時間線匯入序列場景"
 
 #. :src: bpy.types.WM_OT_owner_disable.owner_id
 #. :src: bpy.types.WM_OT_owner_enable.owner_id
@@ -144876,12 +144856,11 @@ msgstr "使用舊版撤銷 (比預設的新版要慢，但某些情況下會更�
 
 #. :src: bpy.types.PreferencesExperimental.use_video_decoding_debug
 msgid "Video Decoding Debug"
-msgstr ""
+msgstr "影片解碼除錯"
 
 #. :src: bpy.types.PreferencesExperimental.use_video_decoding_debug
-#, fuzzy
 msgid "Enable video decoding debugging options for developers"
-msgstr "為開發人員啟用 Cycles 除錯選項"
+msgstr "為開發人員啟用影片解碼除錯選項"
 
 #. :src: bpy.types.PreferencesExperimental.use_viewport_debug
 msgid ""
@@ -146334,13 +146313,13 @@ msgstr "啟用GPU加速計算佇列中的最後一個表面細分修改器"
 
 #. :src: bpy.types.PreferencesSystem.use_hardware_video_decoding
 msgid "Hardware Video Decoding"
-msgstr ""
+msgstr "硬體影片解碼"
 
 #. :src: bpy.types.PreferencesSystem.use_hardware_video_decoding
 msgid ""
 "Use the GPU to decode videos when supported. Videos that are already open "
 "are not affected"
-msgstr ""
+msgstr "在支援的情況下，使用 GPU 解碼影片。已開啟的影片不受影響"
 
 #. :src: bpy.types.PreferencesSystem.use_online_access
 #: scripts/startup/bl_ui/space_userpref.py:835
@@ -146405,25 +146384,25 @@ msgstr "釋放後自上一次訪問GL頂點緩衝物體的間隔秒數 (設定�
 
 #. :src: bpy.types.PreferencesSystem.video_decoding_device
 msgid "Video Decoding Device"
-msgstr ""
+msgstr "影片解碼裝置"
 
 #. :src: bpy.types.PreferencesSystem.video_decoding_device
 msgid ""
 "Force a specific hardware device to decode videos with. Videos that are "
 "already open are not affected"
-msgstr ""
+msgstr "強制使用特定的硬體裝置來解碼影片。已開啟的影片不受影響"
 
 #. :src: bpy.types.PreferencesSystem.video_decoding_device:'AUTOMATIC'
 msgid "Use the first device that supports the video"
-msgstr ""
+msgstr "使用第一個支援影片的裝置"
 
 #. :src: bpy.types.PreferencesSystem.video_decoding_device:'VIDEOTOOLBOX'
 msgid "VideoToolbox"
-msgstr ""
+msgstr "VideoToolbox"
 
 #. :src: bpy.types.PreferencesSystem.video_decoding_device:'D3D11VA'
 msgid "Direct3D 11"
-msgstr ""
+msgstr "Direct3D 11"
 
 #. :src: bpy.types.PreferencesSystem.video_decoding_device:'CUDA'
 #. :src: bpy.types.CyclesDeviceSettings.type:'CUDA'
@@ -146819,9 +146798,8 @@ msgid "Catalan - Català"
 msgstr "加泰羅尼亞語 - Català"
 
 #. :src: bpy.types.PreferencesView.language:'ca_AD'
-#, fuzzy
 msgid "Locale code: ca_AD. Translation progress: 99%"
-msgstr "區域程式碼: ca_AD. 翻譯進度: 100%"
+msgstr "區域程式碼: ca_AD. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANS'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146829,9 +146807,8 @@ msgid "Chinese (Simplified) - 简体中文"
 msgstr "簡體中文"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANS'
-#, fuzzy
 msgid "Locale code: zh_HANS. Translation progress: 99%"
-msgstr "區域程式碼: zh_HANT. 翻譯進度: 59%"
+msgstr "區域程式碼: zh_HANS. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANT'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146848,9 +146825,8 @@ msgid "Croatian - Hrvatski"
 msgstr "克羅埃西亞語 - Hrvatski"
 
 #. :src: bpy.types.PreferencesView.language:'hr'
-#, fuzzy
 msgid "Locale code: hr. Translation progress: 2%"
-msgstr "區域程式碼: hr. 翻譯進度: 1%"
+msgstr "區域程式碼: hr. 翻譯進度: 2%"
 
 #. :src: bpy.types.PreferencesView.language:'cs_CZ'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146858,9 +146834,8 @@ msgid "Czech - Čeština"
 msgstr "捷克語 - Čeština"
 
 #. :src: bpy.types.PreferencesView.language:'cs_CZ'
-#, fuzzy
 msgid "Locale code: cs_CZ. Translation progress: 25%"
-msgstr "區域程式碼: cs_CZ. 翻譯進度: 26%"
+msgstr "區域程式碼: cs_CZ. 翻譯進度: 25%"
 
 #. :src: bpy.types.PreferencesView.language:'da'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146886,9 +146861,8 @@ msgid "English (UK)"
 msgstr "英語 (英國) - English (UK)"
 
 #. :src: bpy.types.PreferencesView.language:'en_GB'
-#, fuzzy
 msgid "Locale code: en_GB. Translation progress: 92%"
-msgstr "區域程式碼: en_GB. 翻譯進度: 93%"
+msgstr "區域程式碼: en_GB. 翻譯進度: 92%"
 
 #. :src: bpy.types.PreferencesView.language:'en_US'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146925,9 +146899,8 @@ msgid "French - Français"
 msgstr "法語 - Français"
 
 #. :src: bpy.types.PreferencesView.language:'fr_FR'
-#, fuzzy
 msgid "Locale code: fr_FR. Translation progress: 98%"
-msgstr "區域程式碼: fr_FR. 翻譯進度: 99%"
+msgstr "區域程式碼: fr_FR. 翻譯進度: 98%"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -146935,9 +146908,8 @@ msgid "Georgian - ქართული"
 msgstr "喬治亞語 - ქართული"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
-#, fuzzy
 msgid "Locale code: ka. Translation progress: 98%"
-msgstr "區域程式碼: ka. 翻譯進度: 99%"
+msgstr "區域程式碼: ka. 翻譯進度: 98%"
 
 #. :src: bpy.types.PreferencesView.language:'de_DE'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147000,9 +146972,8 @@ msgid "Italian - Italiano"
 msgstr "義大利語 - Italiano"
 
 #. :src: bpy.types.PreferencesView.language:'it_IT'
-#, fuzzy
 msgid "Locale code: it_IT. Translation progress: 41%"
-msgstr "區域程式碼: it_IT. 翻譯進度: 42%"
+msgstr "區域程式碼: it_IT. 翻譯進度: 41%"
 
 #. :src: bpy.types.PreferencesView.language:'ja_JP'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147019,9 +146990,8 @@ msgid "Korean - 한국어"
 msgstr "韓語 - 한국어"
 
 #. :src: bpy.types.PreferencesView.language:'ko_KR'
-#, fuzzy
 msgid "Locale code: ko_KR. Translation progress: 91%"
-msgstr "區域程式碼: ko_KR. 翻譯進度: 92%"
+msgstr "區域程式碼: ko_KR. 翻譯進度: 91%"
 
 #. :src: bpy.types.PreferencesView.language:'ky_KG'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147075,9 +147045,8 @@ msgid "Polish - Polski"
 msgstr "波蘭語 - Polski"
 
 #. :src: bpy.types.PreferencesView.language:'pl_PL'
-#, fuzzy
 msgid "Locale code: pl_PL. Translation progress: 99%"
-msgstr "區域程式碼: pl_PL. 翻譯進度: 100%"
+msgstr "區域程式碼: pl_PL. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'pt_BR'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147085,9 +147054,8 @@ msgid "Portuguese (Brazil) - Português brasileiro"
 msgstr "葡萄牙語 (巴西) - Português brasileiro"
 
 #. :src: bpy.types.PreferencesView.language:'pt_BR'
-#, fuzzy
 msgid "Locale code: pt_BR. Translation progress: 40%"
-msgstr "區域程式碼: pt_BR. 翻譯進度: 41%"
+msgstr "區域程式碼: pt_BR. 翻譯進度: 40%"
 
 #. :src: bpy.types.PreferencesView.language:'pt_PT'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147095,9 +147063,8 @@ msgid "Portuguese (Portugal) - Português europeu"
 msgstr "葡萄牙語 (葡萄牙) - Português europeu"
 
 #. :src: bpy.types.PreferencesView.language:'pt_PT'
-#, fuzzy
 msgid "Locale code: pt_PT. Translation progress: 81%"
-msgstr "區域程式碼: pt_PT. 翻譯進度: 82%"
+msgstr "區域程式碼: pt_PT. 翻譯進度: 81%"
 
 #. :src: bpy.types.PreferencesView.language:'ro_RO'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147114,9 +147081,8 @@ msgid "Russian - Русский"
 msgstr "俄語 - Русский"
 
 #. :src: bpy.types.PreferencesView.language:'ru_RU'
-#, fuzzy
 msgid "Locale code: ru_RU. Translation progress: 99%"
-msgstr "區域程式碼: fr_FR. 翻譯進度: 99%"
+msgstr "區域程式碼: ru_RU. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'sr_RS'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147142,9 +147108,8 @@ msgid "Slovak - Slovenčina"
 msgstr "斯洛伐克語 - Slovenčina"
 
 #. :src: bpy.types.PreferencesView.language:'sk_SK'
-#, fuzzy
 msgid "Locale code: sk_SK. Translation progress: 99%"
-msgstr "區域程式碼: sk_SK. 翻譯進度: 100%"
+msgstr "區域程式碼: sk_SK. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'sl'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147152,9 +147117,8 @@ msgid "Slovenian - Slovenščina"
 msgstr "斯洛維尼亞語 - Slovenščina"
 
 #. :src: bpy.types.PreferencesView.language:'sl'
-#, fuzzy
 msgid "Locale code: sl. Translation progress: 52%"
-msgstr "區域程式碼: sl. 翻譯進度: 53%"
+msgstr "區域程式碼: sl. 翻譯進度: 52%"
 
 #. :src: bpy.types.PreferencesView.language:'es'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147162,9 +147126,8 @@ msgid "Spanish - Español"
 msgstr "西班牙語 - Español"
 
 #. :src: bpy.types.PreferencesView.language:'es'
-#, fuzzy
 msgid "Locale code: es. Translation progress: 99%"
-msgstr "區域程式碼: ka. 翻譯進度: 99%"
+msgstr "區域程式碼: es. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'sw'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147181,9 +147144,8 @@ msgid "Swedish - Svenska"
 msgstr "瑞典語 - Svenska"
 
 #. :src: bpy.types.PreferencesView.language:'sv_SE'
-#, fuzzy
 msgid "Locale code: sv_SE. Translation progress: 99%"
-msgstr "區域程式碼: sv_SE. 翻譯進度: 100%"
+msgstr "區域程式碼: sv_SE. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147191,9 +147153,8 @@ msgid "Tamil - தமிழ்"
 msgstr "泰米爾語 - தமிழ்"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
-#, fuzzy
 msgid "Locale code: ta. Translation progress: 93%"
-msgstr "區域程式碼: ta. 翻譯進度: 94%"
+msgstr "區域程式碼: ta. 翻譯進度: 93%"
 
 #. :src: bpy.types.PreferencesView.language:'th_TH'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147210,9 +147171,8 @@ msgid "Turkish - Türkçe"
 msgstr "土耳其語 - Türkçe"
 
 #. :src: bpy.types.PreferencesView.language:'tr_TR'
-#, fuzzy
 msgid "Locale code: tr_TR. Translation progress: 73%"
-msgstr "區域程式碼: tr_TR. 翻譯進度: 74%"
+msgstr "區域程式碼: tr_TR. 翻譯進度: 73%"
 
 #. :src: bpy.types.PreferencesView.language:'uk_UA'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147220,9 +147180,8 @@ msgid "Ukrainian - Українська"
 msgstr "烏克蘭語 - Українська"
 
 #. :src: bpy.types.PreferencesView.language:'uk_UA'
-#, fuzzy
 msgid "Locale code: uk_UA. Translation progress: 53%"
-msgstr "區域程式碼: uk_UA. 翻譯進度: 54%"
+msgstr "區域程式碼: uk_UA. 翻譯進度: 53%"
 
 #. :src: bpy.types.PreferencesView.language:'ur'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147230,9 +147189,8 @@ msgid "Urdu - وُدرُا"
 msgstr "烏爾都語 - وُدرُا"
 
 #. :src: bpy.types.PreferencesView.language:'ur'
-#, fuzzy
 msgid "Locale code: ur. Translation progress: 80%"
-msgstr "區域程式碼: ur. 翻譯進度: 81%"
+msgstr "區域程式碼: ur. 翻譯進度: 80%"
 
 #. :src: bpy.types.PreferencesView.language:'vi_VN'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147240,9 +147198,8 @@ msgid "Vietnamese - Tiếng Việt"
 msgstr "越南語 - Tiếng Việt"
 
 #. :src: bpy.types.PreferencesView.language:'vi_VN'
-#, fuzzy
 msgid "Locale code: vi_VN. Translation progress: 99%"
-msgstr "區域程式碼: vi_VN. 翻譯進度: 94%"
+msgstr "區域程式碼: vi_VN. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.lookdev_sphere_size
 msgid "Reference Sphere Size"
@@ -158551,13 +158508,13 @@ msgstr "在序列中用於拖拽操作的完整播放範圍區塊"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_transform_preview
 msgid "Preview Edit Point"
-msgstr ""
+msgstr "預覽編輯點"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_transform_preview
 msgid ""
 "While editing in the timeline, show the affected frame instead of the "
 "current frame, such as in the blade tool, or when tweaking handles"
-msgstr ""
+msgstr "在時間軸上進行編輯時，顯示受影響的幀而非當前幀，例如在刀片工具中，或者調整控制柄時"
 
 #. :src: bpy.types.SpaceSequenceEditor.use_clamp_view
 msgid "Limit View to Contents"
@@ -165711,7 +165668,7 @@ msgstr "啟用資產庫"
 msgid ""
 "Identifier of the extension defining this asset library (repository module "
 "and package ID), empty for user defined libraries"
-msgstr ""
+msgstr "定義此資產庫的擴充套件的識別符號（儲存庫模組和包 ID），對於使用者自定義庫，此欄位為空"
 
 #. :src: bpy.types.UserAssetLibrary.import_method
 msgid ""
@@ -165811,9 +165768,8 @@ msgid "URL"
 msgstr "URL"
 
 #. :src: bpy.types.UserExtensionRepo.show_expanded
-#, fuzzy
 msgid "Show the asset libraries of this repository in the preferences"
-msgstr "顯示由偏好設定指定的資產庫中的資產"
+msgstr "在偏好設定中顯示此儲存庫的資產庫"
 
 #. :src: bpy.types.UserExtensionRepo.source
 msgid ""
@@ -165830,13 +165786,13 @@ msgstr "系統提供的只讀儲存庫"
 
 #. :src: bpy.types.UserExtensionRepo.use_access_token_for_asset_libraries
 msgid "Access Token for Asset Libraries"
-msgstr ""
+msgstr "資產庫的訪問令牌"
 
 #. :src: bpy.types.UserExtensionRepo.use_access_token_for_asset_libraries
 msgid ""
 "Asset libraries installed from this repository use its access token (cached "
 "from the repository listing when syncing)"
-msgstr ""
+msgstr "從該儲存庫安裝的資產庫會使用其訪問令牌（在同步時從儲存庫列表中快取的）"
 
 #. :src: bpy.types.UserExtensionRepo.use_cache
 msgid "Clean Files After Install"
@@ -172086,7 +172042,6 @@ msgid "Clamp Strips"
 msgstr "鉗制片段"
 
 #. :src: KM_HIERARCHY.EMPTY:'STRIP_OVERLAP_SHUFFLE'
-#, fuzzy
 msgctxt "WindowManager"
 msgid "Shuffle"
 msgstr "挪位"
@@ -172094,10 +172049,9 @@ msgstr "挪位"
 #. :src: KM_HIERARCHY.EMPTY:'STRIP_OVERLAP_RIPPLE'
 msgctxt "WindowManager"
 msgid "Ripple"
-msgstr ""
+msgstr "波紋"
 
 #. :src: KM_HIERARCHY.EMPTY:'STRIP_OVERLAP_OVERWRITE'
-#, fuzzy
 msgctxt "WindowManager"
 msgid "Overwrite"
 msgstr "覆蓋"
@@ -172293,9 +172247,8 @@ msgid "Enable Add-on"
 msgstr "啟用外掛"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:65
-#, fuzzy
 msgid "Enable Asset Library"
-msgstr "本地資產庫"
+msgstr "啟用資產庫"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:66
 msgid "Set Current Theme"
@@ -172447,11 +172400,11 @@ msgstr "鎖定未固定！"
 
 #. :src: scripts/addons_core/bl_pkg/bl_extension_ops.py:4434
 msgid "Repository \"{:s}\" not found or disabled"
-msgstr ""
+msgstr "儲存庫 \"{:s}\" 未找到或不可用"
 
 #. :src: scripts/addons_core/bl_pkg/bl_extension_ops.py:4442
 msgid "Extension \"{:s}\" not installed"
-msgstr ""
+msgstr "擴充套件 \"{:s}\" 未安裝"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:1628
 msgid "Command interrupted"
@@ -172531,9 +172484,8 @@ msgid "Unable to install from disk, no paths were defined"
 msgstr "無法從磁碟安裝, 未定義路徑"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:3734
-#, fuzzy
 msgid "Asset Library \"{:s}\" is already installed!"
-msgstr "主題 \"{:s}\" 已經安裝過！"
+msgstr "資產庫 \"{:s}\" 已經安裝過！"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:2171
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:2269
@@ -172575,9 +172527,8 @@ msgid "Theme \"{:s}\" is already installed!"
 msgstr "主題 \"{:s}\" 已經安裝過！"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:3738
-#, fuzzy
 msgid "Extension \"{:s}\" is already installed!"
-msgstr "外掛 \"{:s}\" 已經安裝過！"
+msgstr "擴充套件 \"{:s}\" 已經安裝過！"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:2272
 msgid "Age: {:s}"
@@ -173533,7 +173484,7 @@ msgstr "貢獻"
 msgid ""
 "Requires NVIDIA GPU with compute capability %s and NVIDIA driver version %s "
 "or newer."
-msgstr ""
+msgstr "需要配備計算能力為 %s 的 NVIDIA GPU 以及 NVIDIA 驅動程式版本 %s 或更高版本。"
 
 #: scripts/addons_core/hydra_storm/ui.py:83
 #: scripts/addons_core/hydra_storm/ui.py:100
@@ -179981,10 +179932,9 @@ msgstr "重新整理遠端列表"
 
 #: scripts/startup/bl_ui/space_filebrowser.py:755
 #: scripts/startup/bl_ui/space_filebrowser.py:768
-#, fuzzy
 msgctxt "Operator"
 msgid "Rename Asset..."
-msgstr "重新命名..."
+msgstr "重新命名資產..."
 
 #: scripts/startup/bl_ui/space_filebrowser.py:788
 msgid "When Linking"
@@ -180082,10 +180032,9 @@ msgid "No active asset"
 msgstr "無活動資產"
 
 #: scripts/startup/bl_ui/space_filebrowser.py:1001
-#, fuzzy
 msgctxt "Operator"
 msgid "View Extension..."
-msgstr "副檔名"
+msgstr "檢視擴充套件..."
 
 #: scripts/startup/bl_ui/space_filebrowser.py:837
 #: scripts/startup/bl_ui/space_filebrowser.py:852
@@ -182144,7 +182093,7 @@ msgstr ""
 #. :src: scripts/startup/bl_ui/space_topbar.py:458
 msgctxt "Operator"
 msgid "OpenTimelineIO (.otio)"
-msgstr ""
+msgstr "OpenTimelineIO (.otio)"
 
 #: scripts/startup/bl_ui/space_topbar.py:522
 msgctxt "Operator"
@@ -185610,15 +185559,15 @@ msgstr "寫入到資產庫失敗"
 
 #. :src: source/blender/blenkernel/intern/asset_edit.cc:390
 msgid "Asset is not from an editable .asset.blend file."
-msgstr ""
+msgstr "該資產並非來自可編輯的 .asset.blend 檔案。"
 
 #. :src: source/blender/blenkernel/intern/asset_edit.cc:394
 msgid "Asset is not from a writable .asset.blend file."
-msgstr ""
+msgstr "該資產並非來自可寫入的 .asset.blend 檔案。"
 
 #. :src: source/blender/blenkernel/intern/asset_edit.cc:412
 msgid "Asset name was not changed."
-msgstr ""
+msgstr "資產名稱未更改。"
 
 #: source/blender/blenkernel/intern/asset_edit.cc:471
 msgid "Failed to delete asset library file"
@@ -185635,11 +185584,11 @@ msgstr "已儲存 \"%s\""
 
 #. :src: source/blender/blenkernel/intern/asset_edit.cc:437
 msgid "Could not remove old asset file: %s"
-msgstr ""
+msgstr "無法移除舊資產名：%s"
 
 #. :src: source/blender/blenkernel/intern/asset_edit.cc:453
 msgid "Asset '%s' was renamed to '%s'."
-msgstr ""
+msgstr "資產 '%s' 已重新命名為 '%s'。"
 
 #: source/blender/blenkernel/intern/attribute.cc:222
 msgid "Unable to create attribute in edit mode"
@@ -189035,18 +188984,16 @@ msgid "None of the selected assets requires downloading"
 msgstr "所選資產均無需下載"
 
 #: source/blender/editors/asset/intern/asset_ops.cc:1843
-#, fuzzy
 msgid "No selected asset."
-msgstr "無選中資產"
+msgstr "無選中資產。"
 
 #. :src: source/blender/editors/asset/intern/asset_ops.cc:1847
 msgid "Asset is local to this file and can be renamed directly."
-msgstr ""
+msgstr "該資產屬於此檔案，可直接重新命名。"
 
 #: source/blender/editors/asset/intern/asset_ops.cc:1851
-#, fuzzy
 msgid "Asset cannot be modified from this file."
-msgstr "無法從此檔案修改資產"
+msgstr "無法從此檔案修改資產。"
 
 #: source/blender/editors/asset/intern/asset_shelf.cc:840
 msgid "Enable catalog, making contained assets visible in the asset shelf"
@@ -189134,7 +189081,7 @@ msgstr "包含線上基礎庫"
 #. :src:
 #. source/blender/editors/asset/intern/custom_asset_library_list_ui.cc:102
 msgid "Defined by the extension repository"
-msgstr ""
+msgstr "由擴充套件儲存庫定義"
 
 #: source/blender/editors/curve/editcurve.cc:1474
 msgid "No point was selected"
@@ -191381,9 +191328,8 @@ msgid "Select a file..."
 msgstr "選擇一個檔案..."
 
 #: source/blender/editors/interface/templates/interface_template_operator_property.cc:406
-#, fuzzy
 msgid "Import to Collection"
-msgstr "移動至集合"
+msgstr "匯入至集合"
 
 #: source/blender/editors/interface/templates/interface_template_operator_property.cc:169
 msgid "Reset operator defaults"
@@ -191678,20 +191624,19 @@ msgstr "檔案匯出成功"
 
 #. :src: source/blender/editors/io/io_otio_ops.cc:188
 msgid "Imported OTIO timeline into scene '%s'"
-msgstr ""
+msgstr "已將 OTIO 時間線匯入場景 '%s'"
 
 #. :src: source/blender/editors/io/io_otio_ops.cc:71
 msgid "No sequencer scene found"
-msgstr ""
+msgstr "未找到序列場景"
 
 #: source/blender/editors/io/io_otio_ops.cc:109
-#, fuzzy
 msgid "No sequencer scene"
-msgstr "新建序列場景"
+msgstr "無序列場景"
 
 #. :src: source/blender/editors/io/io_otio_ops.cc:113
 msgid "Sequencer scene has no strips"
-msgstr ""
+msgstr "序列場景不含片段"
 
 #: source/blender/editors/io/io_ply_ops.cc:129
 #: source/blender/editors/io/io_stl_ops.cc:104
@@ -192805,9 +192750,8 @@ msgid "No file handlers available"
 msgstr "沒有可用的檔案控制代碼"
 
 #: source/blender/editors/object/object_collection.cc:459
-#, fuzzy
 msgid "Could not find an active collection"
-msgstr "無法新增節點集合"
+msgstr "找不到活動集合"
 
 #: source/blender/editors/object/object_collection.cc:466
 msgid "Collection needs to be empty"
@@ -192833,7 +192777,7 @@ msgstr "活動物體未包含任何集合"
 
 #. :src: source/blender/editors/object/object_collection.cc:545
 msgid "The active collection already has another importer"
-msgstr ""
+msgstr "活動集合中已有一個匯入器"
 
 #: source/blender/editors/object/object_collection.cc:782
 msgid "No filepath set"
@@ -192865,7 +192809,7 @@ msgstr "未找到檔案控制代碼運算子 '%s'"
 
 #. :src: source/blender/editors/object/object_collection.cc:565
 msgid "Could not add an importer to the active collection '%s'"
-msgstr ""
+msgstr "無法將匯入器新增到活動集合 '%s' 中"
 
 #: source/blender/editors/object/object_collection.cc:790
 #: source/blender/editors/object/object_collection.cc:1225
@@ -192878,7 +192822,7 @@ msgstr "集合 '%s' 已經從 '%s' 匯入"
 
 #. :src: source/blender/editors/object/object_collection.cc:849
 msgid "No objects were imported from '%s'"
-msgstr ""
+msgstr "未從 '%s' 匯入任何物體"
 
 #: source/blender/editors/object/object_collection.cc:909
 msgid "Imported '%s'"
@@ -192906,7 +192850,6 @@ msgid "Cannot remove an object from the collection. %s"
 msgstr "無法從集合中移除物體。%s"
 
 #: source/blender/editors/object/object_collection.cc:477
-#, fuzzy
 msgid "filepath"
 msgstr "檔案路徑"
 
@@ -195861,11 +195804,10 @@ msgid "Catalog is already placed inside this catalog"
 msgstr "分類準備替換內部的分類"
 
 #: source/blender/editors/space_file/asset_catalog_tree_view.cc:595
-#, fuzzy
 msgid ""
 "Only assets from the current file or asset system files (.asset.blend) can "
 "be moved between catalogs"
-msgstr "只有來自當前檔案中的資產才能在目錄之間移動"
+msgstr "只有當前檔案或資產系統檔案（.asset.blend）中的資產才能在不同目錄之間移動"
 
 #: source/blender/editors/space_file/asset_catalog_tree_view.cc:605
 msgid "Catalogs cannot be edited in this asset library"
@@ -198662,7 +198604,7 @@ msgstr "片段需要兩個輸入來交換"
 #. :src: source/blender/editors/space_sequencer/sequencer_edit.cc:1922
 #. :src: source/blender/editors/space_sequencer/sequencer_edit.cc:2190
 msgid "No selected strips to split"
-msgstr ""
+msgstr "沒有選中的片段可拆分"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.cc:3916
 msgid "Please select two strips"
@@ -199006,7 +198948,7 @@ msgstr "遠端資產庫"
 #. :src:
 #. source/blender/editors/space_userpref/userpref_asset_libraries_list.cc:310
 msgid "Edit Project asset libraries in Project Settings."
-msgstr ""
+msgstr "在專案設定中編輯專案資產庫。"
 
 #: source/blender/editors/space_userpref/userpref_ops.cc:200
 msgid "Add Asset Library"
@@ -199040,7 +198982,7 @@ msgstr "移除儲存庫"
 msgid ""
 "Asset libraries defined by an extension are removed by uninstalling the "
 "extension"
-msgstr ""
+msgstr "透過解除安裝擴充套件，將刪除該擴充套件定義的資產庫"
 
 #: source/blender/editors/space_userpref/userpref_ops.cc:839
 msgid "Unable to remove files for \"System\" repositories"
@@ -199836,7 +199778,7 @@ msgstr "“旋轉法線”僅在網格編輯模式下受支援"
 
 #. :src: source/blender/editors/transform/transform_mode_edge_seq_slide.cc:78
 msgid "Sequence Slide: %s%s | Overlap: %s"
-msgstr ""
+msgstr "序列滑移: %s%s | 重疊: %s"
 
 #. :src: source/blender/editors/transform/transform_mode_edge_seq_slide.cc:87
 msgid " | Insert: %s"
@@ -200254,7 +200196,7 @@ msgstr "斷離僅與頂點/邊選擇的同步選擇相容"
 
 #. :src: source/blender/editors/uvedit/uvedit_rip.cc:979
 msgid "No UVs to rip"
-msgstr ""
+msgstr "無UV可斷開"
 
 #: source/blender/editors/uvedit/uvedit_select.cc:1669
 msgid "Pinned vertices can be selected in Vertex Mode only"
@@ -200617,44 +200559,43 @@ msgstr "SVG有漸變效果，蠟筆的顏色將會近似取值"
 
 #. :src: source/blender/io/otio/exporter/otio_export.cc:341
 msgid "Strip '%s' was not exported, its type is currently unsupported"
-msgstr ""
+msgstr "片段 '%s' 未被匯出，其型別目前不被支援"
 
 #. :src: source/blender/io/otio/exporter/otio_export.cc:446
 msgid ""
 "Transition strip '%s' was not exported, its inputs must be on the same "
 "channel"
-msgstr ""
+msgstr "過渡片段 '%s' 未被匯出，其輸入必須位於同一通道上"
 
 #: source/blender/io/otio/exporter/otio_export.cc:605
-#, fuzzy
 msgid "Failed to write OTIO file '%s'"
-msgstr "未能寫入 blend 檔案: %s"
+msgstr "未能寫入 OTIO 檔案 '%s'"
 
 #. :src: source/blender/io/otio/exporter/otio_export.cc:612
 msgid "%d scene strip(s) found, this is currently unsupported"
-msgstr ""
+msgstr "找到 %d 個場景片段，目前尚不支援"
 
 #. :src: source/blender/io/otio/exporter/otio_export.cc:618
 msgid ""
 "%d image sequence(s) with non-sequential filenames found, this is currently "
 "unsupported"
-msgstr ""
+msgstr "發現 %d 個檔名不按順序排列的影象序列，目前尚不支援"
 
 #. :src: source/blender/io/otio/importer/otio_import.cc:550
 msgid "OTIO Import"
-msgstr ""
+msgstr "OTIO 匯入"
 
 #. :src: source/blender/io/otio/importer/otio_import.cc:287
 msgid "Clip '%s' was not imported, its media is not supported"
-msgstr ""
+msgstr "未匯入剪輯 '%s'，其媒體格式不受支援"
 
 #. :src: source/blender/io/otio/importer/otio_import.cc:477
 msgid "Effect '%s' was not imported, its inputs are missing"
-msgstr ""
+msgstr "未匯入效果 '%s'，其輸入引數缺失"
 
 #. :src: source/blender/io/otio/importer/otio_import.cc:567
 msgid "Failed to read OTIO timeline '%s'"
-msgstr ""
+msgstr "未能讀取 OTIO 時間線 '%s'"
 
 #: source/blender/io/ply/exporter/ply_export.cc:51
 msgid "PLY Export: Unable to find collection '%s'"
@@ -201769,7 +201710,7 @@ msgstr "僅在使用角度彎曲彈性時適用。"
 
 #. :src: source/blender/makesrna/intern/rna_collection.cc:647
 msgid "Path of imported external data cannot be edited"
-msgstr ""
+msgstr "無法編輯匯入的外部資料路徑"
 
 #: source/blender/makesrna/intern/rna_collection.cc:111
 #: source/blender/makesrna/intern/rna_collection.cc:116
@@ -203074,7 +203015,7 @@ msgstr "未找到指令碼目錄"
 
 #. :src: source/blender/makesrna/intern/rna_userdef.cc:833
 msgid "Extension defined asset libraries require a remote URL"
-msgstr ""
+msgstr "由擴充套件定義的資產庫需要一個遠端 URL"
 
 #: source/blender/makesrna/intern/rna_userdef.cc:933
 msgid "Extension repository not found"
@@ -206784,9 +206725,8 @@ msgstr "靜置姿態"
 
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:103
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:47
-#, fuzzy
 msgid "Radius Tail"
-msgstr "半徑縮放"
+msgstr "半徑 尾端"
 
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:182
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:251
@@ -206838,15 +206778,15 @@ msgstr "骨骼是否存在於骨架中"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:44
 msgid "Original envelope distance to the bone"
-msgstr ""
+msgstr "骨骼的原始封套距離"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:46
 msgid "Original radius of the head of the bone"
-msgstr ""
+msgstr "骨骼頭部的原始半徑"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:48
 msgid "Original radius of the tail of the bone"
-msgstr ""
+msgstr "骨骼尾部的原始半徑"
 
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:53
 msgid "Armature object to retrieve the bone information from"
@@ -207022,20 +206962,19 @@ msgid "List with one element per item"
 msgstr "每項包含一個元素的列表"
 
 #: source/blender/nodes/geometry/nodes/node_geo_construct_curves.cc:25
-#, fuzzy
 msgid "Positions"
 msgstr "位置"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_construct_curves.cc:28
 msgid "A list of the point positions in all curves"
-msgstr ""
+msgstr "所有曲線中各點位置的列表"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_construct_curves.cc:32
 msgid ""
 "A list with a size one larger than the number of curves storing the first "
 "point index of each curve and a final value for the total number of points. "
 "This is a prefix sum of the curve sizes"
-msgstr ""
+msgstr "一個列表，其大小比曲線數量多 1，其中儲存了每條曲線的第一個點索引號以及總點數的最終值。這是曲線大小的字首和"
 
 #: source/blender/nodes/geometry/nodes/node_geo_convex_hull.cc:279
 msgid "Disabled, Blender was compiled without Bullet"
@@ -207891,12 +207830,10 @@ msgid "Implicit type conversion when evaluating closure"
 msgstr "分離閉包時隱式型別轉換"
 
 #: source/blender/nodes/geometry/nodes/node_geo_evaluate_closure.cc:517
-#, fuzzy
 msgid "Closure not have output: \"{}\""
 msgstr "閉包不含輸出: \"{}\""
 
 #: source/blender/nodes/geometry/nodes/node_geo_evaluate_closure.cc:535
-#, fuzzy
 msgid "Closure not have input: \"{}\""
 msgstr "閉包不含輸入: \"{}\""
 
@@ -208131,11 +208068,11 @@ msgstr "該幾何體是否包含此類元件。此檢查不驗證該元件是否
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_get_grid_names.cc:15
 msgid "Volume to list the grid names of"
-msgstr ""
+msgstr "要列出柵格名稱的體積"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_get_grid_names.cc:18
 msgid "Names of all grids stored in the volume"
-msgstr ""
+msgstr "儲存在體積中的所有柵格的名稱"
 
 #: source/blender/nodes/geometry/nodes/node_geo_get_named_grid.cc:22
 msgid "Volume to take a named grid out of"
@@ -210269,9 +210206,8 @@ msgid "Instances to scale individually"
 msgstr "要獨立縮放的例項"
 
 #: source/blender/nodes/geometry/nodes/node_geo_sdf_grid_boolean.cc:164
-#, fuzzy
 msgid "OpenVDB error"
-msgstr "OpenVDB錯誤: {}"
+msgstr "OpenVDB錯誤"
 
 #: source/blender/nodes/geometry/nodes/node_geo_sdf_grid_offset.cc:23
 msgid "Object-space distance to offset the SDF surface"
