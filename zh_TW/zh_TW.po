@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-13 08:12+0000\n"
+"PO-Revision-Date: 2026-10-13 18:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -128490,7 +128490,7 @@ msgid ""
 "How to resolve overlap with existing strips. If unset, fallback to the "
 "overlap mode from the tool settings, but shuffle vertically instead of "
 "horizontally"
-msgstr "如何處理與現有片段的重疊問題。如果未設定，則採用工具設定中的重疊模式，但垂直而非水平地重新排列"
+msgstr "如何處理與現有片段的重疊。如果未設定，則採用工具設定中的重疊模式，但垂直而非水平地重新排列"
 
 #. :src:
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.overlap_mode:'RIPPLE'
