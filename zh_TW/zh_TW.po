@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-13 18:12+0000\n"
+"PO-Revision-Date: 2026-10-14 09:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -110259,7 +110259,7 @@ msgstr "猜測原始繫結姿態"
 msgid ""
 "Try to guess the original bind pose for skinned meshes from the inverse bind"
 " matrices. When off, use default/rest pose as bind pose"
-msgstr "嘗試從逆繫結矩陣中猜測蒙皮網格的原始繫結姿勢。當關閉時，使用預設/靜置姿態作為繫結姿勢"
+msgstr "嘗試從逆繫結矩陣中猜測蒙皮網格的原始繫結姿態。當關閉時，使用預設/靜置姿態作為繫結姿態"
 
 #. :src: bpy.types.IMPORT_SCENE_OT_gltf.import_merge_material_slots
 msgid "Merge Material Slot when possible"
@@ -118131,7 +118131,7 @@ msgstr "矯正平滑繫結"
 
 #. :src: bpy.types.OBJECT_OT_correctivesmooth_bind
 msgid "Bind base pose in Corrective Smooth modifier"
-msgstr "在矯正平滑修改器中繫結基礎姿勢"
+msgstr "在矯正平滑修改器中繫結基礎姿態"
 
 #. :src: bpy.types.OBJECT_OT_correctivesmooth_bind.modifier
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.modifier
@@ -129746,7 +129746,7 @@ msgstr "波紋修剪片段"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim
 msgid "Trim strips to the current frame and close the gaps left behind"
-msgstr "將片段裁剪至當前幀，並填補留下的縫隙"
+msgstr "將片段修剪至當前幀，並填補留下的縫隙"
 
 #. :src: bpy.types.SEQUENCER_OT_ripple_trim.side
 msgid "The side of the strips to trim to the current frame"
