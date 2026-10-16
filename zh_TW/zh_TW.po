@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-15 14:12+0000\n"
+"PO-Revision-Date: 2026-10-16 06:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -88342,7 +88342,7 @@ msgid ""
 "Bake node or simulation output node that corresponds to this bake. This node"
 " may be deeply nested in the modifier node group. It can be none in some "
 "cases like missing linked data blocks."
-msgstr "烘焙對應此烘焙結果的節點或者模擬輸出節點。這個節點可以深度嵌入修改器節點組。在一些類似丟失關聯資料塊的情況下烘焙結果可能為空。"
+msgstr "與該烘焙操作對應的烘焙節點或模擬輸出節點。該節點可能深嵌在修改器節點組中。在某些例如缺失關聯資料塊的情況下，節點可能為空。"
 
 #. :src: bpy.types.NodesModifierBake.use_custom_path
 #: source/blender/nodes/geometry/nodes/node_geo_bake.cc:703
@@ -127317,7 +127317,7 @@ msgid ""
 "Maximum number of vertices in the mesh for using geodesic falloff when "
 "moving the origin of expand. If the total number of vertices is greater than"
 " this value, the falloff will be set to spherical when moving"
-msgstr "在移動擴充套件的原點時，用於使用測地線衰減的網格中頂點的最大數量。如果頂點的總數大於該值，則移動時衰減將設定為球面"
+msgstr "在移動擴充套件的原點時，使用測地線衰減的網格頂點最大數量。如果頂點總數大於該值，則移動時衰減將設定為球面"
 
 #. :src: bpy.types.SCULPT_OT_expand.normal_falloff_smooth
 msgid "Normal Smooth"
