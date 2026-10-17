@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-17 11:12+0000\n"
+"PO-Revision-Date: 2026-10-17 18:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -201034,7 +201034,7 @@ msgstr "%s: 骨架 %s 的骨骼和關節數不匹配"
 
 #: source/blender/io/usd/intern/usd_skel_convert.cc:832
 msgid "%s: Mismatch in bind xforms and joint counts for skeleton %s"
-msgstr "%s: 繫結 xform和骨架 %s 的關節數不匹配"
+msgstr "%s: 繫結 xform 和骨架 %s 的關節數不匹配"
 
 #: source/blender/io/usd/intern/usd_skel_convert.cc:881
 msgid ""
@@ -201098,7 +201098,7 @@ msgstr "無法在同一曲線物件中匯出混合閉環和非閉環曲線"
 #: source/blender/io/usd/intern/usd_writer_pointinstancer.cc:552
 #: source/blender/io/usd/intern/usd_writer_points.cc:83
 msgid "Attribute '%s' (Blender domain %d, type %d) cannot be converted to USD"
-msgstr "屬性 '%s' (Blender域 %d, 型別 %d) 無法轉換到 USD"
+msgstr "屬性 '%s' (Blender 域 %d, 型別 %d) 無法轉換到 USD"
 
 #: source/blender/io/usd/intern/usd_writer_curves.cc:609
 msgid ""
