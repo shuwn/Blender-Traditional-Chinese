@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-16 06:12+0000\n"
+"PO-Revision-Date: 2026-10-17 11:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -47868,8 +47868,7 @@ msgid ""
 "True if this library contains library overrides that are linked in current "
 "blend-file, and that had to be recursively resynced on load (it is "
 "recommended to open and re-save that library blend-file then)"
-msgstr ""
-"如果此庫包含在當前 blend 檔案中連結的庫重寫，並且必須在載入時遞迴地重新同步（建議開啟並重新儲存該庫 blend 檔案），則為 True（真）"
+msgstr "如果此庫包含在當前 blend 檔案中關聯的庫重寫，且必須在載入時遞迴地重新同步（建議開啟並重新儲存該庫 blend 檔案），則為真"
 
 #. :src: bpy.types.Library.version
 msgid "Version of Blender the library .blend was saved with"
@@ -99236,7 +99235,7 @@ msgid ""
 "Set the direction of a scene axis by rotating the camera (or its parent if "
 "present). This assumes that the selected track lies on a real axis "
 "connecting it to the origin"
-msgstr "透過旋轉攝像機（或其父攝像機（如果存在））來設定場景軸的方向，假設選定軌跡位於將其連線到原點的真實軸上"
+msgstr "透過旋轉攝像機（或其父攝像機，如果存在）來設定場景軸的方向，假設選定軌跡位於將其連線到原點的真實軸上"
 
 #. :src: bpy.types.CLIP_OT_set_axis.axis
 msgid "Axis to use to align bundle along"
@@ -103724,7 +103723,7 @@ msgid ""
 "Keep original textures files if possible. WARNING: if you use more than one "
 "texture, where pbr standard requires only one, only one texture will be "
 "used. This can lead to unexpected results"
-msgstr "如果可能，保留原始紋理檔案。警告：如果您使用多個紋理，而 pbr 標準只需要一個紋理，則僅使用一個紋理。這可能導致意外的結果"
+msgstr "如果可能，保留原始紋理檔案。警告：如果使用了多個紋理，而 pbr 標準僅需要一個，則只會使用其中一個紋理。這可能會導致意外的結果"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_lights
 msgid "Punctual Lights"
@@ -103892,7 +103891,7 @@ msgid ""
 "pushed onto NLA tracks with the same name. When off, all the currently "
 "assigned actions become one glTF animation"
 msgstr ""
-"啟用該項後，如果多個動作被推到具有相同名稱的NLA軌道上，則它們將成為同一glTF動畫的一部分。禁用該項後，所有當前指定的動作將成為一個glTF動畫"
+"啟用該項後，如果將多個動作推入名稱相同的 NLA 軌道，它們將成為同一 glTF 動畫的一部分。禁用該項後，所有當前指定的動作將成為一個 glTF 動畫"
 
 #. :src:
 #. bpy.types.EXPORT_SCENE_OT_gltf.export_nla_strips_merged_animation_name
@@ -155583,7 +155582,7 @@ msgstr "保持"
 msgid ""
 "Snap to underlying strip content start and end in cases where the strip "
 "length extends beyond this range, producing holds"
-msgstr "片段長度超出內容起止範圍的情況下，對齊至底層內容的起始與結束點，從而產生 “保持” 效果"
+msgstr "片段長度超出內容起止範圍的情況下，吸附至底層內容的起始與結束點，從而產生 “保持” 效果"
 
 #. :src: bpy.types.SequencerToolSettings.snap_to_markers
 #. :src: bpy.types.ToolSettings.snap_playhead_element:'MARKER'
@@ -164687,7 +164686,7 @@ msgstr "秒步長"
 
 #. :src: bpy.types.ToolSettings.snap_playhead_second_step
 msgid "At which interval to snap to seconds"
-msgstr "捕捉到秒間隔"
+msgstr "吸附到秒間隔"
 
 #. :src: bpy.types.ToolSettings.snap_target
 #: scripts/startup/bl_ui/space_image.py:1069
@@ -201079,7 +201078,7 @@ msgid ""
 "%s to convert to a USD SkelRoot. This can be addressed by setting a root "
 "primitive in the export options"
 msgstr ""
-"%s: 無法為去皮的基元 %s 和骨架 %s 找到一個共同的 Xform 祖先以轉換為USD SkelRoot. "
+"%s: 無法為去皮的基元 %s 和骨架 %s 找到一個共同的 Xform 祖先以轉換為 USD SkelRoot. "
 "可以透過在匯出選項中設定根基元來解決這個問題"
 
 #: source/blender/io/usd/intern/usd_writer_curves.cc:118
