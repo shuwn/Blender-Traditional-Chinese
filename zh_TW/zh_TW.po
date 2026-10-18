@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-17 18:12+0000\n"
+"PO-Revision-Date: 2026-10-18 02:47+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -6420,7 +6420,7 @@ msgstr "Freestyle線條樣式"
 #. :src: bpy.types.FileAssetSelectIDFilter.experimental_filter_linestyle
 #. :src: bpy.types.FileSelectIDFilter.filter_linestyle
 msgid "Show Freestyle's Line Style data-blocks"
-msgstr "顯示Freestyle的線樣式資料塊"
+msgstr "顯示 Freestyle 的線條樣式資料塊"
 
 #. :src: bpy.types.AssetShelf.filter_mask
 #. :src: bpy.types.BlendData.masks
@@ -11368,7 +11368,7 @@ msgstr "Blend 檔案庫/連結資料相關操作的上下文資料. 目前僅作
 
 #. :src: bpy.types.BlendImportContext.options
 msgid "Options for this blendfile import operation"
-msgstr "此 blend檔案 匯入操作的選項"
+msgstr "此 blend 檔案匯入操作的選項"
 
 #. :src: bpy.types.BlendImportContext.options:'LINK'
 msgid "Only link data, instead of appending it"
@@ -11610,7 +11610,7 @@ msgstr "Blend檔案匯入上下文庫"
 msgid ""
 "Library (blend-file) reference in a BlendImportContext data. Currently only "
 "exposed as read-only data for the pre/post blend-import handlers"
-msgstr "Blend匯入上下文資料中的庫 (blend檔案) 引用，目前僅作為只讀資料公開給 預/後 blend匯入處理程式"
+msgstr "Blend 匯入上下文資料中的庫 (blend 檔案) 引用，目前僅作為只讀資料公開給預/後 blend 匯入處理程式"
 
 #. :src: bpy.types.BlenderProject
 msgid "Blender Project"
@@ -13648,7 +13648,7 @@ msgstr "該骨骼集合在 armature.collections_all 陣列中的編號。需注�
 msgid ""
 "This collection is owned by a local Armature, or was added via a library "
 "override in the current blend file"
-msgstr "此集合已由一個本地骨架擁有，或者經由當前blend檔案的庫重寫新增"
+msgstr "此集合已由一個本地骨架擁有，或者經由當前 blend 檔案的庫重寫新增"
 
 #. :src: bpy.types.BoneCollection.is_expanded
 msgid "This bone collection is expanded in the bone collections tree view"
@@ -13661,7 +13661,7 @@ msgstr "已本地覆蓋"
 #. :src: bpy.types.BoneCollection.is_local_override
 msgid ""
 "This collection was added via a library override in the current blend file"
-msgstr "此集合經由此blend檔案庫重寫新增"
+msgstr "此集合經由此 blend 檔案庫重寫新增"
 
 #. :src: bpy.types.BoneCollection.is_solo
 #. :src: bpy.types.NlaTrack.is_solo
@@ -88848,7 +88848,7 @@ msgstr "開啟檔案位置"
 
 #. :src: bpy.types.ASSET_OT_open_containing_blend_file
 msgid "Open the blend file that contains the active asset"
-msgstr "開啟包含活動資產的blend檔案"
+msgstr "開啟包含活動資產的 blend 檔案"
 
 #. :src: bpy.types.ASSET_OT_open_containing_blend_file
 msgctxt "Operator"
@@ -103695,7 +103695,7 @@ msgstr "Raw (已棄用)"
 #. :src:
 #. bpy.types.IMPORT_SCENE_OT_gltf.export_import_convert_lighting_mode:'RAW'
 msgid "Blender lighting strengths with no conversion"
-msgstr "無需轉換的Blender燈光強度"
+msgstr "無需轉換的 Blender 燈光強度"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_influence_nb
 msgid "Bone Influences"
@@ -110078,7 +110078,7 @@ msgstr "使其獨立化"
 #. :src: bpy.types.IMPORT_SCENE_OT_fbx.mtl_name_collision_mode:'MAKE_UNIQUE'
 #. :src: bpy.types.WM_OT_fbx_import.mtl_name_collision_mode:'MAKE_UNIQUE'
 msgid "Import each FBX material as a unique Blender material"
-msgstr "將每種FBX材質匯入為唯一的Blender材質"
+msgstr "將每種 FBX 材質匯入為唯一的 Blender 材質"
 
 #. :src:
 #. bpy.types.IMPORT_SCENE_OT_fbx.mtl_name_collision_mode:'REFERENCE_EXISTING'
@@ -126080,7 +126080,7 @@ msgstr "新增線寬修改器"
 msgid ""
 "Add a line thickness modifier to the line style associated with the active "
 "lineset"
-msgstr "給啟用的線條集新增一個線條寬度修改器"
+msgstr "為與活動線條集關聯的線條樣式新增線條寬度修改器"
 
 #. :src: bpy.types.SCENE_OT_move_compositor_effect_to_index
 msgctxt "Operator"
@@ -201194,7 +201194,7 @@ msgstr "不在全域性主資料庫中的資料塊無法重新命名"
 msgid ""
 "Cannot edit 'runtime' status of non-blendfile data-blocks, as they are by "
 "definition always runtime"
-msgstr "無法編輯非blend檔案資料塊的 'runtime'（執行時刻）狀態，因為根據定義，它們始終是執行時"
+msgstr "無法編輯非 blend 檔案資料塊的 'runtime'（執行時刻）狀態，因為根據定義，它們始終是執行時"
 
 #: source/blender/makesrna/intern/rna_ID.cc:1136
 msgid "%s is not compatible with the specified 'refresh' options"
