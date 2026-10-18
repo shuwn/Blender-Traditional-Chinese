@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 07:32+0000\n"
-"PO-Revision-Date: 2026-10-18 02:47+0000\n"
+"PO-Revision-Date: 2026-10-18 09:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -13993,7 +13993,7 @@ msgstr "具有平面偏移"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_rake_factor
 msgid "Has Rake Factor"
-msgstr "有傾斜係數"
+msgstr "有梳理係數"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_sculpt_plane
 msgid "Has Sculpt Plane"
@@ -14022,7 +14022,7 @@ msgstr "具有梢部圓度"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_topology_rake
 msgid "Has Topology Rake"
-msgstr "具有拓撲傾斜"
+msgstr "具有拓撲梳理"
 
 #. :src: bpy.types.BrushCapabilitiesVertexPaint
 #. :src: bpy.types.Brush.vertex_paint_capabilities
@@ -15868,7 +15868,7 @@ msgstr "使用穩定器"
 msgid ""
 "Draw lines with a delay to allow smooth strokes (press Shift key to override"
 " while drawing)"
-msgstr "延遲繪製線條以實現平滑的筆畫 (繪製時按住Shift鍵可關閉)"
+msgstr "延遲繪製線條以實現平滑的筆畫 (繪製時按住 Shift 鍵可關閉)"
 
 #. :src: bpy.types.BrushGpencilSettings.use_strength_pressure
 msgid "Use Pressure Strength"
@@ -19703,7 +19703,7 @@ msgstr "AgX Log"
 msgid ""
 "Log Encoding with Chroma inset and rotation of primaries, and with 25 Stops "
 "of Dynamic Range"
-msgstr "帶色度插入和原色旋轉的 Log 編碼，並且具有25個檔位的動態範圍"
+msgstr "採用色度嵌入和原色旋轉的對數編碼，以及25檔動態範圍"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Apple Log'
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Apple Log'
@@ -20654,7 +20654,7 @@ msgstr "Rec.2100-HLG"
 #. bpy.types.CompositorNodeConvertColorSpace.to_color_space:'Rec.2100-HLG'
 #. :src: Colorspace description from OCIO config
 msgid "Rec.2100-HLG 1000 nits peak display with reference white at 100 nits"
-msgstr "Rec.2100-HLG 1000尼特峰值顯示，參考白為100尼特"
+msgstr "Rec.2100-HLG 1000 尼特峰值顯示，參考白為 100 尼特"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Rec.2100-PQ'
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Rec.2100-PQ'
@@ -20676,7 +20676,7 @@ msgstr "Rec.2100-PQ"
 #. bpy.types.CompositorNodeConvertColorSpace.to_color_space:'Rec.2100-PQ'
 #. :src: Colorspace description from OCIO config
 msgid "Rec.2100-PQ 10000 nits peak display with reference white at 100 nits"
-msgstr "Rec.2100-PQ 10000尼特峰值顯示，參考白為100尼特"
+msgstr "Rec.2100-PQ 10000 尼特峰值顯示，參考白為 100 尼特"
 
 #. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Rec.709-A'
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Rec.709-A'
@@ -42902,7 +42902,7 @@ msgstr "沿平面法向投影頂點。"
 #: scripts/startup/bl_ui/properties_paint_common.py:1684
 #: scripts/startup/bl_ui/properties_paint_common.py:1732
 msgid "Rake"
-msgstr "變向"
+msgstr "梳理"
 
 #. :src: bpy.types.Brush.rake_factor
 msgid "How much grab will follow cursor rotation"
@@ -43394,7 +43394,7 @@ msgstr "筆刷頭部的X向縮放"
 
 #. :src: bpy.types.Brush.topology_rake_factor
 msgid "Topology Rake"
-msgstr "拓撲耙(Topology Rake)"
+msgstr "拓撲梳理"
 
 #. :src: bpy.types.Brush.topology_rake_factor
 msgid ""
@@ -51031,7 +51031,7 @@ msgstr "阻隔"
 msgid ""
 "Render objects as a holdout or matte, creating a hole in the image with zero"
 " alpha, to fill out in compositing with real footage or another render"
-msgstr "算繪物體作為阻隔或蒙版，在影象中建立alpha值為零的部分，在合成中用真實鏡頭或其他算繪來填充"
+msgstr "算繪物體作為阻隔或蒙版，在影象中建立 alpha 值為零的部分，在合成中用真實鏡頭或其他算繪來填充"
 
 #. :src: bpy.types.Object.is_shadow_catcher
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_shadow_catcher
@@ -60727,7 +60727,7 @@ msgstr "燈光組集合"
 
 #. :src: bpy.types.LineStyleAlphaModifiers
 msgid "Alpha modifiers for changing line alphas"
-msgstr "改變線條透明度的Alpha修改器"
+msgstr "改變線條透明度的 Alpha 修改器"
 
 #. :src: bpy.types.LineStyleColorModifiers
 msgid "Color modifiers for changing line colors"
@@ -60751,7 +60751,7 @@ msgstr "線條樣式 Alpha 修改器"
 
 #. :src: bpy.types.LineStyleAlphaModifier
 msgid "Base type to define alpha transparency modifiers"
-msgstr "用於定義Alpha透明度修改器的基本型別"
+msgstr "用於定義 Alpha 透明度修改器的基本型別"
 
 #. :src: bpy.types.LineStyleAlphaModifier.name
 #. :src: bpy.types.LineStyleColorModifier.name
@@ -61425,7 +61425,7 @@ msgstr "最小曲率"
 
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera
 msgid "Change alpha transparency based on the distance from the camera"
-msgstr "根據與攝像機的距離更改Alpha透明度"
+msgstr "根據與攝像機的距離更改 Alpha 透明度"
 
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.range_max
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.range_max
@@ -61469,7 +61469,7 @@ msgstr "對映所應用的輸入範圍的下界值"
 
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject
 msgid "Change alpha transparency based on the distance from an object"
-msgstr "根據與物體的距離更改Alpha透明度"
+msgstr "根據與物體的距離更改 Alpha 透明度"
 
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.target
 #. :src: bpy.types.LineStyleColorModifier_DistanceFromObject.target
@@ -61479,7 +61479,7 @@ msgstr "度量距離的目標物體"
 
 #. :src: bpy.types.LineStyleAlphaModifier_Material
 msgid "Change alpha transparency based on a material attribute"
-msgstr "根據材質屬性更改Alpha透明度"
+msgstr "根據材質屬性更改 Alpha 透明度"
 
 #. :src: bpy.types.LineStyleAlphaModifier_Material.material_attribute
 #. :src: bpy.types.LineStyleColorModifier_Material.material_attribute
@@ -63640,7 +63640,7 @@ msgstr "自重疊"
 
 #. :src: bpy.types.MaterialGPencilStyle.use_overlap_strokes
 msgid "Disable stencil and overlap self intersections with alpha materials"
-msgstr "禁用帶alpha材質的鏤版與重疊自交錯"
+msgstr "禁用帶 alpha 材質的鏤版與重疊自交錯"
 
 #. :src: bpy.types.MaterialGPencilStyle.use_randomization
 msgid "Randomization"
@@ -85424,7 +85424,7 @@ msgstr "建立 Gabor 噪波"
 
 #. :src: bpy.types.ShaderNodeTexGabor.gabor_type
 msgid "The type of Gabor noise to evaluate"
-msgstr "Gabor噪波的計算型別"
+msgstr "Gabor 噪波的計算型別"
 
 #. :src: bpy.types.ShaderNodeTexGabor.gabor_type:'2D'
 #. :src: bpy.types.ShaderNodeTexNoise.noise_dimensions:'2D'
