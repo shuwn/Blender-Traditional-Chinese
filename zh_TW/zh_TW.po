@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-19 12:57+0000\n"
+"PO-Revision-Date: 2026-10-19 13:35+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -103424,7 +103424,7 @@ msgstr "對壓縮紋理使用 WebP 格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_compressed_images_type:'KTX2'
 msgid "Use KTX2 format with BasisU supercompression for compressed textures"
-msgstr ""
+msgstr "對壓縮紋理使用 KTX2 格式並啟用 BasisU 超級壓縮"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_convert_animation_pointer
 msgid "Convert TRS/Weights to Animation Pointer"
@@ -103716,14 +103716,13 @@ msgstr "匯出完整的層次結構，包括中間集合"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_image_add_compressed_images
 msgid "Create Compressed Images"
-msgstr ""
+msgstr "建立壓縮影象"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_image_add_compressed_images
-#, fuzzy
 msgid ""
 "Creates compressed textures (WebP or KTX2)for every texture. For already "
 "compressed textures, nothing happens"
-msgstr "為每個紋理建立WebP紋理，對於已經存在的WebP紋理，不作處理"
+msgstr "為每張紋理建立 WebP 或 KTX2 壓縮紋理。對於已經壓縮的紋理，不作處理"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_image_format
 msgid ""
@@ -103754,7 +103753,7 @@ msgstr "WebP格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_image_format:'WEBP'
 msgid "Save images as WebPs as main image (no fallback)"
-msgstr "將影象另存為WebP作為主影象（不可回退）"
+msgstr "將影象另存為WebP作為主影象（無後備格式）"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_image_format:'NONE'
 msgid "Don't export images"
@@ -103846,15 +103845,14 @@ msgid ""
 msgstr "如果可能，保留原始紋理檔案。警告：如果使用了多個紋理，而 pbr 標準僅需要一個，則只會使用其中一個紋理。這可能會導致意外的結果"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_ktx_zstd_level
-#, fuzzy
 msgid "Zstandard Compression Level"
-msgstr "壓縮級別"
+msgstr "Zstandard 壓縮級別"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_ktx_zstd_level
 msgid ""
 "Set the Zstandard compression level for (UASTC) non-color KTX2 textures (1 "
 "is fastest/lowest ratio, 22 is slowest/highest ratio)"
-msgstr ""
+msgstr "設定（UASTC）非彩色 KTX2 紋理的 Zstandard 壓縮級別（1 表示最快/壓縮率最低，22 表示最慢/壓縮率最高）"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_lights
 msgid "Punctual Lights"
@@ -104127,13 +104125,13 @@ msgstr "使用靜置位置作為靜止關節姿態匯出骨架。禁用時，當
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback
 msgid "Sampling Interpolation Fallback"
-msgstr "取樣插值回退"
+msgstr "取樣插值後備"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback
 msgid ""
 "Interpolation fallback for sampled animations, when the property is not "
 "keyed"
-msgstr "當屬性未設定關鍵影格時，取樣動畫的插值回退"
+msgstr "當屬性未設定關鍵影格時，取樣動畫的插值備用方案"
 
 #. :src:
 #. bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback:'LINEAR'
@@ -104222,11 +104220,11 @@ msgstr "使用 gltfpack 來精簡網格並壓縮其紋理"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_use_ktx_compression
 msgid "Zstandard Compression"
-msgstr ""
+msgstr "Zstandard 壓縮"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_use_ktx_compression
 msgid "Enable Zstandard compression for (UASTC) non-color KTX2 textures"
-msgstr ""
+msgstr "為（UASTC）非彩色 KTX2 紋理啟用 Zstandard 壓縮"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color
 msgid "Use Vertex Color"
@@ -110408,7 +110406,7 @@ msgstr "匯入KTX紋理"
 msgid ""
 "If a texture exists in KTX format, loads the KTX texture instead of the "
 "fallback PNG/JPEG one"
-msgstr "如果紋理以KTX格式存在，則載入KTX紋理，而不是回退的PNG/JPEG紋理"
+msgstr "如果紋理以KTX格式存在，則載入KTX紋理，而不是後備的PNG/JPEG紋理"
 
 #. :src: bpy.types.IMPORT_SCENE_OT_gltf.import_merge_material_slots
 msgid "Merge Material Slot when possible"
@@ -110488,7 +110486,7 @@ msgstr "匯入WebP紋理"
 msgid ""
 "If a texture exists in WebP format, loads the WebP texture instead of the "
 "fallback PNG/JPEG one"
-msgstr "如果紋理以WebP格式存在，則載入WebP紋理，而不是回退的PNG/JPEG紋理"
+msgstr "如果紋理以WebP格式存在，則載入WebP紋理，而不是後備的PNG/JPEG紋理"
 
 #. :src: bpy.types.IMPORT_SCENE_OT_gltf.merge_vertices
 msgid ""
@@ -176546,7 +176544,7 @@ msgstr "繼續"
 #: scripts/startup/bl_ui/space_view3d.py:6037
 msgctxt "Operator"
 msgid "Close"
-msgstr "閉合"
+msgstr "關閉"
 
 #: scripts/startup/bl_operators/wm.py:3591
 msgid "Project Files"
@@ -182688,9 +182686,8 @@ msgid "Default To"
 msgstr "預設至"
 
 #: scripts/startup/bl_ui/space_userpref.py:1910
-#, fuzzy
 msgid "Startup"
-msgstr "起始"
+msgstr "啟動時"
 
 #: scripts/startup/bl_ui/space_userpref.py:1924
 msgid "Show Locations"
@@ -192959,7 +192956,7 @@ msgstr "沒有可用的檔案控制代碼"
 
 #. :src: source/blender/editors/object/object_collection.cc:1446
 msgid "Apply and Make Local"
-msgstr ""
+msgstr "應用並本地化"
 
 #: source/blender/editors/object/object_collection.cc:1447
 msgid "Delete Collection Content"
@@ -192979,7 +192976,7 @@ msgstr "集合必須為空"
 
 #. :src: source/blender/editors/object/object_collection.cc:1482
 msgid "Importer Control"
-msgstr ""
+msgstr "匯入器控制"
 
 #: source/blender/editors/object/object_collection.cc:1507
 msgid "Add Exporter"
@@ -198584,9 +198581,8 @@ msgid "Built-In"
 msgstr "內建"
 
 #: source/blender/editors/space_project/project_ops.cc:60
-#, fuzzy
 msgid "Untitled Project"
-msgstr "投影切割"
+msgstr "未命名的專案"
 
 #. :src: source/blender/editors/space_project/project_ops.cc:51
 msgid "Invalid project root folder"
