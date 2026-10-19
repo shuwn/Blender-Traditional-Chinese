@@ -112,7 +112,7 @@
       "target": "網格",
       "status": "active",
       "note": "保留並追蹤現有正確用詞。",
-      "occurrences": 869,
+      "occurrences": 868,
       "samples": [
         {
           "file": "zh_HANS.po",
