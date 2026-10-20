@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-19 13:35+0000\n"
+"PO-Revision-Date: 2026-10-20 09:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -122856,7 +122856,7 @@ msgstr "顯示 / 隱藏一個層級"
 
 #. :src: bpy.types.OUTLINER_OT_show_one_level
 msgid "Expand/collapse all entries by one level"
-msgstr "展開 / 摺疊一個層級的所有專案"
+msgstr "將所有條目展開/摺疊一級"
 
 #. :src: bpy.types.OUTLINER_OT_show_one_level.open
 msgid "Expand all entries one level deep"
@@ -198602,7 +198602,7 @@ msgstr "未能將專案配置寫入 \"%s\""
 
 #. :src: source/blender/editors/space_project/project_ops.cc:137
 msgid "Folder '%s' does not belong to a project"
-msgstr "資料夾 '%s' 不從屬於專案"
+msgstr "資料夾 '%s' 不屬於任何專案"
 
 #. :src: source/blender/editors/space_project/project_ops.cc:151
 #. :src: source/blender/windowmanager/intern/wm_files.cc:1174
