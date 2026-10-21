@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-20 09:12+0000\n"
+"PO-Revision-Date: 2026-10-21 05:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -47258,7 +47258,7 @@ msgstr "FFmpeg 影片"
 
 #. :src: bpy.types.Image.filepath
 msgid "Image/Movie file name"
-msgstr "影象 / 影片的檔名稱"
+msgstr "影象/影片的檔名稱"
 
 #. :src: bpy.types.Image.filepath_raw
 msgid "Image/Movie file name (without data refreshing)"
@@ -53685,7 +53685,7 @@ msgstr "使用了子幀和時間重對映的當前幀"
 
 #. :src: bpy.types.Scene.frame_end
 msgid "Final frame of the playback/rendering range"
-msgstr "回放 / 算繪區間的結束幀"
+msgstr "回放/算繪區間的結束幀"
 
 #. :src: bpy.types.Scene.frame_float
 #. :src: bpy.types.Scene.frame_subframe
@@ -53710,7 +53710,7 @@ msgstr "使用者介面中可選的回放起始幀"
 
 #. :src: bpy.types.Scene.frame_start
 msgid "First frame of the playback/rendering range"
-msgstr "回放 / 算繪的區間起始幀"
+msgstr "回放/算繪區間的起始幀"
 
 #. :src: bpy.types.Scene.frame_step
 msgid ""
