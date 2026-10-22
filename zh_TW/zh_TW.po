@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-21 05:12+0000\n"
+"PO-Revision-Date: 2026-10-22 02:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -17274,7 +17274,7 @@ msgstr "光圈"
 msgid ""
 "F-Stop ratio (lower numbers give more defocus, higher numbers give a sharper"
 " image)"
-msgstr "光圈級數比 (使用較低的值可得到更大程度的散焦效果, 使用較高的值可得到更銳利的影象效果)"
+msgstr "光圈級數比 (數值越小, 虛化效果越明顯; 數值越大, 影象越銳利)"
 
 #. :src: bpy.types.CameraDOFSettings.aperture_ratio
 #. :src: bpy.types.DecimateModifier.ratio
@@ -46072,11 +46072,11 @@ msgstr "底蓋"
 
 #. :src: bpy.types.FreestyleLineStyle.caps:'BUTT'
 msgid "Butt cap (flat)"
-msgstr "截頭端點樣式 (扁平式)"
+msgstr "截頭端點 (扁平)"
 
 #. :src: bpy.types.FreestyleLineStyle.caps:'ROUND'
 msgid "Round cap (half-circle)"
-msgstr "圓頭端點樣式 (半圓式)"
+msgstr "圓頭端點 (半圓)"
 
 #. :src: bpy.types.FreestyleLineStyle.caps:'SQUARE'
 #. :src: bpy.types.AreaLight.shape:'SQUARE'
@@ -46091,7 +46091,7 @@ msgstr "正方形"
 
 #. :src: bpy.types.FreestyleLineStyle.caps:'SQUARE'
 msgid "Square cap (flat and extended)"
-msgstr "方塊端點樣式 (扁平延伸式)"
+msgstr "方塊端點 (扁平延伸)"
 
 #. :src: bpy.types.FreestyleLineStyle.chain_count
 #: scripts/startup/bl_ui/properties_freestyle.py:721
@@ -102789,7 +102789,7 @@ msgstr "活動場景至檔案"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'SCENE'
 msgid "Each scene as a file"
-msgstr "每個場景單獨匯出為檔案"
+msgstr "每個場景作為一個檔案"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'COLLECTION'
 msgid ""
@@ -114238,7 +114238,7 @@ msgstr "選擇內側面"
 
 #. :src: bpy.types.MESH_OT_select_interior_faces
 msgid "Select faces where all edges have more than 2 face users"
-msgstr "選擇滿足指定條件的面, 在這類面中, 所有邊線都被兩個以上的面所共用"
+msgstr "選擇所有邊都有超過 2 個面使用者的面"
 
 #. :src: bpy.types.MESH_OT_select_less
 msgid ""
@@ -125307,7 +125307,7 @@ msgstr "要安裝擴充套件的位置"
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_export.all
 #. :src: bpy.types.PREFERENCES_OT_keymap_restore.all
 msgid "All Keymaps"
-msgstr "全部鍵位對映表"
+msgstr "全部鍵位對映項"
 
 #. :src: bpy.types.PREFERENCES_OT_keyconfig_export.all
 msgid "Write all keymaps (not just user modified)"
@@ -195507,7 +195507,7 @@ msgstr "構造修改器"
 
 #: source/blender/editors/sculpt_paint/mesh/sculpt_ops.cc:337
 msgid "Object has non-uniform scale, sculpting may be unpredictable"
-msgstr "物體的縮放比例不均勻, 雕刻可能有不可預知的問題 (請應用縮放 Ctrl + A)"
+msgstr "物體縮放不均勻, 雕刻效果可能難以預測 (請應用縮放 Ctrl + A)"
 
 #: source/blender/editors/sculpt_paint/mesh/sculpt_ops.cc:341
 msgid "Object has negative scale, sculpting may be unpredictable"
@@ -200504,7 +200504,7 @@ msgstr "不使用SLIM構建，回退到共形方式"
 msgid ""
 "Object has non-uniform scale, unwrap will operate on a non-scaled version of"
 " the mesh"
-msgstr "物體縮放比例不統一, 展開將會在一個未縮放的網格上進行"
+msgstr "物體縮放不均勻, 展開將會在一個未縮放的網格上進行"
 
 #: source/blender/editors/uvedit/uvedit_unwrap_ops.cc:2896
 msgid ""
