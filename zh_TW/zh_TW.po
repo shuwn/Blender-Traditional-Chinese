@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-22 02:12+0000\n"
+"PO-Revision-Date: 2026-10-23 06:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -99472,7 +99472,7 @@ msgstr "解算攝像機"
 
 #. :src: bpy.types.CLIP_OT_solve_camera
 msgid "Solve camera motion from tracks"
-msgstr "根據軌跡資訊對攝像機運動進行解算"
+msgstr "根據軌跡求解攝像機運動"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_add
 msgctxt "Operator"
@@ -137515,11 +137515,11 @@ msgstr "用於設定填充色的屬性路徑"
 
 #. :src: bpy.types.WM_OT_radial_control.image_id
 msgid "Image ID"
-msgstr "影象識別符"
+msgstr "影象識別符號"
 
 #. :src: bpy.types.WM_OT_radial_control.image_id
 msgid "Path of ID that is used to generate an image for the control"
-msgstr "用於控制影象的識別符生成路徑"
+msgstr "用於控制影象的識別符號生成路徑"
 
 #. :src: bpy.types.WM_OT_radial_control.release_confirm
 msgid "Confirm On Release"
@@ -187651,7 +187651,7 @@ msgstr "無法連線頂點"
 msgid ""
 "Select two edge loops or a single closed edge loop from which two edge loops"
 " can be calculated"
-msgstr "選擇兩個迴圈邊或可以從中計算出兩個迴圈邊的單個閉合迴圈邊 (解決方法: 可能是點數量為奇數，試著改為偶數點)"
+msgstr "選擇兩個迴圈邊或可以從中計算出兩個迴圈邊的單個閉合迴圈邊 (解決方法: 可能是點數量為奇數，試著改為偶數)"
 
 #: source/blender/bmesh/operators/bmo_fill_grid.cc:625
 msgid "Closed loops unsupported"
@@ -192371,7 +192371,7 @@ msgstr "活動的物體不是被選中的網格物體"
 
 #: source/blender/editors/mesh/mesh_join.cc:597
 msgid "No mesh data to join"
-msgstr "沒有可供合併的網格資料 (請檢查要合併的物體是否都是網格，比如有一個物體是曲線。此功能僅能合併網格物體)"
+msgstr "沒有可供合併的網格資料 (請檢查要合併的物體是否都是網格，比如有一個是曲線。此功能僅能合併網格物體)"
 
 #: source/blender/editors/mesh/mesh_join.cc:602
 msgid "Joining results in %d vertices, limit is %ld"
