@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-23 06:12+0000\n"
+"PO-Revision-Date: 2026-10-24 12:38+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -15933,7 +15933,7 @@ msgstr "修剪筆畫末端"
 
 #. :src: bpy.types.BrushGpencilSettings.use_trim
 msgid "Trim intersecting stroke ends"
-msgstr "修剪筆畫末端"
+msgstr "修剪相交筆畫末端"
 
 #. :src: bpy.types.BrushGpencilSettings.uv_random
 msgid "UV Random"
@@ -112549,7 +112549,7 @@ msgstr "內插面邊界"
 
 #. :src: bpy.types.MESH_OT_inset.use_edge_rail
 msgid "Edge Rail"
-msgstr "並排邊"
+msgstr "邊線軌道"
 
 #. :src: bpy.types.MESH_OT_inset.use_edge_rail
 msgid "Inset the region along existing edges"
@@ -156288,7 +156288,7 @@ msgstr "空氣動力"
 
 #. :src: bpy.types.SoftBodySettings.aero
 msgid "Make edges 'sail'"
-msgstr "使邊 'sail'"
+msgstr "使邊 '飄揚'"
 
 #. :src: bpy.types.SoftBodySettings.aerodynamics_type
 msgid "Aerodynamics Type"
@@ -168328,11 +168328,11 @@ msgstr "XR 動作名稱"
 
 #. :src: bpy.types.XrEventData.action_set
 msgid "Action Set"
-msgstr "動作型別"
+msgstr "動作集"
 
 #. :src: bpy.types.XrEventData.action_set
 msgid "XR action set name"
-msgstr "XR 動作設定名稱"
+msgstr "XR 動作集名稱"
 
 #. :src: bpy.types.XrEventData.bimanual
 msgid "Whether bimanual interaction is occurring"
@@ -188786,7 +188786,7 @@ msgstr "插幀集不包含任何路徑"
 
 #: source/blender/editors/armature/pose_slide.cc:733
 msgid "Push Pose"
-msgstr "Push Pose 擴大姿態"
+msgstr "推移姿態"
 
 #: source/blender/editors/armature/pose_slide.cc:736
 msgid "Relax Pose"
