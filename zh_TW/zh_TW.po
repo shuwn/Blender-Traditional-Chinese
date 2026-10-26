@@ -30,10 +30,10 @@
 #   Asx <i@iAsx.org> | DeathBlood | NGE
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 5.3.0 Beta (b'0b9ad9bc5836')\n"
+"Project-Id-Version: Blender 5.3.0 Beta (b'f0219159730a')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 07:32+0000\n"
-"PO-Revision-Date: 2026-10-25 03:29+0000\n"
+"POT-Creation-Date: 2026-10-26 10:44+0000\n"
+"PO-Revision-Date: 2026-10-26 06:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -1635,7 +1635,7 @@ msgstr "動作塊組已選中"
 #. :src: bpy.types.ShaderFx.show_expanded
 #. :src: bpy.types.StripModifier.show_expanded
 #. :src: bpy.types.UserExtensionRepo.show_expanded
-#: source/blender/editors/space_node/drawnode.cc:1605
+#: source/blender/editors/space_node/drawnode.cc:1606
 msgid "Expanded"
 msgstr "展開"
 
@@ -3127,7 +3127,7 @@ msgstr "資料塊的動畫資料"
 #. :src: bpy.types.ActionSlot.action
 #. :src: bpy.types.XrEventData.action
 #: source/blender/blenkernel/intern/constraint.cc:3011
-#: source/blender/editors/animation/anim_ops.cc:1590
+#: source/blender/editors/animation/anim_ops.cc:1618
 #: source/blender/editors/space_action/action_data.cc:126
 msgid "Action"
 msgstr "動作"
@@ -3171,7 +3171,7 @@ msgstr "用於合併活動動作和 NLA 堆結果的方法"
 #. :src: bpy.types.CyclesRenderSettings.fast_gi_method:'REPLACE'
 #. :src: bpy.types.ToolSettings.auto_keying_mode:'REPLACE_KEYS'
 #: scripts/startup/bl_operators/wm.py:3353
-#: source/blender/editors/animation/anim_ops.cc:1462
+#: source/blender/editors/animation/anim_ops.cc:1490
 #: source/blender/nodes/function/nodes/node_fn_replace_string.cc:19
 msgid "Replace"
 msgstr "替換"
@@ -3994,7 +3994,7 @@ msgstr "當前圖層上顯示的幀"
 #: scripts/startup/bl_ui/properties_data_bone.py:361
 #: scripts/startup/bl_ui/properties_data_bone.py:332
 #: scripts/startup/bl_ui/properties_data_metaball.py:99
-#: source/blender/editors/screen/screen_ops.cc:6337
+#: source/blender/editors/screen/screen_ops.cc:6342
 #: source/blender/editors/space_buttons/space_buttons.cc:208
 msgid "Hide"
 msgstr "隱藏"
@@ -4425,13 +4425,13 @@ msgstr "新增標註的註記/圖層"
 #: scripts/startup/bl_operators/wm.py:2090
 #: scripts/startup/bl_ui/properties_physics_softbody.py:168
 #: source/blender/editors/interface/templates/interface_template_curve_profile.cc:47
-#: source/blender/editors/space_node/drawnode.cc:1542
-#: source/blender/editors/space_node/drawnode.cc:1550
-#: source/blender/editors/space_node/drawnode.cc:1563
-#: source/blender/editors/space_node/drawnode.cc:1576
-#: source/blender/editors/space_node/drawnode.cc:1584
-#: source/blender/editors/space_node/drawnode.cc:1600
-#: source/blender/editors/space_node/drawnode.cc:1604
+#: source/blender/editors/space_node/drawnode.cc:1543
+#: source/blender/editors/space_node/drawnode.cc:1551
+#: source/blender/editors/space_node/drawnode.cc:1564
+#: source/blender/editors/space_node/drawnode.cc:1577
+#: source/blender/editors/space_node/drawnode.cc:1585
+#: source/blender/editors/space_node/drawnode.cc:1601
+#: source/blender/editors/space_node/drawnode.cc:1605
 #: source/blender/editors/space_node/node_templates.cc:452
 #: source/blender/editors/space_node/node_tree_interface_ui.cc:107
 #: source/blender/makesrna/intern/rna_scene.cc:2983
@@ -4589,7 +4589,7 @@ msgid "Regions this area is subdivided in"
 msgstr "區塊由區域細分而來"
 
 #. :src: bpy.types.Area.show_menus
-#: source/blender/editors/screen/screen_ops.cc:6247
+#: source/blender/editors/screen/screen_ops.cc:6252
 msgid "Show Menus"
 msgstr "顯示選單"
 
@@ -4982,7 +4982,7 @@ msgstr "在螢幕頂部的全域性欄顯示每個全域性視窗的設定"
 #. :src: bpy.types.Theme.statusbar
 #. :src: bpy.types.Theme.theme_area:'STATUSBAR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'STATUSBAR'
-#: source/blender/editors/screen/screen_ops.cc:6312
+#: source/blender/editors/screen/screen_ops.cc:6317
 msgid "Status Bar"
 msgstr "狀態列"
 
@@ -5385,7 +5385,7 @@ msgstr "顯示列出的資產庫中的所有資產"
 #. bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.asset_library_type:'LOCAL'
 #. :src:
 #. bpy.types.SEQUENCER_OT_strip_modifier_add_node_group.asset_library_type:'LOCAL'
-#: source/blender/editors/space_file/space_file.cc:1165
+#: source/blender/editors/space_file/space_file.cc:1166
 #: source/blender/editors/space_outliner/tree/tree_display_libraries.cc:140
 #: source/blender/editors/space_outliner/tree/tree_display_override_library_hierarchies.cc:47
 msgid "Current File"
@@ -9540,9 +9540,9 @@ msgstr "在UV縫合線中使用來自相鄰面的畫素"
 #. :src: bpy.types.VIEW3D_OT_select_menu.extend
 #. :src: bpy.types.VIEW3D_OT_transform_gizmo_set.extend
 #: source/blender/compositor/intern/domain.cc:132
-#: source/blender/editors/screen/screen_ops.cc:2384
-#: source/blender/editors/screen/screen_ops.cc:2510
-#: source/blender/editors/screen/screen_ops.cc:2600
+#: source/blender/editors/screen/screen_ops.cc:2385
+#: source/blender/editors/screen/screen_ops.cc:2511
+#: source/blender/editors/screen/screen_ops.cc:2601
 #: source/blender/editors/sculpt_paint/grease_pencil/draw_ops.cc:1190
 #: source/blender/makesrna/intern/rna_nodetree.cc:559
 msgid "Extend"
@@ -10601,7 +10601,7 @@ msgstr "集合資料塊"
 #: source/blender/editors/interface/templates/interface_template_color_management.cc:38
 #: source/blender/editors/space_image/image_buttons.cc:1072
 #: source/blender/editors/space_image/image_ops.cc:2154
-#: source/blender/editors/space_node/drawnode.cc:353
+#: source/blender/editors/space_node/drawnode.cc:354
 #: source/blender/nodes/composite/nodes/node_composite_channel_key.cc:131
 #: source/blender/nodes/composite/nodes/node_composite_distance_key.cc:37
 #: source/blender/nodes/composite/nodes/node_composite_file_output.cc:230
@@ -10756,7 +10756,7 @@ msgstr "點雲資料塊"
 #. :src: bpy.types.BlendData.project
 #. :src: bpy.types.TOPBAR_MT_file_project
 #. :src: bpy.types.PROJECT_PT_main
-#: scripts/startup/bl_ui/space_project.py:40
+#: scripts/startup/bl_ui/space_project.py:46
 msgctxt "Preferences"
 msgid "Project"
 msgstr "專案"
@@ -11725,7 +11725,7 @@ msgstr ""
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1494
 #: scripts/startup/bl_ui/properties_physics_common.py:141
 #: scripts/startup/bl_ui/space_clip.py:1960
-#: scripts/startup/bl_ui/space_project.py:212
+#: scripts/startup/bl_ui/space_project.py:218
 #: source/blender/nodes/geometry/nodes/node_geo_bake.cc:726
 #: source/blender/nodes/geometry/nodes/node_geo_get_bundle_item.cc:48
 #: source/blender/nodes/geometry/nodes/node_geo_import_csv.cc:21
@@ -13099,7 +13099,7 @@ msgstr "以方條樣式顯示骨骼, 顯示插值樣條的細分效果"
 #. :src: bpy.types.Armature.display_type:'ENVELOPE'
 #. :src: bpy.types.Modifier.type:'GREASE_PENCIL_ENVELOPE'
 #. :src: bpy.types.OBJECT_OT_modifier_add.type:'GREASE_PENCIL_ENVELOPE'
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2623
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2616
 #: source/blender/modifiers/intern/MOD_grease_pencil_envelope.cc:731
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:42
 msgid "Envelope"
@@ -15718,7 +15718,7 @@ msgstr "檢查延長線是否與筆畫碰撞"
 #. compositing_nodes_essentials.blend
 #: scripts/startup/bl_ui/properties_paint_common.py:1955
 #: scripts/startup/bl_ui/space_view3d.py:8430
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3273
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3266
 #: source/blender/nodes/geometry/nodes/node_geo_input_spline_cyclic.cc:10
 #: source/blender/nodes/geometry/nodes/node_geo_set_spline_cyclic.cc:27
 msgid "Cyclic"
@@ -16639,7 +16639,7 @@ msgstr "在本地重寫攝像機中，此背景影象是來自關聯的參考攝
 #: scripts/startup/bl_ui/space_view3d.py:8258
 #: scripts/startup/bl_ui/space_view3d.py:8080
 #: source/blender/blenkernel/intern/grease_pencil_convert_legacy.cc:1183
-#: source/blender/editors/space_node/drawnode.cc:685
+#: source/blender/editors/space_node/drawnode.cc:686
 #: source/blender/modifiers/intern/MOD_grease_pencil_array.cc:314
 #: source/blender/modifiers/intern/MOD_grease_pencil_offset.cc:420
 #: source/blender/modifiers/intern/MOD_grease_pencil_offset.cc:433
@@ -16907,9 +16907,9 @@ msgstr "偏移"
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:2170
 #: source/blender/editors/space_node/node_socket_tooltip.cc:505
 #: source/blender/editors/space_node/node_socket_tooltip.cc:880
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2507
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2529
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2551
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2500
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2522
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2544
 #: source/blender/modifiers/intern/MOD_grease_pencil_array.cc:315
 #: source/blender/modifiers/intern/MOD_grease_pencil_offset.cc:421
 #: source/blender/nodes/composite/nodes/node_composite_box_mask.cc:59
@@ -21628,7 +21628,7 @@ msgstr "逆時針"
 #: scripts/addons_core/cycles/ui.py:1925 scripts/addons_core/cycles/ui.py:2099
 #: scripts/startup/bl_ui/properties_mask_common.py:160
 #: scripts/startup/bl_ui/properties_strip.py:280
-#: source/blender/editors/space_node/drawnode.cc:424
+#: source/blender/editors/space_node/drawnode.cc:425
 #: source/blender/editors/space_node/node_socket_tooltip.cc:895
 #: source/blender/nodes/composite/nodes/node_composite_corner_pin.cc:69
 #: source/blender/nodes/composite/nodes/node_composite_displace.cc:47
@@ -21722,7 +21722,7 @@ msgstr "在顏色漸變中定義的顏色位置的元素"
 #: source/blender/editors/interface/regions/interface_region_color_picker.cc:967
 #: source/blender/editors/interface/regions/interface_region_tooltip.cc:886
 #: source/blender/editors/space_image/image_buttons.cc:935
-#: source/blender/editors/space_node/drawnode.cc:363
+#: source/blender/editors/space_node/drawnode.cc:364
 #: source/blender/nodes/composite/nodes/node_composite_combine_color.cc:88
 #: source/blender/nodes/composite/nodes/node_composite_id_mask.cc:29
 #: source/blender/nodes/composite/nodes/node_composite_image.cc:31
@@ -23410,10 +23410,10 @@ msgstr "運動的主軸"
 #: source/blender/editors/interface/templates/interface_template_matrix.cc:135
 #: source/blender/editors/interface/templates/interface_template_matrix.cc:154
 #: source/blender/editors/space_image/image_buttons.cc:862
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2651
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2657
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2661
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2666
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2644
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2650
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2654
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2659
 #: source/blender/modifiers/intern/MOD_meshcache.cc:354
 #: source/blender/modifiers/intern/MOD_mirror.cc:145
 #: source/blender/modifiers/intern/MOD_mirror.cc:151
@@ -23593,9 +23593,9 @@ msgstr "X"
 #: source/blender/editors/interface/templates/interface_template_matrix.cc:206
 #: source/blender/editors/space_graph/graph_buttons.cc:156
 #: source/blender/editors/space_image/image_buttons.cc:863
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2652
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2662
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2667
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2645
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2655
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2660
 #: source/blender/modifiers/intern/MOD_meshcache.cc:355
 #: source/blender/modifiers/intern/MOD_mirror.cc:146
 #: source/blender/modifiers/intern/MOD_mirror.cc:152
@@ -23755,8 +23755,8 @@ msgstr "Y"
 #: source/blender/editors/interface/templates/interface_template_matrix.cc:162
 #: source/blender/editors/interface/templates/interface_template_matrix.cc:177
 #: source/blender/editors/interface/templates/interface_template_matrix.cc:210
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2653
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2668
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2646
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2661
 #: source/blender/modifiers/intern/MOD_meshcache.cc:356
 #: source/blender/modifiers/intern/MOD_mirror.cc:147
 #: source/blender/modifiers/intern/MOD_mirror.cc:153
@@ -24436,7 +24436,7 @@ msgstr "將運動鎖定到目標運動軌跡上"
 #. :src: Socket name from node group Screen to 3D Space, file
 #. geometry_nodes_essentials.blend
 #: scripts/addons_core/cycles/ui.py:1522
-#: scripts/addons_core/viewport_vr_preview/operators.py:664
+#: scripts/addons_core/viewport_vr_preview/operators.py:663
 #: scripts/addons_core/viewport_vr_preview/operators.py:123
 #: scripts/addons_core/viewport_vr_preview/operators.py:124
 #: scripts/addons_core/viewport_vr_preview/operators.py:221
@@ -26555,7 +26555,7 @@ msgstr "貝塞爾"
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:557
 #: scripts/startup/bl_ui/space_userpref.py:2080
 #: source/blender/editors/mesh/editmesh_inset.cc:115
-#: source/blender/editors/space_node/drawnode.cc:783
+#: source/blender/editors/space_node/drawnode.cc:784
 #: source/blender/nodes/composite/nodes/node_composite_depth_combine.cc:48
 #: source/blender/nodes/composite/nodes/node_composite_vector_blur.cc:44
 #: source/blender/nodes/geometry/nodes/node_geo_mesh_primitive_cone.cc:48
@@ -27124,8 +27124,8 @@ msgstr "該點的編號"
 #: source/blender/editors/mesh/editmesh_circularize.cc:119
 #: source/blender/editors/sculpt_paint/grease_pencil/draw_ops.cc:1190
 #: source/blender/editors/sculpt_paint/grease_pencil/draw_ops.cc:1193
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2615
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2619
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2608
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2612
 #: source/blender/nodes/geometry/nodes/node_geo_curve_fillet.cc:39
 #: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_arc.cc:51
 #: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_arc.cc:90
@@ -28058,7 +28058,7 @@ msgstr "物體著色已更新"
 #: scripts/startup/bl_ui/space_graph.py:443
 #: scripts/startup/bl_ui/space_nla.py:248
 #: scripts/startup/bl_ui/space_view3d.py:3857
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3466
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3459
 #: source/blender/makesrna/intern/rna_constraint.cc:36
 #: source/blender/modifiers/intern/MOD_uvwarp.cc:300
 #: source/blender/nodes/function/nodes/node_fn_combine_transform.cc:21
@@ -28833,8 +28833,8 @@ msgstr "驅動變數的輸入值源"
 #. :src: bpy.types.ARMATURE_OT_collection_unassign_named.bone_name
 #. :src: bpy.types.VIEW3D_OT_bone_select_menu.name
 #. :src: bpy.types.SelectionEntry.name
-#: scripts/startup/bl_ui/space_topbar.py:807
-#: scripts/startup/bl_ui/space_topbar.py:814
+#: scripts/startup/bl_ui/space_topbar.py:854
+#: scripts/startup/bl_ui/space_topbar.py:861
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:111
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:54
 msgid "Bone Name"
@@ -29645,7 +29645,7 @@ msgstr "滴移"
 #. :src: bpy.types.NodeFrame.shrink
 #. :src: bpy.types.PHYSICS_PT_dp_effects_shrink
 #. :src: bpy.types.ParticleBrush.length_mode:'SHRINK'
-#: source/blender/editors/space_node/drawnode.cc:281
+#: source/blender/editors/space_node/drawnode.cc:282
 msgid "Shrink"
 msgstr "收縮"
 
@@ -29716,7 +29716,7 @@ msgstr "紋理的儲存目錄"
 #: scripts/startup/bl_ui/properties_strip.py:590
 #: scripts/startup/bl_ui/properties_world.py:200
 #: source/blender/editors/space_node/node_socket_tooltip.cc:859
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3316
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3309
 #: source/blender/nodes/composite/nodes/node_composite_image_info.cc:25
 #: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_arc.cc:30
 #: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_bezier_segment.cc:19
@@ -30671,7 +30671,7 @@ msgstr "使用曲線斜率引入/引出末端點關鍵影格"
 #. :src: bpy.types.NODE_PT_node_tree_animation
 #. :src: bpy.types.NODE_PT_node_tree_properties
 #: source/blender/animrig/intern/action.cc:2349
-#: source/blender/blenkernel/intern/action.cc:1618
+#: source/blender/blenkernel/intern/action.cc:1622
 #: source/blender/blenkernel/intern/deform.cc:760
 #: source/blender/blenkernel/intern/grease_pencil.cc:4159
 #: source/blender/blenkernel/intern/object_deform.cc:118
@@ -32252,7 +32252,7 @@ msgstr "簇集的數量"
 #: scripts/startup/bl_ui/properties_render.py:809
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:981
 #: scripts/startup/bl_ui/space_view3d.py:9241
-#: source/blender/editors/space_node/drawnode.cc:1650
+#: source/blender/editors/space_node/drawnode.cc:1651
 #: source/blender/editors/space_node/node_tree_interface_ui.cc:112
 #: source/blender/modifiers/intern/MOD_bevel.cc:377
 #: source/blender/modifiers/intern/MOD_multires.cc:437
@@ -32357,8 +32357,8 @@ msgstr "用於偏移的軸"
 #. :src: Socket name from node group Curl Hair Curves, file
 #. procedural_hair_node_assets.blend
 #: scripts/startup/bl_ui/properties_particle.py:1927
-#: source/blender/editors/space_node/drawnode.cc:686
-#: source/blender/editors/space_node/drawnode.cc:691
+#: source/blender/editors/space_node/drawnode.cc:687
+#: source/blender/editors/space_node/drawnode.cc:692
 #: source/blender/nodes/shader/nodes/node_shader_tex_brick.cc:105
 #: source/blender/nodes/shader/nodes/node_shader_tex_brick.cc:110
 #: source/blender/nodes/shader/nodes/node_shader_tex_gabor.cc:45
@@ -35468,7 +35468,7 @@ msgstr "如何處理離開域的粒子"
 #. :src: bpy.types.OUTLINER_OT_scene_operation.type:'DELETE'
 #: scripts/startup/bl_ui/space_sequencer.py:2057
 #: source/blender/editors/animation/anim_asset_ops.cc:854
-#: source/blender/editors/animation/anim_markers.cc:1889
+#: source/blender/editors/animation/anim_markers.cc:1891
 #: source/blender/editors/animation/keyframing.cc:1138
 #: source/blender/editors/animation/keyframing.cc:1273
 #: source/blender/editors/armature/armature_edit.cc:1322
@@ -37036,7 +37036,7 @@ msgstr "著色器"
 #. geometry_nodes_essentials.blend
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1516
 #: scripts/startup/bl_ui/properties_object.py:310
-#: source/blender/blenkernel/intern/collection.cc:875
+#: source/blender/blenkernel/intern/collection.cc:878
 #: source/blender/nodes/geometry/nodes/node_geo_collection_children.cc:24
 #: source/blender/nodes/geometry/nodes/node_geo_collection_info.cc:29
 #: source/blender/nodes/geometry/nodes/node_geo_input_collection.cc:13
@@ -39247,7 +39247,7 @@ msgstr "視窗"
 #. :src: bpy.types.ThemeSpaceGradient.header
 #: scripts/startup/bl_ui/space_userpref.py:1203
 #: source/blender/editors/interface/interface_context_menu.cc:1330
-#: source/blender/editors/screen/screen_ops.cc:6319
+#: source/blender/editors/screen/screen_ops.cc:6324
 msgid "Header"
 msgstr "標題欄"
 
@@ -39326,7 +39326,7 @@ msgstr "浮動區塊"
 #. :src: bpy.types.PROPERTIES_PT_navigation_bar
 #. :src: bpy.types.Region.type:'NAVIGATION_BAR'
 #: source/blender/editors/interface/interface_context_menu.cc:1333
-#: source/blender/editors/screen/screen_ops.cc:6331
+#: source/blender/editors/screen/screen_ops.cc:6336
 msgid "Navigation Bar"
 msgstr "導航欄"
 
@@ -39349,7 +39349,7 @@ msgstr "執行按鈕"
 #. :src: bpy.types.SpaceSpreadsheet.show_region_footer
 #. :src: bpy.types.SpaceTextEditor.show_region_footer
 #: source/blender/editors/interface/interface_context_menu.cc:1340
-#: source/blender/editors/screen/screen_ops.cc:6325
+#: source/blender/editors/screen/screen_ops.cc:6330
 msgid "Footer"
 msgstr "底欄"
 
@@ -41592,7 +41592,7 @@ msgstr "當筆畫處於活動狀態時要參與模擬的那部分網格"
 #. :src: bpy.types.TRANSFORM_OT_translate.orient_matrix_type:'LOCAL'
 #. :src: bpy.types.TRANSFORM_OT_translate.orient_type:'LOCAL'
 #. :src: bpy.types.TransformOrientationSlot.type:'LOCAL'
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1596
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1587
 msgid "Local"
 msgstr "區域性"
 
@@ -41619,7 +41619,7 @@ msgstr "僅模擬受固定半徑限制的筆刷周圍的特定區域"
 #. :src: bpy.types.TRANSFORM_OT_translate.orient_type:'GLOBAL'
 #. :src: bpy.types.TransformOrientationSlot.type:'GLOBAL'
 #: scripts/startup/bl_ui/properties_physics_common.py:309
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1583
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1574
 msgid "Global"
 msgstr "全域性"
 
@@ -46245,10 +46245,10 @@ msgstr "為鏈計算的值是為鏈頂點獲取的值的平均值"
 #: source/blender/editors/animation/fmodifier_ui.cc:671
 #: source/blender/editors/animation/fmodifier_ui.cc:705
 #: source/blender/editors/sculpt_paint/curves/sculpt_ops.cc:497
-#: source/blender/editors/space_node/drawnode.cc:1544
-#: source/blender/editors/space_node/drawnode.cc:1552
-#: source/blender/editors/space_node/drawnode.cc:1565
-#: source/blender/editors/space_node/drawnode.cc:1578
+#: source/blender/editors/space_node/drawnode.cc:1545
+#: source/blender/editors/space_node/drawnode.cc:1553
+#: source/blender/editors/space_node/drawnode.cc:1566
+#: source/blender/editors/space_node/drawnode.cc:1579
 #: source/blender/nodes/function/nodes/node_fn_random_value.cc:105
 #: source/blender/nodes/function/nodes/node_fn_random_value.cc:29
 #: source/blender/nodes/function/nodes/node_fn_random_value.cc:33
@@ -46322,10 +46322,10 @@ msgstr "為鏈計算的值是為鏈頂點獲取的值的最小值"
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:1289
 #: source/blender/editors/animation/fmodifier_ui.cc:672
 #: source/blender/editors/animation/fmodifier_ui.cc:706
-#: source/blender/editors/space_node/drawnode.cc:1545
-#: source/blender/editors/space_node/drawnode.cc:1553
-#: source/blender/editors/space_node/drawnode.cc:1566
-#: source/blender/editors/space_node/drawnode.cc:1579
+#: source/blender/editors/space_node/drawnode.cc:1546
+#: source/blender/editors/space_node/drawnode.cc:1554
+#: source/blender/editors/space_node/drawnode.cc:1567
+#: source/blender/editors/space_node/drawnode.cc:1580
 #: source/blender/nodes/composite/nodes/node_composite_channel_key.cc:104
 #: source/blender/nodes/function/nodes/node_fn_random_value.cc:110
 #: source/blender/nodes/function/nodes/node_fn_random_value.cc:30
@@ -47966,7 +47966,7 @@ msgstr "基於節點燈光的節點樹"
 #. :src: bpy.types.ShaderNodeTexVoronoi.normalize
 #. :src: bpy.types.PAINT_OT_vertex_color_dirt.normalize
 #: scripts/startup/bl_ui/space_graph.py:61
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2451
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2444
 msgid "Normalize"
 msgstr "規格化"
 
@@ -54547,7 +54547,7 @@ msgstr "節點紋理的節點樹"
 #: scripts/startup/bl_ui/properties_strip.py:994
 #: scripts/startup/bl_ui/properties_texture.py:842
 #: scripts/startup/bl_ui/space_dopesheet.py:987
-#: source/blender/editors/space_node/drawnode.cc:388
+#: source/blender/editors/space_node/drawnode.cc:389
 #: source/blender/nodes/shader/nodes/node_shader_layer_weight.cc:16
 msgid "Blend"
 msgstr "混合"
@@ -56093,7 +56093,7 @@ msgstr "被阻止的已安裝擴充套件數量"
 #. :src: bpy.types.WindowManager.extensions_updates
 #. :src: bpy.types.PreferencesView.show_extensions_updates
 #: scripts/startup/bl_ui/space_userpref.py:361
-#: source/blender/editors/screen/screen_ops.cc:6300
+#: source/blender/editors/screen/screen_ops.cc:6305
 msgid "Extensions Updates"
 msgstr "擴充套件更新"
 
@@ -63730,79 +63730,11 @@ msgid "Editor menu containing buttons"
 msgstr "包含按鈕的編輯器選單"
 
 #. :src: bpy.types.Menu
-#. :src: bpy.types.CLIP_MT_track_visibility
-#. :src: bpy.types.MASK_MT_visibility
-#. :src: bpy.types.NODE_MT_context_menu_show_hide_menu
-#. :src: bpy.types.SEQUENCER_MT_strip_show_hide
-#. :src: bpy.types.VIEW3D_MT_edit_curve_showhide
-#. :src: bpy.types.VIEW3D_MT_edit_greasepencil_showhide
-#. :src: bpy.types.VIEW3D_MT_edit_mesh_showhide
-#. :src: bpy.types.VIEW3D_MT_edit_meta_showhide
-#. :src: bpy.types.VIEW3D_MT_object_showhide
-#. :src: bpy.types.VIEW3D_MT_particle_showhide
-#. :src: bpy.types.VIEW3D_MT_pose_showhide
-#. :src: bpy.types.VIEW3D_MT_sculpt_showhide
-#: scripts/startup/bl_ui/space_view3d.py:3881
-msgid "Show/Hide"
-msgstr "顯示 / 隱藏"
-
-#. :src: bpy.types.Menu
 #. :src: bpy.types.NODE_MT_category_compositor_creative
 #. :src: bpy.types.NODE_MT_category_compositor_creative_swap
 #. :src: Asset catalog from blender_assets.cats.txt
 msgid "Creative"
 msgstr "創意"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.CLIP_MT_track_cleanup
-#. :src: bpy.types.TOPBAR_MT_file_cleanup
-#. :src: bpy.types.VIEW3D_MT_edit_curve_clean
-#. :src: bpy.types.VIEW3D_MT_edit_greasepencil_cleanup
-#. :src: bpy.types.VIEW3D_MT_edit_mesh_clean
-#. :src: bpy.types.VIEW3D_MT_object_cleanup
-#. :src: bpy.types.CLIP_PT_tools_cleanup
-msgid "Clean Up"
-msgstr "清理"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_edit_font_chars
-#. :src: bpy.types.FunctionNodeInputSpecialCharacters
-msgid "Special Characters"
-msgstr "特殊字元"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_edit_font_kerning
-#. :src: bpy.types.TextCharacterFormat.kerning
-msgid "Kerning"
-msgstr "字距"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_edit_meta
-#. :src: bpy.types.VIEW3D_MT_edit_metaball_context_menu
-#. :src: bpy.types.VIEW3D_MT_metaball_add
-#. :src: bpy.types.DATA_PT_metaball
-#: scripts/startup/bl_ui/space_view3d.py:2852
-msgid "Metaball"
-msgstr "融球"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_edit_armature_names
-#. :src: bpy.types.VIEW3D_MT_pose_names
-#: scripts/startup/bl_ui/asset_shelf.py:26
-#: scripts/startup/bl_ui/properties_data_armature.py:68
-#: source/blender/nodes/geometry/nodes/node_geo_get_attribute_names.cc:21
-#: source/blender/nodes/geometry/nodes/node_geo_get_grid_names.cc:16
-msgid "Names"
-msgstr "名稱"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_edit_armature_roll
-#. :src: bpy.types.CURVE_OT_extrude.mode:'BONE_ROLL'
-#. :src: bpy.types.GRAPH_OT_duplicate.mode:'BONE_ROLL'
-#. :src: bpy.types.OBJECT_OT_duplicate.mode:'BONE_ROLL'
-#. :src: bpy.types.TRANSFORM_OT_transform.mode:'BONE_ROLL'
-msgid "Bone Roll"
-msgstr "骨骼扭轉"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.CLIP_MT_pivot_pie
@@ -63842,12 +63774,12 @@ msgstr "軸心點"
 #: source/blender/editors/interface/interface_handlers.cc:9553
 #: source/blender/editors/interface/interface_handlers.cc:9555
 #: source/blender/editors/mesh/editmesh_bevel.cc:201
-#: source/blender/editors/screen/screen_ops.cc:2382
-#: source/blender/editors/screen/screen_ops.cc:2508
-#: source/blender/editors/screen/screen_ops.cc:2598
-#: source/blender/editors/screen/screen_ops.cc:3763
-#: source/blender/editors/screen/screen_ops.cc:5370
-#: source/blender/editors/screen/screen_ops.cc:5384
+#: source/blender/editors/screen/screen_ops.cc:2383
+#: source/blender/editors/screen/screen_ops.cc:2509
+#: source/blender/editors/screen/screen_ops.cc:2599
+#: source/blender/editors/screen/screen_ops.cc:3764
+#: source/blender/editors/screen/screen_ops.cc:5375
+#: source/blender/editors/screen/screen_ops.cc:5389
 #: source/blender/editors/sculpt_paint/mesh/sculpt_expand.cc:2473
 #: source/blender/editors/space_image/image_ops.cc:802
 #: source/blender/editors/space_view3d/view3d_placement.cc:917
@@ -63890,60 +63822,6 @@ msgid "Vertex Group Locks"
 msgstr "頂點組鎖"
 
 #. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_GEO_UTILITIES_MATH
-#. :src: bpy.types.NODE_MT_category_compositor_math
-#. :src: bpy.types.NODE_MT_category_shader_math
-#. :src: bpy.types.NODE_MT_compositor_node_math_swap
-#. :src: bpy.types.NODE_MT_gn_utilities_math_swap
-#. :src: bpy.types.NODE_MT_shader_node_math_swap
-#. :src: bpy.types.ShaderNodeMath
-#. :src: bpy.types.TextureNodeMath
-msgid "Math"
-msgstr "運算"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_GEO_UTILITIES
-#. :src: bpy.types.NODE_MT_category_compositor_utilities
-#. :src: bpy.types.NODE_MT_category_shader_utilities
-#. :src: bpy.types.NODE_MT_compositor_node_utilities_swap
-#. :src: bpy.types.NODE_MT_gn_utilities_swap
-#. :src: bpy.types.NODE_MT_shader_node_utilities_swap
-#. :src: Asset catalog from blender_assets.cats.txt
-msgid "Utilities"
-msgstr "實用工具"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE_READ
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_GEOMETRY_READ
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_MESH_READ
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_VOLUME_READ
-#. :src: bpy.types.NODE_MT_geometry_node_grease_pencil_read
-#. :src: bpy.types.NODE_MT_gn_curve_read_swap
-#. :src: bpy.types.NODE_MT_gn_geometry_read_swap
-#. :src: bpy.types.NODE_MT_gn_grease_pencil_read_swap
-#. :src: bpy.types.NODE_MT_gn_mesh_read_swap
-#. :src: bpy.types.NODE_MT_gn_volume_read_swap
-#. :src: Asset catalog from blender_assets.cats.txt
-#: source/blender/nodes/intern/geometry_nodes_caller_ui.cc:830
-msgid "Read"
-msgstr "讀取"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE_SAMPLE
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_GEOMETRY_SAMPLE
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_MESH_SAMPLE
-#. :src: bpy.types.NODE_MT_geometry_node_volume_sample
-#. :src: bpy.types.NODE_MT_gn_curve_sample_swap
-#. :src: bpy.types.NODE_MT_gn_geometry_sample_swap
-#. :src: bpy.types.NODE_MT_gn_mesh_sample_swap
-#. :src: bpy.types.NODE_MT_gn_volume_sample_swap
-#. :src: bpy.types.GreasePencilSimplifyModifier.mode:'SAMPLE'
-#. :src: bpy.types.GREASE_PENCIL_OT_stroke_simplify.mode:'SAMPLE'
-#. :src: Asset catalog from blender_assets.cats.txt
-msgid "Sample"
-msgstr "取樣"
-
-#. :src: bpy.types.Menu
 #. :src: bpy.types.SEQUENCER_MT_strip_mirror
 #. :src: bpy.types.Modifier.type:'MIRROR'
 #. :src: bpy.types.Modifier.type:'GREASE_PENCIL_MIRROR'
@@ -63970,36 +63848,9 @@ msgid "Mirror"
 msgstr "映象"
 
 #. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE_WRITE
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_GEOMETRY_WRITE
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_MESH_WRITE
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_VOLUME_WRITE
-#. :src: bpy.types.NODE_MT_geometry_node_grease_pencil_write
-#. :src: bpy.types.NODE_MT_gn_curve_write_swap
-#. :src: bpy.types.NODE_MT_gn_geometry_write_swap
-#. :src: bpy.types.NODE_MT_gn_grease_pencil_write_swap
-#. :src: bpy.types.NODE_MT_gn_mesh_write_swap
-#. :src: bpy.types.NODE_MT_gn_volume_write_swap
-#. :src: Asset catalog from blender_assets.cats.txt
-#: source/blender/nodes/intern/geometry_nodes_caller_ui.cc:833
-msgid "Write"
-msgstr "寫入"
-
-#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_uv_map
 msgid "UV Mapping"
 msgstr "UV 對映"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_GEO_UV
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_PRIMITIVES_CURVE
-#. :src: bpy.types.NODE_MT_geometry_node_GEO_VOLUME_PRIMITIVES
-#. :src: bpy.types.NODE_MT_gn_curve_primitives_swap
-#. :src: bpy.types.NODE_MT_gn_mesh_primitives_swap
-#. :src: bpy.types.NODE_MT_gn_volume_primitives_swap
-#. :src: bpy.types.TOPBAR_PT_gpencil_primitive
-msgid "Primitives"
-msgstr "基本體"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_view_local
@@ -64040,12 +63891,35 @@ msgid "View Regions"
 msgstr "檢視框"
 
 #. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_GEO_UTILITIES_MATH
+#. :src: bpy.types.NODE_MT_category_compositor_math
+#. :src: bpy.types.NODE_MT_category_shader_math
+#. :src: bpy.types.NODE_MT_compositor_node_math_swap
+#. :src: bpy.types.NODE_MT_gn_utilities_math_swap
+#. :src: bpy.types.NODE_MT_shader_node_math_swap
+#. :src: bpy.types.ShaderNodeMath
+#. :src: bpy.types.TextureNodeMath
+msgid "Math"
+msgstr "運算"
+
+#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_edit_curves_select_more_less
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_select_more_less
 #. :src: bpy.types.VIEW3D_MT_select_object_more_less
 #. :src: bpy.types.VIEW3D_MT_select_pose_more_less
 msgid "Select More/Less"
 msgstr "擴充套件/縮減選擇"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_GEO_UTILITIES
+#. :src: bpy.types.NODE_MT_category_compositor_utilities
+#. :src: bpy.types.NODE_MT_category_shader_utilities
+#. :src: bpy.types.NODE_MT_compositor_node_utilities_swap
+#. :src: bpy.types.NODE_MT_gn_utilities_swap
+#. :src: bpy.types.NODE_MT_shader_node_utilities_swap
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Utilities"
+msgstr "實用工具"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_select_similar
@@ -64057,6 +63931,124 @@ msgstr "選擇相似"
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_select_by_trait
 msgid "Select All by Trait"
 msgstr "按特徵全選"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.IMAGE_MT_select_linked
+#. :src: bpy.types.VIEW3D_MT_edit_mesh_select_linked
+#. :src: bpy.types.OUTLINER_OT_id_operation.type:'SELECT_LINKED'
+msgid "Select Linked"
+msgstr "選擇相連元素"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_mesh_select_loops
+msgid "Select Loops"
+msgstr "選擇迴圈"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE_READ
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_GEOMETRY_READ
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_MESH_READ
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_VOLUME_READ
+#. :src: bpy.types.NODE_MT_geometry_node_grease_pencil_read
+#. :src: bpy.types.NODE_MT_gn_curve_read_swap
+#. :src: bpy.types.NODE_MT_gn_geometry_read_swap
+#. :src: bpy.types.NODE_MT_gn_grease_pencil_read_swap
+#. :src: bpy.types.NODE_MT_gn_mesh_read_swap
+#. :src: bpy.types.NODE_MT_gn_volume_read_swap
+#. :src: Asset catalog from blender_assets.cats.txt
+#: source/blender/nodes/intern/geometry_nodes_caller_ui.cc:830
+msgid "Read"
+msgstr "讀取"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE_SAMPLE
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_GEOMETRY_SAMPLE
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_MESH_SAMPLE
+#. :src: bpy.types.NODE_MT_geometry_node_volume_sample
+#. :src: bpy.types.NODE_MT_gn_curve_sample_swap
+#. :src: bpy.types.NODE_MT_gn_geometry_sample_swap
+#. :src: bpy.types.NODE_MT_gn_mesh_sample_swap
+#. :src: bpy.types.NODE_MT_gn_volume_sample_swap
+#. :src: bpy.types.GreasePencilSimplifyModifier.mode:'SAMPLE'
+#. :src: bpy.types.GREASE_PENCIL_OT_stroke_simplify.mode:'SAMPLE'
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Sample"
+msgstr "取樣"
+
+# rblc
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_grease_pencil_assign_material
+msgid "Assign Material"
+msgstr "指定材質"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE_WRITE
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_GEOMETRY_WRITE
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_MESH_WRITE
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_VOLUME_WRITE
+#. :src: bpy.types.NODE_MT_geometry_node_grease_pencil_write
+#. :src: bpy.types.NODE_MT_gn_curve_write_swap
+#. :src: bpy.types.NODE_MT_gn_geometry_write_swap
+#. :src: bpy.types.NODE_MT_gn_grease_pencil_write_swap
+#. :src: bpy.types.NODE_MT_gn_mesh_write_swap
+#. :src: bpy.types.NODE_MT_gn_volume_write_swap
+#. :src: Asset catalog from blender_assets.cats.txt
+#: source/blender/nodes/intern/geometry_nodes_caller_ui.cc:833
+msgid "Write"
+msgstr "寫入"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_GEO_UV
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_PRIMITIVES_CURVE
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_VOLUME_PRIMITIVES
+#. :src: bpy.types.NODE_MT_gn_curve_primitives_swap
+#. :src: bpy.types.NODE_MT_gn_mesh_primitives_swap
+#. :src: bpy.types.NODE_MT_gn_volume_primitives_swap
+#. :src: bpy.types.TOPBAR_PT_gpencil_primitive
+msgid "Primitives"
+msgstr "基本體"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_meta
+#. :src: bpy.types.VIEW3D_MT_edit_metaball_context_menu
+#. :src: bpy.types.VIEW3D_MT_metaball_add
+#. :src: bpy.types.DATA_PT_metaball
+#: scripts/startup/bl_ui/space_view3d.py:2852
+msgid "Metaball"
+msgstr "融球"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_light_add
+#. :src: bpy.types.ShaderNodeAttribute.attribute_type:'LIGHT'
+#. :src: bpy.types.ShaderNodeVectorTransform.convert_from:'LIGHT'
+#. :src: bpy.types.ShaderNodeVectorTransform.convert_to:'LIGHT'
+#. :src: bpy.types.CYCLES_LIGHT_PT_light
+#. :src: bpy.types.CYCLES_RENDER_PT_passes_light
+#. :src: bpy.types.DATA_PT_EEVEE_light
+#. :src: bpy.types.DATA_PT_light
+#. :src: bpy.types.NODE_CYCLES_LIGHT_PT_light
+#. :src: bpy.types.NODE_DATA_PT_EEVEE_light
+#. :src: bpy.types.NODE_DATA_PT_light
+#. :src: bpy.types.STORM_HYDRA_LIGHT_PT_light
+#. :src: bpy.types.SpaceView3D.show_object_select_light
+#. :src: bpy.types.SpaceView3D.show_object_viewport_light
+#. :src: bpy.types.XrSessionSettings.show_object_select_light
+#. :src: bpy.types.XrSessionSettings.show_object_viewport_light
+#: scripts/startup/bl_ui/properties_data_light.py:280
+#: scripts/startup/bl_ui/space_view3d.py:7157
+msgid "Light"
+msgstr "燈光"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_lightprobe_add
+#. :src: bpy.types.EEVEE_WORLD_PT_lightprobe
+#. :src: bpy.types.SceneEEVEE.ray_tracing_method:'PROBE'
+#. :src: bpy.types.SpaceView3D.show_object_select_light_probe
+#. :src: bpy.types.SpaceView3D.show_object_viewport_light_probe
+#. :src: bpy.types.XrSessionSettings.show_object_select_light_probe
+#. :src: bpy.types.XrSessionSettings.show_object_viewport_light_probe
+msgid "Light Probe"
+msgstr "光照探頭"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.NODE_MT_geometry_node_GEO_INPUT_GIZMO
@@ -64097,113 +64089,6 @@ msgid "Instances"
 msgstr "例項"
 
 #. :src: bpy.types.Menu
-#. :src: bpy.types.IMAGE_MT_select_linked
-#. :src: bpy.types.VIEW3D_MT_edit_mesh_select_linked
-#. :src: bpy.types.OUTLINER_OT_id_operation.type:'SELECT_LINKED'
-msgid "Select Linked"
-msgstr "選擇相連元素"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_edit_mesh_select_loops
-msgid "Select Loops"
-msgstr "選擇迴圈"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_import
-#. :src: bpy.types.NODE_MT_gn_input_import_swap
-#. :src: bpy.types.TOPBAR_MT_file_import
-#. :src: bpy.types.COLLECTION_OT_importer_reload.COLLECTION_OT_importer_import
-#. :src: bpy.types.ASSETBROWSER_PT_import
-msgid "Import"
-msgstr "匯入"
-
-# rblc
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_grease_pencil_assign_material
-msgid "Assign Material"
-msgstr "指定材質"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_GEO_UTILITIES_DEPRECATED
-#. :src: bpy.types.NODE_MT_gn_utilities_deprecated_swap
-#. :src: bpy.types.ShaderNodeSqueeze
-#. :src: bpy.types.Property.is_deprecated
-#: source/blender/editors/space_node/node_draw.cc:2497
-msgid "Deprecated"
-msgstr "已棄用"
-
-#. :src: bpy.types.Menu
-msgid "Render Preview"
-msgstr "算繪預覽"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.IMAGE_MT_uvs
-#. :src: bpy.types.IMAGE_MT_uvs_context_menu
-#. :src: bpy.types.NODE_MT_category_PRIMITIVES_MESH
-#. :src: bpy.types.NODE_MT_gn_mesh_uv_swap
-#. :src: bpy.types.MeshUVLoopLayer.uv
-#. :src: bpy.types.DisplaceModifier.texture_coords:'UV'
-#. :src: bpy.types.MeshSequenceCacheModifier.read_data:'UV'
-#. :src: bpy.types.VertexWeightEditModifier.mask_tex_mapping:'UV'
-#. :src: bpy.types.VertexWeightMixModifier.mask_tex_mapping:'UV'
-#. :src: bpy.types.VertexWeightProximityModifier.mask_tex_mapping:'UV'
-#. :src: bpy.types.WarpModifier.texture_coords:'UV'
-#. :src: bpy.types.WaveModifier.texture_coords:'UV'
-#. :src: bpy.types.CyclesRenderSettings.bake_type:'UV'
-#. :src: bpy.types.CyclesView3DShadingSettings.render_pass:'UV'
-#. :src: bpy.types.RenderLayer.use_pass_uv
-#. :src: bpy.types.ViewLayer.use_pass_uv
-#: scripts/addons_core/cycles/engine.py:201
-#: scripts/startup/bl_ui/properties_grease_pencil_common.py:72
-#: scripts/startup/bl_ui/space_view3d.py:1258
-#: scripts/startup/bl_ui/space_view3d_toolbar.py:1578
-#: source/blender/modifiers/intern/MOD_grease_pencil_noise.cc:294
-#: source/blender/modifiers/intern/MOD_grease_pencil_smooth.cc:239
-#: source/blender/nodes/composite/nodes/node_composite_map_uv.cc:41
-#: source/blender/nodes/geometry/nodes/node_geo_uv_pack_islands.cc:57
-#: source/blender/nodes/geometry/nodes/node_geo_uv_pack_islands.cc:58
-#: source/blender/nodes/geometry/nodes/node_geo_uv_tangent.cc:38
-#: source/blender/nodes/geometry/nodes/node_geo_uv_unwrap.cc:66
-#: source/blender/nodes/shader/nodes/node_shader_tex_coord.cc:23
-#: source/blender/nodes/shader/nodes/node_shader_uv_along_stroke.cc:19
-#: source/blender/nodes/shader/nodes/node_shader_uvmap.cc:30
-msgid "UV"
-msgstr "UV"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_light_add
-#. :src: bpy.types.ShaderNodeAttribute.attribute_type:'LIGHT'
-#. :src: bpy.types.ShaderNodeVectorTransform.convert_from:'LIGHT'
-#. :src: bpy.types.ShaderNodeVectorTransform.convert_to:'LIGHT'
-#. :src: bpy.types.CYCLES_LIGHT_PT_light
-#. :src: bpy.types.CYCLES_RENDER_PT_passes_light
-#. :src: bpy.types.DATA_PT_EEVEE_light
-#. :src: bpy.types.DATA_PT_light
-#. :src: bpy.types.NODE_CYCLES_LIGHT_PT_light
-#. :src: bpy.types.NODE_DATA_PT_EEVEE_light
-#. :src: bpy.types.NODE_DATA_PT_light
-#. :src: bpy.types.STORM_HYDRA_LIGHT_PT_light
-#. :src: bpy.types.SpaceView3D.show_object_select_light
-#. :src: bpy.types.SpaceView3D.show_object_viewport_light
-#. :src: bpy.types.XrSessionSettings.show_object_select_light
-#. :src: bpy.types.XrSessionSettings.show_object_viewport_light
-#: scripts/startup/bl_ui/properties_data_light.py:280
-#: scripts/startup/bl_ui/space_view3d.py:7157
-msgid "Light"
-msgstr "燈光"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.VIEW3D_MT_lightprobe_add
-#. :src: bpy.types.EEVEE_WORLD_PT_lightprobe
-#. :src: bpy.types.SceneEEVEE.ray_tracing_method:'PROBE'
-#. :src: bpy.types.SpaceView3D.show_object_select_light_probe
-#. :src: bpy.types.SpaceView3D.show_object_viewport_light_probe
-#. :src: bpy.types.XrSessionSettings.show_object_select_light_probe
-#. :src: bpy.types.XrSessionSettings.show_object_viewport_light_probe
-msgid "Light Probe"
-msgstr "光照探頭"
-
-#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_image_add
 msgid "Add Image"
 msgstr "新增影象"
@@ -64218,6 +64103,15 @@ msgstr "新增影象"
 #: scripts/startup/bl_ui/properties_data_armature.py:83
 msgid "Relations"
 msgstr "關係"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_import
+#. :src: bpy.types.NODE_MT_gn_input_import_swap
+#. :src: bpy.types.TOPBAR_MT_file_import
+#. :src: bpy.types.COLLECTION_OT_importer_reload.COLLECTION_OT_importer_import
+#. :src: bpy.types.ASSETBROWSER_PT_import
+msgid "Import"
+msgstr "匯入"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_object_rigid_body
@@ -64257,9 +64151,46 @@ msgid "Track"
 msgstr "追蹤"
 
 #. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_GEO_UTILITIES_DEPRECATED
+#. :src: bpy.types.NODE_MT_gn_utilities_deprecated_swap
+#. :src: bpy.types.ShaderNodeSqueeze
+#. :src: bpy.types.Property.is_deprecated
+#: source/blender/editors/space_node/node_draw.cc:2497
+msgid "Deprecated"
+msgstr "已棄用"
+
+#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_object_quick_effects
 msgid "Quick Effects"
 msgstr "快速效果"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.CLIP_MT_track_visibility
+#. :src: bpy.types.MASK_MT_visibility
+#. :src: bpy.types.NODE_MT_context_menu_show_hide_menu
+#. :src: bpy.types.SEQUENCER_MT_strip_show_hide
+#. :src: bpy.types.VIEW3D_MT_edit_curve_showhide
+#. :src: bpy.types.VIEW3D_MT_edit_greasepencil_showhide
+#. :src: bpy.types.VIEW3D_MT_edit_mesh_showhide
+#. :src: bpy.types.VIEW3D_MT_edit_meta_showhide
+#. :src: bpy.types.VIEW3D_MT_object_showhide
+#. :src: bpy.types.VIEW3D_MT_particle_showhide
+#. :src: bpy.types.VIEW3D_MT_pose_showhide
+#. :src: bpy.types.VIEW3D_MT_sculpt_showhide
+#: scripts/startup/bl_ui/space_view3d.py:3881
+msgid "Show/Hide"
+msgstr "顯示 / 隱藏"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.CLIP_MT_track_cleanup
+#. :src: bpy.types.TOPBAR_MT_file_cleanup
+#. :src: bpy.types.VIEW3D_MT_edit_curve_clean
+#. :src: bpy.types.VIEW3D_MT_edit_greasepencil_cleanup
+#. :src: bpy.types.VIEW3D_MT_edit_mesh_clean
+#. :src: bpy.types.VIEW3D_MT_object_cleanup
+#. :src: bpy.types.CLIP_PT_tools_cleanup
+msgid "Clean Up"
+msgstr "清理"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.ASSETBROWSER_MT_asset
@@ -64276,11 +64207,49 @@ msgid "Make Single User"
 msgstr "使其獨立化"
 
 #. :src: bpy.types.Menu
+msgid "Render Preview"
+msgstr "算繪預覽"
+
+#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_object_convert
 #: source/blender/editors/geometry/geometry_attributes.cc:1009
 #: source/blender/editors/geometry/geometry_attributes.cc:1134
 msgid "Convert"
 msgstr "轉換"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.IMAGE_MT_uvs
+#. :src: bpy.types.IMAGE_MT_uvs_context_menu
+#. :src: bpy.types.NODE_MT_category_PRIMITIVES_MESH
+#. :src: bpy.types.NODE_MT_gn_mesh_uv_swap
+#. :src: bpy.types.MeshUVLoopLayer.uv
+#. :src: bpy.types.DisplaceModifier.texture_coords:'UV'
+#. :src: bpy.types.MeshSequenceCacheModifier.read_data:'UV'
+#. :src: bpy.types.VertexWeightEditModifier.mask_tex_mapping:'UV'
+#. :src: bpy.types.VertexWeightMixModifier.mask_tex_mapping:'UV'
+#. :src: bpy.types.VertexWeightProximityModifier.mask_tex_mapping:'UV'
+#. :src: bpy.types.WarpModifier.texture_coords:'UV'
+#. :src: bpy.types.WaveModifier.texture_coords:'UV'
+#. :src: bpy.types.CyclesRenderSettings.bake_type:'UV'
+#. :src: bpy.types.CyclesView3DShadingSettings.render_pass:'UV'
+#. :src: bpy.types.RenderLayer.use_pass_uv
+#. :src: bpy.types.ViewLayer.use_pass_uv
+#: scripts/addons_core/cycles/engine.py:201
+#: scripts/startup/bl_ui/properties_grease_pencil_common.py:72
+#: scripts/startup/bl_ui/space_view3d.py:1258
+#: scripts/startup/bl_ui/space_view3d_toolbar.py:1578
+#: source/blender/modifiers/intern/MOD_grease_pencil_noise.cc:294
+#: source/blender/modifiers/intern/MOD_grease_pencil_smooth.cc:239
+#: source/blender/nodes/composite/nodes/node_composite_map_uv.cc:41
+#: source/blender/nodes/geometry/nodes/node_geo_uv_pack_islands.cc:57
+#: source/blender/nodes/geometry/nodes/node_geo_uv_pack_islands.cc:58
+#: source/blender/nodes/geometry/nodes/node_geo_uv_tangent.cc:38
+#: source/blender/nodes/geometry/nodes/node_geo_uv_unwrap.cc:66
+#: source/blender/nodes/shader/nodes/node_shader_tex_coord.cc:23
+#: source/blender/nodes/shader/nodes/node_shader_uv_along_stroke.cc:19
+#: source/blender/nodes/shader/nodes/node_shader_uvmap.cc:30
+msgid "UV"
+msgstr "UV"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_make_links
@@ -64320,32 +64289,9 @@ msgid "Clear Transform"
 msgstr "清空變換"
 
 #. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_linked_group_add
-#. :src: bpy.types.NODE_MT_linked_group_swap
-#. :src: bpy.types.NodeSocket.is_linked
-#. :src: bpy.types.NLA_OT_duplicate.linked
-#. :src: bpy.types.NODE_OT_duplicate.linked
-#. :src: bpy.types.OBJECT_OT_add_named.linked
-#. :src: bpy.types.OBJECT_OT_duplicate.linked
-#. :src: bpy.types.SEQUENCER_OT_duplicate.linked
-msgid "Linked"
-msgstr "關聯"
-
-#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_pose_slide
 msgid "In-Betweens"
 msgstr "間幀調整"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_layout
-#. :src: bpy.types.NODE_MT_layout_swap
-#. :src: bpy.types.STRIP_PT_effect_text_layout
-#: source/blender/nodes/composite/node_composite_tree.cc:102
-#: source/blender/nodes/geometry/node_geometry_tree.cc:89
-#: source/blender/nodes/shader/node_shader_tree.cc:125
-#: source/blender/nodes/texture/node_texture_tree.cc:95
-msgid "Layout"
-msgstr "佈局"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_pose_propagate
@@ -64362,6 +64308,16 @@ msgstr "傳導"
 #: source/blender/editors/space_outliner/tree/tree_element_bone_collection.cc:25
 msgid "Bone Collections"
 msgstr "骨骼集合"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_armature_names
+#. :src: bpy.types.VIEW3D_MT_pose_names
+#: scripts/startup/bl_ui/asset_shelf.py:26
+#: scripts/startup/bl_ui/properties_data_armature.py:68
+#: source/blender/nodes/geometry/nodes/node_geo_get_attribute_names.cc:21
+#: source/blender/nodes/geometry/nodes/node_geo_get_grid_names.cc:16
+msgid "Names"
+msgstr "名稱"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_bone_options_toggle
@@ -64384,34 +64340,11 @@ msgid "Mesh Select Mode"
 msgstr "網格選擇模式"
 
 #. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_compositor_color_adjust
-#. :src: bpy.types.NODE_MT_compositor_node_color_adjust_swap
-#. :src: bpy.types.POSELIB_OT_asset_modify.mode:'ADJUST'
-#. :src: Socket name from node group Bloom, file
-#. compositing_nodes_essentials.blend
-#: source/blender/editors/armature/pose_slide.cc:756
-#: source/blender/editors/space_graph/graph_slider_ops.cc:134
-#: source/blender/editors/space_graph/graph_slider_ops.cc:455
-#: source/blender/editors/space_graph/graph_slider_ops.cc:947
-#: source/blender/editors/space_graph/graph_slider_ops.cc:1555
-#: source/blender/editors/space_graph/graph_slider_ops.cc:2445
-#: source/blender/nodes/composite/nodes/node_composite_glare.cc:142
-msgid "Adjust"
-msgstr "校正"
-
-#. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_faces_data
 #. :src: bpy.types.DataTransferModifier.use_poly_data
 #: source/blender/editors/object/object_data_transfer.cc:81
 msgid "Face Data"
 msgstr "面資料"
-
-#. :src: bpy.types.Menu
-#. :src: bpy.types.NODE_MT_category_compositor_keying
-#. :src: bpy.types.NODE_MT_compositor_node_keying_swap
-#. :src: bpy.types.CompositorNodeKeying
-msgid "Keying"
-msgstr "摳像"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_normals_select_strength
@@ -64422,12 +64355,6 @@ msgstr "按面強度選擇"
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_normals_set_strength
 msgid "Set Face Strength"
 msgstr "設定面強度"
-
-#. :src: bpy.types.Menu
-#: scripts/addons_core/viewport_vr_preview/gui.py:58
-#: source/blender/makesrna/intern/rna_constraint.cc:95
-msgid "Tracking"
-msgstr "追蹤"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.IMAGE_MT_uvs_merge
@@ -64444,6 +64371,79 @@ msgstr "追蹤"
 #: source/blender/modifiers/intern/MOD_screw.cc:1079
 msgid "Merge"
 msgstr "合併"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_linked_group_add
+#. :src: bpy.types.NODE_MT_linked_group_swap
+#. :src: bpy.types.NodeSocket.is_linked
+#. :src: bpy.types.NLA_OT_duplicate.linked
+#. :src: bpy.types.NODE_OT_duplicate.linked
+#. :src: bpy.types.OBJECT_OT_add_named.linked
+#. :src: bpy.types.OBJECT_OT_duplicate.linked
+#. :src: bpy.types.SEQUENCER_OT_duplicate.linked
+msgid "Linked"
+msgstr "關聯"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_layout
+#. :src: bpy.types.NODE_MT_layout_swap
+#. :src: bpy.types.STRIP_PT_effect_text_layout
+#: source/blender/nodes/composite/node_composite_tree.cc:102
+#: source/blender/nodes/geometry/node_geometry_tree.cc:89
+#: source/blender/nodes/shader/node_shader_tree.cc:125
+#: source/blender/nodes/texture/node_texture_tree.cc:95
+msgid "Layout"
+msgstr "佈局"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_font_chars
+#. :src: bpy.types.FunctionNodeInputSpecialCharacters
+msgid "Special Characters"
+msgstr "特殊字元"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_font_kerning
+#. :src: bpy.types.TextCharacterFormat.kerning
+msgid "Kerning"
+msgstr "字距"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_compositor_color_adjust
+#. :src: bpy.types.NODE_MT_compositor_node_color_adjust_swap
+#. :src: bpy.types.POSELIB_OT_asset_modify.mode:'ADJUST'
+#. :src: Socket name from node group Bloom, file
+#. compositing_nodes_essentials.blend
+#: source/blender/editors/armature/pose_slide.cc:756
+#: source/blender/editors/space_graph/graph_slider_ops.cc:134
+#: source/blender/editors/space_graph/graph_slider_ops.cc:455
+#: source/blender/editors/space_graph/graph_slider_ops.cc:947
+#: source/blender/editors/space_graph/graph_slider_ops.cc:1555
+#: source/blender/editors/space_graph/graph_slider_ops.cc:2445
+#: source/blender/nodes/composite/nodes/node_composite_glare.cc:142
+msgid "Adjust"
+msgstr "校正"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_armature_roll
+#. :src: bpy.types.CURVE_OT_extrude.mode:'BONE_ROLL'
+#. :src: bpy.types.GRAPH_OT_duplicate.mode:'BONE_ROLL'
+#. :src: bpy.types.OBJECT_OT_duplicate.mode:'BONE_ROLL'
+#. :src: bpy.types.TRANSFORM_OT_transform.mode:'BONE_ROLL'
+msgid "Bone Roll"
+msgstr "骨骼扭轉"
+
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_category_compositor_keying
+#. :src: bpy.types.NODE_MT_compositor_node_keying_swap
+#. :src: bpy.types.CompositorNodeKeying
+msgid "Keying"
+msgstr "摳像"
+
+#. :src: bpy.types.Menu
+#: scripts/addons_core/viewport_vr_preview/gui.py:58
+#: source/blender/makesrna/intern/rna_constraint.cc:95
+msgid "Tracking"
+msgstr "追蹤"
 
 #. :src: bpy.types.ANIM_MT_keyframe_insert_pie
 msgid "Keyframe Insert Pie"
@@ -67241,7 +67241,7 @@ msgid "Curve object to fit array length to"
 msgstr "用於適應陣列長度的曲線物體"
 
 #. :src: bpy.types.ArrayModifier.end_cap
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3370
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3363
 msgid "End Cap"
 msgstr "末端封蓋"
 
@@ -67343,7 +67343,7 @@ msgid ""
 msgstr "幾何體的尺寸將會確定陣列項之間的距離"
 
 #. :src: bpy.types.ArrayModifier.start_cap
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3350
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3343
 msgid "Start Cap"
 msgstr "前端封蓋"
 
@@ -72901,7 +72901,7 @@ msgstr "如何將已有法線與生成的法線混合"
 #. :src: bpy.types.WM_OT_usd_import.import_textures_mode:'IMPORT_COPY'
 #: source/blender/editors/interface/interface_handlers.cc:3837
 #: source/blender/editors/space_node/node_group.cc:456
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2464
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2457
 msgid "Copy"
 msgstr "複製"
 
@@ -85428,7 +85428,7 @@ msgstr "放大時使用雙三次, 否則使用雙線性 (僅用於 OSL)"
 #. :src: Socket name from node group Transform and Project, file
 #. geometry_nodes_essentials.blend
 #: scripts/startup/bl_ui/properties_texture.py:751
-#: source/blender/editors/space_node/drawnode.cc:425
+#: source/blender/editors/space_node/drawnode.cc:426
 #: source/blender/nodes/geometry/nodes/node_geo_viewport_transform.cc:10
 msgid "Projection"
 msgstr "投影"
@@ -85594,8 +85594,8 @@ msgstr "生成分形柏林噪波"
 #. :src: bpy.types.ShaderNodeTexNoise.noise_dimensions
 #. :src: bpy.types.ShaderNodeTexVoronoi.voronoi_dimensions
 #. :src: bpy.types.ShaderNodeTexWhiteNoise.noise_dimensions
-#: source/blender/editors/space_node/drawnode.cc:1561
-#: source/blender/editors/space_node/drawnode.cc:1574
+#: source/blender/editors/space_node/drawnode.cc:1562
+#: source/blender/editors/space_node/drawnode.cc:1575
 msgctxt "Texture"
 msgid "Dimensions"
 msgstr "維度"
@@ -88705,17 +88705,6 @@ msgstr ""
 "\n"
 ">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
 
-#. :src: bpy.types.ANIM_OT_update_animated_transform_constraints
-msgid ""
-"Update f-curves/drivers affecting Transform constraints (use it with files "
-"from 2.70 and earlier)"
-msgstr "更新影響變換約束的函式曲線/驅動器 (用於 2.70 及更早版本的檔案)"
-
-#. :src: bpy.types.ANIM_OT_update_animated_transform_constraints
-msgctxt "Operator"
-msgid "Update Animated Transform Constraints"
-msgstr "更新動畫變換約束"
-
 #. :src: bpy.types.ANIM_OT_version_bone_hide_property
 msgctxt "Operator"
 msgid "Version Bone Hide Property"
@@ -90750,7 +90739,7 @@ msgid "Save the current project to disk"
 msgstr "將當前專案儲存到磁碟"
 
 #. :src: bpy.types.PROJECT_OT_save_project
-#: scripts/startup/bl_ui/space_project.py:66
+#: scripts/startup/bl_ui/space_project.py:72
 msgctxt "Operator"
 msgid "Save Project"
 msgstr "儲存專案"
@@ -92101,9 +92090,9 @@ msgstr "刪除全部選擇關鍵影格"
 #: source/blender/editors/mesh/editmesh_tools.cc:8545
 #: source/blender/editors/object/object_remesh.cc:366
 #: source/blender/editors/object/object_transform.cc:2114
-#: source/blender/editors/screen/screen_ops.cc:2380
-#: source/blender/editors/screen/screen_ops.cc:2506
-#: source/blender/editors/screen/screen_ops.cc:2596
+#: source/blender/editors/screen/screen_ops.cc:2381
+#: source/blender/editors/screen/screen_ops.cc:2507
+#: source/blender/editors/screen/screen_ops.cc:2597
 #: source/blender/editors/sculpt_paint/mesh/sculpt_detail.cc:732
 #: source/blender/editors/sculpt_paint/mesh/sculpt_expand.cc:2470
 #: source/blender/editors/sculpt_paint/mesh/sculpt_filter_mesh.cc:2219
@@ -92176,7 +92165,7 @@ msgstr "複製選定的關鍵影格"
 #: scripts/startup/bl_ui/space_nla.py:255
 #: scripts/startup/bl_ui/space_sequencer.py:1157
 #: scripts/startup/bl_ui/space_sequencer.py:1184
-#: scripts/startup/bl_ui/space_topbar.py:724
+#: scripts/startup/bl_ui/space_topbar.py:771
 #: scripts/startup/bl_ui/space_view3d.py:2375
 #: scripts/startup/bl_ui/space_view3d.py:4649
 #: scripts/startup/bl_ui/space_view3d.py:5814
@@ -94684,20 +94673,6 @@ msgstr "設定起始幀"
 #. :src: bpy.types.ANIM_OT_start_frame_set
 msgid "Set the current frame as the preview or scene start frame"
 msgstr "設定當前幀作為預覽或場景起始幀"
-
-#. :src:
-#. bpy.types.ANIM_OT_update_animated_transform_constraints.use_convert_to_radians
-msgid "Convert to Radians"
-msgstr "轉換為弧度制"
-
-#. :src:
-#. bpy.types.ANIM_OT_update_animated_transform_constraints.use_convert_to_radians
-msgid ""
-"Convert f-curves/drivers affecting rotations to radians.\n"
-"Warning: Use this only once"
-msgstr ""
-"將函式曲線/驅動器影響旋轉轉換為弧度制\n"
-"警告: 僅使用一次"
 
 #. :src: bpy.types.ANIM_OT_version_bone_hide_property
 msgid ""
@@ -100028,7 +100003,7 @@ msgstr "複製後是否刪除所選內容"
 #: scripts/startup/bl_ui/space_outliner.py:339
 #: scripts/startup/bl_ui/space_sequencer.py:1240
 #: scripts/startup/bl_ui/space_sequencer.py:1435
-#: scripts/startup/bl_ui/space_topbar.py:728
+#: scripts/startup/bl_ui/space_topbar.py:775
 #: scripts/startup/bl_ui/space_view3d.py:2663
 #: scripts/startup/bl_ui/space_view3d.py:5705
 #: scripts/startup/bl_ui/space_view3d.py:3024
@@ -107671,7 +107646,7 @@ msgid "Linear"
 msgstr "線性"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_interpolate_sequence.type:'CUSTOM'
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3116
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3109
 msgctxt "GPencil"
 msgid "Custom"
 msgstr "自定義"
@@ -108624,7 +108599,7 @@ msgstr "設定所有筆畫點為相同的不透明度"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_set_uniform_opacity.opacity_fill
 #. :src: bpy.types.UV_OT_export_layout.opacity
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3329
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3322
 msgid "Fill Opacity"
 msgstr "填充的不透明度"
 
@@ -122344,7 +122319,7 @@ msgstr "清除偽使用者"
 
 #. :src: bpy.types.OUTLINER_OT_id_operation.type:'RENAME'
 #. :src: bpy.types.OUTLINER_OT_object_operation.type:'RENAME'
-#: source/blender/editors/animation/anim_markers.cc:1952
+#: source/blender/editors/animation/anim_markers.cc:1954
 #: source/blender/editors/space_file/asset_catalog_tree_view.cc:335
 msgid "Rename"
 msgstr "重新命名"
@@ -126612,12 +126587,12 @@ msgstr "關閉區域"
 
 #. :src: bpy.types.SCREEN_OT_area_close
 msgid "Close selected area"
-msgstr "閉合所選區域"
+msgstr "關閉所選區域"
 
 #. :src: bpy.types.SCREEN_OT_area_dupli
 msgctxt "Operator"
 msgid "Duplicate Area into New Window"
-msgstr "將區域複製到新視窗"
+msgstr "複製區域到新視窗"
 
 #. :src: bpy.types.SCREEN_OT_area_dupli
 msgid "Duplicate selected area into new window"
@@ -133350,7 +133325,7 @@ msgstr "孤島間距"
 #: scripts/startup/bl_ui/properties_constraint.py:392
 #: scripts/startup/bl_ui/properties_constraint.py:1060
 #: source/blender/editors/animation/fmodifier_ui.cc:359
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3304
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3297
 #: source/blender/nodes/geometry/nodes/node_geo_nurbs_order.cc:12
 #: source/blender/nodes/geometry/nodes/node_geo_set_nurbs_order.cc:28
 msgid "Order"
@@ -135115,7 +135090,7 @@ msgid "Menu object selection"
 msgstr "選中物體的選單"
 
 #. :src: bpy.types.VIEW3D_OT_select_menu.name
-#: scripts/startup/bl_ui/space_topbar.py:821
+#: scripts/startup/bl_ui/space_topbar.py:868
 msgid "Object Name"
 msgstr "物體名稱"
 
@@ -140182,14 +140157,6 @@ msgid "Curves Edit Mode"
 msgstr "曲線編輯模式"
 
 #. :src: bpy.types.Panel
-msgid "glTF Variants"
-msgstr "glTF 變體"
-
-#. :src: bpy.types.Panel
-msgid "glTF Material Variants"
-msgstr "glTF 材質變體"
-
-#. :src: bpy.types.Panel
 #. :src: bpy.types.VIEW3D_PT_transform_orientations
 #: scripts/startup/bl_ui/space_view3d.py:8046
 msgid "Transform Orientations"
@@ -140237,14 +140204,6 @@ msgid "Multi Frame"
 msgstr "多幀"
 
 #. :src: bpy.types.Panel
-msgid "glTF"
-msgstr "glTF"
-
-#. :src: bpy.types.Panel
-msgid "glTF Animations"
-msgstr "glTF 動畫"
-
-#. :src: bpy.types.Panel
 #. :src: bpy.types.VIEW3D_PT_grease_pencil_sculpt_automasking
 #. :src: bpy.types.VIEW3D_PT_mesh_paint_automasking
 #: scripts/startup/bl_ui/properties_paint_common.py:1524
@@ -140275,6 +140234,14 @@ msgid "Viewport Debug"
 msgstr "視口除錯"
 
 #. :src: bpy.types.Panel
+msgid "glTF Variants"
+msgstr "glTF 變體"
+
+#. :src: bpy.types.Panel
+msgid "glTF Material Variants"
+msgstr "glTF 材質變體"
+
+#. :src: bpy.types.Panel
 #. :src: bpy.types.VIEW3D_PT_vr_actionmaps
 #. :src: bpy.types.VIEW3D_PT_vr_landmarks
 #. :src: bpy.types.VIEW3D_PT_vr_location_scouting
@@ -140290,6 +140257,14 @@ msgstr "VR"
 #. :src: bpy.types.Panel
 msgid "VR Info"
 msgstr "VR 資訊"
+
+#. :src: bpy.types.Panel
+msgid "glTF"
+msgstr "glTF"
+
+#. :src: bpy.types.Panel
+msgid "glTF Animations"
+msgstr "glTF 動畫"
 
 #. :src: bpy.types.ASSETBROWSER_PT_import_settings
 #: scripts/startup/bl_ui/space_filebrowser.py:28
@@ -141738,7 +141713,7 @@ msgid "Project Navigation"
 msgstr "專案導航"
 
 #. :src: bpy.types.PROJECT_PT_save_project
-#: scripts/startup/bl_ui/space_project.py:106
+#: scripts/startup/bl_ui/space_project.py:112
 msgid "Save Project"
 msgstr "儲存專案"
 
@@ -145739,7 +145714,7 @@ msgstr "上/下"
 #. compositing_nodes_essentials.blend
 #. :src: Socket name from node group Collider, file
 #. geometry_nodes_dynamics_assets.blend
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3390
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3383
 #: source/blender/nodes/geometry/nodes/node_geo_grease_pencil_stroke_softness.cc:12
 #: source/blender/nodes/geometry/nodes/node_geo_set_grease_pencil_softness.cc:28
 #: source/blender/nodes/shader/nodes/node_shader_shadow_raycast.cc:22
@@ -146875,7 +146850,7 @@ msgstr "檔案編輯器將顯示的預設位置"
 #. :src: bpy.types.PreferencesView.preferences_display_type:'SCREEN'
 #. :src: bpy.types.PreferencesView.render_display_type:'SCREEN'
 msgid "Maximized Area"
-msgstr "區域最大化"
+msgstr "最大化的區域"
 
 #. :src: bpy.types.PreferencesView.filebrowser_display_type:'SCREEN'
 #. :src: bpy.types.PreferencesView.preferences_display_type:'SCREEN'
@@ -147023,7 +146998,8 @@ msgid "Chinese (Simplified) - 简体中文"
 msgstr "簡體中文"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANS'
-msgid "Locale code: zh_HANS. Translation progress: 99%"
+#, fuzzy
+msgid "Locale code: zh_HANS. Translation progress: 100%"
 msgstr "區域程式碼: zh_HANS. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANT'
@@ -147124,7 +147100,8 @@ msgid "Georgian - ქართული"
 msgstr "喬治亞語 - ქართული"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
-msgid "Locale code: ka. Translation progress: 98%"
+#, fuzzy
+msgid "Locale code: ka. Translation progress: 97%"
 msgstr "區域程式碼: ka. 翻譯進度: 98%"
 
 #. :src: bpy.types.PreferencesView.language:'de_DE'
@@ -147179,7 +147156,8 @@ msgid "Indonesian - Bahasa indonesia"
 msgstr "印度尼西亞語 - Bahasa indonesia"
 
 #. :src: bpy.types.PreferencesView.language:'id_ID'
-msgid "Locale code: id_ID. Translation progress: 20%"
+#, fuzzy
+msgid "Locale code: id_ID. Translation progress: 21%"
 msgstr "區域程式碼: id_ID. 翻譯進度: 20%"
 
 #. :src: bpy.types.PreferencesView.language:'it_IT'
@@ -147279,7 +147257,8 @@ msgid "Portuguese (Portugal) - Português europeu"
 msgstr "葡萄牙語 (葡萄牙) - Português europeu"
 
 #. :src: bpy.types.PreferencesView.language:'pt_PT'
-msgid "Locale code: pt_PT. Translation progress: 81%"
+#, fuzzy
+msgid "Locale code: pt_PT. Translation progress: 82%"
 msgstr "區域程式碼: pt_PT. 翻譯進度: 81%"
 
 #. :src: bpy.types.PreferencesView.language:'ro_RO'
@@ -147360,8 +147339,9 @@ msgid "Swedish - Svenska"
 msgstr "瑞典語 - Svenska"
 
 #. :src: bpy.types.PreferencesView.language:'sv_SE'
-msgid "Locale code: sv_SE. Translation progress: 99%"
-msgstr "區域程式碼: sv_SE. 翻譯進度: 99%"
+#, fuzzy
+msgid "Locale code: sv_SE. Translation progress: 100%"
+msgstr "區域程式碼: sk_SK. 翻譯進度: 100%"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147369,7 +147349,8 @@ msgid "Tamil - தமிழ்"
 msgstr "泰米爾語 - தமிழ்"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
-msgid "Locale code: ta. Translation progress: 93%"
+#, fuzzy
+msgid "Locale code: ta. Translation progress: 92%"
 msgstr "區域程式碼: ta. 翻譯進度: 93%"
 
 #. :src: bpy.types.PreferencesView.language:'th_TH'
@@ -148110,11 +148091,11 @@ msgid "A project variable of type string"
 msgstr "一個字串型別的專案變數"
 
 #. :src: bpy.types.ProjectVariableString.subtype
-#: source/blender/editors/space_node/drawnode.cc:1541
-#: source/blender/editors/space_node/drawnode.cc:1549
-#: source/blender/editors/space_node/drawnode.cc:1557
-#: source/blender/editors/space_node/drawnode.cc:1570
-#: source/blender/editors/space_node/drawnode.cc:1583
+#: source/blender/editors/space_node/drawnode.cc:1542
+#: source/blender/editors/space_node/drawnode.cc:1550
+#: source/blender/editors/space_node/drawnode.cc:1558
+#: source/blender/editors/space_node/drawnode.cc:1571
+#: source/blender/editors/space_node/drawnode.cc:1584
 msgid "Subtype"
 msgstr "子型別"
 
@@ -152240,14 +152221,14 @@ msgid "Don't use any fixed alignment, fill available space"
 msgstr "不要使用任何固定對齊方式，填充可用空間"
 
 #. :src: bpy.types.Region.alignment:'HORIZONTAL_SPLIT'
-#: source/blender/editors/screen/screen_ops.cc:5273
-#: source/blender/editors/screen/screen_ops.cc:5592
+#: source/blender/editors/screen/screen_ops.cc:5278
+#: source/blender/editors/screen/screen_ops.cc:5597
 msgid "Horizontal Split"
 msgstr "水平分割"
 
 #. :src: bpy.types.Region.alignment:'VERTICAL_SPLIT'
-#: source/blender/editors/screen/screen_ops.cc:5283
-#: source/blender/editors/screen/screen_ops.cc:5582
+#: source/blender/editors/screen/screen_ops.cc:5288
+#: source/blender/editors/screen/screen_ops.cc:5587
 msgid "Vertical Split"
 msgstr "垂直分割"
 
@@ -153336,7 +153317,7 @@ msgid "Use high quality tangent space at the cost of lower performance"
 msgstr "以較低的效能為代價使用高質量的切向空間"
 
 #. :src: bpy.types.RenderSettings.use_lock_interface
-#: scripts/startup/bl_ui/space_topbar.py:559
+#: scripts/startup/bl_ui/space_topbar.py:606
 msgid "Lock Interface"
 msgstr "鎖定介面"
 
@@ -168811,15 +168792,15 @@ msgstr "活動取景器確認動作"
 #: source/blender/editors/mesh/editmesh_tools.cc:8546
 #: source/blender/editors/object/object_remesh.cc:367
 #: source/blender/editors/object/object_transform.cc:2115
-#: source/blender/editors/screen/screen_ops.cc:1633
-#: source/blender/editors/screen/screen_ops.cc:2381
-#: source/blender/editors/screen/screen_ops.cc:2507
-#: source/blender/editors/screen/screen_ops.cc:2597
-#: source/blender/editors/screen/screen_ops.cc:3762
-#: source/blender/editors/screen/screen_ops.cc:5365
-#: source/blender/editors/screen/screen_ops.cc:5369
-#: source/blender/editors/screen/screen_ops.cc:5376
-#: source/blender/editors/screen/screen_ops.cc:5380
+#: source/blender/editors/screen/screen_ops.cc:1634
+#: source/blender/editors/screen/screen_ops.cc:2382
+#: source/blender/editors/screen/screen_ops.cc:2508
+#: source/blender/editors/screen/screen_ops.cc:2598
+#: source/blender/editors/screen/screen_ops.cc:3763
+#: source/blender/editors/screen/screen_ops.cc:5370
+#: source/blender/editors/screen/screen_ops.cc:5374
+#: source/blender/editors/screen/screen_ops.cc:5381
+#: source/blender/editors/screen/screen_ops.cc:5385
 #: source/blender/editors/sculpt_paint/grease_pencil/draw_ops.cc:1185
 #: source/blender/editors/sculpt_paint/mesh/sculpt_detail.cc:733
 #: source/blender/editors/sculpt_paint/mesh/sculpt_expand.cc:2471
@@ -173765,13 +173746,7 @@ msgstr "IO_FH_svg_as_curves"
 msgid "Unable to parse XML, %s:%s for file %r"
 msgstr "無法解析 XML, %s:%s 針對檔案 %r"
 
-#: scripts/addons_core/io_scene_fbx/__init__.py:719
-msgctxt "Operator"
-msgid "IO_FH_fbx (Legacy)"
-msgstr "IO_FH_fbx (Legacy)"
-
-#: scripts/addons_core/io_scene_fbx/__init__.py:724
-#: scripts/startup/bl_ui/space_topbar.py:422
+#: scripts/addons_core/io_scene_fbx/__init__.py:726
 msgctxt "Operator"
 msgid "IO_FH_fbx"
 msgstr "IO_FH_fbx"
@@ -174806,7 +174781,7 @@ msgid "Documentation"
 msgstr "文件"
 
 #: scripts/addons_core/rigify/__init__.py:404
-#: scripts/startup/bl_ui/space_topbar.py:688
+#: scripts/startup/bl_ui/space_topbar.py:735
 #: scripts/startup/bl_ui/space_userpref.py:2722
 msgctxt "Operator"
 msgid "Report a Bug"
@@ -175610,11 +175585,11 @@ msgstr "環體"
 msgid "Removed {:d} empty and/or fake-user only Actions"
 msgstr "刪除 {:d} 個空物體和/或僅偽使用者動作"
 
-#: scripts/startup/bl_operators/anim.py:686
+#: scripts/startup/bl_operators/anim.py:600
 msgid "Removed {:d} of {:d} bone collections"
 msgstr "移除 {:d} 個骨骼集合 (從 {:d} 箇中)"
 
-#: scripts/startup/bl_operators/anim.py:901
+#: scripts/startup/bl_operators/anim.py:815
 msgid "Modified the animation of {:d} armatures"
 msgstr "已修改 {:d} 組骨架的動畫"
 
@@ -175622,72 +175597,68 @@ msgstr "已修改 {:d} 組骨架的動畫"
 msgid "Nothing to bake"
 msgstr "無可供烘焙"
 
-#: scripts/startup/bl_operators/anim.py:469
-msgid "Complete report available on '{:s}' text data-block"
-msgstr "完整報告見 '{:s}' 文字資料塊"
-
-#: scripts/startup/bl_operators/anim.py:520
+#: scripts/startup/bl_operators/anim.py:434
 msgid "No active bone to copy from"
 msgstr "沒有可複製的活動骨骼"
 
-#: scripts/startup/bl_operators/anim.py:524
+#: scripts/startup/bl_operators/anim.py:438
 msgid "No selected bones to copy to"
 msgstr "無選中骨骼複製到"
 
-#: scripts/startup/bl_operators/anim.py:545
+#: scripts/startup/bl_operators/anim.py:459
 msgid ""
 "Bone colors were synced; for {:d} bones this will not be visible due to pose"
 " bone color overrides"
 msgstr "同步的骨骼顏色；對於 {:d} 個骨骼，由於姿態骨骼顏色覆蓋，將不可見"
 
-#: scripts/startup/bl_operators/anim.py:593
+#: scripts/startup/bl_operators/anim.py:507
 msgid "None of the bone collections is marked 'solo'"
 msgstr "沒有骨骼集合被標記為 '孤立'"
 
-#: scripts/startup/bl_operators/anim.py:633
-#: scripts/startup/bl_operators/anim.py:656
+#: scripts/startup/bl_operators/anim.py:547
+#: scripts/startup/bl_operators/anim.py:570
 msgid "All bone collections are in use"
 msgstr "所有骨骼集合都在使用中"
 
-#: scripts/startup/bl_operators/anim.py:714
+#: scripts/startup/bl_operators/anim.py:628
 msgid "An action slot can only be created when an action is assigned"
 msgstr "僅當分配了動作時，才能建立動作槽"
 
-#: scripts/startup/bl_operators/anim.py:717
+#: scripts/startup/bl_operators/anim.py:631
 msgid "Creating a new Slot is not possible on a linked Action"
 msgstr "在連結的動作上無法建立新的槽"
 
-#: scripts/startup/bl_operators/anim.py:754
+#: scripts/startup/bl_operators/anim.py:668
 msgid "This data-block has no Action slot assigned"
 msgstr "此資料塊未分配動作槽"
 
-#: scripts/startup/bl_operators/anim.py:775
+#: scripts/startup/bl_operators/anim.py:689
 msgid "No Action slot is assigned, so there is nothing to un-assign"
 msgstr "沒有動作槽被分配，因此取消分配也無事發生"
 
-#: scripts/startup/bl_operators/anim.py:830
+#: scripts/startup/bl_operators/anim.py:744
 #: source/blender/editors/object/object_edit.cc:2332
 #: source/blender/editors/uvedit/uvedit_smart_stitch.cc:2316
 msgid "No objects selected"
 msgstr "無選中物體"
 
-#: scripts/startup/bl_operators/anim.py:856
+#: scripts/startup/bl_operators/anim.py:770
 msgid "No animated armatures selected"
 msgstr "未選擇有動畫的骨架"
 
-#: scripts/startup/bl_operators/anim.py:898
+#: scripts/startup/bl_operators/anim.py:812
 msgid "No armature animation was modified"
 msgstr "未修改骨架動畫"
 
-#: scripts/startup/bl_operators/anim.py:497
+#: scripts/startup/bl_operators/anim.py:411
 msgid "Go to pose mode to copy pose bone colors"
 msgstr "進入姿態模式複製姿態骨骼顏色"
 
-#: scripts/startup/bl_operators/anim.py:516
+#: scripts/startup/bl_operators/anim.py:430
 msgid "Cannot do anything in mode {!r}"
 msgstr "在模式 {!r} 下無法執行任何操作"
 
-#: scripts/startup/bl_operators/anim.py:867
+#: scripts/startup/bl_operators/anim.py:781
 msgid "Not all armature objects have an action and slot assigned"
 msgstr "並非所有骨架物體都指定了動作和槽"
 
@@ -175967,34 +175938,34 @@ msgid ""
 "node-tree"
 msgstr "將節點封裝在閉包內，該閉包可在節點樹的不同位置執行"
 
-#: scripts/startup/bl_operators/node.py:1538
+#: scripts/startup/bl_operators/node.py:1545
 msgid "Assigned shortcut {:d} to {:s}"
 msgstr "已分配快捷鍵 {:d} 到 {:s}"
 
 #: scripts/startup/bl_operators/node.py:273
-#: source/blender/editors/space_node/node_add.cc:425
+#: source/blender/editors/space_node/node_add.cc:426
 msgid "No nodes selected."
 msgstr "未選擇節點。"
 
-#: scripts/startup/bl_operators/node.py:1388
+#: scripts/startup/bl_operators/node.py:1395
 msgid "Only boolean input sockets are supported"
 msgstr "僅支援布林輸入介面"
 
-#: scripts/startup/bl_operators/node.py:1393
+#: scripts/startup/bl_operators/node.py:1400
 msgid "Socket must be in a panel"
 msgstr "介面必須位於面板內"
 
-#: scripts/startup/bl_operators/node.py:1508
+#: scripts/startup/bl_operators/node.py:1515
 msgid "Select a node to assign a shortcut"
 msgstr "選擇一個節點以指定快捷鍵"
 
-#: scripts/startup/bl_operators/node.py:1530
+#: scripts/startup/bl_operators/node.py:1537
 msgid ""
 "Unable to set shortcut, selected node is not a viewer node or does not "
 "support viewing"
 msgstr "無法設定快捷鍵，所選節點不是預覽器節點或不支援檢視"
 
-#: scripts/startup/bl_operators/node.py:1574
+#: scripts/startup/bl_operators/node.py:1581
 msgid "Shortcut {:d} is not assigned to a Viewer node yet"
 msgstr "快捷鍵 {:d} 尚未分配給預覽器節點"
 
@@ -176002,12 +175973,12 @@ msgstr "快捷鍵 {:d} 尚未分配給預覽器節點"
 msgid "NodeGroup"
 msgstr "節點組"
 
-#: scripts/startup/bl_operators/node.py:1278
+#: scripts/startup/bl_operators/node.py:1285
 msgid "Active item is not a panel"
 msgstr "活動專案不是面板"
 
-#: scripts/startup/bl_operators/node.py:1282
-#: scripts/startup/bl_operators/node.py:1398
+#: scripts/startup/bl_operators/node.py:1289
+#: scripts/startup/bl_operators/node.py:1405
 msgid "Panel already has a toggle"
 msgstr "面板上已有一個開關"
 
@@ -176439,7 +176410,7 @@ msgid "Renamed {:d} of {:d} {:s}"
 msgstr "已重新命名 {:d} / {:d} {:s}"
 
 #: scripts/startup/bl_operators/wm.py:3553
-#: scripts/startup/bl_ui/space_project.py:293
+#: scripts/startup/bl_ui/space_project.py:299
 msgctxt "Operator"
 msgid "New Project..."
 msgstr "新建專案..."
@@ -176451,7 +176422,7 @@ msgstr "新建專案..."
 #: scripts/startup/bl_ui/space_text.py:254
 #: scripts/startup/bl_ui/space_topbar.py:168
 #: scripts/startup/bl_ui/space_topbar.py:349
-#: scripts/startup/bl_ui/space_topbar.py:700
+#: scripts/startup/bl_ui/space_topbar.py:747
 msgctxt "Operator"
 msgid "Open..."
 msgstr "開啟..."
@@ -176607,14 +176578,14 @@ msgstr "可信來源 [不受信任的路徑]"
 
 #: scripts/startup/bl_operators/wm.py:3869
 #: scripts/startup/bl_ui/space_topbar.py:195
-#: scripts/startup/bl_ui/space_topbar.py:705
+#: scripts/startup/bl_ui/space_topbar.py:752
 msgctxt "Operator"
 msgid "Link..."
 msgstr "關聯..."
 
 #: scripts/startup/bl_operators/wm.py:3872
 #: scripts/startup/bl_ui/space_topbar.py:196
-#: scripts/startup/bl_ui/space_topbar.py:706
+#: scripts/startup/bl_ui/space_topbar.py:753
 msgctxt "Operator"
 msgid "Append..."
 msgstr "追加..."
@@ -176752,25 +176723,25 @@ msgid "Other Recent Files"
 msgstr "其他近期檔案"
 
 #: scripts/startup/bl_operators/wm.py:3602
-#: scripts/startup/bl_ui/space_topbar.py:668
+#: scripts/startup/bl_ui/space_topbar.py:715
 msgctxt "Operator"
 msgid "Manual"
 msgstr "手冊"
 
 #: scripts/startup/bl_operators/wm.py:3603
-#: scripts/startup/bl_ui/space_topbar.py:669
+#: scripts/startup/bl_ui/space_topbar.py:716
 msgctxt "Operator"
 msgid "Support"
 msgstr "支援"
 
 #: scripts/startup/bl_operators/wm.py:3604
-#: scripts/startup/bl_ui/space_topbar.py:670
+#: scripts/startup/bl_ui/space_topbar.py:717
 msgctxt "Operator"
 msgid "User Communities"
 msgstr "使用者社群"
 
 #: scripts/startup/bl_operators/wm.py:3605
-#: scripts/startup/bl_ui/space_topbar.py:671
+#: scripts/startup/bl_ui/space_topbar.py:718
 msgctxt "Operator"
 msgid "Get Involved"
 msgstr "參與進來"
@@ -179558,7 +179529,7 @@ msgstr "檢視操控器"
 
 #: scripts/startup/bl_ui/space_clip.py:77
 #: scripts/startup/bl_ui/space_image.py:1158
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3431
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3424
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.cc:77
 msgid "Aspect Ratio"
 msgstr "寬高比"
@@ -181149,72 +181120,73 @@ msgstr "清除"
 msgid "No Keying Set Active"
 msgstr "無啟用的插幀集"
 
-#: scripts/startup/bl_ui/space_project.py:65
+#: scripts/startup/bl_ui/space_project.py:71
 msgid "Auto-Save Project"
 msgstr "自動儲存專案"
 
-#. :src: scripts/startup/bl_ui/space_project.py:179
+#: scripts/startup/bl_ui/space_project.py:185
 msgid "Artwork"
 msgstr "插圖"
 
-#: scripts/startup/bl_ui/space_project.py:75
+#: scripts/startup/bl_ui/space_project.py:81
 msgctxt "Operator"
 msgid "String"
 msgstr "字串"
 
-#: scripts/startup/bl_ui/space_project.py:76
+#: scripts/startup/bl_ui/space_project.py:82
 msgctxt "Operator"
 msgid "Filepath"
 msgstr "檔案路徑"
 
-#: scripts/startup/bl_ui/space_project.py:78
+#: scripts/startup/bl_ui/space_project.py:84
 msgctxt "Operator"
 msgid "Integer"
 msgstr "整數"
 
-#: scripts/startup/bl_ui/space_project.py:79
+#: scripts/startup/bl_ui/space_project.py:85
 msgctxt "Operator"
 msgid "Float"
 msgstr "浮點"
 
-#: scripts/startup/bl_ui/space_project.py:218
-msgid "Overridden by the  environment variable"
+#: scripts/startup/bl_ui/space_project.py:224
+#, fuzzy
+msgid "Overridden by the {:s} environment variable"
 msgstr "被  環境變數覆蓋"
 
-#: scripts/startup/bl_ui/space_project.py:230
+#: scripts/startup/bl_ui/space_project.py:236
 msgctxt "Operator"
 msgid "Reload to Apply Changes"
 msgstr "重新載入以應用更改"
 
-#: scripts/startup/bl_ui/space_project.py:252
-#: scripts/startup/bl_ui/space_project.py:276
+#: scripts/startup/bl_ui/space_project.py:258
+#: scripts/startup/bl_ui/space_project.py:282
 msgid "No active project."
 msgstr "無活動專案。"
 
-#: scripts/startup/bl_ui/space_project.py:259
+#: scripts/startup/bl_ui/space_project.py:265
 msgid ""
 "Save the current file, and make sure to place it in a folder that will be "
 "part of the project"
 msgstr "儲存當前檔案，並確保將其放置在專案所包含的資料夾中"
 
-#: scripts/startup/bl_ui/space_project.py:264
-#: scripts/startup/bl_ui/space_project.py:287
+#: scripts/startup/bl_ui/space_project.py:270
+#: scripts/startup/bl_ui/space_project.py:293
 msgid ""
 "Alternatively, open a file inside of a project directory to see its "
 "settings."
 msgstr "或者，在專案目錄中開啟一個檔案，檢視其設定。"
 
-#: scripts/startup/bl_ui/space_project.py:270
+#: scripts/startup/bl_ui/space_project.py:276
 msgctxt "Operator"
 msgid "Save File..."
 msgstr "儲存檔案..."
 
-#: scripts/startup/bl_ui/space_project.py:283
+#: scripts/startup/bl_ui/space_project.py:289
 msgid ""
 "Set up a new project by choosing any parent directory of the current file."
 msgstr "選擇當前檔案的任意父目錄，以建立一個新專案。"
 
-#: scripts/startup/bl_ui/space_project.py:309
+#: scripts/startup/bl_ui/space_project.py:315
 msgid "{:.3f}"
 msgstr "{:.3f}"
 
@@ -181224,7 +181196,7 @@ msgstr "與大綱檢視同步"
 
 #: scripts/startup/bl_ui/space_properties.py:189
 #: source/blender/editors/interface/interface_context_menu.cc:1336
-#: source/blender/editors/screen/screen_ops.cc:6342
+#: source/blender/editors/screen/screen_ops.cc:6347
 msgid "Visible Tabs"
 msgstr "可見選項卡"
 
@@ -181265,7 +181237,7 @@ msgid "Rebuild"
 msgstr "重建"
 
 #: scripts/startup/bl_ui/space_sequencer.py:417
-#: scripts/startup/bl_ui/space_topbar.py:543
+#: scripts/startup/bl_ui/space_topbar.py:590
 msgctxt "Operator"
 msgid "Render Sequencer Animation"
 msgstr "算繪序列動畫"
@@ -181427,7 +181399,7 @@ msgid "Set Preview Range to Strips"
 msgstr "設定預覽範圍為片段"
 
 #: scripts/startup/bl_ui/space_sequencer.py:416
-#: scripts/startup/bl_ui/space_topbar.py:539
+#: scripts/startup/bl_ui/space_topbar.py:586
 msgctxt "Operator"
 msgid "Render Sequencer Image"
 msgstr "算繪序列影象"
@@ -182068,7 +182040,7 @@ msgid "Manage Unused Data..."
 msgstr "管理未使用資料..."
 
 #: scripts/startup/bl_ui/space_topbar.py:167
-#: scripts/startup/bl_ui/space_topbar.py:699
+#: scripts/startup/bl_ui/space_topbar.py:746
 msgctxt "WindowManager"
 msgid "New"
 msgstr "新建"
@@ -182103,110 +182075,110 @@ msgctxt "Operator"
 msgid "New..."
 msgstr "新建..."
 
-#: scripts/startup/bl_ui/space_topbar.py:500
+#: scripts/startup/bl_ui/space_topbar.py:547
 msgctxt "Operator"
 msgid "Find Missing Files..."
 msgstr "查詢缺失的檔案..."
 
-#: scripts/startup/bl_ui/space_topbar.py:510
+#: scripts/startup/bl_ui/space_topbar.py:557
 msgctxt "Operator"
 msgid "Batch-Generate Previews..."
 msgstr "批次生成預覽..."
 
-#: scripts/startup/bl_ui/space_topbar.py:514
+#: scripts/startup/bl_ui/space_topbar.py:561
 msgctxt "Operator"
 msgid "Clear Data-Block Previews..."
 msgstr "清除資料塊預覽..."
 
-#: scripts/startup/bl_ui/space_topbar.py:515
+#: scripts/startup/bl_ui/space_topbar.py:562
 msgctxt "Operator"
 msgid "Batch-Clear Previews..."
 msgstr "批次清除預覽..."
 
-#: scripts/startup/bl_ui/space_topbar.py:532
+#: scripts/startup/bl_ui/space_topbar.py:579
 msgctxt "Operator"
 msgid "Render Animation"
 msgstr "算繪動畫"
 
-#: scripts/startup/bl_ui/space_topbar.py:550
+#: scripts/startup/bl_ui/space_topbar.py:597
 msgctxt "Operator"
 msgid "Render Audio..."
 msgstr "算繪音訊..."
 
-#: scripts/startup/bl_ui/space_topbar.py:554
+#: scripts/startup/bl_ui/space_topbar.py:601
 msgctxt "Operator"
 msgid "View Render"
 msgstr "檢視算繪結果"
 
-#: scripts/startup/bl_ui/space_topbar.py:555
+#: scripts/startup/bl_ui/space_topbar.py:602
 msgctxt "Operator"
 msgid "View Animation"
 msgstr "檢視動畫"
 
-#: scripts/startup/bl_ui/space_topbar.py:576
+#: scripts/startup/bl_ui/space_topbar.py:623
 msgctxt "Operator"
 msgid "Adjust Last Operation..."
 msgstr "調整上一步操作..."
 
-#: scripts/startup/bl_ui/space_topbar.py:578
+#: scripts/startup/bl_ui/space_topbar.py:625
 msgctxt "Operator"
 msgid "Repeat History..."
 msgstr "重複歷史..."
 
-#: scripts/startup/bl_ui/space_topbar.py:582
+#: scripts/startup/bl_ui/space_topbar.py:629
 msgctxt "Operator"
 msgid "Menu Search..."
 msgstr "選單搜尋..."
 
-#: scripts/startup/bl_ui/space_topbar.py:589
+#: scripts/startup/bl_ui/space_topbar.py:636
 msgctxt "Operator"
 msgid "Rename Active Item..."
 msgstr "重新命名活動項..."
 
-#: scripts/startup/bl_ui/space_topbar.py:593
+#: scripts/startup/bl_ui/space_topbar.py:640
 msgctxt "Operator"
 msgid "Batch Rename..."
 msgstr "批次重新命名..."
 
-#: scripts/startup/bl_ui/space_topbar.py:603
-#: scripts/startup/bl_ui/space_topbar.py:715
+#: scripts/startup/bl_ui/space_topbar.py:650
+#: scripts/startup/bl_ui/space_topbar.py:762
 msgctxt "Operator"
 msgid "Preferences..."
 msgstr "偏好設定..."
 
-#: scripts/startup/bl_ui/space_topbar.py:612
+#: scripts/startup/bl_ui/space_topbar.py:659
 msgctxt "Operator"
 msgid "Settings..."
 msgstr "設定..."
 
-#: scripts/startup/bl_ui/space_topbar.py:642
+#: scripts/startup/bl_ui/space_topbar.py:689
 msgctxt "Operator"
 msgid "Save Screenshot..."
 msgstr "儲存螢幕截圖..."
 
-#: scripts/startup/bl_ui/space_topbar.py:732
+#: scripts/startup/bl_ui/space_topbar.py:779
 msgctxt "Operator"
 msgid "Reorder to Front"
 msgstr "向前重排序"
 
-#: scripts/startup/bl_ui/space_topbar.py:733
+#: scripts/startup/bl_ui/space_topbar.py:780
 msgctxt "Operator"
 msgid "Reorder to Back"
 msgstr "向後重排序"
 
-#: scripts/startup/bl_ui/space_topbar.py:738
-#: scripts/startup/bl_ui/space_topbar.py:634
+#: scripts/startup/bl_ui/space_topbar.py:785
+#: scripts/startup/bl_ui/space_topbar.py:681
 msgctxt "Operator"
 msgid "Previous Workspace"
 msgstr "前一個工作區"
 
-#: scripts/startup/bl_ui/space_topbar.py:740
-#: scripts/startup/bl_ui/space_topbar.py:633
+#: scripts/startup/bl_ui/space_topbar.py:787
+#: scripts/startup/bl_ui/space_topbar.py:680
 msgctxt "Operator"
 msgid "Next Workspace"
 msgstr "後一個工作區"
 
-#: scripts/startup/bl_ui/space_topbar.py:857
+#: scripts/startup/bl_ui/space_topbar.py:904
 msgid "Marker Name"
 msgstr "標記名稱"
 
@@ -182236,118 +182208,72 @@ msgctxt "Operator"
 msgid "Clear Recent Projects List..."
 msgstr "清空近期專案列表..."
 
-#. :src: scripts/startup/bl_ui/space_topbar.py:358
+#: scripts/startup/bl_ui/space_topbar.py:358
 msgid "No Recent Projects"
 msgstr "無近期專案"
 
-#: scripts/startup/bl_ui/space_topbar.py:398
-#: scripts/startup/bl_ui/space_topbar.py:444
-msgctxt "Operator"
-msgid "IO_FH_alembic"
-msgstr "IO_FH_alembic"
-
-#: scripts/startup/bl_ui/space_topbar.py:401
-#: scripts/startup/bl_ui/space_topbar.py:447
-msgctxt "Operator"
-msgid "IO_FH_usd"
-msgstr "IO_FH_usd"
-
-#: scripts/startup/bl_ui/space_topbar.py:406
-msgctxt "Operator"
-msgid "IO_FH_grease_pencil_svg"
-msgstr "IO_FH_grease_pencil_svg"
-
-#: scripts/startup/bl_ui/space_topbar.py:410
-#: scripts/startup/bl_ui/space_topbar.py:459
-msgctxt "Operator"
-msgid "IO_FH_obj"
-msgstr "IO_FH_obj"
-
-#: scripts/startup/bl_ui/space_topbar.py:413
-#: scripts/startup/bl_ui/space_topbar.py:462
-msgctxt "Operator"
-msgid "IO_FH_ply"
-msgstr "IO_FH_ply"
-
-#: scripts/startup/bl_ui/space_topbar.py:415
-msgctxt "Operator"
-msgid "IO_FH_spz"
-msgstr "IO_FH_spz"
-
-#: scripts/startup/bl_ui/space_topbar.py:418
-#: scripts/startup/bl_ui/space_topbar.py:465
-msgctxt "Operator"
-msgid "IO_FH_stl"
-msgstr "IO_FH_stl"
-
-#: scripts/startup/bl_ui/space_topbar.py:425
-#: scripts/startup/bl_ui/space_topbar.py:467
-msgctxt "Operator"
-msgid "OpenTimelineIO (.otio)"
-msgstr "OpenTimelineIO (.otio)"
-
-#: scripts/startup/bl_ui/space_topbar.py:531
+#: scripts/startup/bl_ui/space_topbar.py:578
 msgctxt "Operator"
 msgid "Render Image"
 msgstr "算繪影象"
 
-#: scripts/startup/bl_ui/space_topbar.py:584
+#: scripts/startup/bl_ui/space_topbar.py:631
 msgctxt "Operator"
 msgid "Operator Search..."
 msgstr "操作搜尋..."
 
-#: scripts/startup/bl_ui/space_topbar.py:649
+#: scripts/startup/bl_ui/space_topbar.py:696
 msgctxt "Operator"
 msgid "Save Screenshot (Editor)..."
 msgstr "儲存螢幕截圖 (編輯器)..."
 
-#: scripts/startup/bl_ui/space_topbar.py:672
+#: scripts/startup/bl_ui/space_topbar.py:719
 msgctxt "Operator"
 msgid "Release Notes"
 msgstr "釋出說明"
 
-#: scripts/startup/bl_ui/space_topbar.py:784
+#: scripts/startup/bl_ui/space_topbar.py:831
 msgid "Sequence Strip Name"
 msgstr "序列片段名稱"
 
-#: scripts/startup/bl_ui/space_topbar.py:830
+#: scripts/startup/bl_ui/space_topbar.py:877
 msgid "No active item"
 msgstr "無活動項"
 
-#: scripts/startup/bl_ui/space_topbar.py:869
+#: scripts/startup/bl_ui/space_topbar.py:916
 msgid "No active marker"
 msgstr "無活動標記"
 
-#: scripts/startup/bl_ui/space_topbar.py:452
+#: scripts/startup/bl_ui/space_topbar.py:486
 msgctxt "Operator"
 msgid "Grease Pencil as SVG"
 msgstr "蠟筆為SVG"
 
-#: scripts/startup/bl_ui/space_topbar.py:455
+#: scripts/startup/bl_ui/space_topbar.py:489
 msgctxt "Operator"
 msgid "Grease Pencil as PDF"
 msgstr "蠟筆為PDF"
 
-#: scripts/startup/bl_ui/space_topbar.py:679
+#: scripts/startup/bl_ui/space_topbar.py:726
 msgctxt "Operator"
 msgid "Developer Documentation"
 msgstr "開發文件"
 
-#: scripts/startup/bl_ui/space_topbar.py:682
+#: scripts/startup/bl_ui/space_topbar.py:729
 msgctxt "Operator"
 msgid "Developer Community"
 msgstr "開發者社群"
 
-#: scripts/startup/bl_ui/space_topbar.py:683
+#: scripts/startup/bl_ui/space_topbar.py:730
 msgctxt "Operator"
 msgid "Python API Reference"
 msgstr "Python API 手冊"
 
-#: scripts/startup/bl_ui/space_topbar.py:791
+#: scripts/startup/bl_ui/space_topbar.py:838
 msgid "Node Label"
 msgstr "節點標籤"
 
-#: scripts/startup/bl_ui/space_topbar.py:798
+#: scripts/startup/bl_ui/space_topbar.py:845
 msgid "NLA Strip Name"
 msgstr "NLA片段名稱"
 
@@ -182404,27 +182330,27 @@ msgid "Render In"
 msgstr "算繪在"
 
 #: scripts/startup/bl_ui/space_userpref.py:357
-#: source/blender/editors/screen/screen_ops.cc:6292
+#: source/blender/editors/screen/screen_ops.cc:6297
 msgid "Scene Statistics"
 msgstr "場景統計資料"
 
 #: scripts/startup/bl_ui/space_userpref.py:358
-#: source/blender/editors/screen/screen_ops.cc:6294
+#: source/blender/editors/screen/screen_ops.cc:6299
 msgid "Scene Duration"
 msgstr "場景持續時間"
 
 #: scripts/startup/bl_ui/space_userpref.py:359
-#: source/blender/editors/screen/screen_ops.cc:6295
+#: source/blender/editors/screen/screen_ops.cc:6300
 msgid "System Memory"
 msgstr "系統記憶體"
 
 #: scripts/startup/bl_ui/space_userpref.py:360
-#: source/blender/editors/screen/screen_ops.cc:6297
+#: source/blender/editors/screen/screen_ops.cc:6302
 msgid "Video Memory"
 msgstr "視訊記憶體"
 
 #: scripts/startup/bl_ui/space_userpref.py:362
-#: source/blender/editors/screen/screen_ops.cc:6301
+#: source/blender/editors/screen/screen_ops.cc:6306
 msgid "Blender Version"
 msgstr "Blender 版本"
 
@@ -185596,7 +185522,7 @@ msgid ""
 "path = %s)"
 msgstr "無法清除關鍵影格, 因為給定 ID 的 RNA 路徑無效 (ID = %s, 路徑 = %s)"
 
-#: source/blender/animrig/intern/keyingsets.cc:446
+#: source/blender/animrig/intern/keyingsets.cc:448
 msgid ""
 "Skipping path in keying set, as it has no ID (KS = '%s', path = '%s[%d]')"
 msgstr "跳過插幀集路徑, 因為沒有 ID (插幀集 = '%s', 路徑 = '%s[%d]')"
@@ -185696,7 +185622,7 @@ msgstr "找不到資產 '%s' 的資產庫 URL"
 msgid "Named Layer node"
 msgstr "命名的層節點"
 
-#: source/blender/blenkernel/intern/action.cc:750
+#: source/blender/blenkernel/intern/action.cc:754
 msgid "actions"
 msgstr "動作"
 
@@ -185709,11 +185635,11 @@ msgstr "嘗試對不可設定動畫的ID設定動作"
 msgid "KeyingSet"
 msgstr "插幀集"
 
-#: source/blender/blenkernel/intern/anim_visualization.cc:134
+#: source/blender/blenkernel/intern/anim_visualization.cc:164
 msgid ", cannot have single-frame paths"
 msgstr ", 無法使用單幀路徑"
 
-#: source/blender/blenkernel/intern/anim_visualization.cc:128
+#: source/blender/blenkernel/intern/anim_visualization.cc:158
 msgid "Motion path frame extents invalid for %s (%d to %d)%s"
 msgstr "運動路徑幀無效延長 %s (從 %d 到 %d)%s"
 
@@ -185979,30 +185905,30 @@ msgstr "分配頂點時記憶體不足"
 msgid "Out of memory on allocating triangles"
 msgstr "分配三角面時記憶體不足"
 
-#: source/blender/blenkernel/intern/collection.cc:894
+#: source/blender/blenkernel/intern/collection.cc:897
 #: source/blender/editors/space_outliner/tree/tree_element_collection.cc:23
 #: source/blender/editors/space_outliner/tree/tree_element_view_collection.cc:24
 msgid "Scene Collection"
 msgstr "場景集合"
 
-#: source/blender/blenkernel/intern/collection.cc:1586
+#: source/blender/blenkernel/intern/collection.cc:1589
 msgid "Collection '{}' is overridden."
 msgstr "集合 '{}' 已重寫。"
 
-#: source/blender/blenkernel/intern/collection.cc:1594
+#: source/blender/blenkernel/intern/collection.cc:1597
 msgid "Collection '{}' is linked."
 msgstr "集合 '{}' 已關聯。"
 
-#: source/blender/blenkernel/intern/collection.cc:1603
+#: source/blender/blenkernel/intern/collection.cc:1606
 msgid "Collection '{}' belongs to a collection importer."
 msgstr "集合 '{}' 屬於一個集合匯入器。"
 
-#: source/blender/blenkernel/intern/collection.cc:879
+#: source/blender/blenkernel/intern/collection.cc:882
 #: source/blender/blenloader/intern/versioning_280.cc:283
 msgid "Collection %d"
 msgstr "集合 %d"
 
-#: source/blender/blenkernel/intern/collection.cc:444
+#: source/blender/blenkernel/intern/collection.cc:447
 msgid "collections"
 msgstr "集合"
 
@@ -186217,14 +186143,14 @@ msgctxt "Brush"
 msgid "Surface"
 msgstr "表面"
 
-#: source/blender/blenkernel/intern/fcurve.cc:2585
+#: source/blender/blenkernel/intern/fcurve.cc:2603
 msgid "F-Curve modifier lost on '%s[%d]' because it has an unknown type"
 msgstr "'%s[%d]' 丟失函式曲線修改器，因為其型別未知"
 
 #: source/blender/blenkernel/intern/file_handler.cc:137
 #: source/blender/blenkernel/intern/image_format.cc:684
 #: source/blender/blenkernel/intern/image_save.cc:149
-#: source/blender/blenloader/intern/versioning_userdef.cc:1439
+#: source/blender/blenloader/intern/versioning_userdef.cc:1438
 #: source/blender/editors/sculpt_paint/mesh/paint_image_proj.cc:7237
 #: source/blender/editors/space_file/filesel.cc:1522
 #: source/blender/editors/space_image/image_ops.cc:2666
@@ -186232,7 +186158,7 @@ msgstr "'%s[%d]' 丟失函式曲線修改器，因為其型別未知"
 #: source/blender/windowmanager/intern/wm_files.cc:3997
 #: source/blender/windowmanager/intern/wm_files.cc:4955
 #: source/blender/windowmanager/intern/wm_files.cc:5176
-#: source/blender/windowmanager/intern/wm_window.cc:631
+#: source/blender/windowmanager/intern/wm_window.cc:645
 msgid "Untitled"
 msgstr "未命名"
 
@@ -186456,7 +186382,7 @@ msgstr "'%s' 來自燈光連結集合 '%s'，不支援解除連結"
 msgid "lightprobes"
 msgstr "光照探頭"
 
-#: source/blender/blenkernel/intern/linestyle.cc:705
+#: source/blender/blenkernel/intern/linestyle.cc:722
 msgid "linestyles"
 msgstr "線條樣式"
 
@@ -186513,8 +186439,8 @@ msgstr "%f 的體素尺寸太小，無法解算"
 msgid "Tangent space can only be computed for tris/quads, aborting"
 msgstr "切向空間只能算三角/四邊形，中止"
 
-#: source/blender/blenkernel/intern/modifier.cc:1379
-#: source/blender/blenkernel/intern/modifier.cc:1389
+#: source/blender/blenkernel/intern/modifier.cc:1396
+#: source/blender/blenkernel/intern/modifier.cc:1406
 msgid ""
 "Possible data loss when saving this file! %s modifier is deprecated (Object:"
 " %s)"
@@ -186696,30 +186622,30 @@ msgstr "調色盤"
 msgid "paint_curves"
 msgstr "繪製曲線"
 
-#: source/blender/blenkernel/intern/particle.cc:3938
+#: source/blender/blenkernel/intern/particle.cc:3971
 #: source/blender/makesrna/intern/rna_particle.cc:903
 #: source/blender/modifiers/intern/MOD_particlesystem.cc:258
 msgid "ParticleSystem"
 msgstr "粒子系統"
 
-#: source/blender/blenkernel/intern/particle.cc:3956
+#: source/blender/blenkernel/intern/particle.cc:3989
 msgid "ParticleSettings"
 msgstr "粒子設定"
 
-#: source/blender/blenkernel/intern/particle.cc:386
+#: source/blender/blenkernel/intern/particle.cc:419
 msgid "particles"
 msgstr "粒子"
 
-#: source/blender/blenkernel/intern/particle.cc:5471
+#: source/blender/blenkernel/intern/particle.cc:5504
 msgid "Object was not yet evaluated"
 msgstr "物體尚未經解算"
 
-#: source/blender/blenkernel/intern/particle.cc:5476
+#: source/blender/blenkernel/intern/particle.cc:5509
 #: source/blender/makesrna/intern/rna_particle.cc:395
 msgid "Mesh has no UV data"
 msgstr "網格沒有UV資料"
 
-#: source/blender/blenkernel/intern/particle.cc:5511
+#: source/blender/blenkernel/intern/particle.cc:5544
 msgid "Mesh has no VCol data"
 msgstr "網格沒有頂點色資料"
 
@@ -186796,17 +186722,17 @@ msgstr "無法建立剛體世界環境"
 msgid "Compiled without Bullet physics engine"
 msgstr "使用Bullet物理引擎編譯"
 
-#: source/blender/blenkernel/intern/scene.cc:1604
+#: source/blender/blenkernel/intern/scene.cc:1594
 msgid "LIB: object lost from scene: '%s'"
 msgstr "庫: 場景中丟失物體: '%s'"
 
-#: source/blender/blenkernel/intern/scene.cc:2977
-#: source/blender/blenkernel/intern/scene.cc:2984
+#: source/blender/blenkernel/intern/scene.cc:2967
+#: source/blender/blenkernel/intern/scene.cc:2974
 #: source/blender/makesrna/intern/rna_scene.cc:2038
 msgid "RenderView"
 msgstr "算繪檢視"
 
-#: source/blender/blenkernel/intern/scene.cc:1670
+#: source/blender/blenkernel/intern/scene.cc:1660
 msgid "scenes"
 msgstr "場景"
 
@@ -187262,93 +187188,93 @@ msgstr "ID %s 使用了形態鍵 %s，但其 'from' 指標無效 (%p)，修復�
 msgid "ShapeKey %s has an invalid 'from' pointer (%p), it will be deleted"
 msgstr "形態鍵 %s 有一個無效的 'from' 指標 (%p)，它將被刪除"
 
-#: source/blender/blenloader/intern/readfile.cc:1324
+#: source/blender/blenloader/intern/readfile.cc:1329
 msgid "unknown error reading file"
 msgstr "讀取檔案時發生未知錯誤"
 
-#: source/blender/blenloader/intern/readfile.cc:1366
+#: source/blender/blenloader/intern/readfile.cc:1371
 msgid "Unable to read"
 msgstr "無法讀取"
 
-#: source/blender/blenloader/intern/readfile.cc:1366
+#: source/blender/blenloader/intern/readfile.cc:1371
 msgid "Unable to open"
 msgstr "無法開啟"
 
-#: source/blender/blenloader/intern/readfile.cc:2182
+#: source/blender/blenloader/intern/readfile.cc:2187
 msgid ""
 "Data-block '%s' had an invalid embedded node group, which has not been read"
 msgstr "資料塊 '%s' 包含無效的嵌入式節點組，該節點組未被讀取"
 
-#: source/blender/blenloader/intern/readfile.cc:2208
+#: source/blender/blenloader/intern/readfile.cc:2213
 msgid "Scene '%s' had an invalid root collection, which has not been read"
 msgstr "場景 '%s' 包含無效的根集合，該集合未被讀取"
 
-#: source/blender/blenloader/intern/readfile.cc:2712
+#: source/blender/blenloader/intern/readfile.cc:2717
 msgid "Library '%s', '%s' had multiple instances, save and reload!"
 msgstr "'%s', '%s' 庫擁有多個例項, 儲存並重新載入!"
 
-#: source/blender/blenloader/intern/readfile.cc:2756
+#: source/blender/blenloader/intern/readfile.cc:2761
 msgid ""
 "Library '%s' ('%s') is an archive storage for packed data, but has no real "
 "library parent."
 msgstr "庫 '%s' ('%s') 是打包資料的歸檔儲存，但沒有實際的父級庫。"
 
-#: source/blender/blenloader/intern/readfile.cc:5378
-#: source/blender/blenloader/intern/readfile.cc:5420
-#: source/blender/blenloader/intern/readfile.cc:5474
+#: source/blender/blenloader/intern/readfile.cc:5421
+#: source/blender/blenloader/intern/readfile.cc:5463
+#: source/blender/blenloader/intern/readfile.cc:5517
 msgid "LIB: Data refers to main .blend file: '%s' from %s"
 msgstr "庫：資料指向主.blend 檔案：'%s'，來自 %s"
 
-#: source/blender/blenloader/intern/readfile.cc:5391
+#: source/blender/blenloader/intern/readfile.cc:5434
 msgid ""
 "LIB: .blend file %s seems corrupted, no owner 'Library' data found for the "
 "linked data-block '%s'. Try saving the file again."
 msgstr "庫：.blend 檔案 %s 似乎已損壞，未在關聯的資料塊 '%s' 中找到所有者 '庫' 資料。請嘗試重新儲存檔案。"
 
-#: source/blender/blenloader/intern/readfile.cc:5445
+#: source/blender/blenloader/intern/readfile.cc:5488
 msgid ""
 "LIB: .blend file %s seems corrupted, no owner 'Library' data found for the "
 "packed linked data-block %s. Try saving the file again."
 msgstr "庫：.blend 檔案 %s 似乎已損壞，未在打包的關聯資料塊 %s 中找到所有者 '庫' 資料。請嘗試重新儲存檔案。"
 
-#: source/blender/blenloader/intern/readfile.cc:5960
+#: source/blender/blenloader/intern/readfile.cc:6003
 msgid ""
 "LIB: %s: '%s' is directly linked from '%s' (parent '%s'), but is a non-"
 "linkable data type"
 msgstr "庫: %s: '%s' 直接關聯自 '%s' (父級 '%s'), 但是一個非可關聯資料型別"
 
-#: source/blender/blenloader/intern/readfile.cc:6123
+#: source/blender/blenloader/intern/readfile.cc:6166
 msgid "Read packed library: '%s', parent '%s'"
 msgstr "讀取已打包的庫: '%s', 父級 '%s'"
 
-#: source/blender/blenloader/intern/readfile.cc:6135
+#: source/blender/blenloader/intern/readfile.cc:6178
 msgid "Read library: '%s', '%s', parent '%s'"
 msgstr "讀取庫: '%s', '%s', 父級 '%s'"
 
-#: source/blender/blenloader/intern/readfile.cc:6179
+#: source/blender/blenloader/intern/readfile.cc:6222
 msgid "Cannot find lib '%s'"
 msgstr "未能找到庫檔案 '%s'"
 
-#: source/blender/blenloader/intern/readfile.cc:1386
+#: source/blender/blenloader/intern/readfile.cc:1391
 msgid "Unable to open blend <memory>"
 msgstr "無法開啟檔案 <内存>"
 
-#: source/blender/blenloader/intern/readfile.cc:4159
+#: source/blender/blenloader/intern/readfile.cc:4178
 msgid ""
 "Critical blend-file corruption: Conflicts and/or otherwise invalid data-"
 "blocks names (see console for details)"
 msgstr "嚴重的blend檔案損壞：存在衝突和/或其他無效的資料塊名稱（詳細資訊請檢視控制檯）"
 
-#: source/blender/blenloader/intern/readfile.cc:1209
+#: source/blender/blenloader/intern/readfile.cc:1214
 msgid "Blend file '%s' is corrupt, unable to read"
 msgstr "Blend 檔案 '%s' 已損壞，無法讀取"
 
-#: source/blender/blenloader/intern/readfile.cc:1229
+#: source/blender/blenloader/intern/readfile.cc:1234
 msgid ""
 "The file was saved by a newer version, open it with Blender %s or later"
 msgstr "檔案由較新版本儲存，請使用 Blender %s 或更高版本開啟它"
 
-#: source/blender/blenloader/intern/readfile.cc:1254
+#: source/blender/blenloader/intern/readfile.cc:1259
 msgid ""
 "Blend file '%s' created by a Big Endian version of Blender, support for "
 "these files has been removed in Blender 5.0, use an older version of Blender"
@@ -187357,41 +187283,41 @@ msgstr ""
 "Blend 檔案 '%s' 由大端版本的 Blender 建立，Blender 5.0 已移除對這些檔案的支援，請使用舊版本的 Blender "
 "來開啟並轉換它。"
 
-#: source/blender/blenloader/intern/readfile.cc:1266
+#: source/blender/blenloader/intern/readfile.cc:1271
 msgid "Failed to read blend file '%s': %s"
 msgstr "讀取 blend 檔案 '%s' 失敗: %s"
 
-#: source/blender/blenloader/intern/readfile.cc:1277
+#: source/blender/blenloader/intern/readfile.cc:1282
 msgid ""
 "Cannot read blend file '%s', incomplete header, may be from a newer version "
 "of Blender"
 msgstr "不能讀取 blend 檔案 '%s', 標頭不完整, 可能來自較新版本的 Blender"
 
-#: source/blender/blenloader/intern/readfile.cc:1286
+#: source/blender/blenloader/intern/readfile.cc:1291
 msgid "Failed to read file '%s', not a blend file"
 msgstr "讀取檔案 '%s' 失敗, 這不是 blend 檔案"
 
-#: source/blender/blenloader/intern/readfile.cc:1300
+#: source/blender/blenloader/intern/readfile.cc:1305
 msgid "Unrecognized file format '%s'"
 msgstr "無法識別的檔案格式 '%s'"
 
-#: source/blender/blenloader/intern/readfile.cc:1320
+#: source/blender/blenloader/intern/readfile.cc:1325
 msgid "Unable to open '%s': %s"
 msgstr "無法開啟 '%s': %s"
 
-#: source/blender/blenloader/intern/readfile.cc:4572
+#: source/blender/blenloader/intern/readfile.cc:4615
 msgid ""
 "Blendfile '%s' was created by a future version of Blender and contains ID "
 "names longer than currently supported. These have been truncated."
 msgstr "Blend 檔案 '%s' 是由 Blender 的未來版本建立的，其中包含的 ID 名稱長度超過了當前支援的長度。這些名稱已被截斷。"
 
-#: source/blender/blenloader/intern/readfile.cc:4579
+#: source/blender/blenloader/intern/readfile.cc:4622
 msgid ""
 "Blendfile '%s' appears corrupted, it contains invalid ID names. These have "
 "been truncated."
 msgstr "Blend 檔案 '%s' 似乎已損壞，其中包含無效的 ID 名稱。這些名稱已被截斷。"
 
-#: source/blender/blenloader/intern/readfile.cc:5023
+#: source/blender/blenloader/intern/readfile.cc:5066
 msgid ""
 "Library '%s' was created by a future version of Blender and contains ID "
 "names longer than currently supported. This may cause missing linked data, "
@@ -187401,7 +187327,7 @@ msgstr ""
 "'%s' 庫是由 Blender 的未來版本建立的，其中包含的 ID 名稱長度超過了當前支援的長度。這可能會導致關聯資料丟失，請考慮使用當前版本的 "
 "Blender 開啟並重新儲存該庫。"
 
-#: source/blender/blenloader/intern/readfile.cc:5031
+#: source/blender/blenloader/intern/readfile.cc:5074
 msgid ""
 "Library '%s' appears corrupted, it contains invalid ID names. This may cause"
 " missing linked data."
@@ -187964,7 +187890,7 @@ msgid "Display action without any time remapping (when unpinned)"
 msgstr "顯示無任何時間重對映的動作 (當未固定時)"
 
 #: source/blender/editors/animation/anim_channels_defines.cc:6058
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2233
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2226
 #: source/blender/makesrna/intern/rna_access.cc:2382
 msgid "Cannot edit this property from a linked data-block"
 msgstr "無法從外鏈的資料塊編輯此屬性"
@@ -188013,7 +187939,7 @@ msgid "No active action to operate on"
 msgstr "無活動動作可供操作"
 
 #: source/blender/editors/animation/anim_channels_edit.cc:5387
-#: source/blender/editors/animation/anim_ops.cc:1241
+#: source/blender/editors/animation/anim_ops.cc:1269
 #: source/blender/editors/object/object_select.cc:632
 #: source/blender/editors/object/object_select.cc:1031
 msgid "No active object"
@@ -188044,35 +187970,35 @@ msgstr "標記 %d 偏移 %s"
 msgid "Marker offset %s"
 msgstr "標記偏移 %s"
 
-#: source/blender/editors/animation/anim_markers.cc:1887
+#: source/blender/editors/animation/anim_markers.cc:1889
 msgid "Delete selected markers?"
 msgstr "刪除所選標記？"
 
-#: source/blender/editors/animation/anim_markers.cc:1952
+#: source/blender/editors/animation/anim_markers.cc:1954
 msgid "Rename Selected Time Marker"
 msgstr "重新命名所選時間標記"
 
-#: source/blender/editors/animation/anim_markers.cc:1537
+#: source/blender/editors/animation/anim_markers.cc:1539
 msgid ""
 "Automatic selection of the camera bound to this marker is only supported in "
 "object mode"
 msgstr "僅在物體模式下支援自動選擇與該標記繫結的攝像機"
 
-#: source/blender/editors/animation/anim_markers.cc:1999
+#: source/blender/editors/animation/anim_markers.cc:2001
 #: source/blender/editors/space_sequencer/sequencer_add.cc:792
 #: source/blender/editors/space_sequencer/sequencer_edit.cc:4291
 msgid "Scene not found"
 msgstr "找不到場景"
 
-#: source/blender/editors/animation/anim_markers.cc:2004
+#: source/blender/editors/animation/anim_markers.cc:2006
 msgid "Cannot re-link markers into the same scene"
 msgstr "無法將標記重新連結至同一個場景"
 
-#: source/blender/editors/animation/anim_markers.cc:2009
+#: source/blender/editors/animation/anim_markers.cc:2011
 msgid "Target scene has locked markers"
 msgstr "目標場景已經鎖定標記"
 
-#: source/blender/editors/animation/anim_markers.cc:2071
+#: source/blender/editors/animation/anim_markers.cc:2073
 msgid "Select a camera to bind to a marker on this frame"
 msgstr "在此幀上選擇一個攝像機繫結到標記點"
 
@@ -188086,66 +188012,66 @@ msgstr "未選中標記"
 msgid "Markers are locked"
 msgstr "標記被鎖定"
 
-#: source/blender/editors/animation/anim_ops.cc:820
+#: source/blender/editors/animation/anim_ops.cc:845
 msgid "Toggle Snapping"
 msgstr "切換吸附"
 
-#: source/blender/editors/animation/anim_ops.cc:1462
+#: source/blender/editors/animation/anim_ops.cc:1490
 msgid "Replace Action"
 msgstr "替換動作"
 
-#: source/blender/editors/animation/anim_ops.cc:851
+#: source/blender/editors/animation/anim_ops.cc:879
 msgctxt "Operator"
 msgid "Set Frame (Strip Preview)"
 msgstr "設定幀 (片段預覽)"
 
-#: source/blender/editors/animation/anim_ops.cc:939
+#: source/blender/editors/animation/anim_ops.cc:967
 msgid "Start frame clamped to valid rendering range"
 msgstr "起始幀鉗制到有效的算繪範圍"
 
-#: source/blender/editors/animation/anim_ops.cc:994
+#: source/blender/editors/animation/anim_ops.cc:1022
 msgid "End frame clamped to valid rendering range"
 msgstr "結束幀鉗制到有效的算繪範圍"
 
-#: source/blender/editors/animation/anim_ops.cc:1520
-#: source/blender/editors/animation/anim_ops.cc:1585
+#: source/blender/editors/animation/anim_ops.cc:1548
+#: source/blender/editors/animation/anim_ops.cc:1613
 msgid "Invalid UID for old Action"
 msgstr "舊動作的 UID 無效"
 
-#: source/blender/editors/animation/anim_ops.cc:1284
+#: source/blender/editors/animation/anim_ops.cc:1312
 msgid "The action %s is not editable"
 msgstr "動作 %s 不可編輯"
 
-#: source/blender/editors/animation/anim_ops.cc:1302
+#: source/blender/editors/animation/anim_ops.cc:1330
 msgid "Moved %i slot(s) into the action of the active object"
 msgstr "已將 %i 個槽移至活動物體的動作中"
 
-#: source/blender/editors/animation/anim_ops.cc:1308
+#: source/blender/editors/animation/anim_ops.cc:1336
 msgid "Failed to merge any animation. Note that NLA strips cannot be merged"
 msgstr "未能合併任何動畫. 注意不可合併 NLA 片段"
 
-#: source/blender/editors/animation/anim_ops.cc:1425
+#: source/blender/editors/animation/anim_ops.cc:1453
 msgid "Invalid old/new Action pair ('%s' / '%s')"
 msgstr "無效的舊/新動作對 ('%s' / '%s')"
 
-#: source/blender/editors/animation/anim_ops.cc:1433
+#: source/blender/editors/animation/anim_ops.cc:1461
 msgid "Cannot replace Action with itself ('%s')"
 msgstr "無法將操作替換為它本身（'%s'）"
 
-#: source/blender/editors/animation/anim_ops.cc:1764
+#: source/blender/editors/animation/anim_ops.cc:1792
 msgid "Multiple users of an action and not all were selected: %s"
 msgstr "某操作有多個使用者，但並非所有使用者都被選中：%s"
 
-#: source/blender/editors/animation/anim_ops.cc:1771
+#: source/blender/editors/animation/anim_ops.cc:1799
 msgid "Skipped animated data-blocks because they cannot be edited: %d"
 msgstr "跳過了動畫資料塊，因為它們無法編輯：%d"
 
-#: source/blender/editors/animation/anim_ops.cc:150
-#: source/blender/editors/animation/anim_ops.cc:915
+#: source/blender/editors/animation/anim_ops.cc:152
+#: source/blender/editors/animation/anim_ops.cc:943
 msgid "Expected an animation area to be active"
 msgstr "期望一個活動的動畫區域"
 
-#: source/blender/editors/animation/anim_ops.cc:1246
+#: source/blender/editors/animation/anim_ops.cc:1274
 msgid "Active object has no action"
 msgstr "活動物體未包含動作"
 
@@ -188480,17 +188406,17 @@ msgstr "已貼上 %d/%d 個 %s，共 %d 幀"
 msgid "Invalid frame range %d-%d"
 msgstr "無效幀範圍 %d-%d"
 
-#: source/blender/editors/armature/armature_add.cc:1287
+#: source/blender/editors/armature/armature_add.cc:1288
 msgid "No search term defined"
 msgstr "未指定搜尋詞"
 
-#: source/blender/editors/armature/armature_add.cc:1948
+#: source/blender/editors/armature/armature_add.cc:1949
 msgid ""
 "Bone not added to a collection and hidden because solo bone collection(s) "
 "exist."
 msgstr "由於存在孤立的骨骼集合，該骨骼未被新增至集合中且被隱藏。"
 
-#: source/blender/editors/armature/armature_add.cc:1958
+#: source/blender/editors/armature/armature_add.cc:1959
 msgid "Bone was added to a hidden collection '%s'"
 msgstr "骨骼已被新增到隱藏的集合 '%s' 中"
 
@@ -189446,7 +189372,7 @@ msgstr "文段太長"
 msgid "Clipboard too long"
 msgstr "剪貼簿內容過長"
 
-#: source/blender/editors/curve/editfont.cc:2577
+#: source/blender/editors/curve/editfont.cc:2579
 msgid "Incorrect context for running font unlink"
 msgstr "未關聯字型的執行環境不正確"
 
@@ -189493,7 +189419,7 @@ msgstr "移動當前控制柄"
 msgid "Move Entire Point"
 msgstr "移動整個點"
 
-#: source/blender/editors/curves/intern/curves_pen.cc:1344
+#: source/blender/editors/curves/intern/curves_pen.cc:1358
 msgid "No active Curves Object"
 msgstr "無活動曲線物體"
 
@@ -189690,10 +189616,10 @@ msgstr "材質 '%s' 未能找到"
 
 #: source/blender/editors/grease_pencil/intern/grease_pencil_edit.cc:2502
 #: source/blender/editors/mesh/editmesh_tools.cc:4516
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1382
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2602
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2631
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3211
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1373
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2595
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2624
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3204
 msgid "Nothing selected"
 msgstr "未選中任何項"
 
@@ -191524,13 +191450,11 @@ msgstr "恢復運算子預設值"
 msgid "Operator cannot redo"
 msgstr "操作無法重做"
 
-#. :src:
-#. source/blender/editors/interface/templates/interface_template_project_splash.cc:46
+#: source/blender/editors/interface/templates/interface_template_project_splash.cc:46
 msgid "Create from Image..."
 msgstr "從影象建立..."
 
-#. :src:
-#. source/blender/editors/interface/templates/interface_template_project_splash.cc:94
+#: source/blender/editors/interface/templates/interface_template_project_splash.cc:94
 msgid "Failed to load splash image"
 msgstr "未能載入啟動影象"
 
@@ -191541,14 +191465,14 @@ msgstr "大小: {}"
 
 #: source/blender/editors/interface/templates/interface_template_recent_files.cc:113
 #: source/blender/editors/space_file/file_draw.cc:327
-#: source/blender/editors/space_file/file_draw.cc:1320
+#: source/blender/editors/space_file/file_draw.cc:1323
 #: source/blender/windowmanager/intern/wm_files.cc:3439
 msgid "Today"
 msgstr "今天"
 
 #: source/blender/editors/interface/templates/interface_template_recent_files.cc:114
 #: source/blender/editors/space_file/file_draw.cc:328
-#: source/blender/editors/space_file/file_draw.cc:1321
+#: source/blender/editors/space_file/file_draw.cc:1324
 #: source/blender/windowmanager/intern/wm_files.cc:3440
 msgid "Yesterday"
 msgstr "昨天"
@@ -191558,13 +191482,11 @@ msgstr "昨天"
 msgid "Modified: {}"
 msgstr "修改時間: {}"
 
-#. :src:
-#. source/blender/editors/interface/templates/interface_template_recent_files.cc:265
+#: source/blender/editors/interface/templates/interface_template_recent_files.cc:265
 msgid "Project Not Found"
 msgstr "專案未找到"
 
-#. :src:
-#. source/blender/editors/interface/templates/interface_template_recent_files.cc:302
+#: source/blender/editors/interface/templates/interface_template_recent_files.cc:302
 msgid "Project is already open"
 msgstr "專案早已開啟"
 
@@ -191606,7 +191528,7 @@ msgid "Warnings"
 msgstr "警告"
 
 #: source/blender/editors/interface/templates/interface_template_status.cc:157
-#: source/blender/editors/screen/screen_ops.cc:5364
+#: source/blender/editors/screen/screen_ops.cc:5369
 msgid "Split/Dock"
 msgstr "分割/停靠"
 
@@ -191615,7 +191537,7 @@ msgid "Duplicate into Window"
 msgstr "複製到視窗內"
 
 #: source/blender/editors/interface/templates/interface_template_status.cc:169
-#: source/blender/editors/screen/screen_ops.cc:5633
+#: source/blender/editors/screen/screen_ops.cc:5638
 msgid "Swap Areas"
 msgstr "互換區域"
 
@@ -191737,6 +191659,11 @@ msgstr "未給出檔案路徑"
 msgid "Unable to determine ABC sequence length"
 msgstr "無法確定ABC序列長度"
 
+#. :src: source/blender/editors/io/io_alembic.cc:729
+msgctxt "Operator"
+msgid "Alembic"
+msgstr ""
+
 #: source/blender/editors/io/io_cache.cc:207
 msgid "Could not add a layer to the cache file"
 msgstr "無法向快取檔案新增層"
@@ -191744,6 +191671,11 @@ msgstr "無法向快取檔案新增層"
 #: source/blender/editors/io/io_drop_import_file.cc:214
 msgid "Multiple file handlers can be used, drop to pick which to use"
 msgstr "多個檔案控制代碼可用，下拉選擇要使用的一項"
+
+#. :src: source/blender/editors/io/io_fbx_ops.cc:255
+msgctxt "Operator"
+msgid "FBX"
+msgstr ""
 
 #: source/blender/editors/io/io_grease_pencil.cc:395
 msgid "Scene Options"
@@ -191778,6 +191710,12 @@ msgstr "無法匯入 '%s'"
 #: source/blender/editors/io/io_grease_pencil.cc:365
 msgid "Error during file write for \"%s\""
 msgstr "\"%s\" 檔案寫入時出錯"
+
+#: source/blender/editors/io/io_grease_pencil.cc:614
+#, fuzzy
+msgctxt "Operator"
+msgid "SVG as Grease Pencil"
+msgstr "匯入SVG為蠟筆"
 
 #: source/blender/editors/io/io_obj.cc:168
 msgid "Curves as NURBS"
@@ -191827,6 +191765,12 @@ msgstr "名稱衝突"
 msgid "File exported successfully"
 msgstr "檔案匯出成功"
 
+#: source/blender/editors/io/io_obj.cc:607
+#, fuzzy
+msgctxt "Operator"
+msgid "Wavefront OBJ"
+msgstr "匯入 Wavefront OBJ"
+
 #: source/blender/editors/io/io_otio_ops.cc:188
 msgid "Imported OTIO timeline into scene '%s'"
 msgstr "已將 OTIO 時間線匯入場景 '%s'"
@@ -191843,10 +191787,27 @@ msgstr "無序列場景"
 msgid "Sequencer scene has no strips"
 msgstr "序列場景不含片段"
 
+#: source/blender/editors/io/io_otio_ops.cc:232
+#, fuzzy
+msgctxt "Operator"
+msgid "OpenTimelineIO"
+msgstr "OpenTimelineIO (.otio)"
+
 #: source/blender/editors/io/io_ply_ops.cc:129
 #: source/blender/editors/io/io_stl_ops.cc:104
 msgid "ASCII"
 msgstr "ASCII"
+
+#: source/blender/editors/io/io_ply_ops.cc:385
+#, fuzzy
+msgctxt "Operator"
+msgid "Stanford PLY"
+msgstr "斯坦福 PLY (.ply)"
+
+#. :src: source/blender/editors/io/io_spz_ops.cc:95
+msgctxt "Operator"
+msgid "SPZ"
+msgstr ""
 
 #: source/blender/editors/io/io_stl_ops.cc:108
 msgid "Batch"
@@ -191855,6 +191816,11 @@ msgstr "分批"
 #: source/blender/editors/io/io_stl_ops.cc:63
 msgid "No filename given"
 msgstr "未給出檔名"
+
+#. :src: source/blender/editors/io/io_stl_ops.cc:349
+msgctxt "Operator"
+msgid "STL"
+msgstr ""
 
 #: source/blender/editors/io/io_usd.cc:402
 msgid "Blender Data"
@@ -191877,6 +191843,11 @@ msgstr "顯示用途"
 #: source/blender/editors/io/io_usd.cc:1094
 msgid "Particles and Instancing"
 msgstr "粒子與例項化"
+
+#. :src: source/blender/editors/io/io_usd.cc:1328
+msgctxt "Operator"
+msgid "Universal Scene Description"
+msgstr ""
 
 #: source/blender/editors/io/io_utils.cc:45
 msgid "Import {} files"
@@ -192954,7 +192925,7 @@ msgstr "正在烘焙節點..."
 msgid "No file handlers available"
 msgstr "沒有可用的檔案控制代碼"
 
-#. :src: source/blender/editors/object/object_collection.cc:1446
+#: source/blender/editors/object/object_collection.cc:1446
 msgid "Apply and Make Local"
 msgstr "應用並本地化"
 
@@ -192974,7 +192945,7 @@ msgstr "找不到活動集合"
 msgid "Collection needs to be empty"
 msgstr "集合必須為空"
 
-#. :src: source/blender/editors/object/object_collection.cc:1482
+#: source/blender/editors/object/object_collection.cc:1482
 msgid "Importer Control"
 msgstr "匯入器控制"
 
@@ -194732,11 +194703,11 @@ msgid "Blender Render"
 msgstr "Blender 算繪"
 
 #: source/blender/editors/render/render_view.cc:188
-#: source/blender/editors/screen/screen_ops.cc:1756
-#: source/blender/editors/screen/screen_ops.cc:7355
-#: source/blender/editors/screen/screen_ops.cc:7431
-#: source/blender/editors/screen/screen_ops.cc:7507
-#: source/blender/editors/screen/screen_ops.cc:7535
+#: source/blender/editors/screen/screen_ops.cc:1757
+#: source/blender/editors/screen/screen_ops.cc:7360
+#: source/blender/editors/screen/screen_ops.cc:7436
+#: source/blender/editors/screen/screen_ops.cc:7512
+#: source/blender/editors/screen/screen_ops.cc:7540
 msgid "Failed to open window!"
 msgstr "開啟視窗失敗！"
 
@@ -194812,282 +194783,286 @@ msgstr "狹窄的垂直區域會干擾此操作"
 msgid "A narrow horizontal area interferes with this operation"
 msgstr "狹窄的水平區域會干擾此操作"
 
-#: source/blender/editors/screen/screen_ops.cc:1632
-#: source/blender/editors/screen/screen_ops.cc:5375
+#: source/blender/editors/screen/screen_ops.cc:1633
+#: source/blender/editors/screen/screen_ops.cc:5380
 msgid "Select Area"
 msgstr "選擇區域"
 
-#: source/blender/editors/screen/screen_ops.cc:5293
+#: source/blender/editors/screen/screen_ops.cc:5298
 msgid "Move/Join/Dock Area"
 msgstr "移動/合併/停靠區域"
 
-#: source/blender/editors/screen/screen_ops.cc:5298
-#: source/blender/editors/screen/screen_ops.cc:6210
+#: source/blender/editors/screen/screen_ops.cc:5303
+#: source/blender/editors/screen/screen_ops.cc:6215
 msgid "Restore Areas"
 msgstr "復原區域"
 
-#: source/blender/editors/screen/screen_ops.cc:5298
-#: source/blender/editors/screen/screen_ops.cc:6210
-msgid "Maximize Area"
-msgstr "區域最大化"
-
-#: source/blender/editors/screen/screen_ops.cc:5301
+#: source/blender/editors/screen/screen_ops.cc:5303
 #: source/blender/editors/screen/screen_ops.cc:6215
+msgid "Maximize Area"
+msgstr "最大化區域"
+
+#: source/blender/editors/screen/screen_ops.cc:5306
+#: source/blender/editors/screen/screen_ops.cc:6220
 msgid "Focus Mode"
 msgstr "專注模式"
 
-#: source/blender/editors/screen/screen_ops.cc:5306
+#: source/blender/editors/screen/screen_ops.cc:5311
 msgid "Close Area"
 msgstr "關閉區域"
 
-#: source/blender/editors/screen/screen_ops.cc:5368
+#: source/blender/editors/screen/screen_ops.cc:5373
 msgid "Select Split"
 msgstr "選擇分割位"
 
-#: source/blender/editors/screen/screen_ops.cc:5379
+#: source/blender/editors/screen/screen_ops.cc:5384
 msgid "Select Location"
 msgstr "選擇位置"
 
-#: source/blender/editors/screen/screen_ops.cc:5609
+#: source/blender/editors/screen/screen_ops.cc:5614
 msgid "Join Up"
 msgstr "向上合併"
 
-#: source/blender/editors/screen/screen_ops.cc:5610
+#: source/blender/editors/screen/screen_ops.cc:5615
 msgid "Join Right"
 msgstr "向右合併"
 
-#: source/blender/editors/screen/screen_ops.cc:5619
+#: source/blender/editors/screen/screen_ops.cc:5624
 msgid "Join Down"
 msgstr "向下合併"
 
-#: source/blender/editors/screen/screen_ops.cc:5619
+#: source/blender/editors/screen/screen_ops.cc:5624
 msgid "Join Left"
 msgstr "向左合併"
 
-#: source/blender/editors/screen/screen_ops.cc:5643
+#: source/blender/editors/screen/screen_ops.cc:5648
 msgid "Merge Edge"
 msgstr "合併邊緣"
 
-#: source/blender/editors/screen/screen_ops.cc:6202
+#: source/blender/editors/screen/screen_ops.cc:6207
 msgid "Move/Split Area"
 msgstr "移動/分割區域"
 
-#: source/blender/editors/screen/screen_ops.cc:6234
+#: source/blender/editors/screen/screen_ops.cc:6239
 msgid "Show Header"
 msgstr "顯示標題欄"
 
-#: source/blender/editors/screen/screen_ops.cc:6243
+#: source/blender/editors/screen/screen_ops.cc:6248
 msgid "Show Tool Settings"
 msgstr "顯示工具設定"
 
-#: source/blender/editors/screen/screen_ops.cc:6266
+#: source/blender/editors/screen/screen_ops.cc:6271
 msgid "Show Footer"
 msgstr "顯示底欄"
 
-#: source/blender/editors/screen/screen_ops.cc:6278
+#: source/blender/editors/screen/screen_ops.cc:6283
 msgid "Flip to Right"
 msgstr "翻轉至右側"
 
-#: source/blender/editors/screen/screen_ops.cc:6279
+#: source/blender/editors/screen/screen_ops.cc:6284
 msgid "Flip to Left"
 msgstr "翻轉至左側"
 
-#: source/blender/editors/screen/screen_ops.cc:6280
+#: source/blender/editors/screen/screen_ops.cc:6285
 msgid "Flip to Top"
 msgstr "在頂部顯示"
 
-#: source/blender/editors/screen/screen_ops.cc:6281
+#: source/blender/editors/screen/screen_ops.cc:6286
 msgid "Flip to Bottom"
 msgstr "在底部顯示"
 
-#: source/blender/editors/screen/screen_ops.cc:7475
+#: source/blender/editors/screen/screen_ops.cc:7480
 msgid "Blender Drivers Editor"
 msgstr "Blender驅動器編輯器"
 
-#: source/blender/editors/screen/screen_ops.cc:7532
+#: source/blender/editors/screen/screen_ops.cc:7537
 msgid "Blender Info Log"
 msgstr "Blender資訊日誌"
 
-#: source/blender/editors/screen/screen_ops.cc:7368
+#: source/blender/editors/screen/screen_ops.cc:7373
 msgid "Show {} preferences"
 msgstr "顯示 {} 設定"
 
-#: source/blender/editors/screen/screen_ops.cc:8161
+#: source/blender/editors/screen/screen_ops.cc:8166
 msgid "Link {}"
 msgstr "關聯 {}"
 
-#: source/blender/editors/screen/screen_ops.cc:8163
+#: source/blender/editors/screen/screen_ops.cc:8168
 msgid "Pack {}"
 msgstr "打包 {}"
 
-#: source/blender/editors/screen/screen_ops.cc:8165
+#: source/blender/editors/screen/screen_ops.cc:8170
 msgid "Append {}"
 msgstr "追加 {}"
 
-#: source/blender/editors/screen/screen_ops.cc:8167
+#: source/blender/editors/screen/screen_ops.cc:8172
 msgid "Append (Reuse) {}"
 msgstr "追加 (複用) {}"
 
-#: source/blender/editors/screen/screen_ops.cc:8170
+#: source/blender/editors/screen/screen_ops.cc:8175
 msgid "Set {} as active"
 msgstr "設定 {} 為活動項"
 
-#: source/blender/editors/screen/screen_ops.cc:5381
+#: source/blender/editors/screen/screen_ops.cc:5386
 msgctxt "Screen"
 msgid "Precision"
 msgstr "精確"
 
-#: source/blender/editors/screen/screen_ops.cc:1815
+#: source/blender/editors/screen/screen_ops.cc:1816
 msgid "Area not found in the active screen"
 msgstr "在活動螢幕中未找到區域"
 
-#: source/blender/editors/screen/screen_ops.cc:1824
+#: source/blender/editors/screen/screen_ops.cc:1825
 msgid "Unable to close area"
 msgstr "無法關閉區域"
 
-#: source/blender/editors/screen/screen_ops.cc:3320
+#: source/blender/editors/screen/screen_ops.cc:3321
 msgid "Can only scale region size from an action zone"
 msgstr "只能在當前動作區內縮放區塊尺寸"
 
-#: source/blender/editors/screen/screen_ops.cc:3698
+#: source/blender/editors/screen/screen_ops.cc:3699
 msgid "Can only size Quad View from an action zone"
 msgstr "只能從動作區調整四格檢視大小"
 
-#: source/blender/editors/screen/screen_ops.cc:4296
+#: source/blender/editors/screen/screen_ops.cc:4297
 msgid "No more keyframes to jump to in this direction"
 msgstr "此方向再無可供跳轉的關鍵影格"
 
-#: source/blender/editors/screen/screen_ops.cc:4408
+#. :src: source/blender/editors/screen/screen_ops.cc:4368
+msgid "No markers to jump to"
+msgstr ""
+
+#: source/blender/editors/screen/screen_ops.cc:4413
 msgid "No more markers to jump to in this direction"
 msgstr "此方向再無可供跳轉的標記"
 
-#: source/blender/editors/screen/screen_ops.cc:5909
+#: source/blender/editors/screen/screen_ops.cc:5914
 msgid "Only window region can be 4-split"
 msgstr "四分檢視只支援視窗區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:5963
+#: source/blender/editors/screen/screen_ops.cc:5968
 msgid "Only last region can be 4-split"
 msgstr "僅最後一個區塊可以被四等分"
 
-#: source/blender/editors/screen/screen_ops.cc:7302
+#: source/blender/editors/screen/screen_ops.cc:7307
 msgid "No fullscreen areas were found"
 msgstr "沒有找到全屏區域"
 
-#: source/blender/editors/screen/screen_ops.cc:5694
+#: source/blender/editors/screen/screen_ops.cc:5699
 msgid "Removed amount of editors: %d"
 msgstr "移除的編輯器數量: %d"
 
-#: source/blender/editors/screen/screen_ops.cc:233
+#: source/blender/editors/screen/screen_ops.cc:234
 #: source/blender/editors/space_sequencer/sequencer_edit.cc:250
 #: source/blender/editors/space_sequencer/sequencer_edit.cc:4489
 msgid "Context missing sequencer scene"
 msgstr "上下文丟失序列場景"
 
-#: source/blender/editors/screen/screen_ops.cc:238
+#: source/blender/editors/screen/screen_ops.cc:239
 msgid "Sequencer scene not editable"
 msgstr "序列場景不可編輯"
 
-#: source/blender/editors/screen/screen_ops.cc:267
+#: source/blender/editors/screen/screen_ops.cc:268
 msgid "Only supported in object mode"
 msgstr "僅在物體模式下支援"
 
-#: source/blender/editors/screen/screen_ops.cc:305
+#: source/blender/editors/screen/screen_ops.cc:306
 msgid "Expected a view3d region"
 msgstr "需要一個 3D 檢視區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:331
+#: source/blender/editors/screen/screen_ops.cc:332
 msgid "Expected a timeline/animation area to be active"
 msgstr "需要一個活動的時間線/動畫區域"
 
-#: source/blender/editors/screen/screen_ops.cc:342
+#: source/blender/editors/screen/screen_ops.cc:343
 msgid "Expected a timeline/animation region"
 msgstr "需要一個時間線/動畫區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:356
+#: source/blender/editors/screen/screen_ops.cc:357
 msgid "Expected an active Outliner"
 msgstr "需要一個活動大綱"
 
-#: source/blender/editors/screen/screen_ops.cc:361
+#: source/blender/editors/screen/screen_ops.cc:362
 msgid "Expected an Outliner region"
 msgstr "需要一個大綱區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:388
+#: source/blender/editors/screen/screen_ops.cc:389
 msgid "Expected an active File Browser"
 msgstr "需要一個活動檔案瀏覽器"
 
-#: source/blender/editors/screen/screen_ops.cc:393
+#: source/blender/editors/screen/screen_ops.cc:394
 msgid "Expected a File Browser region"
 msgstr "需要一個檔案瀏覽器區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:428
+#: source/blender/editors/screen/screen_ops.cc:429
 msgid "Expected an active Dope Sheet"
 msgstr "需要一個活動攝影表"
 
-#: source/blender/editors/screen/screen_ops.cc:433
+#: source/blender/editors/screen/screen_ops.cc:434
 msgid "Expected a Dope Sheet region"
 msgstr "需要一個攝影表區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:479
+#: source/blender/editors/screen/screen_ops.cc:480
 msgid "Expected an active Graph Editor"
 msgstr "需要一個活動曲線編輯器"
 
-#: source/blender/editors/screen/screen_ops.cc:484
+#: source/blender/editors/screen/screen_ops.cc:485
 msgid "Expected a Graph Editor region"
 msgstr "需要一個曲線編輯器區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:513
+#: source/blender/editors/screen/screen_ops.cc:514
 msgid "Expected an active Nonlinear Animation editor"
 msgstr "需要一個活動非線性動畫編輯器"
 
-#: source/blender/editors/screen/screen_ops.cc:518
+#: source/blender/editors/screen/screen_ops.cc:519
 msgid "Expected a Nonlinear Animation region"
 msgstr "需要一個非線性動畫區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:532
+#: source/blender/editors/screen/screen_ops.cc:533
 msgid "Expected an active Info editor"
 msgstr "需要一個活動資訊編輯器"
 
-#: source/blender/editors/screen/screen_ops.cc:537
+#: source/blender/editors/screen/screen_ops.cc:538
 msgid "Expected an Info region"
 msgstr "需要一個資訊區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:575
+#: source/blender/editors/screen/screen_ops.cc:576
 msgid "Context missing active object"
 msgstr "上下文缺失活動物體"
 
-#: source/blender/editors/screen/screen_ops.cc:580
+#: source/blender/editors/screen/screen_ops.cc:581
 msgid "Cannot edit library linked or non-editable override object"
 msgstr "無法編輯已關聯庫或不可編輯的重寫物件"
 
-#: source/blender/editors/screen/screen_ops.cc:585
+#: source/blender/editors/screen/screen_ops.cc:586
 msgid "Cannot edit hidden object"
 msgstr "無法編輯隱藏物體"
 
-#: source/blender/editors/screen/screen_ops.cc:685
+#: source/blender/editors/screen/screen_ops.cc:686
 msgid "Expected a view3d region & editmesh"
 msgstr "需要一個 3D 檢視區塊和編輯網格"
 
-#: source/blender/editors/screen/screen_ops.cc:713
+#: source/blender/editors/screen/screen_ops.cc:714
 msgid "No object, or not exclusively in pose mode"
 msgstr "沒有物體，或不完全在姿態模式"
 
-#: source/blender/editors/screen/screen_ops.cc:733
+#: source/blender/editors/screen/screen_ops.cc:734
 msgid "Object is a local library override"
 msgstr "物體是一個本地庫重寫"
 
-#: source/blender/editors/screen/screen_ops.cc:829
+#: source/blender/editors/screen/screen_ops.cc:830
 msgid "Expected a view3d region & editcurve"
 msgstr "需要一個 3D 檢視區塊和編輯曲線"
 
-#: source/blender/editors/screen/screen_ops.cc:870
+#: source/blender/editors/screen/screen_ops.cc:871
 msgid "Expected an active edit-font object"
 msgstr "需要一個活動的編輯字型物體"
 
-#: source/blender/editors/screen/screen_ops.cc:6069
+#: source/blender/editors/screen/screen_ops.cc:6074
 msgid "Toggling regions in the Top-bar is not allowed"
 msgstr "不允許在頂欄切換區塊"
 
-#: source/blender/editors/screen/screen_ops.cc:6137
+#: source/blender/editors/screen/screen_ops.cc:6142
 msgid "Flipping regions in the Top-bar is not allowed"
 msgstr "不允許翻轉區塊至頂欄"
 
@@ -195728,7 +195703,7 @@ msgstr "位置:"
 #: source/blender/editors/space_clip/clip_buttons.cc:535
 #: source/blender/editors/space_clip/clip_buttons.cc:575
 #: source/blender/editors/space_clip/clip_buttons.cc:655
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1476
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1467
 #: source/blender/editors/uvedit/uvedit_buttons.cc:165
 msgid "X:"
 msgstr "X:"
@@ -195736,7 +195711,7 @@ msgstr "X:"
 #: source/blender/editors/space_clip/clip_buttons.cc:549
 #: source/blender/editors/space_clip/clip_buttons.cc:589
 #: source/blender/editors/space_clip/clip_buttons.cc:669
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1491
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1482
 #: source/blender/editors/uvedit/uvedit_buttons.cc:178
 msgid "Y:"
 msgstr "Y:"
@@ -195875,10 +195850,10 @@ msgstr "沒有選中要開啟的檔案"
 
 #: source/blender/editors/space_clip/clip_ops.cc:230
 #: source/blender/editors/space_image/image_ops.cc:1385
-#: source/blender/makesrna/intern/rna_main_api.cc:493
-#: source/blender/makesrna/intern/rna_main_api.cc:562
-#: source/blender/makesrna/intern/rna_main_api.cc:689
-#: source/blender/makesrna/intern/rna_main_api.cc:774
+#: source/blender/makesrna/intern/rna_main_api.cc:499
+#: source/blender/makesrna/intern/rna_main_api.cc:568
+#: source/blender/makesrna/intern/rna_main_api.cc:695
+#: source/blender/makesrna/intern/rna_main_api.cc:780
 msgid "Cannot read '%s': %s"
 msgstr "無法讀取 '%s': %s"
 
@@ -196047,23 +196022,23 @@ msgstr "網際網路訪問已禁用，僅顯示可離線使用的資產。"
 msgid "Continue Offline"
 msgstr "繼續離線"
 
-#: source/blender/editors/space_file/file_draw.cc:1739
+#: source/blender/editors/space_file/file_draw.cc:1747
 msgid "Loading..."
 msgstr "載入中..."
 
-#: source/blender/editors/space_file/file_draw.cc:1742
+#: source/blender/editors/space_file/file_draw.cc:1750
 msgid "No results match the search filter"
 msgstr "無匹配搜尋過濾的結果"
 
-#: source/blender/editors/space_file/file_draw.cc:1746
+#: source/blender/editors/space_file/file_draw.cc:1754
 msgid "No items. Note: The \"Only Online\" filter option is enabled."
 msgstr "無專案。注意：“僅線上” 過濾選項已啟用。"
 
-#: source/blender/editors/space_file/file_draw.cc:1749
+#: source/blender/editors/space_file/file_draw.cc:1757
 msgid "No items. Note: The \"Only Offline\" filter option is enabled."
 msgstr "無專案。注意：“僅離線” 過濾選項已啟用。"
 
-#: source/blender/editors/space_file/file_draw.cc:1751
+#: source/blender/editors/space_file/file_draw.cc:1759
 msgid "No items"
 msgstr "無專案"
 
@@ -196103,11 +196078,11 @@ msgstr "The five boxing wizards jump quickly! 0123456789"
 msgid "Size: {} ({} bytes)"
 msgstr "大小: {} ({} 位元組)"
 
-#: source/blender/editors/space_file/file_draw.cc:1827
+#: source/blender/editors/space_file/file_draw.cc:1835
 msgid "Path to asset library does not exist:"
 msgstr "資產庫路徑不存在:"
 
-#: source/blender/editors/space_file/file_draw.cc:1841
+#: source/blender/editors/space_file/file_draw.cc:1849
 msgid ""
 "Asset Libraries are local directories that can contain .blend files with assets inside.\n"
 "Manage Asset Libraries from the Asset Libraries section in the Preferences"
@@ -196115,7 +196090,7 @@ msgstr ""
 "資產庫是本地目錄，其中可包含帶有資產的 .blend 檔案。\n"
 "請透過偏好設定中的資產庫部分管理資產庫"
 
-#: source/blender/editors/space_file/file_draw.cc:1893
+#: source/blender/editors/space_file/file_draw.cc:1901
 msgid ""
 "Allow Online Access in order to browse and download online assets, or turn off the \"Remote Assets\" filter to show only the downloaded assets.\n"
 "\n"
@@ -196125,11 +196100,11 @@ msgstr ""
 "\n"
 "您稍後可在系統偏好設定中進行調整。"
 
-#: source/blender/editors/space_file/file_draw.cc:2089
+#: source/blender/editors/space_file/file_draw.cc:2097
 msgid "Unreadable Blender library file:"
 msgstr "不可讀的 Blender 庫檔案:"
 
-#: source/blender/editors/space_file/file_draw.cc:1109
+#: source/blender/editors/space_file/file_draw.cc:1112
 msgid "Could not rename: %s"
 msgstr "無法重新命名: %s"
 
@@ -196672,7 +196647,7 @@ msgid "Fill Tile With Generated Image"
 msgstr "使用生成的影象填充分塊"
 
 #: source/blender/editors/space_image/image_ops.cc:1389
-#: source/blender/makesrna/intern/rna_main_api.cc:497
+#: source/blender/makesrna/intern/rna_main_api.cc:503
 msgid "unsupported image format"
 msgstr "影象格式不受支援"
 
@@ -197052,51 +197027,51 @@ msgstr "無法將 %s 型別的節點新增到節點樹 %s 中"
 msgid "Copied %d selected node(s)"
 msgstr "已複製 %d 個選中節點"
 
-#: source/blender/editors/space_node/drawnode.cc:280
+#: source/blender/editors/space_node/drawnode.cc:281
 msgid "Label Size"
 msgstr "標籤大小"
 
-#: source/blender/editors/space_node/drawnode.cc:330
+#: source/blender/editors/space_node/drawnode.cc:331
 msgid "Frame: %d"
 msgstr "幀: %d"
 
-#: source/blender/editors/space_node/drawnode.cc:590
+#: source/blender/editors/space_node/drawnode.cc:591
 msgid "Matte Objects:"
 msgstr "蒙版物體:"
 
-#: source/blender/editors/space_node/drawnode.cc:603
+#: source/blender/editors/space_node/drawnode.cc:604
 msgid "Add Crypto Layer"
 msgstr "新增Crypto層"
 
-#: source/blender/editors/space_node/drawnode.cc:604
+#: source/blender/editors/space_node/drawnode.cc:605
 msgid "Remove Crypto Layer"
 msgstr "移除Crypto層"
 
-#: source/blender/editors/space_node/drawnode.cc:633
+#: source/blender/editors/space_node/drawnode.cc:634
 msgid "Matte ID:"
 msgstr "蒙版ID:"
 
-#: source/blender/editors/space_node/drawnode.cc:690
+#: source/blender/editors/space_node/drawnode.cc:691
 #: source/blender/nodes/shader/nodes/node_shader_tex_brick.cc:109
 msgid "Squash"
 msgstr "擠壓"
 
-#: source/blender/editors/space_node/drawnode.cc:937
-#: source/blender/editors/space_node/drawnode.cc:965
+#: source/blender/editors/space_node/drawnode.cc:938
+#: source/blender/editors/space_node/drawnode.cc:966
 msgid "Undefined Socket Type"
 msgstr "未定義的介面型別"
 
-#: source/blender/editors/space_node/drawnode.cc:1395
+#: source/blender/editors/space_node/drawnode.cc:1396
 #: source/blender/nodes/function/nodes/node_fn_input_menu.cc:26
 msgid "No Items"
 msgstr "無專案"
 
-#: source/blender/editors/space_node/drawnode.cc:1427
+#: source/blender/editors/space_node/drawnode.cc:1428
 #: source/blender/nodes/function/nodes/node_fn_input_menu.cc:35
 msgid "Menu Error"
 msgstr "選單錯誤"
 
-#: source/blender/editors/space_node/drawnode.cc:1430
+#: source/blender/editors/space_node/drawnode.cc:1431
 #: source/blender/nodes/function/nodes/node_fn_input_menu.cc:38
 msgid "Menu Undefined"
 msgstr "選單未定義"
@@ -197113,13 +197088,13 @@ msgstr "合成器節點"
 msgid "Sequencer Compositor Nodes"
 msgstr "序列合成器節點"
 
-#: source/blender/editors/space_node/node_add.cc:369
-#: source/blender/editors/space_node/node_add.cc:590
+#: source/blender/editors/space_node/node_add.cc:370
+#: source/blender/editors/space_node/node_add.cc:591
 msgid "Could not determine type of group node"
 msgstr "無法確定組節點的型別"
 
-#: source/blender/editors/space_node/node_add.cc:375
-#: source/blender/editors/space_node/node_add.cc:502
+#: source/blender/editors/space_node/node_add.cc:376
+#: source/blender/editors/space_node/node_add.cc:503
 msgid "Could not add node group"
 msgstr "無法新增節點組"
 
@@ -197159,7 +197134,7 @@ msgstr "無法新增顏色節點"
 msgid "Could not find node color socket"
 msgstr "無法找到節點顏色介面"
 
-#: source/blender/editors/space_node/node_add.cc:329
+#: source/blender/editors/space_node/node_add.cc:330
 msgid ""
 "Cannot add node group '%s' to '%s':\n"
 "  %s"
@@ -197167,7 +197142,7 @@ msgstr ""
 "無法新增節點組 '%s' 至 '%s':\n"
 "  %s"
 
-#: source/blender/editors/space_node/node_add.cc:337
+#: source/blender/editors/space_node/node_add.cc:338
 msgid "Cannot add node group '%s' to '%s'"
 msgstr "無法新增節點組 '%s' 至 '%s'"
 
@@ -197175,8 +197150,8 @@ msgstr "無法新增節點組 '%s' 至 '%s'"
 msgid "Node tree type %s undefined"
 msgstr "尚未定義節點樹型別 %s"
 
-#: source/blender/editors/space_node/node_add.cc:403
-#: source/blender/editors/space_node/node_add.cc:417
+#: source/blender/editors/space_node/node_add.cc:404
+#: source/blender/editors/space_node/node_add.cc:418
 msgid ""
 "Adding node groups isn't supported for custom (Python defined) node trees"
 msgstr "自定義 (Python 定義) 節點樹不支援新增節點組"
@@ -197251,7 +197226,7 @@ msgctxt "Operator"
 msgid "Assign Layer Name"
 msgstr "指定層名稱"
 
-#: source/blender/editors/space_node/node_geometry_volume_grid_search.cc:225
+#: source/blender/editors/space_node/node_geometry_volume_grid_search.cc:226
 msgctxt "Operator"
 msgid "Assign Grid Name"
 msgstr "指定柵格名稱"
@@ -198584,28 +198559,28 @@ msgstr "內建"
 msgid "Untitled Project"
 msgstr "未命名的專案"
 
-#. :src: source/blender/editors/space_project/project_ops.cc:51
+#: source/blender/editors/space_project/project_ops.cc:51
 msgid "Invalid project root folder"
 msgstr "無效的專案根資料夾"
 
-#. :src: source/blender/editors/space_project/project_ops.cc:65
+#: source/blender/editors/space_project/project_ops.cc:65
 msgid "Folder already contains a project"
 msgstr "資料夾早已包含一個專案"
 
-#. :src: source/blender/editors/space_project/project_ops.cc:70
+#: source/blender/editors/space_project/project_ops.cc:70
 msgid "Failed to create folder \"%s\""
 msgstr "未能建立資料夾 \"%s\""
 
-#. :src: source/blender/editors/space_project/project_ops.cc:79
+#: source/blender/editors/space_project/project_ops.cc:79
 msgid "Failed to write project config in \"%s\""
 msgstr "未能將專案配置寫入 \"%s\""
 
-#. :src: source/blender/editors/space_project/project_ops.cc:137
+#: source/blender/editors/space_project/project_ops.cc:137
 msgid "Folder '%s' does not belong to a project"
 msgstr "資料夾 '%s' 不屬於任何專案"
 
-#. :src: source/blender/editors/space_project/project_ops.cc:151
-#. :src: source/blender/windowmanager/intern/wm_files.cc:1174
+#: source/blender/editors/space_project/project_ops.cc:151
+#: source/blender/windowmanager/intern/wm_files.cc:1174
 msgid "Failed to load project from path: %s"
 msgstr "未能從路徑 %s 載入專案"
 
@@ -198613,7 +198588,7 @@ msgstr "未能從路徑 %s 載入專案"
 msgid "Failed to load image \"%s\""
 msgstr "未能載入影象 \"%s\""
 
-#. :src: source/blender/editors/space_project/project_splash_ops.cc:96
+#: source/blender/editors/space_project/project_splash_ops.cc:96
 msgid "Failed to write \"%s\""
 msgstr "未能寫入 \"%s\""
 
@@ -199206,6 +199181,11 @@ msgstr "遠端資產庫"
 msgid "Edit Project asset libraries in Project Settings."
 msgstr "在專案設定中編輯專案資產庫。"
 
+#: source/blender/editors/space_userpref/userpref_asset_libraries_list.cc:314
+#, fuzzy
+msgid "Open Project Settings"
+msgstr "開啟專案設定..."
+
 #: source/blender/editors/space_userpref/userpref_ops.cc:200
 msgid "Add Asset Library"
 msgstr "新增資產庫"
@@ -199289,245 +199269,245 @@ msgstr "不可用於Microsoft應用商店安裝"
 msgid "Windows & Linux only operator"
 msgstr "操作僅支援 Windows 和 Linux"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1456
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1447
 msgid "Control Point:"
 msgstr "控制點:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1459
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1450
 msgid "Point:"
 msgstr "點:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1463
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1454
 msgid "Vertex:"
 msgstr "頂點:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1467
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1458
 msgid "Median:"
 msgstr "質心:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1506
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1497
 msgid "Z:"
 msgstr "Z:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1526
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1517
 msgid "W:"
 msgstr "W:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1547
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2203
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1538
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2196
 msgid "Dimensions:"
 msgstr "尺寸:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1614
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1605
 msgid "Vertex Data:"
 msgstr "頂點資料:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1614
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1605
 msgid "Vertices Data:"
 msgstr "頂點資料:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1626
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1701
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1617
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1692
 msgid "Bevel Weight:"
 msgstr "倒角權重:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1626
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1701
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1617
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1692
 msgid "Mean Bevel Weight:"
 msgstr "平均倒角權重:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1641
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1632
 msgid "Vertex Crease:"
 msgstr "頂點摺痕:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1641
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1632
 msgid "Mean Vertex Crease:"
 msgstr "平均頂點摺痕:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1658
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1649
 msgid "Radius X:"
 msgstr "半徑 X:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1658
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1649
 msgid "Mean Radius X:"
 msgstr "平均 X 向半徑:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1672
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1663
 msgid "Radius Y:"
 msgstr "半徑 Y:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1672
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1663
 msgid "Mean Radius Y:"
 msgstr "平均 Y 向半徑:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1689
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1680
 msgid "Edge Data:"
 msgstr "邊線資料:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1689
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1680
 msgid "Edges Data:"
 msgstr "邊線資料:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1716
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1707
 msgid "Crease:"
 msgstr "摺痕:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1716
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1707
 msgid "Mean Crease:"
 msgstr "平均摺痕:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1737
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1789
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1728
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1780
 msgid "Radius:"
 msgstr "半徑:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1737
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1835
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1728
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1826
 msgid "Mean Radius:"
 msgstr "平均半徑:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1753
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1804
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1744
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1795
 #: source/blender/editors/transform/transform_mode_tilt.cc:55
 #: source/blender/editors/transform/transform_mode_tilt.cc:63
 msgid "Tilt:"
 msgstr "傾斜:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1753
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1849
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1744
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1840
 msgid "Mean Tilt:"
 msgstr "平均傾斜:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1774
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1870
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1765
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1861
 msgid "Weight:"
 msgstr "權重:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1821
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1887
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1812
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1878
 msgid "Mean Weight:"
 msgstr "平均權重:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2510
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2532
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2503
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2525
 msgid "4L"
 msgstr "4鎖"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2582
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2575
 msgid "No Bone Active"
 msgstr "無啟用的骨骼"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2612
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2605
 msgid "Radius (Parent)"
 msgstr "半徑範圍 (父級)"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2650
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2656
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2660
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2665
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2643
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2649
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2653
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2658
 msgid "Size:"
 msgstr "大小:"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3283
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3276
 msgid "Knot Mode"
 msgstr "結模式"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3411
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3404
 msgid "U Scale"
 msgstr "U 縮放"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1543
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1534
 msgid ""
 "Size of the selection, editing scales it about the transform pivot point"
 msgstr "選區大小，編輯時會以變換軸心點為基準進行縮放"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1591
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1582
 msgid "Displays global values"
 msgstr "顯示全域性值"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1604
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1595
 msgid "Displays local values"
 msgstr "顯示自身值"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1634
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1625
 msgid "Vertex weight used by Bevel modifier"
 msgstr "用於倒角修改器的頂點權重值"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1649
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1724
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1640
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1715
 msgid "Weight used by the Subdivision Surface modifier"
 msgstr "用於表面細分修改器的權重值"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1666
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1657
 msgid "X radius used by Skin modifier"
 msgstr "用於蒙皮修改器的X半徑"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1680
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1671
 msgid "Y radius used by Skin modifier"
 msgstr "用於蒙皮修改器的Y半徑"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1709
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1700
 msgid "Edge weight used by Bevel modifier"
 msgstr "用於倒角修改器的邊線權重值"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1747
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1843
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1738
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1834
 msgid "Radius of curve control points"
 msgstr "曲線控制點半徑"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1762
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1857
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1753
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1848
 msgid "Tilt of curve control points"
 msgstr "曲線控制點傾斜"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1829
-#: source/blender/editors/space_view3d/view3d_buttons.cc:1895
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1820
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1886
 msgid "Weight used for Soft Body Goal"
 msgstr "用於軟體目標的權重"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2456
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2449
 msgid "Normalize weights of active vertex (if affected groups are unlocked)"
 msgstr "啟用頂點的權重進行規格化操作 (如果受影響的組未鎖定)"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2469
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2462
 msgid ""
 "Copy active vertex to other selected vertices (if affected groups are "
 "unlocked)"
 msgstr "複製啟用頂點到其它選中的頂點 (如果受影響的組未鎖定)"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3476
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3469
 msgid "Vertex Weights"
 msgstr "頂點權重"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3485
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3478
 msgid "Curve Data"
 msgstr "曲線資料"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3096
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3089
 msgctxt "GPencil"
 msgid "Normal"
 msgstr "標準"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3101
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3094
 msgctxt "GPencil"
 msgid "Endpoint"
 msgstr "端點"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3106
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3099
 msgctxt "GPencil"
 msgid "Bézier"
 msgstr "貝塞爾"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3111
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3104
 msgctxt "GPencil"
 msgid "Endpoint Bézier"
 msgstr "端點貝塞爾"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:3503
+#: source/blender/editors/space_view3d/view3d_buttons.cc:3496
 msgid "No active object found"
 msgstr "未找到活動物體"
 
-#: source/blender/editors/space_view3d/view3d_buttons.cc:2168
+#: source/blender/editors/space_view3d/view3d_buttons.cc:2161
 msgctxt "Operator"
 msgid "Transform properties"
 msgstr "變換屬性"
@@ -200533,15 +200513,21 @@ msgstr "展開解算 %d / %d 孤島失敗。可能需要新增縫合邊"
 msgid "Packing UVs..."
 msgstr "正在排布 UV..."
 
-#: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:279
+#: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:285
 msgid "Freestyle: Mesh loading"
 msgstr "Freestyle: 網格載入中"
 
-#: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:466
+#. :src:
+#. source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:317
+#. :src: source/blender/python/intern/bpy_interface.cc:840
+msgid "Freestyle style module '%s'"
+msgstr ""
+
+#: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:483
 msgid "Freestyle: View map creation"
 msgstr "Freestyle: 檢視對映建立中"
 
-#: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:642
+#: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:659
 msgid "Freestyle: Stroke rendering"
 msgstr "Freestyle: 筆畫算繪中"
 
@@ -200758,7 +200744,7 @@ msgstr "無效物件：驗證物件路徑"
 
 #: source/blender/io/alembic/intern/alembic_capi.cc:699
 #: source/blender/io/fbx/importer/fbx_import.cc:389
-#: source/blender/io/ply/importer/ply_import.cc:352
+#: source/blender/io/ply/importer/ply_import.cc:447
 #: source/blender/io/spz/importer/spz_import.cc:57
 #: source/blender/io/stl/importer/stl_import.cc:138
 #: source/blender/io/usd/intern/usd_capi_import.cc:341
@@ -200861,32 +200847,38 @@ msgstr "PLY 匯出: 無法找到集合 '%s'"
 msgid "PLY Export: Cannot open file '%s'"
 msgstr "PLY 匯出: 無法開啟檔案 '%s'"
 
-#: source/blender/io/ply/importer/ply_import.cc:194
-#: source/blender/io/ply/importer/ply_import.cc:200
+#: source/blender/io/ply/importer/ply_import.cc:226
 msgid "PLY Importer: failed importing, unknown error"
 msgstr "PLY 匯入: 匯入失敗, 未知錯誤"
 
-#: source/blender/io/ply/importer/ply_import.cc:205
+#: source/blender/io/ply/importer/ply_import.cc:250
 msgid "PLY Importer: failed importing, no vertices"
 msgstr "PLY 匯入: 匯入失敗, 沒有頂點"
 
-#: source/blender/io/ply/importer/ply_import.cc:186
+#: source/blender/io/ply/importer/ply_import.cc:203
+#: source/blender/io/ply/importer/ply_import.cc:218
+#: source/blender/io/ply/importer/ply_import.cc:242
 msgid "PLY Importer: %s: %s"
 msgstr "PLY 匯入: %s: %s"
 
-#: source/blender/io/ply/importer/ply_import_gsplat.cc:137
+#: source/blender/io/ply/importer/ply_import.cc:233
+#, fuzzy
+msgid "PLY Importer: failed importing %s: %s"
+msgstr "PLY 匯入: 匯入失敗, 沒有頂點"
+
+#: source/blender/io/ply/importer/ply_import_gsplat.cc:146
 msgid ""
 "PLY Importer: Spherical harmonics degree above the supported %d, spherical "
 "harmonics are not imported"
 msgstr "PLY 匯入器：球諧函式的階數超過支援的 %d，因此未匯入球諧函式"
 
-#: source/blender/io/ply/importer/ply_import_gsplat.cc:145
+#: source/blender/io/ply/importer/ply_import_gsplat.cc:154
 msgid ""
 "PLY Importer: Unexpected number of f_rest properties %d, spherical harmonics"
 " are not imported"
 msgstr "PLY 匯入器：f_rest 屬性的數量超出預期，為 %d，因此未匯入球諧函式"
 
-#: source/blender/io/ply/importer/ply_import_gsplat.cc:155
+#: source/blender/io/ply/importer/ply_import_gsplat.cc:164
 msgid ""
 "PLY Importer: Incomplete spherical harmonics band, importing %d of %d "
 "coefficients"
@@ -201239,73 +201231,73 @@ msgstr "未處理的 Gprim 型別: %s (%s)"
 msgid "%s: Couldn't find armature object corresponding to USD skeleton %s"
 msgstr "%s: 找不到與 USD 骨架 %s 對應的骨架物件"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:189
-#: source/blender/io/usd/intern/usd_skel_convert.cc:823
+#: source/blender/io/usd/intern/usd_skel_convert.cc:190
+#: source/blender/io/usd/intern/usd_skel_convert.cc:825
 msgid "%s: Couldn't get world bind transforms for skeleton %s"
 msgstr "%s: 無法獲取骨架 %s 的世界繫結變換"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:198
+#: source/blender/io/usd/intern/usd_skel_convert.cc:199
 msgid ""
 "%s: Number of bind transforms does not match the number of joints for "
 "skeleton %s"
 msgstr "%s: 繫結變換的數量與骨架 %s 的關節數量不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:387
+#: source/blender/io/usd/intern/usd_skel_convert.cc:388
 msgid "%s: Couldn't get blendshape targets for prim %s"
 msgstr "%s: 無法獲取基元 %s 的混合形狀目標"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:415
+#: source/blender/io/usd/intern/usd_skel_convert.cc:416
 msgid ""
 "%s: Number of blendshapes does not match number of blendshape targets for "
 "prim %s"
 msgstr "%s: 基元 %s 內混合形狀的數量與混合形狀數量不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:427
+#: source/blender/io/usd/intern/usd_skel_convert.cc:428
 msgid "%s: Couldn't get stage for prim %s"
 msgstr "%s: 無法獲取基元 %s 的舞臺"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:469
+#: source/blender/io/usd/intern/usd_skel_convert.cc:470
 msgid "%s: Couldn't get offsets for blend shape %s"
 msgstr "%s: 無法獲取混合形狀 %s 的偏移量"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:478
+#: source/blender/io/usd/intern/usd_skel_convert.cc:479
 msgid "%s: No offsets for blend shape %s"
 msgstr "%s: 混合形狀 %s 無偏移量"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:511
-#: source/blender/io/usd/intern/usd_skel_convert.cc:536
+#: source/blender/io/usd/intern/usd_skel_convert.cc:512
+#: source/blender/io/usd/intern/usd_skel_convert.cc:537
 msgid ""
 "%s: Number of offsets greater than number of mesh vertices for blend shape "
 "%s"
 msgstr "%s: 混合形狀 %s 的偏移量大於網格頂點數"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:741
+#: source/blender/io/usd/intern/usd_skel_convert.cc:743
 msgid "%s: Couldn't query skeleton %s"
 msgstr "%s: 無法查詢到 %s 骨架"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:753
+#: source/blender/io/usd/intern/usd_skel_convert.cc:755
 msgid "%s: Topology and joint order size mismatch for skeleton %s"
 msgstr "%s: 骨架 %s 的拓撲和關節順序大小不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:770
+#: source/blender/io/usd/intern/usd_skel_convert.cc:772
 msgid ""
 "%s: USD joint order array contains invalid or duplicated paths for skeleton "
 "%s"
 msgstr "%s: USD關節順序陣列包含用於骨架 %s 無效或重複的路徑"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:797
+#: source/blender/io/usd/intern/usd_skel_convert.cc:799
 msgid "%s: Couldn't add bone for joint %s"
 msgstr "%s: 無法為關節 %s 新增骨骼"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:812
+#: source/blender/io/usd/intern/usd_skel_convert.cc:814
 msgid "%s: Mismatch in bone and joint counts for skeleton %s"
 msgstr "%s: 骨架 %s 的骨骼和關節數不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:832
+#: source/blender/io/usd/intern/usd_skel_convert.cc:834
 msgid "%s: Mismatch in bind xforms and joint counts for skeleton %s"
 msgstr "%s: 繫結 xform 和骨架 %s 的關節數不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:881
+#: source/blender/io/usd/intern/usd_skel_convert.cc:883
 msgid ""
 "USD Skeleton Import: bone matrices with negative determinants detected in "
 "prim %s. Such matrices may indicate negative scales, possibly due to "
@@ -201315,29 +201307,29 @@ msgstr ""
 "USD 骨架匯入：在基元 %s 中檢測到具有負行列式的骨骼矩陣。此類矩陣可能表示負縮放，可能是映象操作導致的，並且目前無法轉換為 Blender "
 "的骨骼表示，骨骼動畫將無法匯入"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:1068
+#: source/blender/io/usd/intern/usd_skel_convert.cc:1070
 msgid "%s: Joint weights and joint indices element size mismatch for prim %s"
 msgstr "%s: 基元 %s 的關節權重和關節指數元素大小不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:1088
+#: source/blender/io/usd/intern/usd_skel_convert.cc:1090
 msgid "%s: Joint weights and joint indices size mismatch for prim %s"
 msgstr "%s: 基元 %s 的關節權重和關節指數大小不匹配"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:1102
+#: source/blender/io/usd/intern/usd_skel_convert.cc:1104
 msgid "%s: Unexpected joint weights interpolation type %s for prim %s"
 msgstr "%s: 意外的關節權重插值型別 %s，在基元 %s 內"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:1115
+#: source/blender/io/usd/intern/usd_skel_convert.cc:1117
 msgid ""
 "%s: Joint weights of unexpected size for vertex interpolation for prim %s"
 msgstr "%s: 基元 %s 的頂點插值的關節權重大小錯誤"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:1124
+#: source/blender/io/usd/intern/usd_skel_convert.cc:1126
 msgid ""
 "%s: Joint weights of unexpected size for constant interpolation for prim %s"
 msgstr "%s: 基元 %s 的常量插值的關節權重大小錯誤"
 
-#: source/blender/io/usd/intern/usd_skel_convert.cc:1150
+#: source/blender/io/usd/intern/usd_skel_convert.cc:1152
 msgid "%s: Error creating deform group data for mesh %s"
 msgstr "%s: 為網格物體 %s 建立變形組資料時出錯"
 
@@ -201545,11 +201537,11 @@ msgstr "無法從重寫資料塊編輯此屬性"
 msgid "Cannot edit this property from a system override data-block"
 msgstr "無法從系統重寫資料塊編輯該屬性"
 
-#: source/blender/makesrna/intern/rna_access.cc:5666
+#: source/blender/makesrna/intern/rna_access.cc:5671
 msgid "Only boolean, int, float, and enum properties supported"
 msgstr "僅支援布林型, 整型, 浮點型和列舉型屬性"
 
-#: source/blender/makesrna/intern/rna_access.cc:5768
+#: source/blender/makesrna/intern/rna_access.cc:5773
 msgid "Only boolean, int, float and enum properties supported"
 msgstr "僅支援布林型, 整型, 浮點型和列舉型屬性"
 
@@ -201565,27 +201557,27 @@ msgstr "'%s' 沒有大寫字母數字字首"
 msgid "'%s' does not have an alphanumeric suffix"
 msgstr "'%s' 沒有字母數字字尾"
 
-#: source/blender/makesrna/intern/rna_access.cc:4685
+#: source/blender/makesrna/intern/rna_access.cc:4690
 msgid "%s: expected %s type, not %s"
 msgstr "%s: 預期 %s 型別, 而非 %s"
 
-#: source/blender/makesrna/intern/rna_access.cc:4790
+#: source/blender/makesrna/intern/rna_access.cc:4795
 msgid "%s: expected ID type, not %s"
 msgstr "%s: 預期ID型別, 而非 %s"
 
-#: source/blender/makesrna/intern/rna_access.cc:4798
+#: source/blender/makesrna/intern/rna_access.cc:4803
 msgid "%s: cannot assign an embedded ID to an IDProperty"
 msgstr "%s: 無法分配一個嵌入的ID到一個ID屬性"
 
-#: source/blender/makesrna/intern/rna_access.cc:5681
+#: source/blender/makesrna/intern/rna_access.cc:5686
 msgid "Array length mismatch (expected %d, got %d)"
 msgstr "陣列長度不匹配 (預期 %d, 實際上 %d)"
 
-#: source/blender/makesrna/intern/rna_access.cc:5762
+#: source/blender/makesrna/intern/rna_access.cc:5767
 msgid "Property named '%s' not found"
 msgstr "未找到名為 '%s' 的屬性"
 
-#: source/blender/makesrna/intern/rna_access.cc:5780
+#: source/blender/makesrna/intern/rna_access.cc:5785
 msgid "Array length mismatch (got %d, expected more)"
 msgstr "陣列長度不匹配 (已有 %d, 需要更多)"
 
@@ -202448,24 +202440,24 @@ msgstr "無法移除線寬修改器 '%s'"
 msgid "Geometry modifier '%s' could not be removed"
 msgstr "無法移除幾何修改器 '%s'"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:566
+#: source/blender/makesrna/intern/rna_main_api.cc:572
 msgid "unsupported font format"
 msgstr "不支援的字型格式"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:693
+#: source/blender/makesrna/intern/rna_main_api.cc:699
 msgid "unable to load text"
 msgstr "無法載入文字"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:778
+#: source/blender/makesrna/intern/rna_main_api.cc:784
 msgid "unable to load movie clip"
 msgstr "無法載入影片剪輯"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:299
+#: source/blender/makesrna/intern/rna_main_api.cc:305
 msgid ""
 "Cannot create object in main database with an evaluated data data-block"
 msgstr "無法使用已評估資料的資料塊在主資料庫中建立物件"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:420
+#: source/blender/makesrna/intern/rna_main_api.cc:426
 #: source/blender/makesrna/intern/rna_object_api.cc:440
 msgid "Object does not have geometry data"
 msgstr "物體沒有幾何資料"
@@ -202474,40 +202466,40 @@ msgstr "物體沒有幾何資料"
 msgid "%s '%s' is outside of main database and cannot be removed from it"
 msgstr "%s '%s' 不在主資料庫中, 不能移除"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:139
+#: source/blender/makesrna/intern/rna_main_api.cc:146
 msgid "Cannot remove volume light probes while light probe baking is running"
 msgstr "無法在光照探頭烘焙執行期間移除體積光照探頭"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:163
+#: source/blender/makesrna/intern/rna_main_api.cc:169
 msgid ""
 "%s '%s' must have zero users to be removed, found %d (try with "
 "do_unlink=True parameter)"
 msgstr "%s '%s' 必須擁有0個使用者才能刪除, 查詢 %d (嘗試使用 do_unlink=True 引數)"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:178
+#: source/blender/makesrna/intern/rna_main_api.cc:184
 msgid "Only linked IDs can be packed"
 msgstr "僅關聯的 ID 可打包"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:201
+#: source/blender/makesrna/intern/rna_main_api.cc:207
 msgid ""
 "Failed to initialize project. Ensure that both the name and project_root "
 "parameters are non-empty."
 msgstr "無法初始化專案。請確保名稱和專案源這兩個引數均不為空。"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:218
+#: source/blender/makesrna/intern/rna_main_api.cc:224
 msgid ""
 "Failed to initialize project. Ensure that project_root path is correct."
 msgstr "無法初始化專案。請確保專案根路徑正確。"
 
-#. :src: source/blender/makesrna/intern/rna_main_api.cc:232
+#: source/blender/makesrna/intern/rna_main_api.cc:238
 msgid "Failed to save project config."
 msgstr "未能儲存專案配置。"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:290
+#: source/blender/makesrna/intern/rna_main_api.cc:296
 msgid "Scene '%s' is the last local one, cannot be removed"
 msgstr "場景 '%s' 是最後一個本地場景, 無法刪除"
 
-#: source/blender/makesrna/intern/rna_main_api.cc:319
+#: source/blender/makesrna/intern/rna_main_api.cc:325
 msgid "ID type '%s' is not valid for an object"
 msgstr "ID 型別 '%s' 對物體無效"
 
@@ -213026,7 +213018,7 @@ msgstr ""
 msgid "%s: %.*s"
 msgstr "%s: %.*s"
 
-#: source/blender/python/intern/bpy_interface.cc:833
+#: source/blender/python/intern/bpy_interface.cc:853
 msgid "Text '%s'"
 msgstr "文字 '%s'"
 
@@ -213231,7 +213223,7 @@ msgstr "漩渦"
 msgid "WaveDistortion"
 msgstr "波浪畸變"
 
-#: source/blender/windowmanager/intern/wm.cc:246
+#: source/blender/windowmanager/intern/wm.cc:248
 msgid "window_managers"
 msgstr "視窗管理器"
 
@@ -213574,7 +213566,7 @@ msgstr "檔案路徑 \"%s\" 無效"
 msgid "Unknown error loading \"%s\""
 msgstr "載入 \"%s\" 時發生未知錯誤"
 
-#. :src: source/blender/windowmanager/intern/wm_files.cc:1167
+#: source/blender/windowmanager/intern/wm_files.cc:1167
 msgid "Could not find a project within the specified path: %s"
 msgstr "無法在指定路徑中找到專案：%s"
 
@@ -213938,30 +213930,30 @@ msgstr "無法建立一個與時間序列顯示模式一致的視窗"
 msgid "Stereo 3D Mode requires the window to be fullscreen"
 msgstr "立體 3D 模式，要求視窗為全屏"
 
-#: source/blender/windowmanager/intern/wm_window.cc:633
+#: source/blender/windowmanager/intern/wm_window.cc:647
 msgid "(Unsaved)"
 msgstr "(未儲存)"
 
-#: source/blender/windowmanager/intern/wm_window.cc:638
+#: source/blender/windowmanager/intern/wm_window.cc:652
 msgid " (Recovered)"
 msgstr " (已恢復)"
 
-#: source/blender/windowmanager/intern/wm_window.cc:2456
+#: source/blender/windowmanager/intern/wm_window.cc:2470
 msgid "Updating GPU drivers may solve this issue."
 msgstr "更新GPU驅動程式可能會解決此問題."
 
-#: source/blender/windowmanager/intern/wm_window.cc:2457
+#: source/blender/windowmanager/intern/wm_window.cc:2471
 msgid ""
 "The graphics backend can be changed in the System section of the "
 "Preferences."
 msgstr "可以在 “偏好設定” 的 “系統” 部分更改圖形後端."
 
-#: source/blender/windowmanager/intern/wm_window.cc:2460
+#: source/blender/windowmanager/intern/wm_window.cc:2474
 msgid "Failed to load using Vulkan, using OpenGL instead."
 msgstr "使用 Vulkan 載入失敗，改用 OpenGL．"
 
-#: source/blender/windowmanager/intern/wm_window.cc:1533
-#: source/blender/windowmanager/intern/wm_window.cc:1545
+#: source/blender/windowmanager/intern/wm_window.cc:1547
+#: source/blender/windowmanager/intern/wm_window.cc:1559
 msgid "Failed to create window"
 msgstr "建立視窗失敗"
 
