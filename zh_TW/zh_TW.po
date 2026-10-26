@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'f0219159730a')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-26 10:44+0000\n"
-"PO-Revision-Date: 2026-10-26 06:12+0000\n"
+"PO-Revision-Date: 2026-10-26 20:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -146998,9 +146998,8 @@ msgid "Chinese (Simplified) - 简体中文"
 msgstr "簡體中文"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANS'
-#, fuzzy
 msgid "Locale code: zh_HANS. Translation progress: 100%"
-msgstr "區域程式碼: zh_HANS. 翻譯進度: 99%"
+msgstr "區域程式碼: zh_HANS. 翻譯進度: 100%"
 
 #. :src: bpy.types.PreferencesView.language:'zh_HANT'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147100,9 +147099,8 @@ msgid "Georgian - ქართული"
 msgstr "喬治亞語 - ქართული"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
-#, fuzzy
 msgid "Locale code: ka. Translation progress: 97%"
-msgstr "區域程式碼: ka. 翻譯進度: 98%"
+msgstr "區域程式碼: ka. 翻譯進度: 97%"
 
 #. :src: bpy.types.PreferencesView.language:'de_DE'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147156,9 +147154,8 @@ msgid "Indonesian - Bahasa indonesia"
 msgstr "印度尼西亞語 - Bahasa indonesia"
 
 #. :src: bpy.types.PreferencesView.language:'id_ID'
-#, fuzzy
 msgid "Locale code: id_ID. Translation progress: 21%"
-msgstr "區域程式碼: id_ID. 翻譯進度: 20%"
+msgstr "區域程式碼: id_ID. 翻譯進度: 21%"
 
 #. :src: bpy.types.PreferencesView.language:'it_IT'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147257,9 +147254,8 @@ msgid "Portuguese (Portugal) - Português europeu"
 msgstr "葡萄牙語 (葡萄牙) - Português europeu"
 
 #. :src: bpy.types.PreferencesView.language:'pt_PT'
-#, fuzzy
 msgid "Locale code: pt_PT. Translation progress: 82%"
-msgstr "區域程式碼: pt_PT. 翻譯進度: 81%"
+msgstr "區域程式碼: pt_PT. 翻譯進度: 82%"
 
 #. :src: bpy.types.PreferencesView.language:'ro_RO'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147339,9 +147335,8 @@ msgid "Swedish - Svenska"
 msgstr "瑞典語 - Svenska"
 
 #. :src: bpy.types.PreferencesView.language:'sv_SE'
-#, fuzzy
 msgid "Locale code: sv_SE. Translation progress: 100%"
-msgstr "區域程式碼: sk_SK. 翻譯進度: 100%"
+msgstr "區域程式碼: sv_SE. 翻譯進度: 100%"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147349,9 +147344,8 @@ msgid "Tamil - தமிழ்"
 msgstr "泰米爾語 - தமிழ்"
 
 #. :src: bpy.types.PreferencesView.language:'ta'
-#, fuzzy
 msgid "Locale code: ta. Translation progress: 92%"
-msgstr "區域程式碼: ta. 翻譯進度: 93%"
+msgstr "區域程式碼: ta. 翻譯進度: 92%"
 
 #. :src: bpy.types.PreferencesView.language:'th_TH'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -181149,9 +181143,8 @@ msgid "Float"
 msgstr "浮點"
 
 #: scripts/startup/bl_ui/space_project.py:224
-#, fuzzy
 msgid "Overridden by the {:s} environment variable"
-msgstr "被  環境變數覆蓋"
+msgstr "已被環境變數 {:s} 覆蓋"
 
 #: scripts/startup/bl_ui/space_project.py:236
 msgctxt "Operator"
@@ -191662,7 +191655,7 @@ msgstr "無法確定ABC序列長度"
 #. :src: source/blender/editors/io/io_alembic.cc:729
 msgctxt "Operator"
 msgid "Alembic"
-msgstr ""
+msgstr "Alembic"
 
 #: source/blender/editors/io/io_cache.cc:207
 msgid "Could not add a layer to the cache file"
@@ -191675,7 +191668,7 @@ msgstr "多個檔案控制代碼可用，下拉選擇要使用的一項"
 #. :src: source/blender/editors/io/io_fbx_ops.cc:255
 msgctxt "Operator"
 msgid "FBX"
-msgstr ""
+msgstr "FBX"
 
 #: source/blender/editors/io/io_grease_pencil.cc:395
 msgid "Scene Options"
@@ -191712,10 +191705,9 @@ msgid "Error during file write for \"%s\""
 msgstr "\"%s\" 檔案寫入時出錯"
 
 #: source/blender/editors/io/io_grease_pencil.cc:614
-#, fuzzy
 msgctxt "Operator"
 msgid "SVG as Grease Pencil"
-msgstr "匯入SVG為蠟筆"
+msgstr "SVG 為蠟筆"
 
 #: source/blender/editors/io/io_obj.cc:168
 msgid "Curves as NURBS"
@@ -191766,10 +191758,9 @@ msgid "File exported successfully"
 msgstr "檔案匯出成功"
 
 #: source/blender/editors/io/io_obj.cc:607
-#, fuzzy
 msgctxt "Operator"
 msgid "Wavefront OBJ"
-msgstr "匯入 Wavefront OBJ"
+msgstr "Wavefront OBJ"
 
 #: source/blender/editors/io/io_otio_ops.cc:188
 msgid "Imported OTIO timeline into scene '%s'"
@@ -191788,10 +191779,9 @@ msgid "Sequencer scene has no strips"
 msgstr "序列場景不含片段"
 
 #: source/blender/editors/io/io_otio_ops.cc:232
-#, fuzzy
 msgctxt "Operator"
 msgid "OpenTimelineIO"
-msgstr "OpenTimelineIO (.otio)"
+msgstr "OpenTimelineIO"
 
 #: source/blender/editors/io/io_ply_ops.cc:129
 #: source/blender/editors/io/io_stl_ops.cc:104
@@ -191799,15 +191789,14 @@ msgid "ASCII"
 msgstr "ASCII"
 
 #: source/blender/editors/io/io_ply_ops.cc:385
-#, fuzzy
 msgctxt "Operator"
 msgid "Stanford PLY"
-msgstr "斯坦福 PLY (.ply)"
+msgstr "斯坦福 PLY"
 
 #. :src: source/blender/editors/io/io_spz_ops.cc:95
 msgctxt "Operator"
 msgid "SPZ"
-msgstr ""
+msgstr "SPZ"
 
 #: source/blender/editors/io/io_stl_ops.cc:108
 msgid "Batch"
@@ -191820,7 +191809,7 @@ msgstr "未給出檔名"
 #. :src: source/blender/editors/io/io_stl_ops.cc:349
 msgctxt "Operator"
 msgid "STL"
-msgstr ""
+msgstr "STL"
 
 #: source/blender/editors/io/io_usd.cc:402
 msgid "Blender Data"
@@ -191847,7 +191836,7 @@ msgstr "粒子與例項化"
 #. :src: source/blender/editors/io/io_usd.cc:1328
 msgctxt "Operator"
 msgid "Universal Scene Description"
-msgstr ""
+msgstr "通用場景描述"
 
 #: source/blender/editors/io/io_utils.cc:45
 msgid "Import {} files"
@@ -194930,7 +194919,7 @@ msgstr "此方向再無可供跳轉的關鍵影格"
 
 #. :src: source/blender/editors/screen/screen_ops.cc:4368
 msgid "No markers to jump to"
-msgstr ""
+msgstr "沒有可跳轉的標記"
 
 #: source/blender/editors/screen/screen_ops.cc:4413
 msgid "No more markers to jump to in this direction"
@@ -199182,9 +199171,8 @@ msgid "Edit Project asset libraries in Project Settings."
 msgstr "在專案設定中編輯專案資產庫。"
 
 #: source/blender/editors/space_userpref/userpref_asset_libraries_list.cc:314
-#, fuzzy
 msgid "Open Project Settings"
-msgstr "開啟專案設定..."
+msgstr "開啟專案設定"
 
 #: source/blender/editors/space_userpref/userpref_ops.cc:200
 msgid "Add Asset Library"
@@ -200521,7 +200509,7 @@ msgstr "Freestyle: 網格載入中"
 #. source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:317
 #. :src: source/blender/python/intern/bpy_interface.cc:840
 msgid "Freestyle style module '%s'"
-msgstr ""
+msgstr "Freestyle 樣式模組 '%s'"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:483
 msgid "Freestyle: View map creation"
@@ -200862,9 +200850,8 @@ msgid "PLY Importer: %s: %s"
 msgstr "PLY 匯入: %s: %s"
 
 #: source/blender/io/ply/importer/ply_import.cc:233
-#, fuzzy
 msgid "PLY Importer: failed importing %s: %s"
-msgstr "PLY 匯入: 匯入失敗, 沒有頂點"
+msgstr "PLY 匯入: 匯入 %s 失敗: %s"
 
 #: source/blender/io/ply/importer/ply_import_gsplat.cc:146
 msgid ""
