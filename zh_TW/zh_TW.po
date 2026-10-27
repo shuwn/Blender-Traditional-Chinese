@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'f0219159730a')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-26 10:44+0000\n"
-"PO-Revision-Date: 2026-10-26 20:12+0000\n"
+"PO-Revision-Date: 2026-10-27 03:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -109126,7 +109126,7 @@ msgstr "設定繪製工具的權重為滑鼠游標下頂點的權重"
 #. :src: bpy.types.GREASE_PENCIL_OT_weight_toggle_direction
 msgctxt "Operator"
 msgid "Weight Paint Toggle Direction"
-msgstr "權重噴繪切換方向"
+msgstr "權重繪製切換方向"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_weight_toggle_direction
 msgid "Toggle Add/Subtract for the weight paint draw tool"
@@ -109139,7 +109139,7 @@ msgstr "筆畫權重模式切換"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_weightmode_toggle
 msgid "Enter/Exit weight paint mode for Grease Pencil strokes"
-msgstr "進入/退出蠟筆筆畫的權重噴繪模式"
+msgstr "進入/退出蠟筆筆畫的權重繪製模式"
 
 #. :src: bpy.types.IMAGE_OT_add_render_slot
 msgctxt "Operator"
@@ -166505,7 +166505,7 @@ msgstr "顯示線框"
 
 #. :src: bpy.types.View3DOverlay.show_paint_wire
 msgid "Use wireframe display in painting modes"
-msgstr "在噴繪模式下使用線框顯示"
+msgstr "在繪製模式下使用線框顯示"
 
 #. :src: bpy.types.View3DOverlay.show_performance
 msgid "Show Performance"
