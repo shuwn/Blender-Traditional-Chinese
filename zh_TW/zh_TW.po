@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'46af81ec57bb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 09:14+0000\n"
-"PO-Revision-Date: 2026-10-27 09:10+0000\n"
+"PO-Revision-Date: 2026-10-27 16:48+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -125319,9 +125319,8 @@ msgid "Remove this installation's associations with .blend files"
 msgstr "刪除.blend檔案的安裝關聯"
 
 #. :src: bpy.types.PROJECT_OT_asset_library_add
-#, fuzzy
 msgid "Add a directory to be used by the Project as source of assets"
-msgstr "新增資產瀏覽器用作資產來源的目錄"
+msgstr "向專案新增一個用作資產來源的目錄"
 
 #. :src: bpy.types.PROJECT_OT_close
 msgctxt "Operator"
@@ -125338,15 +125337,13 @@ msgid "Skip check to prevent unsaved changes from being lost"
 msgstr "跳過檢查，以防止未儲存的更改丟失"
 
 #. :src: bpy.types.PROJECT_OT_config_save
-#, fuzzy
 msgctxt "Operator"
 msgid "Save Project Config"
-msgstr "儲存專案"
+msgstr "儲存專案配置"
 
 #. :src: bpy.types.PROJECT_OT_config_save
-#, fuzzy
 msgid "Save the current project config to disk"
-msgstr "將當前專案儲存到磁碟"
+msgstr "將當前專案配置儲存到磁碟"
 
 #. :src: bpy.types.PROJECT_OT_new
 msgctxt "Operator"
@@ -125361,27 +125358,25 @@ msgstr "建立一個新專案"
 #. :src: bpy.types.PROJECT_OT_new.existing_directory
 #: source/blender/editors/space_project/project_ops.cc:390
 #: source/blender/editors/space_project/project_ops.cc:404
-#, fuzzy
 msgid "Project Root Folder"
-msgstr "專案未找到"
+msgstr "專案根資料夾"
 
 #. :src: bpy.types.PROJECT_OT_new.directory
 msgid "Project folder, created if missing"
-msgstr ""
+msgstr "專案資料夾，若不存在則建立"
 
 #. :src: bpy.types.PROJECT_OT_new.existing_directory
 msgid ""
 "Folder of the current file or one of its parents, to turn into a project"
-msgstr ""
+msgstr "當前檔案的資料夾或其某一父級目錄，用於轉換為專案"
 
 #. :src: bpy.types.PROJECT_OT_new.name
-#, fuzzy
 msgid "Name of the project"
-msgstr "介面的名稱"
+msgstr "專案名稱"
 
 #. :src: bpy.types.PROJECT_OT_new.update_directory_from_name
 msgid "Update Directory From Name"
-msgstr ""
+msgstr "按名稱更新目錄"
 
 #. :src: bpy.types.PROJECT_OT_open
 msgctxt "Operator"
@@ -125430,13 +125425,12 @@ msgid "Add a new variable to the current project"
 msgstr "向當前專案新增一個新變數"
 
 #. :src: bpy.types.PROJECT_OT_variable_add.variable_type
-#, fuzzy
 msgid "Variable Type"
-msgstr "可變位"
+msgstr "變數型別"
 
 #. :src: bpy.types.PROJECT_OT_variable_add.variable_type
 msgid "The kind of variable type to add"
-msgstr ""
+msgstr "要新增的變數型別"
 
 # rblc
 #. :src: bpy.types.PROJECT_OT_variable_add.variable_type:'STRING'
@@ -125466,7 +125460,7 @@ msgstr "在變數列表中上下移動活動變數"
 
 #. :src: bpy.types.PROJECT_OT_variable_move.direction
 msgid "Which direction to move the variable"
-msgstr ""
+msgstr "變數的移動方向"
 
 #. :src: bpy.types.PROJECT_OT_variable_move.direction:'UP'
 msgid "Move Up"
@@ -147123,9 +147117,8 @@ msgid "French - Français"
 msgstr "法語 - Français"
 
 #. :src: bpy.types.PreferencesView.language:'fr_FR'
-#, fuzzy
 msgid "Locale code: fr_FR. Translation progress: 99%"
-msgstr "區域程式碼: fr_FR. 翻譯進度: 98%"
+msgstr "區域程式碼: fr_FR. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147206,9 +147199,8 @@ msgid "Japanese - 日本語"
 msgstr "日語 - 日本語"
 
 #. :src: bpy.types.PreferencesView.language:'ja_JP'
-#, fuzzy
 msgid "Locale code: ja_JP. Translation progress: 99%"
-msgstr "區域程式碼: ja_JP. 翻譯進度: 98%"
+msgstr "區域程式碼: ja_JP. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'ko_KR'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147307,9 +147299,8 @@ msgid "Russian - Русский"
 msgstr "俄語 - Русский"
 
 #. :src: bpy.types.PreferencesView.language:'ru_RU'
-#, fuzzy
 msgid "Locale code: ru_RU. Translation progress: 100%"
-msgstr "區域程式碼: ru_RU. 翻譯進度: 99%"
+msgstr "區域程式碼: ru_RU. 翻譯進度: 100%"
 
 #. :src: bpy.types.PreferencesView.language:'sr_RS'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -172795,19 +172786,16 @@ msgid "Legacy (Other)"
 msgstr "舊式 (其他)"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:182
-#, fuzzy
 msgctxt "Preferences"
 msgid "Add-on"
 msgstr "外掛"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:183
-#, fuzzy
 msgctxt "Preferences"
 msgid "Asset Library"
 msgstr "資產庫"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:184
-#, fuzzy
 msgctxt "Preferences"
 msgid "Theme"
 msgstr "主題"
@@ -181189,7 +181177,7 @@ msgstr "無活動專案。"
 #. :src: scripts/startup/bl_ui/space_project.py:264
 msgid ""
 "Create a new project, or open an existing project or a file inside of one."
-msgstr ""
+msgstr "建立新專案，或開啟已有專案或其中的檔案。"
 
 #: scripts/startup/bl_ui/space_project.py:81
 msgctxt "Operator"
@@ -198588,21 +198576,19 @@ msgstr "內建"
 
 #. :src: source/blender/editors/space_project/project_ops.cc:249
 msgid "Close the current project before creating a new one"
-msgstr ""
+msgstr "建立新專案前請先關閉當前專案"
 
 #: source/blender/editors/space_project/project_ops.cc:347
-#, fuzzy
 msgid "Create Project"
-msgstr "面投射"
+msgstr "建立專案"
 
 #: source/blender/editors/space_project/project_ops.cc:363
-#, fuzzy
 msgid "Folder already contains a project."
-msgstr "資料夾早已包含一個專案"
+msgstr "該資料夾早已包含一個專案。"
 
 #. :src: source/blender/editors/space_project/project_ops.cc:366
 msgid "Folder is inside another project."
-msgstr ""
+msgstr "該資料夾位於另一個專案內。"
 
 #: source/blender/editors/space_project/project_ops.cc:711
 #: source/blender/editors/space_userpref/userpref_ops.cc:200
@@ -198614,6 +198600,8 @@ msgid ""
 "The current file needs to be inside of the project's path.\n"
 "To pick a different folder, move the current file there first, or create a new project from a new unsaved file."
 msgstr ""
+"當前檔案需要位於專案路徑之內。\n"
+"若要選擇其他資料夾，請先將當前檔案移動到那裡，或從新建的未儲存檔案來建立專案。"
 
 #. :src: source/blender/editors/space_project/project_ops.cc:349
 msgid ""
@@ -198621,6 +198609,9 @@ msgid ""
 "\n"
 "This is a structured way to organize files and settings across complex pipelines and team projects."
 msgstr ""
+"Blender 專案是一個目錄，可為相關的 .blend 檔案、紋理及其他檔案提供共享環境，並支援專案專屬的設定，例如資產庫、自定義變數和其他配置項。\n"
+"\n"
+"這是一種跨複雜管線與團隊專案來組織檔案和設定的結構化方式。"
 
 #: source/blender/editors/space_project/project_ops.cc:74
 msgid "Untitled Project"
@@ -198631,14 +198622,12 @@ msgid "Invalid project root folder"
 msgstr "無效的專案根資料夾"
 
 #: source/blender/editors/space_project/project_ops.cc:272
-#, fuzzy
 msgid "Missing project name"
-msgstr "缺失骨骼名稱"
+msgstr "缺少專案名稱"
 
 #: source/blender/editors/space_project/project_ops.cc:279
-#, fuzzy
 msgid "Folder already part of a project"
-msgstr "資料夾早已包含一個專案"
+msgstr "該資料夾已屬於某個專案"
 
 #: source/blender/editors/space_project/project_ops.cc:849
 #: source/blender/editors/space_userpref/userpref_ops.cc:358
@@ -213660,16 +213649,14 @@ msgid "Saved as \"%s\""
 msgstr "已另存為 \"%s\""
 
 #: source/blender/windowmanager/intern/wm_files_colorspace.cc:179
-#, fuzzy
 msgid ""
 "To match renders with the previous working space as closely as possible, colors in all materials, lights and geometry must be converted.\n"
 "\n"
 "Some node graphs cannot be converted accurately and may need manual fix-ups."
 msgstr ""
-"為了使算繪與之前的工作空間儘可能地匹配，\n"
-"必須轉換所有材質、燈光和幾何體中的顏色。\n"
+"為使算繪結果儘可能與此前的工作空間相匹配，所有材質、燈光與幾何體中的顏色都必須進行轉換。\n"
 "\n"
-"某些節點圖無法準確轉換，可能需要手動修復。"
+"某些節點圖無法被準確轉換，可能需要手動修復。"
 
 #: source/blender/windowmanager/intern/wm_files_colorspace.cc:74
 msgid "Can't change working space while jobs are running"
