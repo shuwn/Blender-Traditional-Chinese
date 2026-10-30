@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'46af81ec57bb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 09:14+0000\n"
-"PO-Revision-Date: 2026-10-27 16:48+0000\n"
+"PO-Revision-Date: 2026-10-30 19:42+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -147606,7 +147606,7 @@ msgstr "為工具箱使用列式佈局"
 
 #. :src: bpy.types.PreferencesView.show_developer_ui
 msgid "Developer Extras"
-msgstr "開發選項"
+msgstr "開發者選項"
 
 #. :src: bpy.types.PreferencesView.show_developer_ui
 msgid "Display advanced settings and tools for developers"
