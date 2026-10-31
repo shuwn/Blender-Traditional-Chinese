@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'46af81ec57bb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 09:14+0000\n"
-"PO-Revision-Date: 2026-10-30 19:42+0000\n"
+"PO-Revision-Date: 2026-10-31 00:24+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -53424,7 +53424,7 @@ msgstr "活動影片剪輯"
 msgid ""
 "Active Movie Clip that can be used by motion tracking constraints or as a "
 "camera's background image"
-msgstr "可由運動跟蹤約束使用或用作攝像機背景影象的活動影片剪輯"
+msgstr "可由運動追蹤約束使用或用作攝像機背景影象的活動影片剪輯"
 
 #. :src: bpy.types.Scene.allow_preroll
 msgid "Allow Preroll"
@@ -78226,7 +78226,7 @@ msgstr "影片畸變"
 msgid ""
 "Remove lens distortion from footage, using motion tracking camera lens "
 "settings"
-msgstr "消除鏡頭失真，使用運動跟蹤相機鏡頭設定"
+msgstr "消除鏡頭失真，使用運動追蹤相機鏡頭設定"
 
 #. :src: bpy.types.CompositorNodeNormal
 msgid "Input normalized normal values to other nodes in the tree"
@@ -78359,7 +78359,7 @@ msgstr "平面追蹤形變"
 msgid ""
 "Replace flat planes in footage by another image, detected by plane tracks "
 "from motion tracking"
-msgstr "將鏡頭中的平面替換為另一個影象，該平面由運動跟蹤的平面跟蹤檢測"
+msgstr "將鏡頭中的平面替換為另一個影象，該平面由運動追蹤的平面跟蹤檢測"
 
 #. :src: bpy.types.CompositorNodePosterize
 msgid "Posterize"
@@ -78547,7 +78547,7 @@ msgstr "二維穩像"
 
 #. :src: bpy.types.CompositorNodeStabilize
 msgid "Stabilize footage using 2D stabilization motion tracking settings"
-msgstr "使用二維穩像運動跟蹤設定穩定素材"
+msgstr "使用二維穩像運動追蹤設定穩定素材"
 
 #. :src: bpy.types.CompositorNodeStringToImage
 msgid "String To Image"
@@ -78604,7 +78604,7 @@ msgstr "追蹤位置"
 #. :src: bpy.types.CompositorNodeTrackPos
 msgid ""
 "Provide information about motion tracking points, such as x and y values"
-msgstr "提供有關運動跟蹤點的資訊，例如x和y值"
+msgstr "提供有關運動追蹤點的資訊，例如x和y值"
 
 #. :src: bpy.types.CompositorNodeTransform
 msgid "Scale, translate and rotate an image"
@@ -182279,7 +182279,7 @@ msgstr "蠟筆為 PDF"
 #: scripts/startup/bl_ui/space_topbar.py:726
 msgctxt "Operator"
 msgid "Developer Documentation"
-msgstr "開發文件"
+msgstr "開發者文件"
 
 #: scripts/startup/bl_ui/space_topbar.py:729
 msgctxt "Operator"
