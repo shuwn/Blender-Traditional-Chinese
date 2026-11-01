@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'46af81ec57bb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 09:14+0000\n"
-"PO-Revision-Date: 2026-10-31 00:24+0000\n"
+"PO-Revision-Date: 2026-11-01 03:45+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -35661,7 +35661,7 @@ msgstr "用於將流體單元格標記為波峰的鉗制閾值下界 (值越低�
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_radius
 #: scripts/startup/bl_ui/properties_physics_fluid.py:978
 msgid "Potential Radius"
-msgstr "電熱半徑"
+msgstr "電勢半徑"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_radius
 msgid ""
@@ -44034,7 +44034,7 @@ msgstr "快取層"
 
 #. :src: bpy.types.CacheFile.object_paths
 msgid "Paths of the objects inside the Alembic archive"
-msgstr "Alembic 存檔中物件的路徑"
+msgstr "Alembic 存檔中物體的路徑"
 
 #. :src: bpy.types.CacheFile.override_frame
 #: source/blender/editors/interface/templates/interface_template_cache_file.cc:57
@@ -53784,7 +53784,7 @@ msgstr "鎖定幀選擇"
 
 #. :src: bpy.types.Scene.lock_frame_selection_to_range
 msgid "Don't allow frame to be selected with mouse outside of frame range"
-msgstr "不允許播放幀超過幀範圍"
+msgstr "不允許用滑鼠選中幀範圍之外的幀"
 
 #. :src: bpy.types.Scene.playback_loop_mode
 msgid "Loop Mode"
@@ -135891,7 +135891,7 @@ msgstr "使用例項化"
 msgid ""
 "Export data of duplicated objects as Alembic instances; speeds up the export"
 " and can be disabled for compatibility with other software"
-msgstr "將重複物件的資料匯出為 Alembic 例項；加快匯出速度，且可禁用以相容其他軟體"
+msgstr "將重複物體的資料匯出為 Alembic 例項；加快匯出速度，且可禁用以相容其他軟體"
 
 #. :src: bpy.types.WM_OT_alembic_export.uvs
 msgid "Export UV coordinates"
@@ -135926,7 +135926,7 @@ msgstr "始終新增快取讀取器"
 msgid ""
 "Add cache modifiers and constraints to imported objects even if they are not"
 " animated so that they can be updated when reloading the Alembic archive"
-msgstr "將快取修改器和約束新增到匯入物件中，即使它們不是動畫，以便在重新載入 Alembic 文件時可以更新它們"
+msgstr "將快取修改器和約束新增到匯入物體中，即使它們不是動畫，以便在重新載入 Alembic 文件時可以更新它們"
 
 #. :src: bpy.types.WM_OT_alembic_import.as_background_job
 msgid ""
@@ -154413,7 +154413,7 @@ msgstr "為流體的擴充套件生成粘性"
 
 #. :src: bpy.types.SPHFluidSettings.stiffness
 msgid "How incompressible the fluid is (speed of sound)"
-msgstr "流體的不可壓縮度"
+msgstr "流體的不可壓縮程度 (聲速)"
 
 #. :src: bpy.types.SPHFluidSettings.use_factor_density
 msgid "Factor Density"
@@ -165237,7 +165237,7 @@ msgstr "吸附至非編輯模式下的物體 (僅限編輯模式)"
 
 #. :src: bpy.types.ToolSettings.use_snap_peel_object
 msgid "Snap Peel Object"
-msgstr "吸附剝落物體"
+msgstr "吸附外皮物體"
 
 #. :src: bpy.types.ToolSettings.use_snap_peel_object
 msgid "Consider objects as whole when finding volume center"
@@ -200755,31 +200755,31 @@ msgstr "讀取網格取樣時出錯；控制檯檢視更多細節"
 msgid ""
 "Object type mismatch, Alembic object path pointed to SubD when importing, "
 "but not any more"
-msgstr "物件型別不匹配，匯入時 Alembic 物件路徑指向 SubD，但現已不再指向"
+msgstr "物體型別不匹配，匯入時 Alembic 物體路徑指向 SubD，但現已不再指向"
 
 #: source/blender/io/alembic/intern/abc_reader_mesh.cc:1159
 msgid "Object type mismatch, Alembic object path points to SubD"
-msgstr "物件型別不匹配，Alembic 物件路徑指向 SubD"
+msgstr "物體型別不匹配，Alembic 物體路徑指向 SubD"
 
 #: source/blender/io/alembic/intern/abc_reader_nurbs.cc:71
 msgid ""
 "Object type mismatch, Alembic object path pointed to NURBS when importing, "
 "but not any more"
-msgstr "物件型別不匹配，匯入時 Alembic 物件路徑指向 NURBS，但現已不再指向"
+msgstr "物體型別不匹配，匯入時 Alembic 物體路徑指向 NURBS，但現已不再指向"
 
 #: source/blender/io/alembic/intern/abc_reader_nurbs.cc:78
 msgid "Object type mismatch, Alembic object path points to NURBS"
-msgstr "物件型別不匹配，Alembic 物件路徑指向 NURBS"
+msgstr "物體型別不匹配，Alembic 物體路徑指向 NURBS"
 
 #: source/blender/io/alembic/intern/abc_reader_points.cc:74
 msgid ""
 "Object type mismatch, Alembic object path pointed to Points when importing, "
 "but not any more"
-msgstr "物件型別不匹配，匯入時 Alembic 物件路徑指向點，但現已不再指向"
+msgstr "物體型別不匹配，匯入時 Alembic 物體路徑指向點，但現已不再指向"
 
 #: source/blender/io/alembic/intern/abc_reader_points.cc:81
 msgid "Object type mismatch, Alembic object path points to Points."
-msgstr "物件型別不匹配，Alembic 物件路徑指向點。"
+msgstr "物體型別不匹配，Alembic 物體路徑指向點。"
 
 #: source/blender/io/alembic/intern/abc_reader_points.cc:235
 msgid "Error reading points sample; more detail on the console"
@@ -200789,11 +200789,11 @@ msgstr "點取樣讀取錯誤；控制檯檢視更多細節"
 msgid ""
 "Object type mismatch, Alembic object path pointed to XForm when importing, "
 "but not any more"
-msgstr "物件型別不匹配，匯入時 Alembic 物件路徑指向 XForm，但現已不再指向"
+msgstr "物體型別不匹配，匯入時 Alembic 物體路徑指向 XForm，但現已不再指向"
 
 #: source/blender/io/alembic/intern/abc_reader_transform.cc:51
 msgid "Object type mismatch, Alembic object path points to XForm"
-msgstr "物件型別不匹配，Alembic 物件路徑指向 XForm"
+msgstr "物體型別不匹配，Alembic 物體路徑指向 XForm"
 
 #: source/blender/io/alembic/intern/alembic_capi.cc:885
 #: source/blender/io/usd/intern/usd_capi_import.cc:514
