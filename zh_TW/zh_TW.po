@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'46af81ec57bb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 09:14+0000\n"
-"PO-Revision-Date: 2026-11-01 03:45+0000\n"
+"PO-Revision-Date: 2026-11-01 16:12+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -13513,14 +13513,14 @@ msgstr "起始點手柄骨骼新增滾出值"
 #. :src: bpy.types.Bone.use_envelope_multiply
 #. :src: bpy.types.EditBone.use_envelope_multiply
 msgid "Multiply Vertex Group with Envelope"
-msgstr "封套的多頂點組"
+msgstr "將頂點組與封套相乘"
 
 #. :src: bpy.types.Bone.use_envelope_multiply
 #. :src: bpy.types.EditBone.use_envelope_multiply
 msgid ""
 "When deforming bone, multiply effects of Vertex Group weights with Envelope "
 "influence"
-msgstr "骨骼形變, 封套會多重影響頂點組"
+msgstr "在變形骨骼時，將頂點組權重的效果與封套影響相乘"
 
 #. :src: bpy.types.Bone.use_inherit_rotation
 #. :src: bpy.types.EditBone.use_inherit_rotation
@@ -17524,11 +17524,11 @@ msgstr "算繪每個畫素圍繞雙眼距離的中間旋轉攝像機"
 
 #. :src: bpy.types.ChannelDriverVariables
 msgid "ChannelDriver Variables"
-msgstr "通道驅動變數"
+msgstr "通道驅動器變數"
 
 #. :src: bpy.types.ChannelDriverVariables
 msgid "Collection of channel driver Variables"
-msgstr "通道驅動變數集合"
+msgstr "通道驅動器變數集合"
 
 #. :src: bpy.types.ChildParticle
 msgid "Child Particle"
@@ -28832,7 +28832,7 @@ msgstr "驅動目標"
 
 #. :src: bpy.types.DriverTarget
 msgid "Source of input values for driver variables"
-msgstr "驅動變數的輸入值源"
+msgstr "驅動器變數的輸入值源"
 
 #. :src: bpy.types.DriverTarget.bone_target
 #. :src: bpy.types.ARMATURE_OT_collection_unassign_named.bone_name
@@ -101629,7 +101629,7 @@ msgstr "骨骼封套"
 #. :src: bpy.types.OBJECT_OT_duplicate.mode:'BONE_ENVELOPE_DIST'
 #. :src: bpy.types.TRANSFORM_OT_transform.mode:'BONE_ENVELOPE_DIST'
 msgid "Bone Envelope Distance"
-msgstr "骨骼封套間距"
+msgstr "骨骼封套距離"
 
 #. :src: bpy.types.CURVE_OT_extrude.mode:'CURVE_SHRINKFATTEN'
 #. :src: bpy.types.GRAPH_OT_duplicate.mode:'CURVE_SHRINKFATTEN'
@@ -177259,7 +177259,7 @@ msgstr "硬度 X"
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:95
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:43
 msgid "Envelope Distance"
-msgstr "封套間距"
+msgstr "封套距離"
 
 #: scripts/startup/bl_ui/properties_data_bone.py:554
 msgid "Envelope Weight"
@@ -177267,7 +177267,7 @@ msgstr "封套權重"
 
 #: scripts/startup/bl_ui/properties_data_bone.py:555
 msgid "Envelope Multiply"
-msgstr "封套疊加"
+msgstr "與封套相乘"
 
 #: scripts/startup/bl_ui/properties_data_bone.py:560
 #: source/blender/nodes/geometry/nodes/node_geo_bone_info.cc:99
@@ -185057,7 +185057,7 @@ msgstr "物體位置"
 #: scripts/startup/bl_ui/space_view3d.py:1453
 msgctxt "Operator"
 msgid "Scale Envelope Distance"
-msgstr "縮放封套間隔"
+msgstr "縮放封套距離"
 
 #: scripts/startup/bl_ui/space_view3d.py:1454
 msgctxt "Operator"
