@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'46af81ec57bb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 09:14+0000\n"
-"PO-Revision-Date: 2026-11-01 16:12+0000\n"
+"PO-Revision-Date: 2026-11-02 02:33+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -35069,7 +35069,7 @@ msgstr "速度係數"
 #. :src: bpy.types.FluidDomainSettings.guide_vel_factor
 msgid ""
 "Guiding velocity factor (higher value results in greater guiding velocities)"
-msgstr "引導速度因子 (值越高，引導速度越大)"
+msgstr "引導速度係數 (值越高，引導速度越大)"
 
 #. :src: bpy.types.FluidDomainSettings.heat_grid
 msgid "Heat Grid"
@@ -123589,7 +123589,7 @@ msgstr "按封套分配"
 
 #. :src: bpy.types.PAINT_OT_weight_from_bones.type:'ENVELOPES'
 msgid "Weights from envelopes with user defined radius"
-msgstr "按照使用者定義的半徑分配權重"
+msgstr "按照使用者定義的封套半徑分配權重"
 
 #. :src: bpy.types.PAINT_OT_weight_gradient
 msgctxt "Operator"
