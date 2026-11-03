@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-02 06:18+0000\n"
+"PO-Revision-Date: 2026-11-02 16:33+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -164966,7 +164966,7 @@ msgstr "自動規格化權重繪製"
 msgid ""
 "Ensure all bone-deforming vertex groups add up to 1.0 while weight painting "
 "or assigning to vertices"
-msgstr "確保全部骨骼封套頂點組在權重繪製或指定給頂點時增加至1.0"
+msgstr "確保全部骨骼形變頂點組在權重繪製或指定給頂點時增加至1.0"
 
 #. :src: bpy.types.ToolSettings.use_edge_path_live_unwrap
 msgid "Changing edge seams recalculates UV unwrap"
@@ -176910,7 +176910,6 @@ msgid "Rotation"
 msgstr "旋轉"
 
 #: scripts/startup/bl_ui/anim.py:61
-#, fuzzy
 msgid "Convert Rotation Mode"
 msgstr "轉換旋轉模式"
 
@@ -186506,20 +186505,18 @@ msgid "node_groups"
 msgstr "節點組"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1590
-#, fuzzy
 msgid "Shader To RGB can't evaluate Lighting nodes"
-msgstr "著色器轉RGB無法解算光照累積節點"
+msgstr "著色器轉RGB無法評估光照節點"
 
 #. :src: source/blender/blenkernel/intern/node_tree_update.cc:1594
 msgid "Light Accumulation can only be used for the Material Output Surface"
-msgstr ""
+msgstr "光照累積只能用於材質輸出的表面"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1601
-#, fuzzy
 msgid ""
 "Lighting nodes must be connected to the Light sockets of a Light "
 "Accumulation node before reaching an output"
-msgstr "光照節點必須先連線到光照累積節點的光介面，然後才能到達材質輸出介面"
+msgstr "光照節點必須先連線到光照累積節點的光線介面，才能到達輸出端"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1606
 msgid ""
@@ -187753,7 +187750,7 @@ msgstr ""
 
 #. :src: source/blender/draw/engines/eevee/eevee_raytrace.cc:81
 msgid "Raytracing is not supported with panoramic camera yet"
-msgstr ""
+msgstr "全景攝像機尚不支援光線追蹤"
 
 #: source/blender/draw/engines/eevee/eevee_shadow.cc:624
 msgid "Error: Could not allocate shadow atlas. Most likely out of GPU memory."
@@ -193790,9 +193787,8 @@ msgid "Select Collection"
 msgstr "選擇集合"
 
 #: source/blender/editors/object/object_select.cc:847
-#, fuzzy
 msgid "Active object is in multiple collections"
-msgstr "活動物體未包含任何集合"
+msgstr "活動物體位於多個集合中"
 
 #: source/blender/editors/object/object_select.cc:983
 msgid ""
@@ -194431,14 +194427,12 @@ msgid "Timber"
 msgstr "木材"
 
 #: source/blender/editors/physics/rigidbody_object.cc:120
-#, fuzzy
 msgid "No object in the scene to add Rigid Body to"
-msgstr "場景中沒有可新增剛體約束的物體"
+msgstr "場景中沒有可新增剛體的物體"
 
 #: source/blender/editors/physics/rigidbody_object.cc:174
-#, fuzzy
 msgid "No object in the scene to remove Rigid Body from"
-msgstr "場景中沒有可移除剛體約束的物體"
+msgstr "場景中沒有可移除剛體的物體"
 
 #: source/blender/editors/physics/rigidbody_object.cc:193
 msgid "Object has no Rigid Body settings to remove"
@@ -194688,13 +194682,12 @@ msgid "Removed %d materials"
 msgstr "已移除 %d 個材質"
 
 #: source/blender/editors/render/render_shading.cc:2743
-#, fuzzy
 msgid "Cannot copy the linked material '%s' to the internal clipboard"
-msgstr "將選定的片段複製到內部剪貼簿"
+msgstr "無法將關聯的材質 '%s' 複製到內部剪貼簿"
 
 #. :src: source/blender/editors/render/render_shading.cc:2754
 msgid "Cannot copy the linked packed material '%s' to the internal clipboard"
-msgstr ""
+msgstr "無法將關聯的打包材質 '%s' 複製到內部剪貼簿"
 
 #: source/blender/editors/render/render_shading.cc:254
 msgid "Unable to remove material slot in edit mode"
@@ -198120,9 +198113,8 @@ msgid "No active item to rename"
 msgstr "無活動項可供重新命名"
 
 #: source/blender/editors/space_outliner/outliner_edit.cc:1005
-#, fuzzy
 msgid "No valid selected data-blocks to copy"
-msgstr "無可供複製的已選資料塊"
+msgstr "無有效的選中資料塊可供複製"
 
 #: source/blender/editors/space_outliner/outliner_edit.cc:1088
 msgid "There is no active data-block"
@@ -198184,15 +198176,13 @@ msgid ""
 msgstr "舊 ID '%s' 關聯自庫，資料塊的間接使用不會重新對映"
 
 #: source/blender/editors/space_outliner/outliner_edit.cc:935
-#, fuzzy
 msgid "Cannot copy the linked data-block '%s' to the internal clipboard"
-msgstr "將選定的資料塊複製到內部剪貼簿"
+msgstr "無法將關聯的資料塊 '%s' 複製到內部剪貼簿"
 
 #: source/blender/editors/space_outliner/outliner_edit.cc:946
-#, fuzzy
 msgid ""
 "Cannot copy the linked packed data-block '%s' to the internal clipboard"
-msgstr "將選定的資料塊複製到內部剪貼簿"
+msgstr "無法將關聯的打包資料塊 '%s' 複製到內部剪貼簿"
 
 #: source/blender/editors/space_outliner/outliner_edit.cc:954
 msgid ""
@@ -198682,7 +198672,7 @@ msgstr "該資料夾已屬於某個專案"
 
 #. :src: source/blender/editors/space_project/project_ops.cc:319
 msgid "Can not create project for a blend file in the home or root folder"
-msgstr ""
+msgstr "無法為主資料夾或根資料夾中的 blend 檔案建立專案"
 
 #: source/blender/editors/space_project/project_ops.cc:854
 #: source/blender/editors/space_userpref/userpref_ops.cc:358
@@ -199846,23 +199836,20 @@ msgid "Depth too large"
 msgstr "深度值過大"
 
 #: source/blender/editors/space_view3d/view3d_ops.cc:116
-#, fuzzy
 msgid "No valid selected objects to copy"
-msgstr "無有效的選中物體"
+msgstr "無有效的選中物體可供複製"
 
 #: source/blender/editors/space_view3d/view3d_ops.cc:167
 msgid "No objects to paste"
 msgstr "無可供貼上的物體"
 
 #: source/blender/editors/space_view3d/view3d_ops.cc:73
-#, fuzzy
 msgid "Cannot copy the linked object '%s' to the internal clipboard"
-msgstr "將所選物體複製到內部剪貼簿"
+msgstr "無法將關聯的物體 '%s' 複製到內部剪貼簿"
 
 #: source/blender/editors/space_view3d/view3d_ops.cc:84
-#, fuzzy
 msgid "Cannot copy the linked packed object '%s' to the internal clipboard"
-msgstr "將所選物體複製到內部剪貼簿"
+msgstr "無法將關聯的打包物體 '%s' 複製到內部剪貼簿"
 
 #: source/blender/editors/space_view3d/view3d_ops.cc:128
 msgid "Copied %d selected object(s)"
