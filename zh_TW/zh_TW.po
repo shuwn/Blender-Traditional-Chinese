@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-03 12:57+0000\n"
+"PO-Revision-Date: 2026-11-03 14:07+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -14025,7 +14025,7 @@ msgstr "具有雕刻平面"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_secondary_color
 msgid "Has Secondary Color"
-msgstr "具有次級顏色特性"
+msgstr "具有次要顏色"
 
 # cblc - tbc
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_size_pressure
@@ -43124,7 +43124,7 @@ msgstr "Z 平面"
 #. :src: bpy.types.ThemeUserInterface.transparent_checker_secondary
 #. :src: bpy.types.UnifiedPaintSettings.secondary_color
 msgid "Secondary Color"
-msgstr "二次色"
+msgstr "次色"
 
 #. :src: bpy.types.Brush.sharp_threshold
 #. :src: bpy.types.GreasePencilSimplifyModifier.sharp_threshold
