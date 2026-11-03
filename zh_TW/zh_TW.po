@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-02 16:33+0000\n"
+"PO-Revision-Date: 2026-11-03 12:57+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -69923,7 +69923,7 @@ msgstr "縮放的變化量"
 #. :src: bpy.types.GreasePencilArrayModifier.replace_material
 msgid ""
 "Index of the material used for generated strokes (0 keep original material)"
-msgstr "用於生成筆畫的材質的索引 (0 保持原有材質)"
+msgstr "用於生成筆畫的材質的索引號 (0 保持原有材質)"
 
 #. :src: bpy.types.GreasePencilArrayModifier.seed
 #. :src: bpy.types.GreasePencilLengthModifier.seed
@@ -78097,7 +78097,7 @@ msgstr "ID 遮罩"
 
 #. :src: bpy.types.CompositorNodeIDMask
 msgid "Create a matte from an object or material index pass"
-msgstr "從物體或材質索引通道建立蒙版"
+msgstr "從物體或材質編號通道建立蒙版"
 
 #. :src: bpy.types.CompositorNodeImage
 msgid "Input image or movie file"
@@ -82627,7 +82627,7 @@ msgstr "設定材質編號"
 
 #. :src: bpy.types.GeometryNodeSetMaterialIndex
 msgid "Set the material index for each selected geometry element"
-msgstr "設定每個選定幾何元素的材質索引"
+msgstr "設定每個選定幾何元素的材質索引號"
 
 #. :src: bpy.types.GeometryNodeSetMeshNormal
 msgid "Set Mesh Normal"
