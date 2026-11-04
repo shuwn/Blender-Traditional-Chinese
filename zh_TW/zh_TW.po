@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-03 14:07+0000\n"
+"PO-Revision-Date: 2026-11-04 05:25+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -22593,7 +22593,7 @@ msgstr "標準追蹤"
 #. :src: bpy.types.POSE_OT_constraint_add.type:'TRACK_TO'
 #. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRACK_TO'
 msgid "Legacy tracking constraint prone to twisting artifacts"
-msgstr "遺傳追蹤約束可用於糾正形變痕跡"
+msgstr "舊版追蹤約束, 繞軸翻滾易出現偽影"
 
 #. :src: bpy.types.Constraint.type:'ACTION'
 #. :src: bpy.types.POSE_OT_constraint_add.type:'ACTION'
@@ -25053,7 +25053,7 @@ msgstr "舊的方式"
 msgid ""
 "Use the old semi-broken behavior that does not understand that rotations "
 "loop around"
-msgstr "使用老式的半破壞模式，但它不能詮釋迴圈旋轉"
+msgstr "使用老式的半破壞模式，但它不考慮旋轉的迴圈特性"
 
 #. :src: bpy.types.LimitRotationConstraint.use_limit_x
 #: scripts/startup/bl_ui/properties_constraint.py:212
@@ -75323,7 +75323,7 @@ msgstr "相對偏移"
 
 #. :src: bpy.types.WireframeModifier.use_crease
 msgid "Crease hub edges for improved subdivision surface"
-msgstr "建立轂線摺痕以改善細分效果"
+msgstr "為交匯處的邊建立摺痕以改善表面細分效果"
 
 #. :src: bpy.types.WireframeModifier.use_even_offset
 #. :src: bpy.types.MESH_OT_inset.use_even_offset
@@ -80402,7 +80402,7 @@ msgstr "要將所選曲線更改為的曲線型別"
 #. :src: bpy.types.GREASE_PENCIL_OT_convert_curve_type.type:'CATMULL_ROM'
 #. :src: bpy.types.GREASE_PENCIL_OT_set_curve_type.type:'CATMULL_ROM'
 msgid "Catmull Rom"
-msgstr "卡特姆-羅 (Catmull Rom)"
+msgstr "Catmull Rom"
 
 #. :src: bpy.types.GeometryNodeCurveSplineType.spline_type:'NURBS'
 msgid "NURBS"
@@ -115005,7 +115005,7 @@ msgstr "摺痕權重"
 
 #. :src: bpy.types.MESH_OT_wireframe.use_crease
 msgid "Crease hub edges for an improved subdivision surface"
-msgstr "建立轂線摺痕以改善細分效果"
+msgstr "為交匯處的邊建立摺痕以改善表面細分效果"
 
 #. :src: bpy.types.MESH_OT_wireframe.use_replace
 msgid "Remove original faces"
@@ -123019,7 +123019,7 @@ msgstr "指定是否選中新顯示的幾何元素"
 #. :src: bpy.types.PAINT_OT_grab_clone
 msgctxt "Operator"
 msgid "Grab Clone"
-msgstr "攫取克隆"
+msgstr "移動克隆"
 
 #. :src: bpy.types.PAINT_OT_grab_clone
 msgid "Move the clone source image"
@@ -156302,7 +156302,7 @@ msgstr "計算體空氣動力互動的方法"
 
 #. :src: bpy.types.SoftBodySettings.aerodynamics_type:'SIMPLE'
 msgid "Edges receive a drag force from surrounding media"
-msgstr "邊線接收到一個來自周邊媒介的拖曳力"
+msgstr "邊線接收到一個來自周邊媒介的拖拽力"
 
 #. :src: bpy.types.SoftBodySettings.aerodynamics_type:'LIFT_FORCE'
 msgid "Lift Force"
