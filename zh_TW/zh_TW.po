@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-04 05:25+0000\n"
+"PO-Revision-Date: 2026-11-04 21:21+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -108800,7 +108800,7 @@ msgstr "Y 起始"
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image
 msgctxt "Operator"
 msgid "Trace Image to Grease Pencil"
-msgstr "識別影象至蠟筆"
+msgstr "描摹影象至蠟筆"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image
 msgid "Extract Grease Pencil strokes from image"
@@ -108808,24 +108808,24 @@ msgstr "從影象提取蠟筆筆畫"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.frame_number
 msgid "Trace Frame"
-msgstr "跟蹤幀"
+msgstr "描摹幀"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.frame_number
 msgid ""
 "Used to trace only one frame of the image sequence, set to zero to trace all"
-msgstr "用於僅跟蹤影象序列的一幀，設定為零可跟蹤所有幀"
+msgstr "用於僅描摹影象序列的一幀，設定為零可描摹所有幀"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.mode
 msgid "Determines if trace simple image or full sequence"
-msgstr "確定是識別簡單影象還是完整序列"
+msgstr "確定是描摹簡單影象還是完整序列"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.mode:'SINGLE'
 msgid "Trace the current frame of the image"
-msgstr "識別影象的當前幀"
+msgstr "描摹影象的當前幀"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.mode:'SEQUENCE'
 msgid "Trace full sequence"
-msgstr "識別完整序列"
+msgstr "描摹完整序列"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.target
 msgid "Target Grease Pencil"
@@ -108909,7 +108909,7 @@ msgstr "從當前幀開始"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.use_current_frame
 msgid "Trace Image starting in current image frame"
-msgstr "從當前影象幀開始追蹤影象"
+msgstr "從當前影象幀開始描摹影象"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_vertex_brush_stroke
 msgctxt "Operator"
@@ -118294,7 +118294,7 @@ msgstr "傳遞摺痕值"
 msgid ""
 "Factor controlling precision of islands handling (the higher, the better the"
 " results)"
-msgstr "控制島嶼處理精度的因素 (越高，效果越好)"
+msgstr "控制孤島處理精度的係數 (越高，效果越好)"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer.mix_factor
 msgid ""
@@ -145679,7 +145679,7 @@ msgstr "3D 滑鼠在旋轉操作上的整體靈敏度"
 
 #. :src: bpy.types.PreferencesInput.ndof_rotx_invert_axis
 msgid "Invert Pitch (X) Axis"
-msgstr "反轉合攏 (X) 軸"
+msgstr "反轉俯仰 (X) 軸"
 
 #. :src: bpy.types.PreferencesInput.ndof_roty_invert_axis
 msgid "Invert Yaw (Y) Axis"
