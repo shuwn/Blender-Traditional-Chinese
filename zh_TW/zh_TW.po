@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-04 21:21+0000\n"
+"PO-Revision-Date: 2026-11-06 06:20+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -11892,7 +11892,7 @@ msgstr "勻速"
 #. :src: bpy.types.BoidRule.type:'AVERAGE_SPEED'
 #. :src: bpy.types.BOID_OT_rule_add.type:'AVERAGE_SPEED'
 msgid "Maintain speed, flight level or wander"
-msgstr "維持飛行或行走漫遊的速率"
+msgstr "維持速度、飛行高度或徘徊"
 
 #. :src: bpy.types.BoidRule.type:'FIGHT'
 #. :src: bpy.types.BoidRuleFight
@@ -11932,7 +11932,7 @@ msgstr "級別"
 
 #. :src: bpy.types.BoidRuleAverageSpeed.level
 msgid "How much velocity's z-component is kept constant"
-msgstr "Z 向分量的恆定速率大小"
+msgstr "速度 Z 分量保持恆定的程度"
 
 #. :src: bpy.types.BoidRuleAverageSpeed.speed
 #. :src: bpy.types.ClothSettings.time_scale
@@ -28216,13 +28216,13 @@ msgstr "在 “僅顯示錯誤” 過濾器中包含返回值發生回退的驅�
 
 #. :src: bpy.types.DopeSheet.show_expanded_summary
 msgid "Collapse Summary"
-msgstr "摺疊概要"
+msgstr "摺疊彙總"
 
 #. :src: bpy.types.DopeSheet.show_expanded_summary
 msgid ""
 "Collapse summary when shown, so all other channels get hidden (Dope Sheet "
 "editors only)"
-msgstr "當顯示時收起總覽, 以隱藏其他所有通道 (僅用於攝影表編輯器)"
+msgstr "當顯示時收起彙總, 以隱藏其他所有通道 (僅用於攝影表編輯器)"
 
 #. :src: bpy.types.DopeSheet.show_gpencil
 msgid "Display Grease Pencil"
@@ -28418,7 +28418,7 @@ msgstr "包含揚聲器相關動畫資料的視覺化"
 
 #. :src: bpy.types.DopeSheet.show_summary
 msgid "Display Summary"
-msgstr "顯示概要"
+msgstr "顯示彙總"
 
 #. :src: bpy.types.DopeSheet.show_summary
 msgid "Display an additional 'summary' line (Dope Sheet editors only)"
@@ -32282,7 +32282,7 @@ msgstr "簇集的形狀"
 
 #. :src: bpy.types.FieldSettings.guide_free
 msgid "Guide-free time from particle life's end"
-msgstr "從粒子生命的結束到牽引 - 自由的時間"
+msgstr "從粒子壽命結束算起的脫離引導時間"
 
 #. :src: bpy.types.FieldSettings.guide_kink_amplitude
 #. :src: bpy.types.ParticleSettings.kink_amplitude
@@ -126245,11 +126245,11 @@ msgstr "把選擇的樣式單元往前移"
 
 #. :src: bpy.types.SCENE_OT_freestyle_module_open.make_internal
 msgid "Make internal"
-msgstr "載入為內部檔案"
+msgstr "轉為內部資料"
 
 #. :src: bpy.types.SCENE_OT_freestyle_module_open.make_internal
 msgid "Make module file internal after loading"
-msgstr "載入後將模組設定為內部檔案"
+msgstr "載入後將模組檔案設為內部資料"
 
 #. :src: bpy.types.SCENE_OT_freestyle_module_remove
 msgctxt "Operator"
@@ -131319,7 +131319,7 @@ msgstr "當前行號"
 #. :src: bpy.types.TEXT_OT_make_internal
 msgctxt "Operator"
 msgid "Make Internal"
-msgstr "載入為內部檔案"
+msgstr "轉為內部資料"
 
 #. :src: bpy.types.TEXT_OT_make_internal
 msgid "Make active text file internal"
@@ -131365,11 +131365,11 @@ msgstr "開啟一個新的文字資料塊"
 #. :src: bpy.types.TEXT_OT_open.internal
 #. :src: bpy.types.TEXT_OT_resolve_conflict.resolution:'MAKE_INTERNAL'
 msgid "Make Internal"
-msgstr "載入為內部檔案"
+msgstr "轉為內部資料"
 
 #. :src: bpy.types.TEXT_OT_open.internal
 msgid "Make text file internal after loading"
-msgstr "載入後將文字設定為內部檔案"
+msgstr "載入後將文字檔案設為內部資料"
 
 #. :src: bpy.types.TEXT_OT_overwrite_toggle
 msgctxt "Operator"
@@ -163064,7 +163064,7 @@ msgstr "彙總"
 
 #. :src: bpy.types.ThemeDopeSheet.summary
 msgid "Color of summary channel"
-msgstr "顏色的概述通道"
+msgstr "彙總通道的顏色"
 
 #. :src: bpy.types.ThemeFileBrowser
 msgid "Theme File Browser"
@@ -181413,7 +181413,7 @@ msgstr "儲存"
 #: scripts/startup/bl_ui/space_sequencer.py:1875
 msgctxt "Operator"
 msgid "Set Overlay Region"
-msgstr "設定重疊區域"
+msgstr "設定疊加區域"
 
 #: scripts/startup/bl_ui/space_sequencer.py:2124
 msgid "Muted Strips"
