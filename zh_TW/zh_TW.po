@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-06 06:20+0000\n"
+"PO-Revision-Date: 2026-11-06 13:21+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -3488,7 +3488,7 @@ msgstr "動作槽控制柄"
 msgid ""
 "A number that identifies which sub-set of the Action is considered to be for"
 " this data-block"
-msgstr "一個數字，用於標識此資料塊的動作子集"
+msgstr "一個數字，用於標識此資料塊對應動作中的哪個子集"
 
 #. :src: bpy.types.AnimData.action_slot_handle_tweak_storage
 msgid "Tweak Mode Action Slot Storage"
@@ -3539,7 +3539,7 @@ msgid ""
 "identifies which sub-set of the Action is considered to be for this data-"
 "block, and its identifier is used to find the right slot when assigning an "
 "Action."
-msgstr "最近分配的動作槽的識別符號。該槽標識了該資料塊認為是動作的哪個子集，其識別符號用於在分配動作時找到正確的槽。"
+msgstr "最近分配的動作槽的識別符號。該槽標識了該資料塊被視為動作的哪個子集，其識別符號用於在分配動作時找到正確的槽。"
 
 #. :src: bpy.types.AnimData.nla_tracks
 #. :src: bpy.types.NLA_MT_channel_context_menu
@@ -16550,7 +16550,7 @@ msgstr "重寫背景影象"
 msgid ""
 "In a local override camera, whether this background image comes from the "
 "linked reference camera, or is local to the override"
-msgstr "在本地重寫攝像機中，此背景影象是來自關聯的參考攝像機，還是來自重寫的本地"
+msgstr "在本地重寫攝像機中，此背景影象是來自關聯的引用攝像機，還是在重寫中本地建立的"
 
 #. :src: bpy.types.CameraBackgroundImage.offset
 #. :src: bpy.types.CopyLocationConstraint.use_offset
@@ -22103,7 +22103,7 @@ msgstr "重寫約束"
 msgid ""
 "In a local override object, whether this constraint comes from the linked "
 "reference object, or is local to the override"
-msgstr "在本地重寫物體中，此約束是來自關聯的引用物體，或者對重寫而言是本地的"
+msgstr "在本地重寫物體中，此約束是來自關聯的引用物體，還是在重寫中本地建立的"
 
 #. :src: bpy.types.Constraint.is_valid
 msgid "Constraint has valid settings and can be evaluated"
@@ -22748,13 +22748,13 @@ msgid ""
 "The slot identifies which sub-set of the Action is considered to be for this"
 " strip, and its name is used to find the right slot when assigning another "
 "Action"
-msgstr "該槽標識了此片段認為哪個動作子集，其名稱用於在分配另一個動作時找到正確的槽"
+msgstr "該槽標識了此片段被視為哪個動作子集，其名稱用於在分配另一個動作時找到正確的槽"
 
 #. :src: bpy.types.ActionConstraint.action_slot_handle
 msgid ""
 "A number that identifies which sub-set of the Action is considered to be for"
 " this Action Constraint"
-msgstr "一個數字，用於標識此動作約束所考慮的動作子集"
+msgstr "一個數字，用於標識此動作約束對應動作中的哪個子集"
 
 #. :src: bpy.types.ActionConstraint.action_suitable_slots
 #. :src: bpy.types.NlaStrip.action_suitable_slots
@@ -22787,7 +22787,7 @@ msgid ""
 "identifies which sub-set of the Action is considered to be for this "
 "constraint, and its identifier is used to find the right slot when assigning"
 " an Action."
-msgstr "最近分配的動作槽的識別符號。該槽標識了此約束下認為哪個動作子集，其識別符號用於在分配動作時找到正確的槽。"
+msgstr "最近分配的動作槽的識別符號。該槽標識了此約束被視為哪個動作子集，其識別符號用於在分配動作時找到正確的槽。"
 
 #. :src: bpy.types.ActionConstraint.max
 #. :src: bpy.types.FluidDomainSettings.flame_max_temp
@@ -26434,7 +26434,7 @@ msgstr "標準"
 msgid ""
 "Combined curve is applied to each channel individually, which may result in "
 "a change of hue"
-msgstr "組合的曲線單獨應用於每個通道，這可能導致色調的變化"
+msgstr "組合的曲線單獨應用於每個通道，這可能導致色相的變化"
 
 #. :src: bpy.types.CurveMapping.tone:'FILMLIKE'
 msgid "Filmlike"
@@ -26442,7 +26442,7 @@ msgstr "電影向"
 
 #. :src: bpy.types.CurveMapping.tone:'FILMLIKE'
 msgid "Keeps the hue constant"
-msgstr "維持色調恆定"
+msgstr "維持色相恆定"
 
 #. :src: bpy.types.CurveMapping.use_clip
 #. :src: bpy.types.CurveProfile.use_clip
@@ -41310,7 +41310,7 @@ msgstr "在繪製時使用相減混合模式"
 
 #. :src: bpy.types.Brush.blend:'HUE'
 msgid "Use Hue blending mode while painting"
-msgstr "在繪製時使用色調混合模式"
+msgstr "在繪製時使用色相混合模式"
 
 #. :src: bpy.types.Brush.blend:'SATURATION'
 msgid "Use Saturation blending mode while painting"
@@ -51084,7 +51084,7 @@ msgid ""
 "into real footage. Objects with this setting are considered to already exist"
 " in the footage, objects without it are synthetic objects being composited "
 "into it."
-msgstr "僅在此物體上算繪陰影和反射，用於合成算繪成真實的素材。具有此設定的物體被認為已經存在於素材中，沒有此設定的物體作為合成物體被合成到其中。"
+msgstr "僅在此物體上算繪陰影和反射，用於合成算繪成真實的素材。具有此設定的物體被視為已經存在於素材中，沒有此設定的物體作為合成物體被合成到其中。"
 
 #. :src: bpy.types.Object.light_linking
 msgid "Light linking settings"
@@ -66316,7 +66316,7 @@ msgstr "重寫修改器"
 msgid ""
 "In a local override object, whether this modifier comes from the linked "
 "reference object, or is local to the override"
-msgstr "在本地重寫物體中，此修改器是來自關聯的引用物體，或者對重寫而言是本地的"
+msgstr "在本地重寫物體中，此修改器是來自關聯的引用物體，還是在重寫中本地建立的"
 
 #. :src: bpy.types.Modifier.name
 msgid "Modifier name"
@@ -76907,7 +76907,7 @@ msgstr "所用動作的起始幀"
 msgid ""
 "A number that identifies which sub-set of the Action is considered to be for"
 " this NLA strip"
-msgstr "一個數字，用於標識此 NLA 片段確認是動作的哪個子集"
+msgstr "一個數字，用於標識此 NLA 片段對應動作中的哪個子集"
 
 #. :src: bpy.types.NlaStrip.active
 msgid "NLA Strip is active"
@@ -76985,7 +76985,7 @@ msgid ""
 "The identifier of the most recently assigned action slot. The slot "
 "identifies which sub-set of the Action is considered to be for this strip, "
 "and its identifier is used to find the right slot when assigning an Action."
-msgstr "最近分配的動作槽的識別符號。該槽標識了該片段認為是動作的哪個子集，其識別符號用於在分配動作時找到正確的槽。"
+msgstr "最近分配的動作槽的識別符號。該槽標識了該片段被視為動作的哪個子集，其識別符號用於在分配動作時找到正確的槽。"
 
 #. :src: bpy.types.NlaStrip.modifiers
 msgid "Modifiers affecting all the F-Curves in the referenced Action"
@@ -77155,7 +77155,7 @@ msgstr "重寫軌道"
 msgid ""
 "In a local override data, whether this NLA track comes from the linked "
 "reference data, or is local to the override"
-msgstr "在本地重寫資料中，此NLA軌道是來自關聯的引用資料，或者對重寫而是本地的"
+msgstr "在本地重寫資料中，此NLA軌道是來自關聯的引用資料，還是在重寫中本地建立的"
 
 #. :src: bpy.types.NlaTrack.is_solo
 msgid ""
