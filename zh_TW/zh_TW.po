@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-07 02:07+0000\n"
+"PO-Revision-Date: 2026-11-07 08:22+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -8965,7 +8965,7 @@ msgstr "罩體擠出"
 msgid ""
 "Inflate the active object by the specified distance for baking. This helps "
 "matching to points nearer to the outside of the selected object meshes."
-msgstr "按指定的烘焙距離膨脹活動物體。這有助於匹配更靠近選定物體外側的點。"
+msgstr "按指定的烘焙距離膨脹活動物體。這有助於匹配更靠近選定物體網格外側的點。"
 
 #. :src: bpy.types.BakeSettings.cage_object
 #. :src: bpy.types.OBJECT_OT_bake.cage_object
@@ -12196,7 +12196,7 @@ msgstr "空中個體私有空間"
 
 #. :src: bpy.types.BoidSettings.air_personal_space
 msgid "Radius of boids personal space in air (% of particle size)"
-msgstr "群體在空中的獨立範圍 (粒子尺寸的百分比)"
+msgstr "群體在空中的獨立空間半徑 (粒子尺寸的百分比)"
 
 #. :src: bpy.types.BoidSettings.air_speed_max
 msgid "Max Air Speed"
@@ -12265,7 +12265,7 @@ msgstr "著陸獨佔空間"
 
 #. :src: bpy.types.BoidSettings.land_personal_space
 msgid "Radius of boids personal space on land (% of particle size)"
-msgstr "群體在著陸時的獨佔空間範圍 (粒子大小的百分比)"
+msgstr "群體在著陸時的獨佔空間半徑 (粒子大小的百分比)"
 
 #. :src: bpy.types.BoidSettings.land_smooth
 msgid "Landing Smoothness"
@@ -15691,7 +15691,7 @@ msgstr "活動層"
 
 #. :src: bpy.types.BrushGpencilSettings.use_active_layer_only
 msgid "Only edit the active layer of the object"
-msgstr "只編輯物件的啟用圖層"
+msgstr "只編輯物體的啟用圖層"
 
 #. :src: bpy.types.BrushGpencilSettings.use_auto_remove_fill_guides
 msgid "Auto-Remove Fill Guides"
@@ -24700,7 +24700,7 @@ msgstr "鎖定 X 軸位置"
 
 #. :src: bpy.types.KinematicConstraint.lock_location_x
 msgid "Constraint position along X axis"
-msgstr "沿 X 軸向的約束"
+msgstr "約束沿 X 軸的位置"
 
 #. :src: bpy.types.KinematicConstraint.lock_location_y
 msgid "Lock Y Pos"
@@ -24708,7 +24708,7 @@ msgstr "鎖定 Y 軸位置"
 
 #. :src: bpy.types.KinematicConstraint.lock_location_y
 msgid "Constraint position along Y axis"
-msgstr "沿 Y 軸向的約束"
+msgstr "約束沿 Y 軸的位置"
 
 #. :src: bpy.types.KinematicConstraint.lock_location_z
 msgid "Lock Z Pos"
@@ -24716,7 +24716,7 @@ msgstr "鎖定 Z 軸位置"
 
 #. :src: bpy.types.KinematicConstraint.lock_location_z
 msgid "Constraint position along Z axis"
-msgstr "沿 Z 軸向的約束"
+msgstr "約束沿 Z 軸的位置"
 
 #. :src: bpy.types.KinematicConstraint.lock_rotation_x
 msgid "Lock X Rotation"
@@ -39168,7 +39168,7 @@ msgstr "3D深度"
 
 #. :src: bpy.types.GizmoGroup.bl_options:'DEPTH_3D'
 msgid "Supports culled depth by other objects in the view"
-msgstr "支援檢視中其他物件的篩選深度"
+msgstr "支援檢視中其他物體的剔除深度"
 
 #. :src: bpy.types.GizmoGroup.bl_options:'SELECT'
 msgid "Supports selection"
@@ -41473,7 +41473,7 @@ msgstr "迴圈並反轉"
 msgid ""
 "Applies the falloff radius in a loop pattern, inverting the displacement "
 "direction in each pattern repetition"
-msgstr "在迴圈模式中應用迴圈衰減，在每個模式重複中反轉置換方向"
+msgstr "以迴圈模式應用衰減半徑，在每個模式重複中反轉置換方向"
 
 #. :src: bpy.types.Brush.boundary_offset
 msgid "Boundary Origin Offset"
@@ -42145,7 +42145,7 @@ msgstr "布料模擬"
 #. :src: bpy.types.Brush.deform_target:'CLOTH_SIM'
 msgid ""
 "Brush deforms the mesh by deforming the constraints of a cloth simulation"
-msgstr "透過改變布料模擬的約束形狀來使網格變形"
+msgstr "筆刷透過改變布料模擬的約束形狀來使網格變形"
 
 #. :src: bpy.types.Brush.density
 msgid "Amount of random elements that are going to be affected by the brush"
@@ -43318,7 +43318,7 @@ msgstr "間隔"
 
 #. :src: bpy.types.Brush.stroke_method:'SPACE'
 msgid "Limit brush application to the distance specified by spacing"
-msgstr "按指定間隔進行塗刷"
+msgstr "將筆刷的塗抹範圍限制在指定間隔內"
 
 #. :src: bpy.types.Brush.stroke_method:'AIRBRUSH'
 msgctxt "GPencil"
@@ -46949,7 +46949,7 @@ msgstr "筆畫深度排序"
 msgid ""
 "Defines how the strokes are ordered in 3D space (for objects not displayed "
 "'In Front')"
-msgstr "定義如何在3D空間中排列筆畫 (對於未顯示 \"在前面\" 的物件)"
+msgstr "定義如何在3D空間中排列筆畫 (對於未顯示 \"在前面\" 的物體)"
 
 #. :src: bpy.types.GreasePencil.stroke_depth_order:'2D'
 #. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'2D'
@@ -63105,7 +63105,7 @@ msgstr "標識型別"
 #. :src: bpy.types.MaskParent.parent
 msgid ""
 "Name of parent object in specified data-block to which parenting happens"
-msgstr "指定資料塊中父物件的名稱，父物件發生在該資料塊中"
+msgstr "指定資料塊中建立父子關係的父級物體名稱"
 
 #. :src: bpy.types.MaskParent.sub_parent
 msgid "Sub Parent"
@@ -69458,7 +69458,7 @@ msgstr "流體模擬的容器"
 
 #. :src: bpy.types.FluidModifier.fluid_type:'FLOW'
 msgid "Add or remove fluid to a domain object"
-msgstr "向域物件內新增或移除流體"
+msgstr "向域物體內新增或移除流體"
 
 #. :src: bpy.types.FluidModifier.fluid_type:'EFFECTOR'
 msgid "Deflect fluids and influence the fluid flow"
@@ -71243,7 +71243,7 @@ msgstr "例項物體"
 
 #. :src: bpy.types.GreasePencilLineartModifier.use_object_instances
 msgid "Allow particle objects and face/vertex instances to show in Line Art"
-msgstr "允許粒子物件和麵/頂點例項顯示線上條畫中"
+msgstr "允許粒子物體和麵/頂點例項顯示線上條畫中"
 
 #. :src:
 #. bpy.types.GreasePencilLineartModifier.use_offset_towards_custom_camera
@@ -71521,7 +71521,7 @@ msgstr "目標物體"
 
 #. :src: bpy.types.GreasePencilOutlineModifier.object
 msgid "Target object to define stroke start"
-msgstr "用於定義筆畫開始的目標物件"
+msgstr "用於定義筆畫起點的目標物體"
 
 #. :src: bpy.types.GreasePencilOutlineModifier.outline_material
 msgid "Outline Material"
@@ -73211,7 +73211,7 @@ msgstr "生成水沫"
 
 #. :src: bpy.types.OceanModifier.use_foam
 msgid "Generate foam mask as a vertex color channel"
-msgstr "以頂點色通道的形式生成水沫蒙板"
+msgstr "以頂點色通道的形式生成水沫遮罩"
 
 #. :src: bpy.types.OceanModifier.use_normals
 msgid "Generate Normals"
@@ -77781,7 +77781,7 @@ msgstr "Cryptomatte"
 msgid ""
 "Generate matte for individual objects and materials using Cryptomatte render"
 " passes"
-msgstr "使用 Cryptomatte 算繪通道為單個物件和材質生成蒙版"
+msgstr "使用 Cryptomatte 算繪通道為單個物體和材質生成蒙版"
 
 #. :src: bpy.types.CompositorNodeCryptomatteV2.entries
 msgid "Mattes"
@@ -82933,7 +82933,7 @@ msgstr "點 (不支援)"
 #. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type:'POINTS'
 #. :src: bpy.types.VolumeGrid.data_type:'POINTS'
 msgid "Points grid, currently unsupported by volume objects"
-msgstr "點柵格，當前不受體積物件支援"
+msgstr "點柵格，當前不受體積物體支援"
 
 #. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type:'UNKNOWN'
 #. :src: bpy.types.VolumeGrid.data_type:'UNKNOWN'
@@ -88466,7 +88466,7 @@ msgstr "物體基礎"
 #. :src: bpy.types.ObjectBase
 msgid ""
 "An object instance in a View Layer (currently never exposed in Python API)"
-msgstr "檢視層中的物件例項（目前在Python API中未公開）"
+msgstr "檢視層中的物體例項（目前在Python API中未公開）"
 
 #. :src: bpy.types.ObjectBase.object
 msgid "Object this base links to"
@@ -89102,7 +89102,7 @@ msgid ""
 "Set the influence of this constraint to zero while trying to maintain the "
 "object's transformation. Other active constraints can still influence the "
 "final transformation"
-msgstr "當嘗試維持物件的變換時，將此約束的影響設定為零。其他活動的約束仍然會影響最終的變換"
+msgstr "當嘗試維持物體的變換時，將此約束的影響設定為零。其他活動的約束仍然會影響最終的變換"
 
 #. :src: bpy.types.CONSTRAINT_OT_disable_keep_transform
 msgctxt "Operator"
@@ -93590,7 +93590,7 @@ msgstr "框顯全部"
 #. :src: bpy.types.CLIP_OT_dopesheet_view_all
 #. :src: bpy.types.GRAPH_OT_view_all
 msgid "Reset viewable area to show full keyframe range"
-msgstr "自適應顯示全部的幀範圍"
+msgstr "自適應顯示全部的關鍵影格範圍"
 
 #. :src: bpy.types.ACTION_OT_view_frame
 #. :src: bpy.types.GRAPH_OT_view_frame
@@ -93627,7 +93627,7 @@ msgstr "框顯所選"
 
 #. :src: bpy.types.ACTION_OT_view_selected
 msgid "Reset viewable area to show selected keyframes range"
-msgstr "自適應顯示選擇的幀範圍"
+msgstr "自適應顯示選擇的關鍵影格範圍"
 
 #. :src: bpy.types.ANIM_OT_change_frame
 #. :src: bpy.types.CLIP_OT_change_frame
@@ -103063,7 +103063,7 @@ msgstr "用修改器算繪設定"
 msgid ""
 "Use render settings when applying modifiers to mesh objects (DISABLED in "
 "Blender 2.8)"
-msgstr "在對網格物件應用修改器時使用算繪設定 (在 Blender 2.8 中禁用)"
+msgstr "在對網格物體應用修改器時使用算繪設定 (在 Blender 2.8 中禁用)"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.use_metadata
 msgid "Use Metadata"
@@ -107698,7 +107698,7 @@ msgstr "新增新層"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_layer_add
 msgid "Add a new Grease Pencil layer in the active object"
-msgstr "在活動物件中新增新的蠟筆層"
+msgstr "在活動物體中新增新的蠟筆層"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_layer_add.new_layer_name
 msgid "Name of the new layer"
@@ -107746,7 +107746,7 @@ msgstr "新建層組"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_layer_group_add
 msgid "Add a new Grease Pencil layer group in the active object"
-msgstr "在活動物件中新增新的蠟筆層組"
+msgstr "在活動物體中新增新的蠟筆層組"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_layer_group_add.new_layer_group_name
 msgid "Name of the new layer group"
@@ -107772,7 +107772,7 @@ msgstr "移除層組"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_layer_group_remove
 msgid "Remove Grease Pencil layer group in the active object"
-msgstr "在活動物件中移除蠟筆層組"
+msgstr "在活動物體中移除蠟筆層組"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_layer_group_remove.keep_children
 msgid "Keep children nodes"
@@ -109155,7 +109155,7 @@ msgstr "為新網格物體和材質命名"
 
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.name_from:'OBJECT'
 msgid "Name after object source with a suffix"
-msgstr "以物件源來命名，帶字尾"
+msgstr "以物體源來命名，帶字尾"
 
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.name_from:'IMAGE'
 msgid "Source Image"
@@ -110904,7 +110904,7 @@ msgstr "清除形態鍵"
 
 #. :src: bpy.types.MASK_OT_shape_key_clear
 msgid "Remove mask shape keyframe for active mask layer at the current frame"
-msgstr "清除當前幀處的活動遮罩層的形態鍵"
+msgstr "移除當前幀下活動遮罩層的遮罩形狀關鍵影格"
 
 #. :src: bpy.types.MASK_OT_shape_key_feather_reset
 msgctxt "Operator"
@@ -110922,7 +110922,7 @@ msgstr "插入形態鍵"
 
 #. :src: bpy.types.MASK_OT_shape_key_insert
 msgid "Insert mask shape keyframe for active mask layer at the current frame"
-msgstr "為當前幀處的活動遮罩層的插入形態鍵"
+msgstr "在當前幀為活動遮罩層插入遮罩形狀關鍵影格"
 
 #. :src: bpy.types.MASK_OT_shape_key_rekey
 msgctxt "Operator"
@@ -114035,7 +114035,7 @@ msgstr "變換座標軸與3D遊標對齊"
 #. :src: bpy.types.TRANSFORM_OT_translate.orient_type:'PARENT'
 #. :src: bpy.types.TransformOrientationSlot.type:'PARENT'
 msgid "Align the transformation axes to the object's parent space"
-msgstr "將變換軸與物件的父空間對齊"
+msgstr "將變換軸與物體的父空間對齊"
 
 #. :src: bpy.types.MESH_OT_select_axis.sign
 msgid "Axis Sign"
@@ -118090,12 +118090,12 @@ msgstr "清除物體約束"
 
 #. :src: bpy.types.OBJECT_OT_constraints_clear
 msgid "Clear all constraints from the selected objects"
-msgstr "清除選定物件中的所有約束"
+msgstr "清除選定物體中的所有約束"
 
 #. :src: bpy.types.OBJECT_OT_constraints_copy
 msgctxt "Operator"
 msgid "Copy Constraints to Selected Objects"
-msgstr "將約束複製到當前所選"
+msgstr "將約束複製所選物體"
 
 #. :src: bpy.types.OBJECT_OT_constraints_copy
 msgid "Copy constraints to other selected objects"
@@ -119066,7 +119066,7 @@ msgstr "選擇燈光連結接收器"
 
 #. :src: bpy.types.OBJECT_OT_light_linking_receivers_select
 msgid "Select all objects which receive light from this emitter"
-msgstr "選擇從該發光體接收光的所有物件"
+msgstr "選擇從該發光體接收光的所有物體"
 
 #. :src: bpy.types.OBJECT_OT_light_linking_unlink_from_collection
 msgctxt "Operator"
@@ -119075,7 +119075,7 @@ msgstr "從燈光連結集合中移除"
 
 #. :src: bpy.types.OBJECT_OT_light_linking_unlink_from_collection
 msgid "Remove this object or collection from the light linking collection"
-msgstr "從燈光連結集合中刪除該物件或集合"
+msgstr "從燈光連結集合中移除該物體或集合"
 
 #. :src: bpy.types.OBJECT_OT_lightprobe_add
 msgctxt "Operator"
@@ -119924,7 +119924,7 @@ msgstr "清除並保持變換結果"
 #. :src: bpy.types.OBJECT_OT_parent_clear.type:'CLEAR_KEEP_TRANSFORM'
 msgid ""
 "As 'Clear Parent', but keep the current visual transformations of the object"
-msgstr "如同 '清除父級'，但保留物件的當前可視變換"
+msgstr "如同 '清除父級'，但保留物體的當前可視變換"
 
 #. :src: bpy.types.OBJECT_OT_parent_clear.type:'CLEAR_INVERSE'
 msgid "Clear Parent Inverse"
@@ -120563,7 +120563,7 @@ msgstr "使用 unix 萬用字元 '*', '?' 和 '[abc]' 進行名稱過濾"
 
 #. :src: bpy.types.OBJECT_OT_select_random
 msgid "Select or deselect random visible objects"
-msgstr "選擇或取消選擇隨機可見物件"
+msgstr "選擇或取消選擇隨機可見物體"
 
 #. :src: bpy.types.OBJECT_OT_select_same_collection
 msgctxt "Operator"
@@ -121000,7 +121000,7 @@ msgstr "從開始到當前幀的幾何節點修改器中計算模擬"
 #. :src:
 #. bpy.types.OBJECT_OT_simulation_nodes_cache_calculate_to_frame.selected
 msgid "Calculate all selected objects instead of just the active object"
-msgstr "計算所有選定物件，而不是僅計算活動物件"
+msgstr "計算所有選定物體，而不是僅計算活動物體"
 
 #. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_delete
 msgctxt "Operator"
@@ -121013,7 +121013,7 @@ msgstr "刪除幾何節點修改器中快取/烘焙的模擬"
 
 #. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_delete.selected
 msgid "Delete cache on all selected objects"
-msgstr "刪除所有選定物件上的快取"
+msgstr "刪除所有選定物體上的快取"
 
 #. :src: bpy.types.OBJECT_OT_skin_armature_create
 msgctxt "Operator"
@@ -121942,7 +121942,7 @@ msgstr "隱藏內部集合"
 
 #. :src: bpy.types.OUTLINER_OT_collection_hide_inside
 msgid "Hide all the objects and collections inside the collection"
-msgstr "隱藏集合中的所有物件和集合"
+msgstr "隱藏集合中的所有物體和集合"
 
 #. :src: bpy.types.OUTLINER_OT_collection_hierarchy_delete
 #: scripts/startup/bl_ui/space_outliner.py:272
@@ -122083,7 +122083,7 @@ msgstr "顯示內部集合"
 
 #. :src: bpy.types.OUTLINER_OT_collection_show_inside
 msgid "Show all the objects and collections inside the collection"
-msgstr "顯示集合中的所有物件和集合"
+msgstr "顯示集合中的所有物體和集合"
 
 #. :src: bpy.types.OUTLINER_OT_constraint_operation
 msgctxt "Operator"
@@ -122114,7 +122114,7 @@ msgstr "複製或重新排序修改器、約束和效果"
 
 #. :src: bpy.types.OUTLINER_OT_delete
 msgid "Delete selected objects and collections"
-msgstr "刪除選中的物件和集合"
+msgstr "刪除選中的物體和集合"
 
 #. :src: bpy.types.OUTLINER_OT_delete.hierarchy
 msgid "Hierarchy"
@@ -124255,7 +124255,7 @@ msgstr "僅應用所選骨骼 (傳播到子骨骼)"
 
 #. :src: bpy.types.POSE_OT_blend_to_neighbor
 msgid "Blend from current position to previous or next keyframe"
-msgstr "從當前位置混合至前一或後一幀"
+msgstr "從當前位置混合至前一或後一關鍵影格"
 
 #. :src: bpy.types.POSE_OT_blend_to_neighbor.axis_lock
 #. :src: bpy.types.POSE_OT_blend_with_rest.axis_lock
@@ -138226,7 +138226,7 @@ msgstr "Blender 名稱"
 msgid ""
 "Author USD custom attributes containing the original Blender object and "
 "object data names"
-msgstr "編寫USD自定義屬性，包含原始Blender物件和物件資料名"
+msgstr "編寫USD自定義屬性，包含原始Blender物體和物體資料名"
 
 #. :src: bpy.types.WM_OT_usd_export.convert_orientation
 msgid "Convert Orientation"
@@ -138533,7 +138533,7 @@ msgid ""
 " nested UsdGeomGprims, intermediary Xform prims will be defined to keep the "
 "USD file valid when encountering object hierarchies."
 msgstr ""
-"如果可能，將 USD 基元與其 Xform 父級合併，USD 不允許巢狀的 UsdGeomGprims，當遇到物件層級時，將定義中間的 Xform "
+"如果可能，將 USD 基元與其 Xform 父級合併，USD 不允許巢狀的 UsdGeomGprims，當遇到物體層級時，將定義中間的 Xform "
 "基元，以確保 USD 檔案的有效性。"
 
 #. :src: bpy.types.WM_OT_usd_export.meters_per_unit
@@ -144552,7 +144552,7 @@ msgstr "新的插值型別"
 msgid ""
 "Interpolation mode used for first keyframe on newly added F-Curves "
 "(subsequent keyframes take interpolation from preceding keyframe)"
-msgstr "在新新增的函式曲線上用於第一個幀的插值模式 (從之前幀至子序列幀之間的插值)"
+msgstr "在新新增的函式曲線上用於第一個關鍵影格的插值模式 (從之前關鍵影格至子序列關鍵影格之間的插值)"
 
 #. :src: bpy.types.PreferencesEdit.material_link
 msgid "Material Link To"
@@ -145573,7 +145573,7 @@ msgstr "直升機模式"
 
 #. :src: bpy.types.PreferencesInput.ndof_fly_helicopter
 msgid "Device up/down directly controls the Z position of the 3D viewport"
-msgstr "使用裝置的上/下方向來控制3D檢視的Z軸方向"
+msgstr "使用裝置的上/下方向來控制3D檢視的Z軸位置"
 
 #. :src: bpy.types.PreferencesInput.ndof_fly_speed_auto
 #: scripts/startup/bl_ui/space_userpref.py:2194
@@ -149137,7 +149137,7 @@ msgid ""
 "object. Up to 10 bounces inside this object are taken into account. Lights, "
 "caster and receiver objects must have shadow caustics options set to enable "
 "this"
-msgstr "對於折射材質，在此物體的陰影中產生近似焦散。此物體內部最多會考慮十次反彈。燈光、投射器和接收器物件必須設定陰影焦散選項才能啟用此功能"
+msgstr "對於折射材質，在此物體的陰影中產生近似焦散。此物體內部最多會考慮十次反彈。燈光、投射器和接收器物體必須設定陰影焦散選項才能啟用此功能"
 
 #. :src: bpy.types.CyclesObjectSettings.is_caustics_receiver
 msgid "Receive Shadow Caustics"
@@ -149981,7 +149981,7 @@ msgid ""
 "the camera view. Lower values provide higher quality reflections and shadows"
 " for off screen objects, while higher values use less memory"
 msgstr ""
-"用於攝像機檢視外幾何的切分率的乘數。物體的切分率會隨著物體在攝像機檢視之外的進一步增加而逐漸增加。值越低，螢幕外物件提供更高質量的反射和陰影，而較高的值則使用更少的記憶體"
+"用於攝像機檢視外幾何的切分率的乘數。物體的切分率會隨著物體在攝像機檢視之外的進一步增加而逐漸增加。值越低，螢幕外物體提供更高質量的反射和陰影，而較高的值則使用更少的記憶體"
 
 #. :src: bpy.types.CyclesRenderSettings.pixel_filter_type
 msgid "Pixel filter type"
@@ -153224,7 +153224,7 @@ msgstr "戳記文字的背景色彩"
 
 #. :src: bpy.types.RenderSettings.stamp_font_size
 msgid "Size of the font used when rendering stamp text"
-msgstr "戳記文字的大小"
+msgstr "算繪戳記文字時使用的字型大小"
 
 #. :src: bpy.types.RenderSettings.stamp_foreground
 msgid "Text Color"
@@ -153350,7 +153350,7 @@ msgstr "在算繪期間鎖定介面，以便為算繪器提供更多記憶體"
 
 #. :src: bpy.types.RenderSettings.use_motion_blur
 msgid "Use multi-sampled 3D scene motion blur"
-msgstr "使用 3D 多重取樣運動模糊"
+msgstr "使用多采樣 3D 場景運動模糊"
 
 #. :src: bpy.types.RenderSettings.use_multiview
 msgid "Use multiple views in the scene"
@@ -154431,7 +154431,7 @@ msgstr "半徑係數"
 
 #. :src: bpy.types.SPHFluidSettings.use_factor_radius
 msgid "Interaction radius is a factor of 4 * particle size"
-msgstr "互動範圍是與 4 倍粒子尺寸有關的一個係數"
+msgstr "互動半徑是與 4 倍粒子尺寸有關的一個係數"
 
 #. :src: bpy.types.SPHFluidSettings.use_factor_repulsion
 msgid "Factor Repulsion"
@@ -157117,7 +157117,7 @@ msgstr "顯示活動物體的剛體模擬快取"
 
 #. :src: bpy.types.SpaceDopeSheetEditor.cache_simulation_nodes
 msgid "Show the active object's simulation nodes cache and bake data"
-msgstr "顯示活動物件的模擬節點快取和烘焙資料"
+msgstr "顯示活動物體的模擬節點快取和烘焙資料"
 
 #. :src: bpy.types.SpaceDopeSheetEditor.cache_smoke
 msgid "Show the active object's smoke cache"
@@ -166713,7 +166713,7 @@ msgstr "淡化物體"
 #. :src: bpy.types.View3DOverlay.use_gpencil_fade_objects
 msgid ""
 "Fade all viewport objects with a full color layer to improve visibility"
-msgstr "使用全色圖層淡化所有檢視物件，以提高可見性"
+msgstr "使用全色圖層淡化所有檢視物體，以提高可見性"
 
 #. :src: bpy.types.View3DOverlay.use_gpencil_grid
 msgid "Use Grid"
@@ -188645,7 +188645,7 @@ msgstr "關聯的骨骼集合不可編輯"
 
 #: source/blender/editors/armature/bone_collections.cc:745
 msgid "Cannot (de)select bones on linked object, that would need an override"
-msgstr "無法在關聯的物件上選擇/取消選擇骨骼，這將需要重寫"
+msgstr "無法在關聯的物體上選擇/棄選骨骼，這將需要重寫"
 
 #: source/blender/editors/armature/bone_collections.cc:764
 msgid "The active object does not match the armature"
@@ -189401,7 +189401,7 @@ msgstr "鍵入一個 Unicode 程式碼點十六進位制值"
 
 #: source/blender/editors/curve/editfont.cc:1211
 msgid "Text too long"
-msgstr "文段太長"
+msgstr "文字太長"
 
 #: source/blender/editors/curve/editfont.cc:1262
 msgid "Clipboard too long"
@@ -193675,7 +193675,7 @@ msgstr "跳過編輯庫物體資料"
 
 #: source/blender/editors/object/object_relations.cc:2343
 msgid "Orphan library objects added to the current scene to avoid loss"
-msgstr "將孤立庫物件新增到當前場景以避免丟失"
+msgstr "將孤立庫物體新增到當前場景以避免丟失"
 
 #: source/blender/editors/object/object_relations.cc:2671
 msgid "Cannot make library override from a local object"
@@ -193794,7 +193794,7 @@ msgstr "活動物體位於多個集合中"
 msgid ""
 "Use another Keying Set, as the active one depends on the currently selected "
 "objects or cannot find any targets due to unsuitable context"
-msgstr "使用另一個插幀集, 因為活動的插幀集取決於當前選擇的物件, 或者由於上下文不合適而無法找到任何目標"
+msgstr "使用另一個插幀集, 因為活動的插幀集取決於當前選擇的物體, 或者由於上下文不合適而無法找到任何目標"
 
 #: source/blender/editors/object/object_select.cc:1074
 msgid "Active object must be a light"
@@ -194520,7 +194520,7 @@ msgstr "無法在選中一個動畫格式時寫入檔案"
 msgid ""
 "Render the viewport for the animation range of this scene, but only render "
 "keyframes of selected objects"
-msgstr "算繪此場景的動畫範圍視口，但只算繪選定物件的關鍵影格"
+msgstr "算繪此場景的動畫範圍視口，但只算繪選定物體的關鍵影格"
 
 #: source/blender/editors/render/render_opengl.cc:1437
 msgid "Render the viewport for the animation range of this scene"
@@ -194561,13 +194561,13 @@ msgstr "節點組不支援自動預覽"
 
 #: source/blender/editors/render/render_preview.cc:2219
 msgid "Object type does not support automatic previews"
-msgstr "物件型別不支援自動預覽"
+msgstr "物體型別不支援自動預覽"
 
 #: source/blender/editors/render/render_preview.cc:2223
 msgid ""
 "Collection does not contain object types that can be rendered for the "
 "automatic preview"
-msgstr "集合未包含可以用於自動預覽算繪的物件型別"
+msgstr "集合未包含可以用於自動預覽算繪的物體型別"
 
 #: source/blender/editors/render/render_preview.cc:2227
 msgid "Scenes without a camera do not support previews"
@@ -195083,7 +195083,7 @@ msgstr "上下文缺失活動物體"
 
 #: source/blender/editors/screen/screen_ops.cc:581
 msgid "Cannot edit library linked or non-editable override object"
-msgstr "無法編輯已關聯庫或不可編輯的重寫物件"
+msgstr "無法編輯已關聯庫或不可編輯的重寫物體"
 
 #: source/blender/editors/screen/screen_ops.cc:586
 msgid "Cannot edit hidden object"
@@ -195320,7 +195320,7 @@ msgstr "目標物體不是蠟筆，忽略！"
 
 #: source/blender/editors/sculpt_paint/grease_pencil/trace.cc:381
 msgid "Target object library-data, ignoring!"
-msgstr "目標物件庫資料，忽略！"
+msgstr "目標物體庫資料，忽略！"
 
 #: source/blender/editors/sculpt_paint/grease_pencil/trace.cc:339
 msgid "No image empty selected"
@@ -197801,7 +197801,7 @@ msgstr "移動到集合內 (Ctrl 為關聯)"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.cc:449
 msgid "Cannot edit library linked or non-editable override object(s)"
-msgstr "無法編輯已關聯庫或不可編輯的重寫物件"
+msgstr "無法編輯已關聯庫或不可編輯的重寫物體"
 
 #: source/blender/editors/space_outliner/outliner_draw.cc:1284
 msgid "Use view layer for rendering"
@@ -197990,7 +197990,7 @@ msgid ""
 "Change the object in the current mode\n"
 " • Ctrl to add to the current mode"
 msgstr ""
-"在當前模式下修改物件\n"
+"在當前模式下修改物體\n"
 " • Ctrl 新增到當前模式"
 
 #: source/blender/editors/space_outliner/outliner_draw.cc:815
@@ -199759,7 +199759,7 @@ msgstr "影格率: %i"
 
 #: source/blender/editors/space_view3d/view3d_dropboxes.cc:237
 msgid "Create object instance from object-data"
-msgstr "從物件資料建立物件例項"
+msgstr "從物體資料建立物體例項"
 
 #: source/blender/editors/space_view3d/view3d_dropboxes.cc:626
 msgctxt "Operator"
@@ -201339,7 +201339,7 @@ msgstr "未處理的 Gprim 型別: %s (%s)"
 
 #: source/blender/io/usd/intern/usd_reader_stage.cc:613
 msgid "%s: Couldn't find armature object corresponding to USD skeleton %s"
-msgstr "%s: 找不到與 USD 骨架 %s 對應的骨架物件"
+msgstr "%s: 找不到與 USD 骨架 %s 對應的骨架物體"
 
 #: source/blender/io/usd/intern/usd_skel_convert.cc:190
 #: source/blender/io/usd/intern/usd_skel_convert.cc:825
@@ -201463,7 +201463,7 @@ msgstr "在相同曲線物體中無法匯出不同的曲線型別"
 #: source/blender/io/usd/intern/usd_writer_curves.cc:585
 msgid ""
 "Cannot export mixed cyclic and non-cyclic curves in the same Curves object"
-msgstr "無法在同一曲線物件中匯出混合閉環和非閉環曲線"
+msgstr "無法在同一曲線物體中匯出混合閉環和非閉環曲線"
 
 #: source/blender/io/usd/intern/usd_writer_curves.cc:459
 #: source/blender/io/usd/intern/usd_writer_pointinstancer.cc:552
@@ -201513,7 +201513,7 @@ msgstr "例項編號 '%d' 與變換大小 '%d' 不匹配"
 
 #: source/blender/io/usd/intern/usd_writer_volume.cc:70
 msgid "USD Export: failed to resolve .vdb file for object: %s"
-msgstr "USD 匯出: 無法解析物件 %s 的 .vdb 檔案"
+msgstr "USD 匯出: 無法解析物體 %s 的 .vdb 檔案"
 
 #: source/blender/io/usd/intern/usd_writer_volume.cc:82
 msgid ""
@@ -202512,7 +202512,7 @@ msgstr "載入影象紋理 '%s' 失敗"
 
 #: source/blender/makesrna/intern/rna_layer.cc:109
 msgid "ViewLayer '%s' does not contain object '%s'"
-msgstr "檢視層 '%s' 不包含物件 '%s'"
+msgstr "檢視層 '%s' 不包含物體 '%s'"
 
 #: source/blender/makesrna/intern/rna_layer.cc:221
 msgid "AOV not found in view-layer '%s'"
@@ -202918,7 +202918,7 @@ msgstr "無法在節點上找到專案 '%s'"
 msgid ""
 "Can only assign evaluated data to evaluated object, or original data to "
 "original object"
-msgstr "只能將評估的資料分配給評估物件, 或將原始資料分配給原始物件"
+msgstr "只能將評估的資料分配給評估物體, 或將原始資料分配給原始物體"
 
 #: source/blender/makesrna/intern/rna_object.cc:852
 msgid "Only empty objects support collection instances"
@@ -207266,7 +207266,7 @@ msgstr "遞迴檢索集合與物體"
 
 #: source/blender/nodes/geometry/nodes/node_geo_collection_info.cc:73
 msgid "Collection contains current object"
-msgstr "集合包含當前物件"
+msgstr "集合包含當前物體"
 
 #: source/blender/nodes/geometry/nodes/node_geo_collection_info.cc:79
 msgid ""
@@ -210089,7 +210089,7 @@ msgstr "將整個物體輸出為單個例項。這允許例項化非幾何物體
 msgid ""
 "Transformation matrix containing the location, rotation and scale of the "
 "object"
-msgstr "包含物件的位置、旋轉和比例的變換矩陣"
+msgstr "包含物體的位置、旋轉和比例的變換矩陣"
 
 #: source/blender/nodes/geometry/nodes/node_geo_offset_point_in_curve.cc:19
 msgid "Is Valid Offset"
@@ -210972,13 +210972,13 @@ msgstr "無法透過場來切換型別"
 msgid ""
 "The location of the scene's 3D cursor, in the local space of the modified "
 "object"
-msgstr "場景的3D遊標的位置，在修改物件的區域性空間中"
+msgstr "場景的3D遊標的位置，在修改物體的區域性空間中"
 
 #: source/blender/nodes/geometry/nodes/node_geo_tool_3d_cursor.cc:17
 msgid ""
 "The rotation of the scene's 3D cursor, in the local space of the modified "
 "object"
-msgstr "場景的3D遊標的旋轉，在修改物件的區域性空間中"
+msgstr "場景的3D遊標的旋轉，在修改物體的區域性空間中"
 
 #: source/blender/nodes/geometry/nodes/node_geo_tool_active_element.cc:20
 msgid "Index of the active element in the specified domain"
@@ -212206,7 +212206,7 @@ msgstr "表面發射光的顏色"
 msgid ""
 "Strength of the emitted light. A value of 1.0 ensures that the object in the"
 " image has the exact same color as the Emission Color"
-msgstr "發射光的強度，值為1.0可確保影象中的物件具有與 “發射顏色” 完全相同的顏色"
+msgstr "發射光的強度，值為1.0可確保影象中的物體具有與 “自發光顏色” 完全相同的顏色"
 
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:180
 msgid "IOR Level"
@@ -220272,7 +220272,7 @@ msgstr "用於縮裹的表面幾何體"
 #. :src: Socket description from node group Shrinkwrap Hair Curves, file
 #. procedural_hair_node_assets.blend
 msgid "Surface object used for shrinkwrap"
-msgstr "用於縮裹的表面物件"
+msgstr "用於縮裹的表面物體"
 
 #. :src: Asset name from file procedural_hair_node_assets.blend
 msgid "Smooth Hair Curves"

@@ -8,7 +8,7 @@
       "target": "算繪",
       "status": "active",
       "note": "專案初始用詞；適用算繪引擎、算繪結果等複合詞，非官方核定譯名。",
-      "occurrences": 678,
+      "occurrences": 679,
       "samples": [
         {
           "file": "zh_HANS.po",
@@ -34,7 +34,7 @@
       "target": "關鍵影格",
       "status": "active",
       "note": "統一動畫術語，亦套用於關鍵影格相關複合詞。",
-      "occurrences": 610,
+      "occurrences": 618,
       "samples": [
         {
           "file": "zh_HANS.po",
@@ -112,7 +112,7 @@
       "target": "網格",
       "status": "active",
       "note": "保留並追蹤現有正確用詞。",
-      "occurrences": 868,
+      "occurrences": 869,
       "samples": [
         {
           "file": "zh_HANS.po",
