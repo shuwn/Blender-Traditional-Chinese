@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-07 08:22+0000\n"
+"PO-Revision-Date: 2026-11-07 17:02+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -22567,7 +22567,7 @@ msgstr "樣條線 IK"
 #. :src: bpy.types.POSE_OT_constraint_add.type:'SPLINE_IK'
 #. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'SPLINE_IK'
 msgid "Align chain of bones along a curve (Bones only)"
-msgstr "沿一條曲線排列骨骼鏈 (僅用於骨骼)"
+msgstr "沿一條曲線對齊骨骼鏈 (僅用於骨骼)"
 
 #. :src: bpy.types.Constraint.type:'STRETCH_TO'
 #. :src: bpy.types.POSE_OT_constraint_add.type:'STRETCH_TO'
@@ -49593,7 +49593,7 @@ msgstr "紋理網格"
 
 #. :src: bpy.types.Mesh.texture_mesh
 msgid "Use another mesh for texture indices (vertex indices must be aligned)"
-msgstr "將另一個網格用於紋理編號 (需與頂點編號保持一致)"
+msgstr "將另一個網格用於紋理編號 (頂點編號必須對齊)"
 
 #. :src: bpy.types.Mesh.total_edge_sel
 msgid "Selected Edge Total"
@@ -73245,7 +73245,7 @@ msgstr "波浪齊整度"
 
 #. :src: bpy.types.OceanModifier.wave_alignment
 msgid "How much the waves are aligned to each other"
-msgstr "波浪相互間的排列程度"
+msgstr "波浪相互間的對齊程度"
 
 #. :src: bpy.types.OceanModifier.wave_direction
 msgid "Wave Direction"
@@ -104129,7 +104129,7 @@ msgstr "使用 Gltfpack"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_use_gltfpack
 msgid "Use gltfpack to simplify the mesh and/or compress its textures"
-msgstr "使用 gltfpack 來精簡網格並壓縮其紋理"
+msgstr "使用 gltfpack 來簡化網格並壓縮其紋理"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_use_ktx_compression
 msgid "Zstandard Compression"
@@ -146949,7 +146949,7 @@ msgstr "載入時對齊頂部"
 
 #. :src: bpy.types.PreferencesView.header_align:'BOTTOM'
 msgid "Bottom align on load (except for property editors)"
-msgstr "載入時處在底部 (屬性編輯器除外)"
+msgstr "載入時對齊底部 (屬性編輯器除外)"
 
 #. :src: bpy.types.PreferencesView.language
 msgid "Language"
@@ -157565,7 +157565,7 @@ msgstr "UV/影象編輯器疊加層的顯示設定"
 
 #. :src: bpy.types.SpaceImageEditor.pivot_point
 msgid "Rotation/Scaling Pivot"
-msgstr "旋轉/縮放中心"
+msgstr "旋轉/縮放軸心"
 
 #. :src: bpy.types.SpaceImageEditor.pivot_point:'CURSOR'
 #. :src: bpy.types.ToolSettings.transform_pivot_point:'CURSOR'
@@ -202282,15 +202282,15 @@ msgstr "無效的幀範圍 (%d - %d). 起始幀大於結束幀"
 
 #: source/blender/makesrna/intern/rna_fluid.cc:571
 msgid "Binary Object"
-msgstr "二進位制物件"
+msgstr "二進位制 Object"
 
 #: source/blender/makesrna/intern/rna_fluid.cc:572
 msgid "Binary object file format (.bobj.gz)"
-msgstr "二進位制物件檔案格式 (.bobj.gz)"
+msgstr "二進位制 Object 檔案格式 (.bobj.gz)"
 
 #: source/blender/makesrna/intern/rna_fluid.cc:578
 msgid "Object file format (.obj)"
-msgstr "Object檔案格式 (.obj)"
+msgstr "Object 檔案格式 (.obj)"
 
 #: source/blender/makesrna/intern/rna_fluid.cc:640
 msgid "Uni file format"
@@ -206836,7 +206836,7 @@ msgstr "輸入字串的各個部分。該結構至少包含一個可為空的元
 #: source/blender/nodes/function/nodes/node_fn_string_to_value.cc:33
 msgid ""
 "Numeric base for the input string (e.g. 2 for binary, 16 for hexadecimal)"
-msgstr "輸入字串的進位制（例如：2 表示二進位制，16 表示十六進位制）"
+msgstr "輸入字串的進位制（例如 2 表示二進位制，16 表示十六進位制）"
 
 #: source/blender/nodes/function/nodes/node_fn_trim_string.cc:19
 msgid "Whitespace"
@@ -216635,7 +216635,7 @@ msgstr "彈性"
 #. :src: Socket description from node group Cloth Dynamics (Experimental),
 #. file geometry_nodes_dynamics_assets.blend
 msgid "Higher values make the cloth more elastic."
-msgstr "數值越高，毛髮越有彈性。"
+msgstr "數值越高，布料越有彈性。"
 
 #. :src: Socket description from node group Cloth Dynamics (Experimental),
 #. file geometry_nodes_dynamics_assets.blend
