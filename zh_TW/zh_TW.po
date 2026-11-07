@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-06 13:21+0000\n"
+"PO-Revision-Date: 2026-11-07 02:07+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -26061,7 +26061,7 @@ msgstr "對映至"
 
 #. :src: bpy.types.TransformConstraint.map_to
 msgid "The transformation type to affect on the constrained object"
-msgstr "要影響約束物件的變換型別"
+msgstr "要影響約束物體的變換型別"
 
 #. :src: bpy.types.TransformConstraint.map_to_x_from
 msgid "Map To X From"
@@ -27450,7 +27450,7 @@ msgstr "所有要顯示或算繪的物體例項 (警告：只能作為迭代器�
 
 #. :src: bpy.types.Depsgraph.objects
 msgid "Evaluated objects in the dependency graph"
-msgstr "在依賴關係圖中已估算的物件"
+msgstr "在依賴關係圖中已估算的物體"
 
 #. :src: bpy.types.Depsgraph.scene
 #. :src: bpy.types.Depsgraph.scene_eval
@@ -27618,7 +27618,7 @@ msgstr "依賴關係圖物體例項"
 msgid ""
 "Extended information about dependency graph object iterator (Warning: All "
 "data here is 'evaluated' one, not original .blend IDs)"
-msgstr "關於依賴關係圖物件迭代器的擴充套件資訊 (警告: 這裡的所有資料都是 '計算過的', 而不是原始的.blend ID)"
+msgstr "關於依賴關係圖物體迭代器的擴充套件資訊 (警告: 這裡的所有資料都是 '計算過的', 而不是原始的.blend ID)"
 
 #. :src: bpy.types.DepsgraphObjectInstance.instance_object
 #. :src: bpy.types.ParticleSettings.instance_object
@@ -27628,7 +27628,7 @@ msgstr "例項物體"
 
 #. :src: bpy.types.DepsgraphObjectInstance.instance_object
 msgid "Evaluated object which is being instanced by this iterator"
-msgstr "計算已被此迭代例項化的物件"
+msgstr "計算已被此迭代例項化的物體"
 
 #. :src: bpy.types.DepsgraphObjectInstance.is_instance
 msgid "Is Instance"
@@ -31373,7 +31373,7 @@ msgstr "修改器效果開始的時間幀 (僅在限定了幀範圍時使用)"
 
 #. :src: bpy.types.FModifier.influence
 msgid "Amount of influence F-Curve Modifier will have when not fading in/out"
-msgstr "在函式曲線修改器淡入/淡出時的影響值"
+msgstr "函式曲線修改器不在淡入/淡出過渡期間時的影響量"
 
 #. :src: bpy.types.FModifier.is_valid
 #. :src: bpy.types.SpaceUVEditor.pixel_round_mode:'DISABLED'
@@ -32877,7 +32877,7 @@ msgstr "利用噪波場建立紊流"
 
 #. :src: bpy.types.FieldSettings.type:'VORTEX'
 msgid "Spiraling force that twists the force object's local Z axis"
-msgstr "給一個螺旋外力來扭曲場力的區域性 Z 軸"
+msgstr "給一個螺旋外力來扭曲力場物體的區域性 Z 軸"
 
 #. :src: bpy.types.FieldSettings.type:'WIND'
 msgid "Constant force along the force object's local Z axis"
@@ -35921,7 +35921,7 @@ msgstr "切片"
 #. :src: bpy.types.FluidDomainSettings.use_slice
 #. :src: bpy.types.VolumeDisplay.use_slice
 msgid "Perform a single slice of the domain object"
-msgstr "執行域物件的單個切片"
+msgstr "執行域物體的單個切片"
 
 #. :src: bpy.types.FluidDomainSettings.use_speed_vectors
 #: scripts/startup/bl_ui/properties_physics_fluid.py:856
@@ -37795,7 +37795,7 @@ msgstr "包含"
 
 #. :src: bpy.types.FreestyleLineSet.collection_negation:'INCLUSIVE'
 msgid "Select feature edges belonging to some object in the group"
-msgstr "選擇屬於組中某些物件的特徵邊"
+msgstr "選擇屬於組中某些物體的特徵邊"
 
 #. :src: bpy.types.FreestyleLineSet.collection_negation:'EXCLUSIVE'
 #. :src: bpy.types.FreestyleLineSet.edge_type_negation:'EXCLUSIVE'
@@ -37805,7 +37805,7 @@ msgstr "排除"
 
 #. :src: bpy.types.FreestyleLineSet.collection_negation:'EXCLUSIVE'
 msgid "Select feature edges not belonging to any object in the group"
-msgstr "選擇不屬於組中任何物件的特徵邊"
+msgstr "選擇不屬於組中任何物體的特徵邊"
 
 #. :src: bpy.types.FreestyleLineSet.edge_type_combination
 msgid "Edge Type Combination"
@@ -42733,7 +42733,7 @@ msgstr "筆刷半徑與即將用於取樣法向的半徑之間的比值"
 
 #. :src: bpy.types.Brush.normal_weight
 msgid "Normal Weight"
-msgstr "法線權重"
+msgstr "法向權重"
 
 #. :src: bpy.types.Brush.normal_weight
 msgid "How much grab will pull vertices out of surface during a grab"
@@ -44832,7 +44832,7 @@ msgstr "具有父集合特定設定的子集合"
 #. :src: bpy.types.Collection.collection_objects
 msgid ""
 "Objects of the collection with their parent-collection-specific settings"
-msgstr "集合的物件及其父集合特定的設定"
+msgstr "集合中的物體及其父集合的特定設定"
 
 #. :src: bpy.types.Collection.color_tag
 #. :src: bpy.types.Theme.collection_color
@@ -49194,7 +49194,7 @@ msgstr "用於模擬物體內部光相互作用的近似值"
 msgid ""
 "Approximate the object as a sphere whose diameter is equal to the thickness "
 "defined by the node tree"
-msgstr "將物件近似為球體，其直徑等於節點樹定義的厚度"
+msgstr "將物體近似為球體，其直徑等於節點樹定義的厚度"
 
 #. :src: bpy.types.Material.thickness_mode:'SLAB'
 msgid "Slab"
@@ -49204,7 +49204,7 @@ msgstr "厚板"
 msgid ""
 "Approximate the object as an infinite slab of thickness defined by the node "
 "tree"
-msgstr "將物件近似為由節點樹定義的厚度為無限大的厚板"
+msgstr "將物體近似為由節點樹定義的厚度為無限大的厚板"
 
 # rblc
 #. :src: bpy.types.Material.use_backface_culling
@@ -49446,7 +49446,7 @@ msgstr "迴圈三角面"
 #. :src: bpy.types.Mesh.loop_triangles
 #. :src: bpy.types.MeshLoopTriangles
 msgid "Tessellation of mesh polygons into triangles"
-msgstr "將網格多邊形面細分為三角面"
+msgstr "將網格多邊面剖分為三角面"
 
 #. :src: bpy.types.Mesh.loops
 #. :src: bpy.types.MeshLoopTriangle.loops
@@ -52232,7 +52232,7 @@ msgstr "自適配子幀閾值"
 msgid ""
 "The relative distance a particle can move before requiring more subframes "
 "(target Courant number); 0.01 to 0.3 is the recommended range"
-msgstr "粒子在需要更多副幀之前的相對運動距離 (目標庫朗數); 建議的值區間為 0.1-0.3"
+msgstr "粒子在需要更多副幀之前的相對運動距離 (目標庫朗數); 建議的值區間為 0.01-0.3"
 
 #. :src: bpy.types.ParticleSettings.create_long_hair_children
 msgid "Long Hair"
@@ -52920,7 +52920,7 @@ msgstr "端點的粗糙形狀"
 
 #. :src: bpy.types.ParticleSettings.roughness_endpoint
 msgid "Roughness Endpoint"
-msgstr "粗糙端點"
+msgstr "糙度端點"
 
 #. :src: bpy.types.ParticleSettings.roughness_endpoint
 msgid "Amount of endpoint roughness"
@@ -54931,7 +54931,7 @@ msgstr "沃羅諾伊圖 F1"
 #. :src: bpy.types.WoodTexture.noise_basis:'VORONOI_F1'
 msgid ""
 "Noise algorithm - Voronoi F1: Returns distance to the closest feature point"
-msgstr "噪波演算法 - 沃羅諾伊圖F1: 到最近特徵點的返回間隔"
+msgstr "噪波演算法 - 沃羅諾伊圖F1: 到最近特徵點的返回距離"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'VORONOI_F2'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'VORONOI_F2'
@@ -54953,7 +54953,7 @@ msgstr "沃羅諾伊圖 F2"
 msgid ""
 "Noise algorithm - Voronoi F2: Returns distance to the 2nd closest feature "
 "point"
-msgstr "噪波演算法 - 沃羅諾伊圖F2: 到第二近特徵點的返回間隔"
+msgstr "噪波演算法 - 沃羅諾伊圖F2: 到第二近特徵點的返回距離"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'VORONOI_F3'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'VORONOI_F3'
@@ -54975,7 +54975,7 @@ msgstr "沃羅諾伊圖 F3"
 msgid ""
 "Noise algorithm - Voronoi F3: Returns distance to the 3rd closest feature "
 "point"
-msgstr "噪波演算法 - 沃羅諾伊圖F3: 到第三近特徵點的返回間隔"
+msgstr "噪波演算法 - 沃羅諾伊圖F3: 到第三近特徵點的返回距離"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'VORONOI_F4'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'VORONOI_F4'
@@ -54997,7 +54997,7 @@ msgstr "沃羅諾伊圖 F4"
 msgid ""
 "Noise algorithm - Voronoi F4: Returns distance to the 4th closest feature "
 "point"
-msgstr "噪波演算法 - 沃羅諾伊圖F4: 到第四近特徵點的返回間隔"
+msgstr "噪波演算法 - 沃羅諾伊圖F4: 到第四近特徵點的返回距離"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'VORONOI_F2_F1'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'VORONOI_F2_F1'
@@ -55038,7 +55038,7 @@ msgstr "沃羅諾伊裂紋"
 #. :src: bpy.types.WoodTexture.noise_basis:'VORONOI_CRACKLE'
 msgid ""
 "Noise algorithm - Voronoi Crackle: Voronoi tessellation with sharp edges"
-msgstr "噪波演算法 - 沃羅諾伊裂紋: 具有銳利邊緣的沃羅諾伊細分"
+msgstr "噪波演算法 - 沃羅諾伊裂紋: 具有銳利邊緣的沃羅諾伊鑲嵌"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'CELL_NOISE'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'CELL_NOISE'
@@ -55058,7 +55058,7 @@ msgstr "細胞格噪波"
 #. :src: bpy.types.StucciTexture.noise_basis:'CELL_NOISE'
 #. :src: bpy.types.WoodTexture.noise_basis:'CELL_NOISE'
 msgid "Noise algorithm - Cell Noise: Square cell tessellation"
-msgstr "噪波演算法 - 細胞格噪波: 方形細胞格細分"
+msgstr "噪波演算法 - 細胞格噪波: 方形細胞格鑲嵌"
 
 #. :src: bpy.types.CloudsTexture.noise_depth
 #. :src: bpy.types.MagicTexture.noise_depth
@@ -63325,7 +63325,7 @@ msgstr "對齊"
 
 #. :src: bpy.types.MaterialGPencilStyle.alignment_mode
 msgid "Defines how align Dots and Boxes with drawing path and object rotation"
-msgstr "決定如何沿繪圖路徑和物件的旋轉對齊點和方塊"
+msgstr "決定如何沿繪圖路徑和物體的旋轉對齊點和方塊"
 
 #. :src: bpy.types.MaterialGPencilStyle.alignment_mode:'PATH'
 msgid "Follow stroke drawing path and object rotation"
@@ -74527,7 +74527,7 @@ msgstr "預設權重"
 
 #. :src: bpy.types.VertexWeightEditModifier.default_weight
 msgid "Default weight a vertex will have if it is not in the vgroup"
-msgstr "要新增到頂點組的頂點的預設權重"
+msgstr "頂點不在頂點組中時的預設權重"
 
 #. :src: bpy.types.VertexWeightEditModifier.falloff_type
 #. :src: bpy.types.VertexWeightProximityModifier.falloff_type
@@ -75926,7 +75926,7 @@ msgstr "圖塊拐角"
 msgid ""
 "Array of coordinates which represents pattern's corners in normalized "
 "coordinates relative to marker position"
-msgstr "相對於標記的規格化座標中的圖塊左下角"
+msgstr "相對於標記的規格化座標中的圖塊四角座標陣列"
 
 #. :src: bpy.types.MovieTrackingMarker.search_max
 msgid "Search Max"
@@ -103140,7 +103140,7 @@ msgstr "質心"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'CENTER_MASS'
 msgid "Export at Collection center of mass of root objects of the collection"
-msgstr "在集合根物件的集合質心處匯出"
+msgstr "在集合根物體的集合質心處匯出"
 
 #. :src:
 #. bpy.types.EXPORT_SCENE_OT_gltf.collection_center_mode:'OBJECT_POSITION'
@@ -103210,7 +103210,7 @@ msgstr "按物體分割動畫"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_anim_scene_split_object
 msgid "Export Scene as seen in Viewport, But split animation by Object"
-msgstr "匯出在視口中看到的場景，但按物件分割動畫"
+msgstr "匯出在視口中看到的場景，但按物體分割動畫"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_anim_single_armature
 msgid "Export all Armature Actions"
@@ -103260,7 +103260,7 @@ msgstr "廣播動作"
 msgid ""
 "Broadcast all compatible actions to all objects. Animated objects will get "
 "all actions compatible with them, others will get no animation at all"
-msgstr "將所有相容的動作廣播到所有物件。動畫物件將獲得與其相容的所有動作，其他物件將完全不獲得動畫"
+msgstr "將所有相容的動作廣播給所有物體。帶動畫的物體將收到所有與其相容的動作，其他物體則不會收到任何動畫"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_animation_mode:'NLA_TRACKS'
 msgid "Export individual NLA Tracks as separate animation"
@@ -136379,7 +136379,7 @@ msgstr "持續步進"
 
 #. :src: bpy.types.WM_OT_context_scale_int.always_step
 msgid "Always adjust the value by a minimum of 1 when 'value' is not 1.0"
-msgstr "當 '值' 不為 0 時, 始終用最小值 1 對值進行調節"
+msgstr "當 '值' 不為 1.0 時, 始終用最小值 1 對值進行調節"
 
 # rblc
 #. :src: bpy.types.WM_OT_context_set_boolean.value
@@ -149946,7 +149946,7 @@ msgstr "最大細分"
 msgid ""
 "Stop subdividing when this level is reached even if the dicing rate would "
 "produce finer tessellation"
-msgstr "達到此級別時停止細分，即使切分率會產生更精細的鑲嵌細分"
+msgstr "達到此級別時停止細分，即使切分率會產生更精細的鑲嵌剖分"
 
 #. :src: bpy.types.CyclesRenderSettings.min_light_bounces
 msgid "Min Light Bounces"
@@ -173825,15 +173825,15 @@ msgstr "版本 %r 不支援, 必須為 %r 或更新"
 
 #: scripts/addons_core/io_scene_fbx/import_fbx.py:3143
 msgid "No 'GlobalSettings' found in file %r"
-msgstr "在 %r 檔案中找不到 \"全域性設定\""
+msgstr "在 %r 檔案中找不到 \"GlobalSettings\""
 
 #: scripts/addons_core/io_scene_fbx/import_fbx.py:3210
 msgid "No 'Objects' found in file %r"
-msgstr "在 %r 檔案中找不到 \"物體\""
+msgstr "在 %r 檔案中找不到 \"Objects\""
 
 #: scripts/addons_core/io_scene_fbx/import_fbx.py:3213
 msgid "No 'Connections' found in file %r"
-msgstr "在 %r 檔案中找不到 \"連線\""
+msgstr "在 %r 檔案中找不到 \"Connections\""
 
 #: scripts/addons_core/io_scene_fbx/import_fbx.py:3104
 msgid "Couldn't open file %r (%s)"
@@ -185723,7 +185723,7 @@ msgstr "已儲存 \"%s\""
 
 #: source/blender/blenkernel/intern/asset_edit.cc:437
 msgid "Could not remove old asset file: %s"
-msgstr "無法移除舊資產名：%s"
+msgstr "無法移除舊資產檔案：%s"
 
 #: source/blender/blenkernel/intern/asset_edit.cc:453
 msgid "Asset '%s' was renamed to '%s'."
@@ -188091,7 +188091,7 @@ msgstr "無效的舊/新動作對 ('%s' / '%s')"
 
 #: source/blender/editors/animation/anim_ops.cc:1464
 msgid "Cannot replace Action with itself ('%s')"
-msgstr "無法將操作替換為它本身（'%s'）"
+msgstr "無法將動作替換為它本身（'%s'）"
 
 #: source/blender/editors/animation/anim_ops.cc:1795
 msgid "Multiple users of an action and not all were selected: %s"
@@ -209031,7 +209031,7 @@ msgid ""
 "Flat edges and Non-manifold edges have an angle of zero. Concave angles are "
 "positive and convex angles are negative. Computing this value is slower than"
 " the unsigned angle"
-msgstr "兩個面在邊的相交處的標記角度 (弧度)，平直邊和非流形邊的角度為零，凹角為正，凸角為負，計算這個值比無標記角度的計算速度慢"
+msgstr "兩個面在邊的相交處的有符號角度 (弧度)，平直邊和非流形邊的角度為零，凹角為正，凸角為負，計算這個值比無符號角度的計算速度慢"
 
 #: source/blender/nodes/geometry/nodes/node_geo_input_mesh_edge_angle.cc:55
 msgid "Unsigned Angle Field"
