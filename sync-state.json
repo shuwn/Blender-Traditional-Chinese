@@ -2,7 +2,7 @@
   "source": "https://projects.blender.org/blender/blender-ui-translations/src/branch/main/zh_HANS",
   "converter": "OpenCC s2twp",
   "files": {
-    "zh_HANS.po": "17368b341af3b8c3fba28c36adb61099b526ad703775909990698aa535fc5015"
+    "zh_HANS.po": "bcf71c1fd1901b111ad2e927de3fd5ac64e8d8091596ae286b0286599cf1569c"
   },
   "glossary_sha256": "7ff1b740c48f00c1d07543930491e08de45b2596ce8c73d55536bf85deb6e699"
 }

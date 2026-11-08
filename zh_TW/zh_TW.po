@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 10:58+0000\n"
-"PO-Revision-Date: 2026-11-07 17:02+0000\n"
+"PO-Revision-Date: 2026-11-08 11:43+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -13690,11 +13690,11 @@ msgstr "此集合經由此 blend 檔案庫重寫新增"
 #. :src: bpy.types.BoneCollection.is_solo
 #. :src: bpy.types.NlaTrack.is_solo
 msgid "Solo"
-msgstr "孤立"
+msgstr "單獨"
 
 #. :src: bpy.types.BoneCollection.is_solo
 msgid "Show only this bone collection, and others also marked as 'solo'"
-msgstr "只顯示當前骨骼集合，以及其他標記為 “孤立” 的骨骼集合"
+msgstr "只顯示當前骨骼集合，以及其他標記為 “單獨” 的骨骼集合"
 
 #. :src: bpy.types.BoneCollection.is_visible
 #. :src: bpy.types.BrushGpencilSettings.fill_layer_mode:'VISIBLE'
@@ -13732,7 +13732,7 @@ msgid ""
 "Whether this bone collection is effectively visible in the viewport. This is"
 " True when this bone collection and all of its ancestors are visible, or "
 "when it is marked as 'solo'."
-msgstr "此骨骼集合的作用在檢視中是否可見。當骨骼集合及其所有祖輩級可見、或被標記為 '孤立' 時，取值為真(Ture)。"
+msgstr "此骨骼集合的作用在檢視中是否可見。當骨骼集合及其所有祖輩級可見、或被標記為 '單獨' 時，取值為真(Ture)。"
 
 #. :src: bpy.types.BoneCollection.name
 msgid "Unique within the Armature"
@@ -13848,7 +13848,7 @@ msgstr "骨架的活動骨骼集合的名稱；當沒有活動集合時為空"
 
 #. :src: bpy.types.BoneCollections.is_solo_active
 msgid "Solo Active"
-msgstr "孤立活動項"
+msgstr "單獨啟用"
 
 #. :src: bpy.types.BoneCollections.is_solo_active
 msgid ""
@@ -22307,7 +22307,7 @@ msgstr "目標的變換是相對於其區域性座標系進行計算的"
 
 #. :src: bpy.types.Constraint.target_space:'LOCAL_OWNER_ORIENT'
 msgid "Local Space (Owner Orientation)"
-msgstr "區域性空間 (所有者方位)"
+msgstr "區域性空間 (主體方位)"
 
 #. :src: bpy.types.Constraint.target_space:'LOCAL_OWNER_ORIENT'
 msgid ""
@@ -22317,7 +22317,7 @@ msgid ""
 "produces the same global motion as the target if the parents are still in "
 "rest pose."
 msgstr ""
-"目標骨骼的變換是相對於其區域性座標系進行計算的，隨後會對目標和所有者靜置姿態方位的差異進行校正。當對所有者應用為區域性變換時，如果父級仍處於靜置狀態，則生成與目標相同的全域性運動。"
+"目標骨骼的變換是相對於其區域性座標系進行計算的，隨後會對目標和主體靜置姿態方位的差異進行校正。當對主體應用為區域性變換時，如果父級仍處於靜置狀態，則生成與目標相同的全域性運動。"
 
 #. :src: bpy.types.Constraint.type:'CAMERA_SOLVER'
 #. :src: bpy.types.POSE_OT_constraint_add.type:'CAMERA_SOLVER'
@@ -22911,7 +22911,7 @@ msgstr "使用動作通道替換原始變換"
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_FULL'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'BEFORE_FULL'
 msgid "Before Original (Full)"
-msgstr "初始前 (完整)"
+msgstr "初始之前 (完整)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_FULL'
 msgid ""
@@ -22923,7 +22923,7 @@ msgstr "在初始變換之前應用動作通道，就好像在完整繼承縮放
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE'
 msgid "Before Original (Aligned)"
-msgstr "初始前 (對齊)"
+msgstr "初始之前 (對齊)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE'
 msgid ""
@@ -22936,7 +22936,7 @@ msgstr "在初始變換之前應用動作通道，就好像應用於對齊繼承
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_SPLIT'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'BEFORE_SPLIT'
 msgid "Before Original (Split Channels)"
-msgstr "初始前 (拆分通道)"
+msgstr "初始之前 (拆分通道)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_SPLIT'
 msgid ""
@@ -22948,7 +22948,7 @@ msgstr "在初始變換前應用動作通道，分開處理位置、旋轉和縮
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_FULL'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'AFTER_FULL'
 msgid "After Original (Full)"
-msgstr "初始後 (完整)"
+msgstr "初始之後 (完整)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_FULL'
 msgid ""
@@ -22960,7 +22960,7 @@ msgstr "在初始變換後應用動作通道，就像應用於具有完整繼承
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER'
 msgid "After Original (Aligned)"
-msgstr "初始後 (對齊)"
+msgstr "初始之後 (對齊)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER'
 msgid ""
@@ -22973,7 +22973,7 @@ msgstr "在初始變換後應用動作通道，就好像應用於處於對齊繼
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_SPLIT'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'AFTER_SPLIT'
 msgid "After Original (Split Channels)"
-msgstr "初始後 (拆分通道)"
+msgstr "初始之後 (拆分通道)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_SPLIT'
 msgid ""
@@ -24088,7 +24088,7 @@ msgstr "一起新增尤拉分量值"
 #. :src: bpy.types.CopyRotationConstraint.mix_mode:'BEFORE'
 #. :src: bpy.types.TransformConstraint.mix_mode_rot:'BEFORE'
 msgid "Before Original"
-msgstr "初始前"
+msgstr "初始之前"
 
 #. :src: bpy.types.CopyRotationConstraint.mix_mode:'BEFORE'
 msgid ""
@@ -24099,7 +24099,7 @@ msgstr "在初始旋轉前應用複製旋轉，彷彿目標物體為原物體的
 #. :src: bpy.types.CopyRotationConstraint.mix_mode:'AFTER'
 #. :src: bpy.types.TransformConstraint.mix_mode_rot:'AFTER'
 msgid "After Original"
-msgstr "初始後"
+msgstr "初始之後"
 
 #. :src: bpy.types.CopyRotationConstraint.mix_mode:'AFTER'
 msgid ""
@@ -24167,7 +24167,7 @@ msgstr "使一致"
 msgid ""
 "Redistribute the copied change in volume equally between the three axes of "
 "the owner"
-msgstr "重新分配三個軸向上的體積變化"
+msgstr "將複製的體積變化在主體的三個軸上均勻重新分配"
 
 #. :src: bpy.types.CopyScaleConstraint.use_offset
 msgid "Combine original scale with copied scale"
@@ -24208,21 +24208,21 @@ msgid ""
 "Apply copied transformation before original, using simple matrix "
 "multiplication as if the constraint target is a parent in Full Inherit Scale"
 " mode. Will create shear when combining rotation and non-uniform scale."
-msgstr "在原始之前應用被複制變換，使用簡單的矩陣乘法，就好像約束目標為完全繼承縮放模式中的父級一樣。將旋轉和非均勻縮放組合時將建立切變。"
+msgstr "在初始變換之前應用被複制變換，使用簡單的矩陣乘法，就好像約束目標為完全繼承縮放模式中的父級一樣。將旋轉和非均勻縮放組合時將建立切變。"
 
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE'
 msgid ""
 "Apply copied transformation before original, as if the constraint target is "
 "a parent in Aligned Inherit Scale mode. This effectively uses Full for "
 "location and Split Channels for rotation and scale."
-msgstr "在原始之前應用被複制變換，就好像約束目標為對齊繼承縮放模式中的父級一樣。這有效地使用完整的位置以及旋轉和縮放的拆分通道。"
+msgstr "在初始變換之前應用被複制變換，就好像約束目標為對齊繼承縮放模式中的父級一樣。這有效地使用完整的位置以及旋轉和縮放的拆分通道。"
 
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_SPLIT'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'BEFORE_SPLIT'
 msgid ""
 "Apply copied transformation before original, handling location, rotation and"
 " scale separately, similar to a sequence of three Copy constraints"
-msgstr "在原始之前應用被複制變換，分開處理位置、旋轉和縮放，類似於三個複製約束的序列"
+msgstr "在初始變換之前應用被複制變換，分開處理位置、旋轉和縮放，類似於三個複製約束的序列"
 
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_FULL'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'AFTER_FULL'
@@ -24230,21 +24230,21 @@ msgid ""
 "Apply copied transformation after original, using simple matrix "
 "multiplication as if the constraint target is a child in Full Inherit Scale "
 "mode. Will create shear when combining rotation and non-uniform scale."
-msgstr "在原始後應用被複制變換，使用簡單的矩陣乘法，就好像約束目標為完全繼承縮放模式下的子級一樣。將旋轉和不均勻縮放組合時建立切變。"
+msgstr "在初始變換之後應用被複制變換，使用簡單的矩陣乘法，就好像約束目標為完全繼承縮放模式下的子級一樣。將旋轉和不均勻縮放組合時建立切變。"
 
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER'
 msgid ""
 "Apply copied transformation after original, as if the constraint target is a"
 " child in Aligned Inherit Scale mode. This effectively uses Full for "
 "location and Split Channels for rotation and scale."
-msgstr "在原始之後應用被複制變換，就好像約束目標為對齊繼承縮放模式中的子級一樣。這有效地使用完整的位置以及旋轉和縮放的拆分通道。"
+msgstr "在初始變換之後應用被複制變換，就好像約束目標為對齊繼承縮放模式中的子級一樣。這有效地使用完整的位置以及旋轉和縮放的拆分通道。"
 
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_SPLIT'
 #. :src: bpy.types.GeometryAttributeConstraint.mix_mode:'AFTER_SPLIT'
 msgid ""
 "Apply copied transformation after original, handling location, rotation and "
 "scale separately, similar to a sequence of three Copy constraints"
-msgstr "在原始之後應用被複制變換，分開處理位置、旋轉和縮放，類似於三個複製約束的序列"
+msgstr "在初始變換之後應用被複制變換，分開處理位置、旋轉和縮放，類似於三個複製約束的序列"
 
 #. :src: bpy.types.CopyTransformsConstraint.remove_target_shear
 msgid "Remove Target Shear"
@@ -35543,22 +35543,22 @@ msgstr "為每個次級粒子型別建立單獨的粒子系統"
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'SPRAY_FOAM'
 msgid "Spray + Foam"
-msgstr "噴霧 + 泡沫"
+msgstr "水花 + 泡沫"
 
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'SPRAY_FOAM'
 msgid "Spray and foam particles are saved in the same particle system"
-msgstr "噴霧和泡沫粒子儲存在相同的粒子系統中"
+msgstr "水花和泡沫粒子儲存在相同的粒子系統中"
 
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'SPRAY_BUBBLES'
 msgid "Spray + Bubbles"
-msgstr "噴霧 + 氣泡"
+msgstr "水花 + 氣泡"
 
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'SPRAY_BUBBLES'
 msgid "Spray and bubble particles are saved in the same particle system"
-msgstr "噴霧和氣泡粒子儲存在相同的粒子系統中"
+msgstr "水花和氣泡粒子儲存在相同的粒子系統中"
 
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'FOAM_BUBBLES'
@@ -35573,7 +35573,7 @@ msgstr "泡沫和氣泡粒子儲存在相同的粒子系統中"
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'SPRAY_FOAM_BUBBLES'
 msgid "Spray + Foam + Bubbles"
-msgstr "噴霧 + 泡沫 + 氣泡"
+msgstr "水花 + 泡沫 + 氣泡"
 
 #. :src:
 #. bpy.types.FluidDomainSettings.sndparticle_combined_export:'SPRAY_FOAM_BUBBLES'
@@ -35937,11 +35937,11 @@ msgstr "快取網格頂點的速度。在啟用運動模糊的情況下算繪時
 #. :src: bpy.types.FluidDomainSettings.use_spray_particles
 #: scripts/startup/bl_ui/properties_physics_fluid.py:946
 msgid "Spray"
-msgstr "噴霧"
+msgstr "水花"
 
 #. :src: bpy.types.FluidDomainSettings.use_spray_particles
 msgid "Create spray particle system"
-msgstr "建立噴霧粒子系統"
+msgstr "建立水花粒子系統"
 
 #. :src: bpy.types.FluidDomainSettings.use_tracer_particles
 msgid "Tracer"
@@ -51748,7 +51748,7 @@ msgstr "顯示物體名稱"
 
 #. :src: bpy.types.Object.show_only_shape_key
 msgid "Solo Active Shape Key"
-msgstr "單獨活動形態鍵"
+msgstr "單獨顯示活動形態鍵"
 
 #. :src: bpy.types.Object.show_only_shape_key
 msgid "Only show the active shape key at full value"
@@ -57633,11 +57633,11 @@ msgstr "鍵位對映"
 #. :src: bpy.types.CONSTRAINT_OT_stretchto_reset.owner
 #: scripts/startup/bl_ui/properties_constraint.py:81
 msgid "Owner"
-msgstr "擁有者"
+msgstr "主體"
 
 #. :src: bpy.types.KeyMap.bl_owner_id
 msgid "Internal owner"
-msgstr "內部所有者"
+msgstr "內部主體"
 
 #. :src: bpy.types.KeyMap.is_modal
 msgid "Modal Keymap"
@@ -64044,7 +64044,7 @@ msgstr "基本體"
 #. :src: bpy.types.VIEW3D_MT_view_regions
 #: scripts/startup/bl_ui/space_view3d.py:1576
 msgid "View Regions"
-msgstr "檢視框"
+msgstr "檢視區域"
 
 #. :src: bpy.types.Menu
 #. :src: bpy.types.VIEW3D_MT_edit_curves_select_more_less
@@ -88744,12 +88744,12 @@ msgstr "顯示全部"
 
 #. :src: bpy.types.ARMATURE_OT_collection_unsolo_all
 msgid "Clear the 'solo' setting on all bone collections"
-msgstr "清除所有骨骼集合的 '孤立' 設定"
+msgstr "清除所有骨骼集合的 '單獨' 設定"
 
 #. :src: bpy.types.ARMATURE_OT_collection_unsolo_all
 msgctxt "Operator"
 msgid "Un-solo All"
-msgstr "全部取消孤立"
+msgstr "全部取消單獨狀態"
 
 #. :src: bpy.types.ARMATURE_OT_copy_bone_color_to_selected
 msgid "Copy the bone color of the active bone to all selected bones"
@@ -99629,7 +99629,7 @@ msgstr "檢視縮小"
 #. :src: bpy.types.CLIP_OT_view_zoom_out
 #. :src: bpy.types.VIEW2D_OT_zoom_out
 msgid "Zoom out the view"
-msgstr "縮小當前檢視"
+msgstr "縮小檢視"
 
 #. :src: bpy.types.CLIP_OT_view_zoom_out.location
 #. :src: bpy.types.UV_OT_cursor_set.location
@@ -109093,11 +109093,11 @@ msgstr "新增一個新的算繪槽"
 #. :src: bpy.types.VIEW3D_OT_clear_render_border
 msgctxt "Operator"
 msgid "Clear Render Region"
-msgstr "清除算繪框"
+msgstr "清除算繪區域"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_border
 msgid "Clear the boundaries of the render region and disable render region"
-msgstr "清除算繪框並禁用框選算繪"
+msgstr "清除算繪區域並禁用算繪區域"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_slot
 msgctxt "Operator"
@@ -109702,11 +109702,11 @@ msgstr "刪除當前算繪槽"
 #. :src: bpy.types.IMAGE_OT_render_border
 msgctxt "Operator"
 msgid "Render Region"
-msgstr "區域算繪"
+msgstr "算繪區域"
 
 #. :src: bpy.types.IMAGE_OT_render_border
 msgid "Set the boundaries of the render region and enable render region"
-msgstr "開啟框選算繪並設定邊界框"
+msgstr "開啟算繪區域並設定算繪區域"
 
 #. :src: bpy.types.IMAGE_OT_replace
 msgctxt "Operator"
@@ -115470,7 +115470,7 @@ msgstr "隔離動作"
 msgid ""
 "Enable 'solo' on the NLA Track containing the active strip, to edit it "
 "without seeing the effects of the NLA stack"
-msgstr "在包含活動片段的NLA軌道上啟用 \"孤立模式\"，以編輯它而不看到NLA堆疊的效果"
+msgstr "在包含活動片段的NLA軌道上啟用 \"單獨\"，以編輯它而不看到NLA堆疊的效果"
 
 #. :src: bpy.types.NLA_OT_tweakmode_enter.use_upper_stack_evaluation
 msgid "Evaluate Upper Stack"
@@ -115493,7 +115493,7 @@ msgstr "退出以活動片段為參照的動作塊調整模式"
 msgid ""
 "Disable 'solo' on any of the NLA Tracks after exiting tweak mode to get "
 "things back to normal"
-msgstr "在退出調整模式後，禁用任何NLA軌道上的 \"solo\"，恢復一般介面"
+msgstr "在退出調整模式後，禁用任何NLA軌道上的 \"單獨\" 狀態，恢復一般介面"
 
 #. :src: bpy.types.NLA_OT_view_all
 msgid "Reset viewable area to show full strips range"
@@ -134781,11 +134781,11 @@ msgstr "清除算繪框並禁用區塊算繪"
 #. :src: bpy.types.VIEW3D_OT_clip_border
 msgctxt "Operator"
 msgid "Clipping Region"
-msgstr "裁剪框"
+msgstr "裁剪區域"
 
 #. :src: bpy.types.VIEW3D_OT_clip_border
 msgid "Set the view clipping region"
-msgstr "設定檢視的裁剪框"
+msgstr "設定檢視裁剪區域"
 
 #. :src: bpy.types.VIEW3D_OT_copybuffer
 #: scripts/startup/bl_ui/space_view3d.py:2977
@@ -134985,20 +134985,20 @@ msgstr "使用3D滑鼠來平移/旋轉檢視"
 #. :src: bpy.types.VIEW3D_OT_ndof_orbit
 msgctxt "Operator"
 msgid "NDOF Orbit View"
-msgstr "NDOF 軌跡檢視"
+msgstr "NDOF 環繞檢視"
 
 #. :src: bpy.types.VIEW3D_OT_ndof_orbit
 msgid "Orbit the view using the 3D mouse"
-msgstr "使用3D滑鼠軌跡球檢視檢視"
+msgstr "使用3D滑鼠環繞檢視"
 
 #. :src: bpy.types.VIEW3D_OT_ndof_orbit_zoom
 msgctxt "Operator"
 msgid "NDOF Orbit View with Zoom"
-msgstr "NDOF 軌跡檢視, 帶縮放"
+msgstr "NDOF 環繞檢視, 帶縮放"
 
 #. :src: bpy.types.VIEW3D_OT_ndof_orbit_zoom
 msgid "Orbit and zoom the view using the 3D mouse"
-msgstr "使用3D滑鼠來檢視/縮放檢視"
+msgstr "使用3D滑鼠來環繞/縮放檢視"
 
 #. :src: bpy.types.VIEW3D_OT_ndof_pan
 msgctxt "Operator"
@@ -135045,7 +135045,7 @@ msgstr "選擇被貼上物體"
 #. :src: bpy.types.VIEW3D_OT_render_border
 msgctxt "Operator"
 msgid "Set Render Region"
-msgstr "設定算繪框"
+msgstr "設定算繪區域"
 
 #. :src: bpy.types.VIEW3D_OT_render_border
 msgid "Set the boundaries of the border render and enable border render"
@@ -135428,52 +135428,52 @@ msgstr "將檢視鎖定至活動物體 / 骨骼"
 #. :src: bpy.types.VIEW3D_OT_view_orbit
 msgctxt "Operator"
 msgid "View Orbit"
-msgstr "轉動檢視"
+msgstr "檢視環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit
 msgid "Orbit the view"
-msgstr "滾動檢視"
+msgstr "環繞檢視"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type
 #. :src: bpy.types.Prefs.v3d_mmb_action:'ORBIT'
 msgid "Orbit"
-msgstr "滾動"
+msgstr "環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type
 msgid "Direction of View Orbit"
-msgstr "視軌的方向"
+msgstr "檢視環繞的方向"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITLEFT'
 msgid "Orbit Left"
-msgstr "視軌左滾"
+msgstr "向左環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITLEFT'
 msgid "Orbit the view around to the left"
-msgstr "將視軌向左滾動"
+msgstr "將檢視向左環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITRIGHT'
 msgid "Orbit Right"
-msgstr "視軌右滾"
+msgstr "向右環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITRIGHT'
 msgid "Orbit the view around to the right"
-msgstr "將視軌向右滾動"
+msgstr "將檢視向右環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITUP'
 msgid "Orbit Up"
-msgstr "視軌上滾"
+msgstr "向上環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITUP'
 msgid "Orbit the view up"
-msgstr "將視軌向上滾動"
+msgstr "將檢視向上環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITDOWN'
 msgid "Orbit Down"
-msgstr "視軌下滾"
+msgstr "向下環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_orbit.type:'ORBITDOWN'
 msgid "Orbit the view down"
-msgstr "將視軌向下滾動"
+msgstr "將檢視向下環繞"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan
 msgctxt "Operator"
@@ -135497,35 +135497,35 @@ msgstr "檢視平移的方向"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANLEFT'
 msgid "Pan Left"
-msgstr "左平移"
+msgstr "向左平移"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANLEFT'
 msgid "Pan the view to the left"
-msgstr "左平移檢視"
+msgstr "向左平移檢視"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANRIGHT'
 msgid "Pan Right"
-msgstr "右平移"
+msgstr "向右平移"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANRIGHT'
 msgid "Pan the view to the right"
-msgstr "右平移檢視"
+msgstr "向右平移檢視"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANUP'
 msgid "Pan Up"
-msgstr "上平移"
+msgstr "向上平移"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANUP'
 msgid "Pan the view up"
-msgstr "上平移檢視"
+msgstr "向上平移檢視"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANDOWN'
 msgid "Pan Down"
-msgstr "下平移"
+msgstr "向下平移"
 
 #. :src: bpy.types.VIEW3D_OT_view_pan.type:'PANDOWN'
 msgid "Pan the view down"
-msgstr "下平移檢視"
+msgstr "向下平移檢視"
 
 #. :src: bpy.types.VIEW3D_OT_view_persportho
 msgctxt "Operator"
@@ -135692,11 +135692,11 @@ msgstr "切換使用者握持取景器的手"
 #. :src: bpy.types.VIEW3D_OT_walk
 msgctxt "Operator"
 msgid "Walk Navigation"
-msgstr "行走漫遊"
+msgstr "步行漫遊"
 
 #. :src: bpy.types.VIEW3D_OT_walk
 msgid "Interactively walk around the scene"
-msgstr "在場景中進行行走漫遊"
+msgstr "在場景中進行步行漫遊"
 
 #. :src: bpy.types.VIEW3D_OT_zoom
 msgid "Zoom in/out in the view"
@@ -142106,16 +142106,16 @@ msgstr "偏好設定導航"
 
 #. :src: bpy.types.USERPREF_PT_navigation_fly_walk
 msgid "Fly & Walk"
-msgstr "飛行 & 行走"
+msgstr "飛行 & 步行"
 
 #. :src: bpy.types.USERPREF_PT_navigation_fly_walk_navigation
 #. :src: bpy.types.PreferencesInput.navigation_mode:'WALK'
 msgid "Walk"
-msgstr "行走"
+msgstr "步行"
 
 #. :src: bpy.types.USERPREF_PT_navigation_orbit
 msgid "Orbit & Pan"
-msgstr "旋轉 & 平移"
+msgstr "環繞 & 平移"
 
 #. :src: bpy.types.USERPREF_PT_ndof_settings
 msgid "3D Mouse Settings"
@@ -145530,7 +145530,7 @@ msgstr "系統鍵"
 
 #. :src: bpy.types.PreferencesInput.move_threshold
 msgid "Motion Threshold"
-msgstr "動作閾值"
+msgstr "運動閾值"
 
 #. :src: bpy.types.PreferencesInput.move_threshold
 msgid ""
@@ -145548,7 +145548,7 @@ msgstr "選擇用於檢視導航檢視的方法"
 
 #. :src: bpy.types.PreferencesInput.navigation_mode:'WALK'
 msgid "Interactively walk or free navigate around the scene"
-msgstr "互動行走或自由瀏覽場景"
+msgstr "互動步行或自由瀏覽場景"
 
 #. :src: bpy.types.PreferencesInput.navigation_mode:'FLY'
 #. :src: bpy.types.PreferencesInput.ndof_navigation_mode:'FLY'
@@ -145643,7 +145643,7 @@ msgid ""
 "the center of volume of the whole model is used as the rotation point. When "
 "you move closer, the orbit center will be set on an object close to your "
 "center of the view."
-msgstr "自動動態設定軌道中心。當整個模型在檢視中時，其體積中心被用作旋轉點。當您靠近時，軌道中心將設定在靠近檢視中心的物體上。"
+msgstr "自動動態設定環繞中心。當整個模型在檢視中時，其體積中心被用作旋轉點。當您靠近時，環繞中心將設定在靠近檢視中心的物體上。"
 
 #. :src: bpy.types.PreferencesInput.ndof_orbit_center_selected
 msgid "Selected Items"
@@ -145671,7 +145671,7 @@ msgstr "反轉 Z 軸"
 #. :src: bpy.types.PreferencesInput.view_rotate_sensitivity_trackball
 #. :src: bpy.types.PreferencesInput.view_rotate_sensitivity_turntable
 msgid "Orbit Sensitivity"
-msgstr "視軌靈敏度"
+msgstr "環繞靈敏度"
 
 #. :src: bpy.types.PreferencesInput.ndof_rotation_sensitivity
 msgid "Overall sensitivity of the 3D Mouse for rotation"
@@ -145691,7 +145691,7 @@ msgstr "反轉滾轉 (Z) 軸"
 
 #. :src: bpy.types.PreferencesInput.ndof_show_guide_orbit_axis
 msgid "Show Orbit Axis Guide"
-msgstr "顯示軌道軸引導"
+msgstr "顯示環繞軸引導"
 
 #. :src: bpy.types.PreferencesInput.ndof_show_guide_orbit_axis
 msgid "Display the center and axis during rotation"
@@ -145699,15 +145699,15 @@ msgstr "在旋轉過程中顯示中心和座標軸"
 
 #. :src: bpy.types.PreferencesInput.ndof_show_guide_orbit_center
 msgid "Show Orbit Center Guide"
-msgstr "顯示軌道中心引導"
+msgstr "顯示環繞中心引導"
 
 #. :src: bpy.types.PreferencesInput.ndof_show_guide_orbit_center
 msgid "Display the orbit center during rotation"
-msgstr "在旋轉過程中顯示軌道中心"
+msgstr "在旋轉過程中顯示環繞中心"
 
 #. :src: bpy.types.PreferencesInput.ndof_translation_sensitivity
 msgid "Pan Sensitivity"
-msgstr "平移敏感度"
+msgstr "平移靈敏度"
 
 #. :src: bpy.types.PreferencesInput.ndof_translation_sensitivity
 msgid "Overall sensitivity of the 3D Mouse for translation"
@@ -145903,13 +145903,13 @@ msgstr "在輸入變換數值時，預設啟用高階模式，進行數學表示
 
 #. :src: bpy.types.PreferencesInput.use_rotate_around_active
 msgid "Orbit Around Selection"
-msgstr "圍繞選擇物體旋轉"
+msgstr "圍繞選中項旋轉"
 
 #. :src: bpy.types.PreferencesInput.use_rotate_around_active
 msgid ""
 "Use the selection (or the last stroke center in Paint modes) as the pivot "
 "point for orbiting"
-msgstr "使用選中項（或繪製模式下的最後筆畫中心）作為環繞旋轉的軸心點"
+msgstr "使用選中項（或繪製模式下的最後筆畫中心）作為環繞的軸心點"
 
 #. :src: bpy.types.PreferencesInput.use_zoom_to_mouse
 msgid "Zoom to Mouse Position"
@@ -145923,11 +145923,11 @@ msgstr "在 3D 檢視中以滑鼠游標為縮放中心, 而不是 2D 視窗的�
 
 #. :src: bpy.types.PreferencesInput.view_rotate_method
 msgid "Orbit Method"
-msgstr "旋轉方法"
+msgstr "環繞方法"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_method
 msgid "Orbit method in the viewport"
-msgstr "檢視旋轉方法"
+msgstr "在檢視中環繞的方法"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_method:'TURNTABLE'
 msgid "Turntable"
@@ -145935,7 +145935,7 @@ msgstr "轉盤"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_method:'TURNTABLE'
 msgid "Turntable keeps the Z-axis upright while orbiting"
-msgstr "轉盤在軌道執行時保持 Z 軸直立"
+msgstr "轉盤在環繞時保持 Z 軸直立"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_method:'TRACKBALL'
 msgid "Trackball allows you to tumble your view at any angle"
@@ -145943,11 +145943,11 @@ msgstr "軌跡球可以讓您在任何角度翻滾視野"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_sensitivity_trackball
 msgid "Scale trackball orbit sensitivity"
-msgstr "縮放軌跡球軌道靈敏度"
+msgstr "縮放軌跡球環繞靈敏度"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_sensitivity_turntable
 msgid "Rotation amount per pixel to control how fast the viewport orbits"
-msgstr "每畫素的旋轉量，以控制檢視轉動的速度"
+msgstr "每畫素的旋轉量，以控制檢視環繞的速度"
 
 #. :src: bpy.types.PreferencesInput.view_zoom_axis
 msgid "Zoom Axis"
@@ -146000,7 +146000,7 @@ msgstr "類似縮放檢視的縮放效果，滑鼠移動基於畫面的中心"
 #. :src: bpy.types.PreferencesInput.walk_navigation
 #. :src: bpy.types.WalkNavigation
 msgid "Walk Navigation"
-msgstr "行走漫遊"
+msgstr "步行漫遊"
 
 #. :src: bpy.types.PreferencesInput.walk_navigation
 msgid "Settings for walk navigation mode"
@@ -148391,7 +148391,7 @@ msgstr "螢幕上的距離，具體表示直徑值"
 #. :src: bpy.types.Property.subtype:'UNSIGNED'
 msgctxt "Unit"
 msgid "Unsigned"
-msgstr "未指定"
+msgstr "無符號"
 
 #. :src: bpy.types.Property.subtype:'PERCENTAGE'
 #: scripts/startup/bl_operators/wm.py:1421
@@ -151790,12 +151790,12 @@ msgid ""
 "Add a constraint to copy Local Location with Offset. If the owner and target"
 " control rest orientations are different, the global movement direction will"
 " change accordingly"
-msgstr "新增約束以複製帶有偏移的 “區域性位置”，如果所有者和目標控制元件的靜止方向不同，則全域性移動方向將相應改變"
+msgstr "新增約束以複製帶有偏移的 “區域性位置”，如果主體和目標控制元件的靜止方向不同，則全域性移動方向將相應改變"
 
 #. :src:
 #. bpy.types.RigifyParameters.skin_glue_add_constraint:'COPY_LOCATION_OWNER'
 msgid "Copy Location (Local, Owner Orientation)"
-msgstr "複製位置 (區域性, 擁有者定向)"
+msgstr "複製位置 (區域性, 主體方向)"
 
 #. :src:
 #. bpy.types.RigifyParameters.skin_glue_add_constraint:'COPY_LOCATION_OWNER'
@@ -151803,7 +151803,7 @@ msgid ""
 "Add a constraint to copy Local Location (Owner Orientation) with Offset. "
 "Even if the owner and target controls have different rest orientations, the "
 "global movement direction would be the same"
-msgstr "新增一個約束來複制帶有偏移的區域性位置 (擁有者定向)，即使擁有者和目標控制元件的靜止方向不同，全域性運動方向也會相同"
+msgstr "新增一個約束來複制帶有偏移的區域性位置 (主體方向)，即使主體和目標控制元件的靜止方向不同，全域性運動方向也會相同"
 
 #. :src: bpy.types.RigifyParameters.skin_glue_add_constraint_influence
 msgid "Influence of the added constraint"
@@ -152710,7 +152710,7 @@ msgstr "算繪框X最大值"
 #. :src: bpy.types.RenderSettings.border_max_x
 #. :src: bpy.types.SpaceView3D.render_border_max_x
 msgid "Maximum X value for the render region"
-msgstr "為框選算繪設定 X 軸的最大值"
+msgstr "為算繪區域設定 X 軸的最大值"
 
 #. :src: bpy.types.RenderSettings.border_max_y
 #. :src: bpy.types.SpaceView3D.render_border_max_y
@@ -152720,7 +152720,7 @@ msgstr "算繪框Y最大值"
 #. :src: bpy.types.RenderSettings.border_max_y
 #. :src: bpy.types.SpaceView3D.render_border_max_y
 msgid "Maximum Y value for the render region"
-msgstr "為框選算繪設定 Y 軸的最大值"
+msgstr "為算繪區域設定 Y 軸的最大值"
 
 #. :src: bpy.types.RenderSettings.border_min_x
 #. :src: bpy.types.SpaceView3D.render_border_min_x
@@ -152730,7 +152730,7 @@ msgstr "算繪框X最小值"
 #. :src: bpy.types.RenderSettings.border_min_x
 #. :src: bpy.types.SpaceView3D.render_border_min_x
 msgid "Minimum X value for the render region"
-msgstr "為框選算繪設定 X 軸的最小值"
+msgstr "為算繪區域設定 X 軸的最小值"
 
 #. :src: bpy.types.RenderSettings.border_min_y
 #. :src: bpy.types.SpaceView3D.render_border_min_y
@@ -152740,7 +152740,7 @@ msgstr "算繪框Y最小值"
 #. :src: bpy.types.RenderSettings.border_min_y
 #. :src: bpy.types.SpaceView3D.render_border_min_y
 msgid "Minimum Y value for the render region"
-msgstr "為框選算繪設定 Y 軸的最小值"
+msgstr "為算繪區域設定 Y 軸的最小值"
 
 #. :src: bpy.types.RenderSettings.compositor_denoise_device
 msgid "Compositor Denoise Node Device"
@@ -153291,11 +153291,11 @@ msgstr "在算繪過程中，若影象檔案不存在或已過期，系統將自
 #. :src: bpy.types.SpaceNodeOverlay.show_render_size
 #: scripts/startup/bl_ui/space_node.py:1037
 msgid "Render Region"
-msgstr "區域算繪"
+msgstr "算繪區域"
 
 #. :src: bpy.types.RenderSettings.use_border
 msgid "Render a user-defined render region, within the frame size"
-msgstr "裁切算繪框至使用者定義的算繪框尺寸"
+msgstr "在畫面尺寸範圍內算繪使用者定義的區域"
 
 #. :src: bpy.types.RenderSettings.use_compositing
 msgid ""
@@ -153313,11 +153313,11 @@ msgstr "在各幀之間快取互動式合成器的結果"
 
 #. :src: bpy.types.RenderSettings.use_crop_to_border
 msgid "Crop to Render Region"
-msgstr "裁切至區域算繪框"
+msgstr "裁切至算繪區域"
 
 #. :src: bpy.types.RenderSettings.use_crop_to_border
 msgid "Crop the rendered frame to the defined render region size"
-msgstr "裁切算繪幀至定義的區域算繪框尺寸"
+msgstr "將算繪幀裁剪為定義的算繪區域大小"
 
 #. :src: bpy.types.RenderSettings.use_file_extension
 msgid ""
@@ -159123,22 +159123,22 @@ msgstr "3D 檢視疊加層的顯示設定"
 
 #. :src: bpy.types.SpaceView3D.region_3d
 msgid "3D Region"
-msgstr "3D 區域"
+msgstr "3D 區塊"
 
 #. :src: bpy.types.SpaceView3D.region_3d
 msgid ""
 "3D region for this space. When the space is in quad view, the camera region"
-msgstr "此空間的3D區域，當此空間為四分檢視時，攝像機區域"
+msgstr "此空間的3D區塊，當此空間為四格檢視時，攝像機區域"
 
 #. :src: bpy.types.SpaceView3D.region_quadviews
 msgid "Quad View Regions"
-msgstr "四分檢視區域"
+msgstr "四格檢視區塊"
 
 #. :src: bpy.types.SpaceView3D.region_quadviews
 msgid ""
 "3D regions (the third one defines quad view settings, the fourth one is same"
 " as 'region_3d')"
-msgstr "3D區域 (第三個定義了四檢視設定, 第四個與 \"region_3d\" 相同)"
+msgstr "3D 區塊 (第三個定義了四格檢視設定, 第四個與 \"region_3d\" 相同)"
 
 #. :src: bpy.types.SpaceView3D.shading
 #. :src: bpy.types.View3DShading
@@ -159507,7 +159507,7 @@ msgstr "在此視口中顯示一組不同的集合"
 msgid ""
 "Use a region within the frame size for rendered viewport (when not viewing "
 "through the camera)"
-msgstr "在框選尺寸內使用一個區域作為算繪視口 (當不透過攝像機觀看時)"
+msgstr "在算繪視口時使用畫面尺寸範圍內的某個區域 (當不透過攝像機觀看時)"
 
 #. :src: bpy.types.SpaceClipOverlay.show_cursor
 msgid "Display 2D cursor"
@@ -167749,7 +167749,7 @@ msgstr "體積取樣點之間的距離。較低的值能算繪出更多細節，
 
 #. :src: bpy.types.WalkNavigation
 msgid "Walk navigation settings"
-msgstr "行走漫遊設定"
+msgstr "步行漫遊設定"
 
 #. :src: bpy.types.WalkNavigation.jump_height
 #: source/blender/editors/space_view3d/view3d_navigate_walk.cc:1565
@@ -167762,7 +167762,7 @@ msgstr "最大跳躍高度"
 
 #. :src: bpy.types.WalkNavigation.mouse_speed
 msgid "Mouse Sensitivity"
-msgstr "滑鼠敏感度"
+msgstr "滑鼠靈敏度"
 
 #. :src: bpy.types.WalkNavigation.mouse_speed
 msgid ""
@@ -167779,7 +167779,7 @@ msgstr "檢視導覽模式中傳送時的時間間隔"
 
 #. :src: bpy.types.WalkNavigation.use_gravity
 msgid "Walk with gravity, or free navigate"
-msgstr "帶重力行走或自由瀏覽場景"
+msgstr "帶重力步行或自由瀏覽場景"
 
 #. :src: bpy.types.WalkNavigation.use_mouse_reverse
 msgid "Reverse Mouse"
@@ -167803,7 +167803,7 @@ msgstr "步行速度"
 
 #. :src: bpy.types.WalkNavigation.walk_speed
 msgid "Base speed for walking and flying"
-msgstr "行走或飛行的基本速度"
+msgstr "步行或飛行的基本速度"
 
 #. :src: bpy.types.WalkNavigation.walk_speed_factor
 msgid "Multiplication factor when using the fast or slow modifiers"
@@ -170831,7 +170831,7 @@ msgstr "居中軸心點關閉"
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY
 msgctxt "WindowManager"
 msgid "View3D Walk Modal"
-msgstr "3D 檢視行走模態"
+msgstr "3D 檢視步行模態"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY:'FORWARD'
 msgctxt "WindowManager"
@@ -175650,7 +175650,7 @@ msgstr "同步的骨骼顏色；對於 {:d} 個骨骼，由於姿態骨骼顏色
 
 #: scripts/startup/bl_operators/anim.py:507
 msgid "None of the bone collections is marked 'solo'"
-msgstr "沒有骨骼集合被標記為 '孤立'"
+msgstr "沒有骨骼集合被標記為 '單獨'"
 
 #: scripts/startup/bl_operators/anim.py:547
 #: scripts/startup/bl_operators/anim.py:570
@@ -178879,11 +178879,11 @@ msgstr "在障礙中刪除"
 
 #: scripts/startup/bl_ui/properties_physics_fluid.py:863
 msgid "Smoothing Positive"
-msgstr "正向平滑"
+msgstr "平滑正向"
 
 #: scripts/startup/bl_ui/properties_physics_fluid.py:867
 msgid "Concavity Upper"
-msgstr "上界凹度"
+msgstr "凹度上限"
 
 #: scripts/startup/bl_ui/properties_physics_fluid.py:868
 msgid "Lower"
@@ -182747,15 +182747,15 @@ msgstr "鎖定水平"
 #: scripts/startup/bl_ui/space_userpref.py:2199
 #: scripts/startup/bl_ui/space_userpref.py:2212
 msgid "Orbit Center"
-msgstr "軌道中心"
+msgstr "環繞中心"
 
 #: scripts/startup/bl_ui/space_userpref.py:2209
 msgid "Orbit Axis"
-msgstr "軌道軸"
+msgstr "環繞軸"
 
 #: scripts/startup/bl_ui/space_userpref.py:2229
 msgid "Invert Pan"
-msgstr "反轉平移"
+msgstr "反向平移"
 
 #: scripts/startup/bl_ui/space_userpref.py:2229
 msgid "Invert Pan Axis"
@@ -182918,7 +182918,7 @@ msgstr "攝像機"
 #: scripts/startup/bl_ui/space_view3d.py:1660
 msgctxt "Operator"
 msgid "Orbit Opposite"
-msgstr "相對視軌"
+msgstr "環繞至對面"
 
 #: scripts/startup/bl_ui/space_view3d.py:1668
 msgctxt "Operator"
@@ -182943,12 +182943,12 @@ msgstr "活動攝像機對齊選中的物體"
 #: scripts/startup/bl_ui/space_view3d.py:1753
 msgctxt "Operator"
 msgid "Clipping Region..."
-msgstr "裁剪框..."
+msgstr "裁剪區域..."
 
 #: scripts/startup/bl_ui/space_view3d.py:1754
 msgctxt "Operator"
 msgid "Render Region..."
-msgstr "算繪框..."
+msgstr "算繪區域..."
 
 #: scripts/startup/bl_ui/space_view3d.py:1778
 #: scripts/startup/bl_ui/space_view3d.py:1837
@@ -188449,7 +188449,7 @@ msgstr "未指定搜尋詞"
 msgid ""
 "Bone not added to a collection and hidden because solo bone collection(s) "
 "exist."
-msgstr "由於存在孤立的骨骼集合，該骨骼未被新增至集合中且被隱藏。"
+msgstr "由於存在單獨顯示的骨骼集合，該骨骼未被新增至集合中且被隱藏。"
 
 #: source/blender/editors/armature/armature_add.cc:1959
 msgid "Bone was added to a hidden collection '%s'"
@@ -204347,7 +204347,7 @@ msgstr "不使用洋麵修改器進行構建"
 #: source/blender/modifiers/intern/MOD_ocean.cc:570
 msgctxt "Mesh"
 msgid "Spray"
-msgstr "噴霧"
+msgstr "浪花"
 
 #: source/blender/modifiers/intern/MOD_ocean.cc:290
 msgid "Failed to allocate memory"
