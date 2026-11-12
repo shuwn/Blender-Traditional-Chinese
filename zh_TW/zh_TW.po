@@ -33,8 +33,8 @@ msgstr ""
 "Project-Id-Version: Blender 5.3.0 Release Candidate (b'f78a5e153839')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 09:34+0000\n"
-"PO-Revision-Date: 2026-11-10 12:37+0000\n"
-"Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
+"PO-Revision-Date: 2026-11-11 14:21+0000\n"
+"Last-Translator: YimingWu <xp8110@outlook.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -18394,7 +18394,7 @@ msgstr "集合物體的燈光連結設定"
 #: source/blender/nodes/geometry/nodes/node_geo_mesh_topology_corners_of_vertex.cc:22
 #: source/blender/nodes/geometry/nodes/node_geo_mesh_topology_edges_of_vertex.cc:25
 msgid "Sort Index"
-msgstr "編號排序"
+msgstr "排序索引"
 
 #. :src: bpy.types.CollectionChild.sort_index
 msgid "Custom sort index of the collection in the parent collection"
