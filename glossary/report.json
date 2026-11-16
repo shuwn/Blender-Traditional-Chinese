@@ -60,7 +60,7 @@
       "target": "影格率",
       "status": "active",
       "note": "統一動畫與影片的影格率用詞。",
-      "occurrences": 21,
+      "occurrences": 19,
       "samples": [
         {
           "file": "zh_HANS.po",
