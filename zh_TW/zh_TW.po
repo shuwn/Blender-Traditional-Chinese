@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-16 14:27+0000\n"
+"PO-Revision-Date: 2026-11-17 05:21+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -11201,7 +11201,6 @@ msgid "File path or URI of the OpenColorIO configuration currently in use"
 msgstr "當前正在使用的 OpenColorIO 配置的檔案路徑或 URI"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source
-#, fuzzy
 msgctxt "Preferences"
 msgid "OpenColorIO Configuration Source"
 msgstr "OpenColorIO 配置源"
@@ -11211,7 +11210,6 @@ msgid "Where the OpenColorIO configuration came from"
 msgstr "OpenColorIO 的配置來自哪裡"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'BLENDER_OCIO'
-#, fuzzy
 msgctxt "Preferences"
 msgid "BLENDER_OCIO environment variable"
 msgstr "BLENDER_OCIO 環境變數"
@@ -11221,7 +11219,6 @@ msgid "The BLENDER_OCIO environment variable"
 msgstr "BLENDER_OCIO 環境變數"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'OCIO'
-#, fuzzy
 msgctxt "Preferences"
 msgid "OCIO environment variable"
 msgstr "OCIO 環境變數"
@@ -11244,7 +11241,6 @@ msgid "The OpenColorIO configuration bundled with Blender"
 msgstr "Blender 隨附的 OpenColorIO 配置"
 
 #. :src: bpy.types.BlendFileColorspace.ocio_config_source:'FALLBACK'
-#, fuzzy
 msgctxt "Preferences"
 msgid "Fallback"
 msgstr "回退"
@@ -15969,7 +15965,6 @@ msgid "Factor used to mix vertex color to get final color"
 msgstr "用於混合頂點顏色以獲得最終顏色的係數"
 
 #. :src: bpy.types.BrushGpencilSettings.vertex_mode
-#, fuzzy
 msgctxt "GPencil"
 msgid "Mode Type"
 msgstr "模式型別"
@@ -33006,13 +33001,12 @@ msgid ""
 msgstr "用來擴充套件操作項管理檔案的功能，比如增加檔案拖放支援"
 
 #. :src: bpy.types.FileHandler.bl_collection_import_enabled
-#, fuzzy
 msgid "Collection Import Enabled"
-msgstr "集合匯入處理程式"
+msgstr "啟用集合匯入"
 
 #. :src: bpy.types.FileHandler.bl_collection_import_enabled
 msgid "Can the file handler be used for collection import"
-msgstr ""
+msgstr "檔案控制代碼是否可用於集合匯入"
 
 #. :src: bpy.types.FileHandler.bl_export_operator
 #. :src: bpy.types.FileHandler.bl_import_operator
@@ -49716,13 +49710,12 @@ msgstr "用於繪畫的頂點選擇遮罩"
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1187
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1272
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1353
-#, fuzzy
 msgid "Radial Symmetry"
-msgstr "徑向對稱數"
+msgstr "徑向對稱"
 
 #. :src: bpy.types.Mesh.use_radial_symmetry
 msgid "Mirror brush strokes radially around a central axis."
-msgstr ""
+msgstr "圍繞中軸線徑向映象筆刷筆畫。"
 
 #. :src: bpy.types.Mesh.use_remesh_fix_poles
 msgid "Fix Poles"
@@ -56394,13 +56387,13 @@ msgstr "根據當前場景片段設定活動場景和時間"
 
 #. :src: bpy.types.WorkSpace.use_strip_scene_range_for_playback
 msgid "Limit Playback Range to Scene Strip under playhead"
-msgstr ""
+msgstr "限制播放範圍至播放頭下的場景片段"
 
 #. :src: bpy.types.WorkSpace.use_strip_scene_range_for_playback
 msgid ""
 "In the active workspace, limit playback of a scene used as a strip in the "
 "sequencer scene to the frame range of the strip under the playhead"
-msgstr ""
+msgstr "在活動工作區內，將序列編輯器場景片段所用場景的播放範圍，限制為播放頭下片段的幀範圍"
 
 #. :src: bpy.types.World
 msgid ""
@@ -59893,7 +59886,7 @@ msgstr "左控制柄"
 
 #. :src: bpy.types.Keyframe.handle_left
 msgid "Coordinates of the left handle (before the control point)"
-msgstr "左控制柄的座標軸 (在控制點之前)"
+msgstr "左控制柄的座標 (在控制點之前)"
 
 #. :src: bpy.types.Keyframe.handle_left_type
 #: source/blender/editors/space_graph/graph_buttons.cc:476
@@ -59959,7 +59952,7 @@ msgstr "右控制柄"
 
 #. :src: bpy.types.Keyframe.handle_right
 msgid "Coordinates of the right handle (after the control point)"
-msgstr "右控制柄的座標軸 (在控制點之後)"
+msgstr "右控制柄的座標 (在控制點之後)"
 
 #. :src: bpy.types.Keyframe.handle_right_type
 #: source/blender/editors/space_graph/graph_buttons.cc:531
@@ -63438,16 +63431,14 @@ msgid "Color for filling region bounded by each stroke"
 msgstr "由各筆畫包圍的填充區域的顏色"
 
 #. :src: bpy.types.MaterialGPencilStyle.fill_image_user
-#, fuzzy
 msgid "Fill Image User"
-msgstr "影象使用者"
+msgstr "填充影象使用者"
 
 #. :src: bpy.types.MaterialGPencilStyle.fill_image_user
-#, fuzzy
 msgid ""
 "Parameters defining which layer, pass and frame of the fill image is "
 "displayed"
-msgstr "用於定義顯示影象的哪個層, 通道和幀的引數"
+msgstr "用於定義顯示填充影象的哪個層，通道和幀的引數"
 
 #. :src: bpy.types.MaterialGPencilStyle.fill_style
 msgctxt "GPencil"
@@ -63675,7 +63666,7 @@ msgstr "縮放噪波頻率"
 
 #. :src: bpy.types.MaterialGPencilStyle.random_noise_seed
 msgid "Seed for the random pattern"
-msgstr ""
+msgstr "隨機圖案的種子"
 
 #. :src: bpy.types.MaterialGPencilStyle.random_rotation_factor
 msgid "Randomize texture rotation"
@@ -63711,14 +63702,13 @@ msgstr "顯示此材質的筆畫線"
 
 #. :src: bpy.types.MaterialGPencilStyle.stroke_image_user
 msgid "Stroke Image User"
-msgstr ""
+msgstr "筆畫影象使用者"
 
 #. :src: bpy.types.MaterialGPencilStyle.stroke_image_user
-#, fuzzy
 msgid ""
 "Parameters defining which layer, pass and frame of the stroke image is "
 "displayed"
-msgstr "用於定義顯示影象的哪個層, 通道和幀的引數"
+msgstr "用於定義顯示筆畫影象的哪個層，通道和幀的引數"
 
 #. :src: bpy.types.MaterialGPencilStyle.stroke_style
 msgctxt "GPencil"
@@ -66382,7 +66372,6 @@ msgstr "尺寸 Z"
 
 #. :src: bpy.types.MetaElement.stiffness
 #. :src: bpy.types.MBALL_OT_select_similar.type:'STIFFNESS'
-#, fuzzy
 msgctxt "Metaball"
 msgid "Stiffness"
 msgstr "硬度"
@@ -80665,13 +80654,13 @@ msgstr "基於物體原始與被解算表面網格之間的變化，平移和旋
 
 #. :src: bpy.types.GeometryNodeDelaunayTriangulation
 msgid "Delaunay Triangulation"
-msgstr ""
+msgstr "德洛內三角剖分"
 
 #. :src: bpy.types.GeometryNodeDelaunayTriangulation
 msgid ""
 "Generate a triangulated mesh from a set of points in the X-Y plane. Uses "
 "edges and faces as triangulation constraints"
-msgstr ""
+msgstr "從 X-Y 平面上的一組點生成三角化網格，使用邊和麵作為三角剖分約束"
 
 #. :src: bpy.types.GeometryNodeDeleteGeometry
 #. :src: bpy.types.SCULPT_OT_face_set_edit.mode:'DELETE_GEOMETRY'
@@ -80978,7 +80967,7 @@ msgstr "For Each 遍歷幾何元素輸入"
 
 #. :src: bpy.types.GeometryNodeForeachGeometryElementInput
 msgid "Input data for the for each geometry element zone"
-msgstr ""
+msgstr "用於 For Each 遍歷幾何元素區的輸入資料"
 
 #. :src: bpy.types.GeometryNodeForeachGeometryElementInput.paired_output
 #. :src: bpy.types.GeometryNodeRepeatInput.paired_output
@@ -81000,7 +80989,7 @@ msgstr "For Each 遍歷幾何元素輸出"
 
 #. :src: bpy.types.GeometryNodeForeachGeometryElementOutput
 msgid "Output data from the for each geometry element zone"
-msgstr ""
+msgstr "For Each 遍歷幾何元素區的輸出資料"
 
 #. :src: bpy.types.GeometryNodeForeachGeometryElementOutput.active_main_index
 msgid "Active Main Item Index"
@@ -81217,13 +81206,12 @@ msgid "Retrieve information about the grouping of Grease Pencil fills"
 msgstr "檢索有關蠟筆填充分組的資訊"
 
 #. :src: bpy.types.GeometryNodeGreasePencilMaterialInfo
-#, fuzzy
 msgid "Grease Pencil Material Info"
-msgstr "蠟筆材質槽"
+msgstr "蠟筆材質資訊"
 
 #. :src: bpy.types.GeometryNodeGreasePencilMaterialInfo
 msgid "Retrieve information from a Grease Pencil material"
-msgstr ""
+msgstr "檢索蠟筆材質的資訊"
 
 #. :src: bpy.types.GeometryNodeGreasePencilOpacity
 #. :src: bpy.types.CURVE_OT_extrude.mode:'GPENCIL_OPACITY'
@@ -82400,18 +82388,16 @@ msgid "Repeat Input"
 msgstr "重複輸入"
 
 #. :src: bpy.types.GeometryNodeRepeatInput
-#, fuzzy
 msgid "Input data for the repeat zone"
-msgstr "用於模擬區的輸入資料"
+msgstr "用於重複區的輸入資料"
 
 #. :src: bpy.types.GeometryNodeRepeatOutput
 msgid "Repeat Output"
 msgstr "重複輸出"
 
 #. :src: bpy.types.GeometryNodeRepeatOutput
-#, fuzzy
 msgid "Output data from the repeat zone"
-msgstr "模擬區的輸出資料"
+msgstr "重複區的輸出資料"
 
 #. :src: bpy.types.GeometryNodeReplaceMaterial
 msgid "Replace Material"
@@ -83542,18 +83528,16 @@ msgid "Closure Input"
 msgstr "閉包輸入"
 
 #. :src: bpy.types.NodeClosureInput
-#, fuzzy
 msgid "Input data for the closure zone"
-msgstr "用於模擬區的輸入資料"
+msgstr "用於閉包區的輸入資料"
 
 #. :src: bpy.types.NodeClosureOutput
 msgid "Closure Output"
 msgstr "閉包輸出"
 
 #. :src: bpy.types.NodeClosureOutput
-#, fuzzy
 msgid "Output data from the closure zone"
-msgstr "模擬區的輸出資料"
+msgstr "閉包區的輸出資料"
 
 #. :src: bpy.types.NodeClosureOutput.define_signature
 #. :src: bpy.types.NodeCombineBundle.define_signature
@@ -87310,15 +87294,13 @@ msgid "RGBA color socket of a node"
 msgstr "節點的 RGBA 顏色介面"
 
 #. :src: bpy.types.NodeSocketDynamic
-#, fuzzy
 msgid "Dynamic Node Socket"
-msgstr "矩陣節點介面"
+msgstr "動態節點介面"
 
 #. :src: bpy.types.NodeSocketDynamic
 #. :src: bpy.types.NodeTreeInterfaceSocketDynamic
-#, fuzzy
 msgid "Dynamic socket of a node"
-msgstr "節點的選單介面"
+msgstr "節點的動態介面"
 
 #. :src: bpy.types.NodeSocketFloat
 #. :src: bpy.types.NodeSocketFloatAngle
@@ -88068,9 +88050,8 @@ msgid "Color Node Socket Interface"
 msgstr "顏色節點介面介面"
 
 #. :src: bpy.types.NodeTreeInterfaceSocketDynamic
-#, fuzzy
 msgid "Dynamic Node Socket Interface"
-msgstr "矩陣節點介面介面"
+msgstr "動態節點介面介面"
 
 #. :src: bpy.types.NodeTreeInterfaceSocketFloat
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatAngle
@@ -95908,25 +95889,24 @@ msgstr "切換所有骨骼的選擇狀態"
 
 #. :src: bpy.types.ARMATURE_OT_select_deform
 #. :src: bpy.types.POSE_OT_select_deform
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Deform Bones"
-msgstr "選擇姿態骨骼"
+msgstr "選擇形變骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_select_deform
 #. :src: bpy.types.POSE_OT_select_deform
 msgid "Select bones the have the deform option enabled (or disabled)"
-msgstr ""
+msgstr "選擇啟用（或禁用）形變選項的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_select_deform.deform:'NO_DEFORM'
 #. :src: bpy.types.POSE_OT_select_deform.mode:'NO_DEFORM'
 msgid "Select bones that have the 'deform' option disabled"
-msgstr ""
+msgstr "選擇禁用 '形變' 選項的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_select_deform.deform:'DEFORM'
 #. :src: bpy.types.POSE_OT_select_deform.mode:'DEFORM'
 msgid "Select bones that have the 'deform' option enabled"
-msgstr ""
+msgstr "選擇啟用 '形變' 選項的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_select_hierarchy
 #. :src: bpy.types.POSE_OT_select_hierarchy
@@ -108665,14 +108645,12 @@ msgid "Select Linked Pick"
 msgstr "選擇相連的拾取項"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_select_linked_pick
-#, fuzzy
 msgid "Select all points in the stroke under the cursor"
-msgstr "選擇游標下方曲線的所有點"
+msgstr "選擇游標下筆畫中的所有點"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_select_linked_pick.deselect
-#, fuzzy
 msgid "Deselect stroke points rather than selecting them"
-msgstr "棄選相連的控制點, 而不是將其選中"
+msgstr "棄選筆畫點，而不是選中它們"
 
 #. :src: bpy.types.GREASE_PENCIL_OT_select_random
 msgid "Selects random points from the current strokes selection"
@@ -111336,19 +111314,16 @@ msgstr "根據屬性型別選擇相似的融球"
 
 #. :src: bpy.types.MBALL_OT_select_similar.type
 #. :src: bpy.types.MBALL_OT_select_similar.type:'TYPE'
-#, fuzzy
 msgctxt "Metaball"
 msgid "Type"
 msgstr "型別"
 
 #. :src: bpy.types.MBALL_OT_select_similar.type:'RADIUS'
-#, fuzzy
 msgctxt "Metaball"
 msgid "Radius"
 msgstr "半徑"
 
 #. :src: bpy.types.MBALL_OT_select_similar.type:'ROTATION'
-#, fuzzy
 msgctxt "Metaball"
 msgid "Rotation"
 msgstr "旋轉"
@@ -114177,16 +114152,15 @@ msgstr "將點或邊線從所連線的幾何體上斷開"
 
 #. :src: bpy.types.MESH_OT_rip.ray_dir
 msgid "Ray direction in 3D space at invoke time"
-msgstr ""
+msgstr "呼叫時 3D 空間中的光線方向"
 
 #. :src: bpy.types.MESH_OT_rip.ray_start
-#, fuzzy
 msgid "Ray Origin"
-msgstr "原點"
+msgstr "光線原點"
 
 #. :src: bpy.types.MESH_OT_rip.ray_start
 msgid "Ray start position in 3D space at invoke time"
-msgstr ""
+msgstr "呼叫時 3D 空間中的光線起點位置"
 
 #. :src: bpy.types.MESH_OT_rip.use_fill
 #: source/blender/modifiers/intern/MOD_solidify.cc:100
@@ -125089,15 +125063,13 @@ msgid "Reset scaling of selected bones to their default values"
 msgstr "重置所選骨骼的縮放為預設值"
 
 #. :src: bpy.types.POSE_OT_select_constrained_by_selection
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Constraint Owners"
-msgstr "選擇約束目標"
+msgstr "選擇約束主體"
 
 #. :src: bpy.types.POSE_OT_select_constrained_by_selection
-#, fuzzy
 msgid "Select owners of constraints that target the currently selected bones"
-msgstr "選擇當前所選骨骼的父級"
+msgstr "選擇以當前所選骨骼為目標的約束的主體"
 
 #. :src: bpy.types.POSE_OT_select_constraint_target
 msgctxt "Operator"
@@ -125105,9 +125077,8 @@ msgid "Select Constraint Target"
 msgstr "選擇約束目標"
 
 #. :src: bpy.types.POSE_OT_select_constraint_target
-#, fuzzy
 msgid "Select bones used as targets by the currently selected bones"
-msgstr "選擇要作為當前所選骨骼目標的骨骼"
+msgstr "選擇被當前所選骨骼用作目標的骨骼"
 
 #. :src: bpy.types.POSE_OT_select_grouped
 msgid "Select all visible bones grouped by similar properties"
@@ -125174,30 +125145,33 @@ msgid "Select bones that are parents of the currently selected bones"
 msgstr "選擇當前所選骨骼的父級"
 
 #. :src: bpy.types.POSE_OT_select_scaled
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Scaled Bones"
-msgstr "選擇姿態骨骼"
+msgstr "選擇已縮放的骨骼"
 
 #. :src: bpy.types.POSE_OT_select_scaled
 msgid "Select bones that have non-uniform or non-unit scale"
-msgstr ""
+msgstr "選擇具有非均勻或非單位縮放的骨骼"
 
 #. :src: bpy.types.POSE_OT_select_scaled.scale:'NON_UNIFORM'
 msgid ""
 "Select bones that have non-uniform scale on their final matrix.\n"
 "(Includes scale from parenting, constraints, and drivers)"
 msgstr ""
+"選擇最終矩陣中存在非均勻縮放的骨骼。\n"
+"（包含來自父級、約束和驅動器的縮放）"
 
 #. :src: bpy.types.POSE_OT_select_scaled.scale:'NON_UNIT'
 msgid "Non-Unit"
-msgstr ""
+msgstr "非單位"
 
 #. :src: bpy.types.POSE_OT_select_scaled.scale:'NON_UNIT'
 msgid ""
 "Select bones that have non-unit scale on their final matrix.\n"
 "(Includes scale from parenting, constraints, and drivers)"
 msgstr ""
+"選擇最終矩陣中存在非單位縮放的骨骼。\n"
+"（包含來自父級、約束和驅動器的縮放）"
 
 #. :src: bpy.types.POSE_OT_selection_set_add
 msgid "Create a new empty Selection Set"
@@ -136385,14 +136359,13 @@ msgstr "為追加專案設定偽使用者 (物體和集合除外)"
 
 #. :src: bpy.types.WM_OT_append.use_recursive
 msgid "Make Linked Local"
-msgstr ""
+msgstr "使關聯資料本地化"
 
 #. :src: bpy.types.WM_OT_append.use_recursive
-#, fuzzy
 msgid ""
 "Localize all appended data, including those indirectly linked from other "
 "libraries, but excluding the packed linked data"
-msgstr "本地化全部追加資料, 包含那些間接關聯自其它庫的"
+msgstr "本地化所有追加資料，包括從其他庫間接關聯的資料，但不包括已打包的關聯資料"
 
 #. :src: bpy.types.WM_OT_batch_rename.data_type
 msgid "Type of data to rename"
@@ -139802,19 +139775,17 @@ msgid "Reorder workspace to be first in the list"
 msgstr "工作區重排序至列表首位"
 
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_left_right
-#, fuzzy
 msgctxt "Operator"
 msgid "Workspace Reorder"
-msgstr "工作區向後重排序"
+msgstr "工作區重排序"
 
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_left_right
-#, fuzzy
 msgid "Reorder workspace to be left or right in the list"
-msgstr "工作區重排序至列表首位"
+msgstr "在列表中將工作區重排序到左側或右側"
 
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_left_right.direction
 msgid "Move the workspace towards left or right"
-msgstr ""
+msgstr "向左或向右移動工作區"
 
 #. :src: bpy.types.WORKSPACE_OT_scene_pin_toggle
 msgctxt "Operator"
@@ -144942,7 +144913,7 @@ msgstr "連線曲度"
 
 #. :src: bpy.types.PreferencesEdit.noodle_curving
 msgid "How sharply or smoothly noodle wires curve"
-msgstr ""
+msgstr "連線彎曲的銳利或平滑程度"
 
 #. :src: bpy.types.PreferencesEdit.object_align
 msgid "Align Object To"
@@ -147340,9 +147311,8 @@ msgid "Azerbaijani - Azərbaycan dili"
 msgstr "亞塞拜然語 - Azərbaycan dili"
 
 #. :src: bpy.types.PreferencesView.language:'az'
-#, fuzzy
 msgid "Locale code: az. Translation progress: 100%"
-msgstr "區域程式碼: es. 翻譯進度: 100%"
+msgstr "區域程式碼: az. 翻譯進度: 100%"
 
 #. :src: bpy.types.PreferencesView.language:'eu_EU'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147487,9 +147457,8 @@ msgid "Georgian - ქართული"
 msgstr "喬治亞語 - ქართული"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
-#, fuzzy
 msgid "Locale code: ka. Translation progress: 99%"
-msgstr "區域程式碼: ka. 翻譯進度: 98%"
+msgstr "區域程式碼: ka. 翻譯進度: 99%"
 
 #. :src: bpy.types.PreferencesView.language:'de_DE'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147643,9 +147612,8 @@ msgid "Portuguese (Portugal) - Português europeu"
 msgstr "葡萄牙語 (葡萄牙) - Português europeu"
 
 #. :src: bpy.types.PreferencesView.language:'pt_PT'
-#, fuzzy
 msgid "Locale code: pt_PT. Translation progress: 83%"
-msgstr "區域程式碼: pt_PT. 翻譯進度: 82%"
+msgstr "區域程式碼: pt_PT. 翻譯進度: 83%"
 
 #. :src: bpy.types.PreferencesView.language:'ro_RO'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -153177,35 +153145,35 @@ msgstr "全精度"
 
 #. :src: bpy.types.RenderSettings.compositor_proxy_adapt_to_render_scale
 msgid "Compositor Proxy Adapt To Render Scale"
-msgstr ""
+msgstr "合成器代理適應算繪比例"
 
 #. :src: bpy.types.RenderSettings.compositor_proxy_adapt_to_render_scale
 msgid ""
 "Scale input media and pixel-unit values by the render resolution scale or "
 "viewport zoom, such that results match across resolution scales and viewport"
 " zoom levels"
-msgstr ""
+msgstr "按算繪解析度比例或檢視縮放來縮放輸入媒體與畫素單位數值，使不同解析度比例和縮放級別下的結果一致"
 
 #. :src: bpy.types.RenderSettings.compositor_proxy_preview_scale
 msgid "Compositor Proxy Preview Scale"
-msgstr ""
+msgstr "合成器代理預覽比例"
 
 #. :src: bpy.types.RenderSettings.compositor_proxy_preview_scale
 msgid ""
 "The percentage of the render size which input media and pixel-unit values "
 "will be scaled down to during interactive compositor preview for better "
 "performance, if proxy preview scale is enabled"
-msgstr ""
+msgstr "啟用代理預覽比例時，互動式合成器預覽中為提高效能而將輸入媒體與畫素單位數值縮小到的算繪尺寸百分比"
 
 #. :src: bpy.types.RenderSettings.compositor_proxy_use_preview_scale
 msgid "Compositor Proxy Use Preview Scale"
-msgstr ""
+msgstr "合成器代理使用預覽比例"
 
 #. :src: bpy.types.RenderSettings.compositor_proxy_use_preview_scale
 msgid ""
 "Scale down input media and pixel-unit values by the proxy preview scale "
 "during interactive compositor preview for better performance"
-msgstr ""
+msgstr "在互動式合成器預覽中，按代理預覽比例縮小輸入媒體與畫素單位數值以提高效能"
 
 #. :src: bpy.types.RenderSettings.dither_intensity
 msgid "Dither Intensity"
@@ -164125,9 +164093,8 @@ msgid "Theme settings for strip colors"
 msgstr "片段顏色的主題設定"
 
 #. :src: bpy.types.ThemeStyle
-#, fuzzy
 msgid "Interface settings for style sets"
-msgstr "樣式集的主題設定"
+msgstr "樣式集的介面設定"
 
 #. :src: bpy.types.ThemeStyle.panel_title
 msgid "Panel Title Font"
@@ -164363,19 +164330,16 @@ msgid "Panel Title"
 msgstr "面板標題"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_color
-#, fuzzy
 msgid "Text Shadow Color"
-msgstr "陰影色彩"
+msgstr "文字陰影色彩"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_color
-#, fuzzy
 msgid "Color of the shadow underlying text"
-msgstr "部件底部 1 畫素陰影線的顏色"
+msgstr "文字下方陰影的顏色"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_offset
-#, fuzzy
 msgid "Text Shadow Offset"
-msgstr "陰影偏移"
+msgstr "文字陰影偏移"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_offset
 msgid "Shadow offset in pixels"
@@ -164383,27 +164347,27 @@ msgstr "陰影的偏移量畫素"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_type
 msgid "Text Shadow Type"
-msgstr ""
+msgstr "文字陰影型別"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_type
 msgid "Size and type of the shadow underlying text"
-msgstr ""
+msgstr "文字下方陰影的大小與型別"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_type:'NONE'
 msgid "Draw text without a shadow"
-msgstr ""
+msgstr "繪製不帶陰影的文字"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_type:'SMALL'
 msgid "Soft shadow with a small blur"
-msgstr ""
+msgstr "帶小範圍模糊的柔和陰影"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_type:'LARGE'
 msgid "Soft shadow with a large blur"
-msgstr ""
+msgstr "帶大範圍模糊的柔和陰影"
 
 #. :src: bpy.types.ThemeUserInterface.text_shadow_type:'OUTLINE'
 msgid "Outline around the text"
-msgstr ""
+msgstr "文字週圍的輪廓"
 
 #. :src: bpy.types.ThemeUserInterface.transparent_checker_primary
 msgid "Primary Color"
@@ -169124,13 +169088,12 @@ msgid "Navigation scale multiplier applied when determining viewer scale"
 msgstr "確定檢視器比例時應用的漫遊縮放乘數"
 
 #. :src: bpy.types.XrSessionState.runtime_name
-#, fuzzy
 msgid "Runtime Name"
-msgstr "執行時資料"
+msgstr "執行時名稱"
 
 #. :src: bpy.types.XrSessionState.runtime_name
 msgid "OpenXR runtime name"
-msgstr ""
+msgstr "OpenXR 執行時名稱"
 
 #. :src: bpy.types.XrSessionState.selected_actionmap
 msgid "Selected Action Map"
@@ -175942,12 +175905,12 @@ msgstr "不使用 VR/OpenXR 特性進行構建"
 #. :src: scripts/addons_core/viewport_vr_preview/gui.py:161
 msgctxt "Operator"
 msgid "Review VR Captures"
-msgstr ""
+msgstr "檢視 VR 拍攝"
 
 #. :src: scripts/addons_core/viewport_vr_preview/gui.py:162
 msgctxt "Operator"
 msgid "Exit Review"
-msgstr ""
+msgstr "退出檢視"
 
 #: scripts/addons_core/viewport_vr_preview/gui.py:51
 msgid "Start VR Session"
@@ -181401,7 +181364,7 @@ msgstr "線上手冊"
 
 #. :src: scripts/startup/bl_ui/space_node.py:994
 msgid "Adapt To Render Scale"
-msgstr ""
+msgstr "適應算繪比例"
 
 #: scripts/startup/bl_ui/space_node.py:1023
 msgid "Previews"
@@ -181641,9 +181604,8 @@ msgid "{:.3f}"
 msgstr "{:.3f}"
 
 #: scripts/startup/bl_ui/space_project.py:225
-#, fuzzy
 msgid "Overridden by the {} environment variable"
-msgstr "已被環境變數 {:s} 覆蓋"
+msgstr "被 {} 環境變數覆蓋"
 
 #: scripts/startup/bl_ui/space_properties.py:121
 msgid "Sync with Outliner"
@@ -182372,9 +182334,8 @@ msgid "Layered Recording"
 msgstr "分層記錄"
 
 #: scripts/startup/bl_ui/space_time.py:272
-#, fuzzy
 msgid "Use Scene Strip Range"
-msgstr "場景片段範圍"
+msgstr "使用場景片段範圍"
 
 #: scripts/startup/bl_ui/space_toolsystem_common.py:990
 msgid "Unable to find toolbar group"
@@ -182693,16 +182654,14 @@ msgid "Release Notes"
 msgstr "釋出說明"
 
 #: scripts/startup/bl_ui/space_topbar.py:781
-#, fuzzy
 msgctxt "Operator"
 msgid "Reorder to Left"
-msgstr "向前重排序"
+msgstr "向左重排序"
 
 #: scripts/startup/bl_ui/space_topbar.py:784
-#, fuzzy
 msgctxt "Operator"
 msgid "Reorder to Right"
-msgstr "向前重排序"
+msgstr "向右重排序"
 
 #: scripts/startup/bl_ui/space_topbar.py:837
 msgid "Sequence Strip Name"
@@ -182780,26 +182739,23 @@ msgid "Hinting"
 msgstr "微調"
 
 #: scripts/startup/bl_ui/space_userpref.py:280
-#, fuzzy
 msgid "Panel Title Size"
-msgstr "面板標題"
+msgstr "面板標題大小"
 
 #: scripts/startup/bl_ui/space_userpref.py:281
 #: scripts/startup/bl_ui/space_userpref.py:287
 #: scripts/startup/bl_ui/space_userpref.py:293
 msgctxt "Text"
 msgid "Weight"
-msgstr "權重"
+msgstr "字重"
 
 #: scripts/startup/bl_ui/space_userpref.py:286
-#, fuzzy
 msgid "Widget Size"
-msgstr "部件樣式"
+msgstr "部件大小"
 
 #: scripts/startup/bl_ui/space_userpref.py:292
-#, fuzzy
 msgid "Tooltip Size"
-msgstr "工具提示樣式"
+msgstr "工具提示大小"
 
 #: scripts/startup/bl_ui/space_userpref.py:310
 msgctxt "Preferences"
@@ -183037,9 +182993,8 @@ msgid "Shadow Width"
 msgstr "陰影寬度"
 
 #: scripts/startup/bl_ui/space_userpref.py:1313
-#, fuzzy
 msgid "Text Shadow"
-msgstr "使用陰影"
+msgstr "文字陰影"
 
 #: scripts/startup/bl_ui/space_userpref.py:1353
 msgid "Axis X"
@@ -183459,26 +183414,22 @@ msgid "Bone Selection Set"
 msgstr "骨骼選擇集"
 
 #: scripts/startup/bl_ui/space_view3d.py:1885
-#, fuzzy
 msgctxt "Operator"
 msgid "Constraint Targets"
 msgstr "約束目標"
 
 #: scripts/startup/bl_ui/space_view3d.py:1886
-#, fuzzy
 msgctxt "Operator"
 msgid "Constraint Owners"
-msgstr "約束名稱"
+msgstr "約束主體"
 
 #: scripts/startup/bl_ui/space_view3d.py:1887
-#, fuzzy
 msgctxt "Operator"
 msgid "Scaled"
 msgstr "已縮放"
 
 #: scripts/startup/bl_ui/space_view3d.py:1888
 #: scripts/startup/bl_ui/space_view3d.py:2275
-#, fuzzy
 msgctxt "Operator"
 msgid "Deform"
 msgstr "形變"
@@ -190043,10 +189994,9 @@ msgid "Node group's first output must be a geometry"
 msgstr "節點組的第一個輸出必須是幾何"
 
 #: source/blender/editors/geometry/node_group_operator.cc:365
-#, fuzzy
 msgid ""
 "Node tool '%s' needs downloading before it can be used (check context menu)"
-msgstr "使用筆刷 '%s' 前需先下載（請檢視上下文選單）"
+msgstr "節點工具 '%s' 使用前需先下載（請檢視上下文選單）"
 
 #: source/blender/editors/geometry/node_group_operator.cc:1713
 msgid "Error registering node tool \"%s\", operator is already registered"
@@ -192852,34 +192802,28 @@ msgid "Cannot add more than %i UV maps"
 msgstr "不能新增超過 %i 個UV貼圖"
 
 #: source/blender/editors/mesh/mesh_data.cc:1035
-#, fuzzy
 msgid "%d vertices mirrored, %d failed"
-msgstr "已映象 %d %s, 失敗 %d"
+msgstr "已映象 %d 個頂點，%d 個失敗"
 
 #: source/blender/editors/mesh/mesh_data.cc:1038
-#, fuzzy
 msgid "%d edges mirrored, %d failed"
-msgstr "已映象 %d %s, 失敗 %d"
+msgstr "已映象 %d 條邊，%d 個失敗"
 
 #: source/blender/editors/mesh/mesh_data.cc:1041
-#, fuzzy
 msgid "%d faces mirrored, %d failed"
-msgstr "已映象 %d %s, 失敗 %d"
+msgstr "已映象 %d 個面，%d 個失敗"
 
 #: source/blender/editors/mesh/mesh_data.cc:1046
-#, fuzzy
 msgid "%d vertices mirrored"
-msgstr "已映象 %d %s"
+msgstr "已映象 %d 個頂點"
 
 #: source/blender/editors/mesh/mesh_data.cc:1049
-#, fuzzy
 msgid "%d edges mirrored"
-msgstr "已映象 %d %s"
+msgstr "已映象 %d 條邊"
 
 #: source/blender/editors/mesh/mesh_data.cc:1052
-#, fuzzy
 msgid "%d faces mirrored"
-msgstr "已映象 %d %s"
+msgstr "已映象 %d 個面"
 
 #: source/blender/editors/mesh/mesh_join.cc:531
 msgid "Cannot join while in edit mode"
@@ -193430,7 +193374,7 @@ msgstr "覆蓋現有烘焙資料?"
 
 #. :src: source/blender/editors/object/object_bake_simulation.cc:410
 msgid "Stopped baking because frame {} could not be written to {}"
-msgstr ""
+msgstr "已停止烘焙，因為幀 {} 無法寫入 {}"
 
 #: source/blender/editors/object/object_bake_simulation.cc:437
 msgid "A file is too large to be packed (>2GB)."
@@ -193917,7 +193861,7 @@ msgstr "只允許一種當前型別的修改器"
 
 #. :src: source/blender/editors/object/object_modifier.cc:179
 msgid "Cannot add ParticleSystem modifiers outside of Main"
-msgstr ""
+msgstr "無法在 Main 外新增粒子系統修改器"
 
 #: source/blender/editors/object/object_modifier.cc:438
 msgid "Cannot move above a modifier requiring original data"
@@ -195669,14 +195613,12 @@ msgid "screen"
 msgstr "螢幕"
 
 #: source/blender/editors/screen/workspace_edit.cc:749
-#, fuzzy
 msgid "Reorder workspace to the right in the list"
-msgstr "工作區重排序至列表首位"
+msgstr "在列表中將工作區向右重排序"
 
 #: source/blender/editors/screen/workspace_edit.cc:751
-#, fuzzy
 msgid "Reorder workspace to the left in the list"
-msgstr "工作區重排序至列表末位"
+msgstr "在列表中將工作區向左重排序"
 
 #: source/blender/editors/screen/workspace_edit.cc:630
 msgid "Add Workspace"
@@ -195890,7 +195832,7 @@ msgstr "影象需要四個顏色通道進行繪製"
 msgid ""
 "Canvas image has more tiles than the stencil mask image. Canvas tiles "
 "without a corresponding mask tile will ignore the stencil mask."
-msgstr ""
+msgstr "畫布影象的分塊多於鏤版遮罩影象。沒有對應遮罩分塊的畫布分塊將忽略鏤版遮罩。"
 
 #: source/blender/editors/sculpt_paint/mesh/paint_image_proj.cc:7193
 msgid "Add Paint Slot"
@@ -196156,7 +196098,7 @@ msgstr "不使用聲音來進行編譯"
 
 #. :src: source/blender/editors/sound/sound_ops.cc:308
 msgid "Cannot update the audio animation cache while it is used for rendering"
-msgstr ""
+msgstr "音訊動畫快取正用於算繪時無法更新"
 
 #: source/blender/editors/sound/sound_ops.cc:955
 #: source/blender/editors/sound/sound_ops.cc:990
@@ -196881,11 +196823,11 @@ msgstr "在驅動器編輯器中顯示"
 
 #. :src: source/blender/editors/space_graph/graph_buttons.cc:489
 msgid "Type of left handle"
-msgstr ""
+msgstr "左側控制柄的型別"
 
 #. :src: source/blender/editors/space_graph/graph_buttons.cc:544
 msgid "Type of right handle"
-msgstr ""
+msgstr "右側控制柄的型別"
 
 #: source/blender/editors/space_graph/graph_buttons.cc:888
 msgid "Let the driver determine this property's value"
@@ -200070,9 +200012,8 @@ msgid "Size:"
 msgstr "大小:"
 
 #: source/blender/editors/space_view3d/view3d_buttons.cc:3349
-#, fuzzy
 msgid "Stroke Type"
-msgstr "按筆畫型別"
+msgstr "筆畫型別"
 
 #: source/blender/editors/space_view3d/view3d_buttons.cc:3381
 msgid "Knot Mode"
@@ -200791,7 +200732,7 @@ msgstr "\"法向縮放\" 網格僅在編輯模式可用"
 
 #. :src: source/blender/editors/transform/transform_mode_shrink_fatten.cc:200
 msgid "'Shrink/Fatten' is not supported for UVs"
-msgstr ""
+msgstr "'法向縮放' 不適用於 UV"
 
 #: source/blender/editors/transform/transform_mode_timescale.cc:54
 msgid "ScaleX: %s"
@@ -201218,7 +201159,7 @@ msgstr "實現的蠟筆有過多的層。"
 
 #. :src: source/blender/imbuf/movie/intern/movie_write.cc:341
 msgid "Could not allocate video packet"
-msgstr ""
+msgstr "無法分配影片資料包"
 
 #: source/blender/imbuf/movie/intern/movie_write.cc:1268
 #: source/blender/imbuf/movie/intern/movie_write.cc:1274
@@ -201266,9 +201207,8 @@ msgid "Image format is not a movie format"
 msgstr "影象格式不是影片格式"
 
 #: source/blender/imbuf/movie/intern/movie_write.cc:385
-#, fuzzy
 msgid "Error writing video frame: %s"
-msgstr "幀寫入錯誤"
+msgstr "寫入影片幀出錯：%s"
 
 #: source/blender/imbuf/movie/intern/movie_write_audio.cc:170
 msgid "Audio sample format unsupported"
@@ -201515,36 +201455,36 @@ msgstr "未能讀取 OTIO 時間線 '%s'"
 
 #: source/blender/io/ply/exporter/ply_export.cc:51
 msgid "PLY Export: Unable to find collection '%s'"
-msgstr "PLY 匯出: 無法找到集合 '%s'"
+msgstr "PLY 匯出：無法找到集合 '%s'"
 
 #: source/blender/io/ply/exporter/ply_export.cc:83
 msgid "PLY Export: Cannot open file '%s'"
-msgstr "PLY 匯出: 無法開啟檔案 '%s'"
+msgstr "PLY 匯出：無法開啟檔案 '%s'"
 
 #. :src: source/blender/io/ply/exporter/ply_export_load_plydata.cc:206
 msgid ""
 "PLY Export: skipping attribute '%s' of mesh '%s' (property name '%s' is "
 "already used)"
-msgstr ""
+msgstr "PLY 匯出：跳過屬性 '%s'（網格 '%s'），屬性名 '%s' 已被佔用"
 
 #. :src: source/blender/io/ply/exporter/ply_export_load_plydata.cc:221
 msgid ""
 "PLY Export: skipping attribute '%s' of mesh '%s' (type differs from a "
 "previously exported attribute with the same name)"
-msgstr ""
+msgstr "PLY 匯出：跳過屬性 '%s'（網格 '%s'），與先前匯出的同名屬性型別不同"
 
 #. :src: source/blender/io/ply/exporter/ply_export_load_plydata.cc:288
 msgid ""
 "PLY Export: skipping attribute '%s' (property name '%s' is already used)"
-msgstr ""
+msgstr "PLY 匯出：跳過屬性 '%s'，屬性名 '%s' 已被佔用"
 
 #: source/blender/io/ply/importer/ply_import.cc:228
 msgid "PLY Importer: failed importing, unknown error"
-msgstr "PLY 匯入: 匯入失敗, 未知錯誤"
+msgstr "PLY 匯入：匯入失敗，未知錯誤"
 
 #: source/blender/io/ply/importer/ply_import.cc:252
 msgid "PLY Importer: failed importing, no vertices"
-msgstr "PLY 匯入: 匯入失敗, 沒有頂點"
+msgstr "PLY 匯入：匯入失敗，沒有頂點"
 
 #: source/blender/io/ply/importer/ply_import.cc:205
 #: source/blender/io/ply/importer/ply_import.cc:220
@@ -202127,7 +202067,7 @@ msgstr "OBJ 匯入: 無法記憶體對映檔案 '%s'"
 
 #. :src: source/blender/makesrna/intern/rna_ID.cc:337
 msgid "Cannot edit data on non-original data"
-msgstr ""
+msgstr "無法在非原始資料上編輯資料"
 
 #: source/blender/makesrna/intern/rna_ID.cc:369
 msgid "Packed data-blocks cannot be renamed"
@@ -202142,9 +202082,8 @@ msgid "Built-in fonts cannot be renamed"
 msgstr "內建字型無法重新命名"
 
 #: source/blender/makesrna/intern/rna_ID.cc:389
-#, fuzzy
 msgid "Embedded data-blocks cannot be renamed"
-msgstr "關聯的資料塊無法重新命名"
+msgstr "嵌入的資料塊無法重新命名"
 
 #: source/blender/makesrna/intern/rna_ID.cc:673
 msgid ""
@@ -203269,7 +203208,7 @@ msgstr "無法新增片段 (軌道上沒有足夠的空間來新增新的片段)
 
 #. :src: source/blender/makesrna/intern/rna_nla.cc:698
 msgid "Only Speaker objects support Sound NLA strips"
-msgstr ""
+msgstr "僅揚聲器物體支援聲音 NLA 片段"
 
 #: source/blender/makesrna/intern/rna_nla.cc:460
 msgid "Could not assign action %s to NLA strip %s"
@@ -203567,7 +203506,7 @@ msgstr "檢視不在區域性檢視狀態"
 
 #. :src: source/blender/makesrna/intern/rna_object_api.cc:239
 msgid "Can not call this function on non-original data"
-msgstr ""
+msgstr "無法對非原始資料呼叫此函式"
 
 #: source/blender/makesrna/intern/rna_object_api.cc:461
 msgid "Object is not a curve or a text"
@@ -205401,7 +205340,7 @@ msgstr "快速高斯"
 
 #. :src: source/blender/nodes/composite/nodes/node_composite_blur.cc:36
 msgid "Applies a Gaussian blur using downsampling for large radii"
-msgstr ""
+msgstr "對大半徑採用降取樣來應用高斯模糊"
 
 #: source/blender/nodes/composite/nodes/node_composite_blur.cc:40
 msgid "Catrom"
@@ -206485,7 +206424,7 @@ msgid ""
 "proxy or an anamorphic image. For instance, a 50% proxy image would have a "
 "pixel size of 0.5, while an anamorphic image could have a pixel size of "
 "(0.5,1)"
-msgstr ""
+msgstr "影象為代理影象或變形影象時，畫素尺寸相對於原始尺寸的比例。例如 50% 代理影象的畫素大小為 0.5，變形影象則可能為 (0.5,1)"
 
 #: source/blender/nodes/composite/nodes/node_composite_inpaint.cc:33
 msgid "The size of the inpaint in pixels"
@@ -208638,49 +208577,47 @@ msgstr "要變形的曲線"
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:47
 msgid "All triangles. The outer boundary is the convex hull of input points"
-msgstr ""
+msgstr "所有三角形。外邊界為輸入點的凸殼"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:52
 msgid "All triangles fully enclosed by constraint edges or faces"
-msgstr ""
+msgstr "由約束邊或面完全包圍的所有三角形"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:56
 msgid "Inside With Holes"
-msgstr ""
+msgstr "向內（排除孔洞）"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:57
 msgid ""
 "Triangles fully enclosed by constraint edges or faces excluding triangles "
 "inside detected holes"
-msgstr ""
+msgstr "由約束邊或面完全包圍的三角形，但排除檢測到的孔洞內的三角形"
 
 # rblc
 #: source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:119
-#, fuzzy
 msgid "Intersection Points"
-msgstr "僅交叉"
+msgstr "交叉點"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:89
 msgid ""
 "The geometries that are used to constrain the triangulation using the "
 "points, edges, and faces"
-msgstr ""
+msgstr "用於以點、邊和麵約束三角剖分的幾何資料"
 
 #: source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:95
-#, fuzzy
 msgid ""
 "An ID used to group points together. Triangulation is done separately for "
 "each group"
-msgstr "用於將曲線分組的索引。填充是每個組單獨完成的"
+msgstr "用於將點分組的 ID。每組單獨進行三角剖分"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_delaunay_triangulation.cc:121
 msgid "A selection of newly created intersection points"
-msgstr ""
+msgstr "新建交叉點的選中項"
 
 #: source/blender/nodes/geometry/nodes/node_geo_delete_geometry.cc:25
 msgid "Geometry to delete elements from"
@@ -209123,32 +209060,28 @@ msgstr "填充 ID"
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grease_pencil_material_info.cc:44
 msgid "Material is not a Grease Pencil material"
-msgstr ""
+msgstr "材質不是蠟筆材質"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grease_pencil_material_info.cc:17
-#, fuzzy
 msgid "Stroke Base Color"
-msgstr "筆畫顏色"
+msgstr "筆畫基礎色"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grease_pencil_material_info.cc:18
-#, fuzzy
 msgid "Stroke Holdout"
-msgstr "設為阻隔"
+msgstr "筆畫阻隔"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grease_pencil_material_info.cc:19
-#, fuzzy
 msgid "Stroke Self Overlap"
-msgstr "自重疊"
+msgstr "筆畫自重疊"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grease_pencil_material_info.cc:24
-#, fuzzy
 msgid "Fill Base Color"
-msgstr "基礎色"
+msgstr "填充基礎色"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grease_pencil_material_info.cc:25
 msgid "Fill Holdout"
-msgstr ""
+msgstr "填充阻隔"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grease_pencil_to_curves.cc:26
 msgid "Layers as Instances"
@@ -209310,9 +209243,8 @@ msgid "Maximum Z index of the clipping bounding box"
 msgstr "裁切邊界框的最大 Z 編號"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_deactivate_voxels.cc:51
-#, fuzzy
 msgid "Set Background Value"
-msgstr "背景值"
+msgstr "設定背景值"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_dilate_erode.cc:53
 msgid "6-connectivity: affect voxels connected by faces only"
@@ -209405,34 +209337,33 @@ msgstr "用非活動節點替換非活動分塊。此方法比容差修剪更快
 msgid ""
 "Threshold relative to the maximum absolute value of the input grid (infinity"
 " norm)"
-msgstr ""
+msgstr "相對於輸入柵格最大絕對值的閾值（無窮範數）"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:36
 msgid ""
 "Threshold based on the maximum absolute value of the solution (infinity "
 "norm)"
-msgstr ""
+msgstr "基於解的最大絕對值的閾值（無窮範數）"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:54
 msgid ""
 "Dirichlet boundary condition, specify the solution value for all exterior "
 "boundary voxels"
-msgstr ""
+msgstr "狄利克雷邊界條件，為所有外部邊界體素指定解的值"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:60
 msgid ""
 "Neumann boundary condition, specify gradient for all exterior boundary "
 "voxels"
-msgstr ""
+msgstr "諾伊曼邊界條件，為所有外部邊界體素指定梯度"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:64
-#, fuzzy
 msgid "Mixed"
-msgstr "固定"
+msgstr "混合"
 
 #. :src: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:65
 msgid "Select between fixed and normal boundary condition"
-msgstr ""
+msgstr "在固定與法向邊界條件之間選擇"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_solve_poisson.cc:88
 msgid "Max Iterations"
@@ -209585,19 +209516,19 @@ msgstr "柵格運算元變換不匹配"
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_topology_boolean.cc:36
 msgid "Keep voxels and tiles that are active in all grids"
-msgstr ""
+msgstr "保留在所有柵格中均處於活動狀態的體素和分塊"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_topology_boolean.cc:41
 msgid "Add voxels or tiles that are active in any grid"
-msgstr ""
+msgstr "新增在任一柵格中處於活動狀態的體素或分塊"
 
 #. :src:
 #. source/blender/nodes/geometry/nodes/node_geo_grid_topology_boolean.cc:46
 msgid ""
 "Keep active voxels and tiles of the primary grid that are not active in "
 "secondary grids"
-msgstr ""
+msgstr "保留主柵格中處於活動狀態、但在次級柵格中非活動的體素和分塊"
 
 #: source/blender/nodes/geometry/nodes/node_geo_grid_topology_boolean.cc:69
 #: source/blender/nodes/geometry/nodes/node_geo_sdf_grid_boolean.cc:33
@@ -213846,7 +213777,7 @@ msgstr "文字 '%s'"
 
 #. :src: source/blender/python/intern/bpy_rna_anim.cc:444
 msgid "Cannot keyframe non-original data"
-msgstr ""
+msgstr "無法對非原始資料插入關鍵影格"
 
 #: source/blender/python/intern/bpy_rna_anim.cc:438
 #: source/blender/python/intern/bpy_rna_anim.cc:599
