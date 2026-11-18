@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-17 05:21+0000\n"
+"PO-Revision-Date: 2026-11-18 13:08+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -66374,7 +66374,7 @@ msgstr "尺寸 Z"
 #. :src: bpy.types.MBALL_OT_select_similar.type:'STIFFNESS'
 msgctxt "Metaball"
 msgid "Stiffness"
-msgstr "硬度"
+msgstr "剛度"
 
 #. :src: bpy.types.MetaElement.stiffness
 msgid "Stiffness defines how much of the element to fill"
@@ -176874,7 +176874,7 @@ msgid ""
 "No reference available {!r}, update info in '_rna_manual_reference.py' or "
 "callback to bpy.utils.manual_map()"
 msgstr ""
-"無可用引用 {!r}, 在 '_rna_manual_reference.py' 中更新資訊或回撥至 bpy.utils.manual_map()"
+"無可用的引用 {!r}, 請在 '_rna_manual_reference.py' 中更新資訊或回撥至 bpy.utils.manual_map()"
 
 #: scripts/startup/bl_operators/wm.py:1907
 msgid "Direct execution not supported"
@@ -195133,11 +195133,11 @@ msgstr "當前場景中沒有活動的線條樣式"
 
 #: source/blender/editors/render/render_shading.cc:2777
 msgid "Copied material to internal clipboard"
-msgstr "複製到內部剪貼簿的材質"
+msgstr "已將材質複製到內部剪貼簿"
 
 #: source/blender/editors/render/render_shading.cc:2849
 msgid "Cannot paste without a material"
-msgstr "沒有材質可貼上"
+msgstr "無材質的情況下無法貼上"
 
 #: source/blender/editors/render/render_shading.cc:2892
 msgid "Internal clipboard is not from a material"
@@ -197032,7 +197032,7 @@ msgstr "未找到要刪除的函式修改器"
 #: source/blender/editors/space_graph/graph_edit.cc:3130
 #: source/blender/editors/space_nla/nla_edit.cc:2714
 msgid "No F-Modifiers available to be copied"
-msgstr "沒有可用的函式修改器來複製"
+msgstr "沒有可用的函式修改器來複制"
 
 #: source/blender/editors/space_graph/graph_edit.cc:3223
 #: source/blender/editors/space_nla/nla_edit.cc:2811
