@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-18 13:08+0000\n"
+"PO-Revision-Date: 2026-11-18 22:15+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -189240,7 +189240,7 @@ msgstr "無法複製/貼上打包的資料"
 
 #: source/blender/editors/armature/pose_transform.cc:876
 msgid "Copied pose to internal clipboard"
-msgstr "複製到內部剪貼簿的姿態"
+msgstr "已將姿態複製到內部剪貼簿"
 
 #: source/blender/editors/armature/pose_transform.cc:924
 #: source/blender/editors/render/render_shading.cc:2876
