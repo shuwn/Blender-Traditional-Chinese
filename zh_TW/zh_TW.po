@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-18 22:15+0000\n"
+"PO-Revision-Date: 2026-11-19 22:21+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -119764,11 +119764,11 @@ msgstr "移除所有材質"
 #. :src: bpy.types.OBJECT_OT_material_slot_remove_unused
 msgctxt "Operator"
 msgid "Remove Unused Slots"
-msgstr "刪除未使用槽"
+msgstr "移除未使用槽"
 
 #. :src: bpy.types.OBJECT_OT_material_slot_remove_unused
 msgid "Remove unused material slots"
-msgstr "刪除閒置的材質槽"
+msgstr "移除閒置的材質槽"
 
 #. :src: bpy.types.OBJECT_OT_material_slot_select
 msgctxt "Operator"
@@ -183790,7 +183790,7 @@ msgstr "父級反校正"
 #: scripts/startup/bl_ui/space_view3d.py:3568
 msgctxt "Operator"
 msgid "Remove Unused Material Slots"
-msgstr "刪除未使用的材質槽"
+msgstr "移除未使用的材質槽"
 
 #: scripts/startup/bl_ui/space_view3d.py:3590
 msgctxt "Operator"
