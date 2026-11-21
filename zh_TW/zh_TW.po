@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-19 22:21+0000\n"
+"PO-Revision-Date: 2026-11-21 17:13+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -2505,7 +2505,7 @@ msgstr "未指定"
 msgid ""
 "Not yet specified. When this slot is first assigned to a data-block, this "
 "will be set to the type of that data-block"
-msgstr "尚未指定。當此槽首次分配給資料塊時，它將被設定為該資料塊的型別"
+msgstr "尚未指定。首次為該槽指定資料塊時，會自動設為其型別"
 
 #. :src: bpy.types.ActionSlots
 #. :src: bpy.types.ActionConstraint.action_suitable_slots
@@ -2682,7 +2682,7 @@ msgstr "MetalRT"
 msgid ""
 "MetalRT for ray tracing uses less memory for scenes which use curves "
 "extensively, and can give better performance in specific cases"
-msgstr "用於光線追蹤的 MetalRT 在大量使用曲線的場景中使用較少的記憶體，可以在特定情況下提供更好的效能"
+msgstr "在大量使用曲線的場景中，用於光線追蹤的 MetalRT 佔用的記憶體更少，在特定情況下能提供更好的效能"
 
 #. :src: bpy.types.CyclesPreferences.metalrt:'OFF'
 msgid "Disable MetalRT (uses BVH2 layout for intersection queries)"
@@ -9385,7 +9385,7 @@ msgstr "檔案路徑"
 #. :src: bpy.types.BakeSettings.filepath
 #. :src: bpy.types.OBJECT_OT_bake.filepath
 msgid "Image filepath to use when saving externally"
-msgstr "將影象儲存為外部檔案時使用的檔案路徑"
+msgstr "將影象儲存為外部檔案時使用的路徑"
 
 #. :src: bpy.types.BakeSettings.height
 msgid "Vertical dimension of the baking map"
@@ -12191,7 +12191,7 @@ msgstr "空中個體私有空間"
 
 #. :src: bpy.types.BoidSettings.air_personal_space
 msgid "Radius of boids personal space in air (% of particle size)"
-msgstr "群體在空中的獨立空間半徑 (粒子尺寸的百分比)"
+msgstr "群體在空中的獨佔空間半徑 (粒子尺寸的百分比)"
 
 #. :src: bpy.types.BoidSettings.air_speed_max
 msgid "Max Air Speed"
@@ -13999,7 +13999,7 @@ msgstr "具有持久特性"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_pinch_factor
 msgid "Has Pinch Factor"
-msgstr "具有擠壓係數"
+msgstr "具有夾捏係數"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_plane_depth
 msgid "Has Plane Depth"
@@ -31513,7 +31513,7 @@ msgstr "限定幀範圍"
 msgid ""
 "F-Curve Modifier is only applied for the specified frame range to help mask "
 "off effects in order to chain them"
-msgstr "函式曲線修改器僅會應用到特定的幀區間以便使其遮罩在脫離時能連貫顯示"
+msgstr "函式曲線修改器僅會應用到特定的幀區間, 以便使其遮罩在脫離時能連貫顯示"
 
 #. :src: bpy.types.FModifierCycles
 msgid "Cycles F-Modifier"
@@ -38850,7 +38850,7 @@ msgstr "根據介面的使用方式自動檢測合適的結構型別"
 #. :src: bpy.types.NodeSocket.inferred_structure_type:'DYNAMIC'
 #. :src: bpy.types.NodeTreeInterfaceSocket.structure_type:'DYNAMIC'
 msgid "Socket can work with different kinds of structures"
-msgstr "介面對各型別結構均有效"
+msgstr "介面適用於各型別的結構"
 
 #. :src: bpy.types.GeometryNodeClosureToListItem.structure_type:'FIELD'
 #. :src: bpy.types.GeometryNodeListGetItem.structure_type:'FIELD'
@@ -43165,7 +43165,7 @@ msgstr "銳度閾值"
 
 #. :src: bpy.types.Brush.sharp_threshold
 msgid "Threshold below which, no sharpening is done"
-msgstr "閾值以下，不進行銳化"
+msgstr "低於閾值時，不進行銳化"
 
 #. :src: bpy.types.Brush.show_multiplane_scrape_planes_preview
 msgid "Show Cursor Preview"
@@ -56029,7 +56029,7 @@ msgstr "社群版"
 
 #. :src: bpy.types.WindowManager.addon_support:'COMMUNITY'
 msgid "Maintained by community developers"
-msgstr "由社群開發者進行維護"
+msgstr "由社群開發者維護"
 
 #. :src: bpy.types.WindowManager.addon_tags
 msgid "Addon Tags"
@@ -56490,7 +56490,7 @@ msgstr "有限體積"
 msgid ""
 "The world's volume used to be rendered by EEVEE Legacy. Conversion is needed"
 " for it to render properly."
-msgstr "世界的體積被用於舊的EEVEE算繪，需要進行轉換才能正確算繪。"
+msgstr "世界的體積過去由舊版 EEVEE 算繪。需要轉換後才能正確算繪。"
 
 #. :src: bpy.types.World.use_nodes
 msgid "Use shader nodes to render the world"
@@ -57221,7 +57221,7 @@ msgstr "DWAA (有損)"
 
 #. :src: bpy.types.ImageFormatSettings.exr_codec:'DWAA'
 msgid "JPEG-like lossy compression on 32 row image blocks"
-msgstr "基於32行影象資料塊的類似JPEG的有失真壓縮"
+msgstr "對 32 行一塊的影象塊做類 JPEG 有失真壓縮"
 
 #. :src: bpy.types.ImageFormatSettings.exr_codec:'DWAB'
 msgid "DWAB (lossy)"
@@ -57229,7 +57229,7 @@ msgstr "DWAB (有損)"
 
 #. :src: bpy.types.ImageFormatSettings.exr_codec:'DWAB'
 msgid "JPEG-like lossy compression on 256 row image blocks"
-msgstr "基於256行影象資料塊的類似JPEG的有失真壓縮"
+msgstr "對 256 行一塊的影象塊做類 JPEG 有失真壓縮"
 
 #. :src: bpy.types.ImageFormatSettings.exr_codec:'HTJ2K'
 msgid "HTJ2K"
@@ -67403,7 +67403,7 @@ msgstr "固定數量"
 
 #. :src: bpy.types.ArrayModifier.fit_type:'FIXED_COUNT'
 msgid "Duplicate the object a certain number of times"
-msgstr "以指定的數目對物體進行復制"
+msgstr "按指定數目複製物體"
 
 #. :src: bpy.types.ArrayModifier.fit_type:'FIT_LENGTH'
 msgid "Fit Length"
@@ -67620,7 +67620,7 @@ msgstr "新建"
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_NEW'
 #. :src: bpy.types.MESH_OT_bevel.face_strength_mode:'NEW'
 msgid "Set face strength on new faces only"
-msgstr "只在新的面上設定面的強度"
+msgstr "只在新的面上設定面強度"
 
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_AFFECTED'
 #. :src: bpy.types.MESH_OT_bevel.face_strength_mode:'AFFECTED'
@@ -67629,7 +67629,7 @@ msgstr "受影響的"
 
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_AFFECTED'
 msgid "Set face strength on new and affected faces only"
-msgstr "僅在新的和受影響的面上設定面的強度"
+msgstr "僅在新的和受影響的面上設定面強度"
 
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_ALL'
 #. :src: bpy.types.MESH_OT_bevel.face_strength_mode:'ALL'
@@ -73818,7 +73818,7 @@ msgstr "拉伸 U"
 
 #. :src: bpy.types.ScrewModifier.use_stretch_u
 msgid "Stretch the U coordinates between 0 and 1 when UVs are present"
-msgstr "當顯示 UV 時, 在座標域 0-1 內拉伸 U 向座標"
+msgstr "存在 UV 時，在 0 到 1 之間拉伸 U 座標"
 
 #. :src: bpy.types.ScrewModifier.use_stretch_v
 msgid "Stretch V"
@@ -73826,7 +73826,7 @@ msgstr "拉伸 V"
 
 #. :src: bpy.types.ScrewModifier.use_stretch_v
 msgid "Stretch the V coordinates between 0 and 1 when UVs are present"
-msgstr "當顯示 UV 時, 在座標域 0-1 內拉伸 V 向座標"
+msgstr "存在 UV 時，在 0 到 1 之間拉伸 V 座標"
 
 #. :src: bpy.types.ShrinkwrapModifier
 msgid "Shrink wrapping modifier to shrink wrap and object to a target"
@@ -82405,7 +82405,7 @@ msgstr "替換材質"
 
 #. :src: bpy.types.GeometryNodeReplaceMaterial
 msgid "Swap one material with another"
-msgstr "用另一種材質代替一種材質"
+msgstr "用一種材質替換另一種材質"
 
 #. :src: bpy.types.GeometryNodeResampleCurve
 msgid "Resample Curve"
@@ -85757,7 +85757,7 @@ msgstr "平直"
 #. :src: bpy.types.ShaderNodeTexImage.projection:'FLAT'
 msgid ""
 "Image is projected flat using the X and Y coordinates of the texture vector"
-msgstr "使用紋理向量的X軸和Y軸對影象進行平面投射"
+msgstr "使用紋理向量的X和Y座標對影象進行平面投射"
 
 #. :src: bpy.types.ShaderNodeTexImage.projection:'BOX'
 msgctxt "Image"
@@ -92739,7 +92739,7 @@ msgstr "下推動作塊"
 
 #. :src: bpy.types.ACTION_OT_push_down
 msgid "Push action down on to the NLA stack as a new strip"
-msgstr "將動作作為新的片段下推到 NLA 堆疊的頂部"
+msgstr "將動作作為新片段下推到 NLA 堆疊頂部"
 
 #. :src: bpy.types.ACTION_OT_select_all
 #. :src: bpy.types.ACTION_OT_select_column
@@ -100410,7 +100410,7 @@ msgstr "回滾追加"
 
 #. :src: bpy.types.CONSOLE_OT_scrollback_append
 msgid "Append scrollback text by type"
-msgstr "按型別追加文字型別"
+msgstr "按型別追加回滾文字"
 
 #. :src: bpy.types.CONSOLE_OT_scrollback_append.type
 msgid "Console output type"
@@ -115299,7 +115299,7 @@ msgstr "移除原始面"
 
 #. :src: bpy.types.NLA_OT_action_pushdown
 msgid "Push action down onto the top of the NLA stack as a new strip"
-msgstr "將動作塊作為新的片段下推到 NLA 堆疊頂部"
+msgstr "將動作塊作為新片段下推到 NLA 堆疊頂部"
 
 #. :src: bpy.types.NLA_OT_action_pushdown.track_index
 msgid "Track Index"
@@ -146261,7 +146261,7 @@ msgstr "轉盤在環繞時保持 Z 軸直立"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_method:'TRACKBALL'
 msgid "Trackball allows you to tumble your view at any angle"
-msgstr "軌跡球可以讓您在任何角度翻滾視野"
+msgstr "軌跡球可讓您以任意角度旋轉視角"
 
 #. :src: bpy.types.PreferencesInput.view_rotate_sensitivity_trackball
 msgid "Scale trackball orbit sensitivity"
@@ -148549,7 +148549,7 @@ msgstr "庫可編輯"
 
 #. :src: bpy.types.Property.is_library_editable
 msgid "Property is editable from linked instances (changes not saved)"
-msgstr "屬性可以從連結的例項進行編輯（未儲存更改）"
+msgstr "屬性可以從關聯的例項進行編輯（不儲存更改）"
 
 #. :src: bpy.types.Property.is_never_none
 msgid "Never None"
@@ -170782,7 +170782,7 @@ msgstr "重置"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY:'RESET'
 msgid "Reset normals to initial ones"
-msgstr "重置法向為初始法向"
+msgstr "將法向重置為初始值"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY:'INVERT'
 #. :src: KM_HIERARCHY.EMPTY:'INVERT'
@@ -174379,7 +174379,7 @@ msgstr "如果要將VC用於頂點顏色以外的任何其他用途，則應該�
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1802
 msgid "Track mode uses full bake mode:"
-msgstr "軌道模式使用全烘焙模式："
+msgstr "軌道模式採用全烘焙模式："
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1130
 msgid "Loading export settings failed. Removed corrupted settings"
@@ -176527,7 +176527,7 @@ msgstr "無法應用 \"生成\" 類修改器"
 #: scripts/startup/bl_operators/object_quick_effects.py:279
 #: source/blender/editors/mesh/mesh_join.cc:537
 msgid "Active object is not a mesh"
-msgstr "活動物體不是網格物體"
+msgstr "活動物體不是網格"
 
 #: scripts/startup/bl_operators/object_quick_effects.py:289
 msgid "Select two mesh objects"
@@ -182934,7 +182934,7 @@ msgstr "撤銷記憶體限制"
 
 #: scripts/startup/bl_ui/space_userpref.py:897
 msgid "Console Scrollback Lines"
-msgstr "控制檯回查行數"
+msgstr "控制檯回滾行數"
 
 #: scripts/startup/bl_ui/space_userpref.py:903
 #: scripts/startup/bl_ui/space_userpref.py:909
@@ -185975,7 +185975,7 @@ msgstr "無法刪除關鍵影格, 因為給定 ID 的 RNA 路徑無效 (ID = %s,
 #: source/blender/animrig/intern/keyframing.cc:514
 #: source/blender/animrig/intern/keyframing.cc:592
 msgid "No action to delete keyframes from for ID = %s"
-msgstr "無可供為名為 %s 的 ID 刪除關鍵影格的動作"
+msgstr "沒有可用於刪除關鍵影格的動作, ID = %s"
 
 #: source/blender/animrig/intern/keyframing.cc:582
 msgid ""
@@ -204408,7 +204408,7 @@ msgstr "繫結頂點數不匹配：%u 到 %u"
 
 #: source/blender/modifiers/intern/MOD_correctivesmooth.cc:623
 msgid "Object is not a mesh"
-msgstr "物體不是網格物體"
+msgstr "物體不是網格"
 
 #: source/blender/modifiers/intern/MOD_correctivesmooth.cc:632
 msgid "Original vertex count mismatch: %u to %u"
