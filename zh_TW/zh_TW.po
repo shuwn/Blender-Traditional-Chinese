@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-21 17:13+0000\n"
+"PO-Revision-Date: 2026-11-22 03:16+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -2964,8 +2964,8 @@ msgid ""
 "you’ll likely have to edit it if you’re under Windows, e.g. using the one "
 "included in Blender libraries repository"
 msgstr ""
-"FriBidi C 語言編譯庫 (Linux 系統下為 .so, Windows 系統下為 .dll ...), 若在 Windows "
-"系統下則可能需要編輯此庫, 例如當使用包含在 Blender 儲存庫中的庫檔案時"
+"FriBidi C 編譯庫（Linux 下為 .so，Windows 下為 .dll……）；在 Windows 下通常需要修改它，例如改用 "
+"Blender 官方庫倉庫中自帶的版本"
 
 #. :src: bpy.types.UI_AP_i18n_settings.I18N_DIR
 msgid "Translation Root"
@@ -3908,7 +3908,7 @@ msgid ""
 "Motion path points will be baked into the camera space of the active camera."
 " This means they will only look right when looking through that camera. "
 "Switching cameras using markers is not supported."
-msgstr "運動路徑會被烘焙到活動攝像機的攝像機空間中。這意味著只有在當前攝像機下預覽時，運動路徑才會正常演示。透過標記切換攝像機是不支援的。"
+msgstr "運動路徑會被烘焙到活動攝像機的攝像機空間中。這意味著只有在當前攝像機下預覽時，運動路徑才會正確顯示。不支援使用標記切換攝像機。"
 
 #. :src: bpy.types.AnnotationFrame
 msgid "Annotation Frame"
@@ -5914,7 +5914,7 @@ msgstr "啟用操作"
 #. :src: bpy.types.AssetShelf.bl_activate_operator
 msgid ""
 "Operator to call when activating an item with asset reference properties"
-msgstr "當啟用具有資產引用屬性的專案時引用操作"
+msgstr "在啟用具有資產引用屬性的專案時需呼叫的操作"
 
 #. :src: bpy.types.AssetShelf.bl_default_preview_size
 msgid "Default Preview Size"
@@ -13719,7 +13719,7 @@ msgstr "祖輩級骨骼有效可見"
 msgid ""
 "True when all of the ancestors of this bone collection are marked as "
 "visible; always True for root bone collections"
-msgstr "當此骨骼集合的所有祖輩級被標記為可見時取值為真(Ture)，對於根級骨骼集合始終取真值"
+msgstr "當此骨骼集合的所有祖輩級被標記為可見時取值為真(True)，對於根級骨骼集合始終取真值"
 
 #. :src: bpy.types.BoneCollection.is_visible_effectively
 msgid "Effective Visibility"
@@ -17814,7 +17814,7 @@ msgstr "目標預設"
 
 #. :src: bpy.types.ClothSettings.goal_default
 msgid "Default Goal (vertex target position) value, when no Vertex Group used"
-msgstr "預設目標 (頂點目標位置) 值, 當無頂點組時"
+msgstr "未使用頂點組時的預設目標值（頂點目標位置）"
 
 #. :src: bpy.types.ClothSettings.goal_friction
 #. :src: bpy.types.SoftBodySettings.goal_friction
@@ -34316,7 +34316,7 @@ msgstr "熱度浮力"
 msgid ""
 "Buoyant force based on smoke heat (higher value results in faster rising "
 "smoke)"
-msgstr "熱度對於煙霧運動的影響量 (值越高, 則升騰速度越快)"
+msgstr "基於煙霧熱量的浮力 (值越高, 煙霧上升越快)"
 
 #. :src: bpy.types.FluidDomainSettings.burning_rate
 msgid "Speed of the burning reaction (higher value results in smaller flames)"
@@ -38032,7 +38032,7 @@ msgstr "雙面"
 
 #. :src: bpy.types.FreestyleLineSet.face_mark_condition:'BOTH'
 msgid "Select a feature edge if both of its adjacent faces are marked"
-msgstr "如果臨近面都被標記則選擇特徵邊"
+msgstr "若相鄰的兩個面都被標記，則選中該特徵邊"
 
 # pblc
 #. :src: bpy.types.FreestyleLineSet.face_mark_negation
@@ -43755,7 +43755,7 @@ msgstr "權重繪製模式下使用該筆刷"
 
 #. :src: bpy.types.Brush.use_persistent
 msgid "Sculpt on a persistent layer of the mesh"
-msgstr "在網格持續恆定的層中進行雕刻"
+msgstr "在網格的持續層上雕刻"
 
 #. :src: bpy.types.Brush.use_plane_trim
 msgid "Use Plane Trim"
@@ -55276,7 +55276,7 @@ msgstr "擴充套件"
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.extension:'EXTEND'
 #. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.extension:'EXTEND'
 msgid "Extend by repeating edge pixels of the image"
-msgstr "以重複影象邊線畫素的方式進行擴充套件"
+msgstr "透過重複影象邊緣畫素來擴充套件"
 
 #. :src: bpy.types.ImageTexture.extension:'CLIP'
 #. :src: bpy.types.GeometryNodeImageTexture.extension:'CLIP'
@@ -55884,7 +55884,7 @@ msgstr "要使用的序列的幀數量"
 #. :src: bpy.types.CompositorNodeCryptomatteV2.frame_offset
 #. :src: bpy.types.CompositorNodeImage.frame_offset
 msgid "Offset the number of the frame to use in the animation"
-msgstr "對動畫幀的數量進行偏移"
+msgstr "偏移動畫中所用幀的幀號"
 
 #. :src: bpy.types.Volume.frame_start
 msgid "Global starting frame of the sequence, assuming first has a #1"
@@ -56846,13 +56846,13 @@ msgstr "ε (Epsilon)"
 msgid ""
 "Singular value under which damping is progressively applied (higher values "
 "produce results with more stability, less reactivity)"
-msgstr "漸進式應用阻尼的參照奇值 (值越高, 則越穩定, 反應越少)"
+msgstr "逐步施加阻尼的奇異值 (值越大, 結果越穩定, 反應性越低）"
 
 #. :src: bpy.types.Itasc.damping_max
 msgid ""
 "Maximum damping coefficient when singular value is nearly 0 (higher values "
 "produce results with more stability, less reactivity)"
-msgstr "當奇值接近 0 時的最大阻尼係數 (值越高, 則越穩定, 反應越少)"
+msgstr "當奇異值接近 0 時的最大阻尼係數 (值越大, 結果越穩定, 反應性越低）"
 
 #. :src: bpy.types.Itasc.feedback
 #. :src: bpy.types.EchoModifier.feedback
@@ -57398,7 +57398,7 @@ msgstr "使用亮度-色度-色度通道來代替RGB通道"
 
 #. :src: bpy.types.ImageFormatSettings.use_preview
 msgid "When rendering animations, save JPG preview images in same directory"
-msgstr "當算繪動畫時, 在相同的目錄下儲存 JPG 預覽影象"
+msgstr "算繪動畫時, 在同一目錄下儲存 JPG 預覽影象"
 
 #. :src: bpy.types.ImageFormatSettings.views_format
 msgid "Format of multiview media"
@@ -60727,7 +60727,7 @@ msgstr "僅間接"
 msgid ""
 "Objects in collection only contribute indirectly (through shadows and "
 "reflections) in the view layer"
-msgstr "該集合中物體僅 (透過陰影與反射) 在檢視層起間接作用"
+msgstr "集合中的物體在檢視層中僅透過陰影和反射產生間接影響"
 
 #. :src: bpy.types.LayerCollection.is_visible
 msgid ""
@@ -66805,7 +66805,7 @@ msgstr "螺旋"
 #. :src: bpy.types.Modifier.type:'SCREW'
 #. :src: bpy.types.OBJECT_OT_modifier_add.type:'SCREW'
 msgid "Lathe around an axis, treating the input mesh as a profile"
-msgstr "圍繞一個軸向進行車面，將輸入的網格視為輪廓"
+msgstr "圍繞一個軸進行車削，將輸入網格視為輪廓"
 
 #. :src: bpy.types.Modifier.type:'SKIN'
 #. :src: bpy.types.OBJECT_OT_modifier_add.type:'SKIN'
@@ -144866,7 +144866,7 @@ msgstr "新的插值型別"
 msgid ""
 "Interpolation mode used for first keyframe on newly added F-Curves "
 "(subsequent keyframes take interpolation from preceding keyframe)"
-msgstr "在新新增的函式曲線上用於第一個關鍵影格的插值模式 (從之前關鍵影格至子序列關鍵影格之間的插值)"
+msgstr "新新增函式曲線上第一個關鍵影格的插值模式（後續關鍵影格沿用前一關鍵影格的插值）"
 
 #. :src: bpy.types.PreferencesEdit.material_link
 msgid "Material Link To"
@@ -145687,7 +145687,7 @@ msgid ""
 "Command to launch the text editor, either a full path or a command in $PATH.\n"
 "Use the internal editor when left blank"
 msgstr ""
-"命令啟動文字編輯器，可以是完整路徑，也可以是$PATH中的命令\n"
+"用於啟動文字編輯器的命令，可以是完整路徑，也可以是 $PATH 中的命令\n"
 "留空時使用內部編輯器"
 
 #. :src: bpy.types.PreferencesFilePaths.text_editor_args
@@ -158499,7 +158499,7 @@ msgid ""
 "Order items according to the actual internal data (matches the order in "
 "which operators will typically process them when working on "
 "collections/objects hierarchies)"
-msgstr "根據實際內部資料對專案進行排序（這與運算子在處理集合/物體層次結構時通常的處理順序一致）"
+msgstr "按實際內部資料排列專案（與運算子處理集合/物體層級時通常的順序一致）"
 
 #. :src: bpy.types.SpaceOutliner.use_filter_bone_collections
 msgid "Show Bone Collections"
@@ -166380,7 +166380,7 @@ msgstr "資產庫的訪問令牌"
 msgid ""
 "Asset libraries installed from this repository use its access token (cached "
 "from the repository listing when syncing)"
-msgstr "從該儲存庫安裝的資產庫會使用其訪問令牌（在同步時從儲存庫列表中快取的）"
+msgstr "從該儲存庫安裝的資產庫會使用其訪問令牌（同步時從儲存庫列表快取）"
 
 #. :src: bpy.types.UserExtensionRepo.use_cache
 msgid "Clean Files After Install"
@@ -185853,7 +185853,7 @@ msgstr "不能建立 {:d} 函式曲線，僅在插入到可用函式曲線時，
 
 #: source/blender/animrig/intern/keyframing.cc:157
 msgid "{:d} F-Curve(s) are not keyframeable. They might be locked or sampled."
-msgstr "{:d} 條函式曲線不可設定關鍵影格, 它們可能被鎖定或已取樣."
+msgstr "{:d} 條函式曲線無法設定關鍵影格, 可能已被鎖定或取樣."
 
 #: source/blender/animrig/intern/keyframing.cc:165
 msgid ""
@@ -197523,7 +197523,7 @@ msgstr "修改器無法被新增至 (%s : %s) (請參考控制檯的列印資訊
 msgid ""
 "No active AnimData block to use (select a data-block expander first or set "
 "the appropriate flags on an AnimData block)"
-msgstr "沒有活動動畫資料塊來使用 (首先選擇資料塊擴充套件器或在動畫資料塊上設定相應的標誌)"
+msgstr "沒有可用的活動動畫資料塊 (請先選擇一個資料塊擴充套件器, 或在動畫資料塊上設定相應的標誌)"
 
 #: source/blender/editors/space_nla/nla_tracks.cc:429
 msgid "Internal Error - AnimData block is not valid"
@@ -198411,7 +198411,7 @@ msgid ""
 " • Ctrl to isolate collection\n"
 " • Shift to set inside collections"
 msgstr ""
-"該集合中物體僅 (透過陰影與反射) 在檢視層起間接作用\n"
+"集合中的物體在檢視層中僅透過陰影和反射產生間接影響\n"
 " • Ctrl 隔離集合\n"
 " • Shift 設定到內部子集合"
 
