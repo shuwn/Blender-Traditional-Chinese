@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'023dcaed86e9')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 11:03+0000\n"
-"PO-Revision-Date: 2026-11-22 03:16+0000\n"
+"PO-Revision-Date: 2026-11-22 14:30+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -13730,7 +13730,7 @@ msgid ""
 "Whether this bone collection is effectively visible in the viewport. This is"
 " True when this bone collection and all of its ancestors are visible, or "
 "when it is marked as 'solo'."
-msgstr "此骨骼集合的作用在檢視中是否可見。當骨骼集合及其所有祖輩級可見、或被標記為 '單獨' 時，取值為真(Ture)。"
+msgstr "此骨骼集合的作用在檢視中是否可見。當骨骼集合及其所有祖輩級可見、或被標記為 '單獨' 時，取值為真(True)。"
 
 #. :src: bpy.types.BoneCollection.name
 msgid "Unique within the Armature"
@@ -65834,7 +65834,7 @@ msgstr "面拐角的法線方向，考慮銳面、銳邊和自定義法線資料
 msgid ""
 "Local space unit length tangent vector of this vertex for this face (must be"
 " computed beforehand using calc_tangents)"
-msgstr "此多邊形的詞頂點的區域性空間單位長度的切向裂解向量 (必須使用 calc_tangents 執行預計算)"
+msgstr "該頂點在該面上的區域性空間單位長度切向量（必須事先使用 calc_tangents 計算得出）"
 
 #. :src: bpy.types.MeshLoop.vertex_index
 msgid "Vertex index"
