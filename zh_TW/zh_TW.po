@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'6c6f527b5ffb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 08:41+0000\n"
-"PO-Revision-Date: 2026-11-22 14:30+0000\n"
+"PO-Revision-Date: 2026-11-24 00:21+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -88238,7 +88238,7 @@ msgstr "最小值"
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatUnsigned.precision
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatWavelength.precision
 msgid "Number of decimal places to display"
-msgstr ""
+msgstr "顯示的小數位數"
 
 #. :src: bpy.types.NodeTreeInterfaceSocketFloat.step
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatAngle.step
@@ -88254,7 +88254,7 @@ msgstr ""
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatUnsigned.step
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatWavelength.step
 msgid "Step size for incrementing/decrementing the value"
-msgstr ""
+msgstr "數值增減的步長"
 
 #. :src: bpy.types.NodeTreeInterfaceSocketFloat.subtype
 #. :src: bpy.types.NodeTreeInterfaceSocketFloatAngle.subtype
@@ -147526,9 +147526,8 @@ msgid "Georgian - ქართული"
 msgstr "喬治亞語 - ქართული"
 
 #. :src: bpy.types.PreferencesView.language:'ka'
-#, fuzzy
 msgid "Locale code: ka. Translation progress: 98%"
-msgstr "區域程式碼: ka. 翻譯進度: 99%"
+msgstr "區域程式碼: ka. 翻譯進度: 98%"
 
 #. :src: bpy.types.PreferencesView.language:'de_DE'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147536,9 +147535,8 @@ msgid "German - Deutsch"
 msgstr "德語 - Deutsch"
 
 #. :src: bpy.types.PreferencesView.language:'de_DE'
-#, fuzzy
 msgid "Locale code: de_DE. Translation progress: 34%"
-msgstr "區域程式碼: de_DE. 翻譯進度: 35%"
+msgstr "區域程式碼: de_DE. 翻譯進度: 34%"
 
 #. :src: bpy.types.PreferencesView.language:'el_GR'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147610,9 +147608,8 @@ msgid "Korean - 한국어"
 msgstr "韓語 - 한국어"
 
 #. :src: bpy.types.PreferencesView.language:'ko_KR'
-#, fuzzy
 msgid "Locale code: ko_KR. Translation progress: 90%"
-msgstr "區域程式碼: ko_KR. 翻譯進度: 91%"
+msgstr "區域程式碼: ko_KR. 翻譯進度: 90%"
 
 #. :src: bpy.types.PreferencesView.language:'ky_KG'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147684,9 +147681,8 @@ msgid "Portuguese (Portugal) - Português europeu"
 msgstr "葡萄牙語 (葡萄牙) - Português europeu"
 
 #. :src: bpy.types.PreferencesView.language:'pt_PT'
-#, fuzzy
 msgid "Locale code: pt_PT. Translation progress: 82%"
-msgstr "區域程式碼: pt_PT. 翻譯進度: 83%"
+msgstr "區域程式碼: pt_PT. 翻譯進度: 82%"
 
 #. :src: bpy.types.PreferencesView.language:'ro_RO'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -147793,9 +147789,8 @@ msgid "Turkish - Türkçe"
 msgstr "土耳其語 - Türkçe"
 
 #. :src: bpy.types.PreferencesView.language:'tr_TR'
-#, fuzzy
 msgid "Locale code: tr_TR. Translation progress: 72%"
-msgstr "區域程式碼: tr_TR. 翻譯進度: 73%"
+msgstr "區域程式碼: tr_TR. 翻譯進度: 72%"
 
 #. :src: bpy.types.PreferencesView.language:'uk_UA'
 #. :src: Languages’ labels from _bl_i18n_utils/settings.py
@@ -175977,9 +175972,8 @@ msgid "Built without VR/OpenXR features"
 msgstr "不使用 VR/OpenXR 特性進行構建"
 
 #: scripts/addons_core/viewport_vr_preview/gui.py:67
-#, fuzzy
 msgid "Disconnected"
-msgstr "斷開"
+msgstr "未連線"
 
 #: scripts/addons_core/viewport_vr_preview/gui.py:174
 msgctxt "Operator"
@@ -176000,9 +175994,8 @@ msgid "Stop VR Session"
 msgstr "結束VR會話"
 
 #: scripts/addons_core/viewport_vr_preview/gui.py:62
-#, fuzzy
 msgid "Connected:"
-msgstr "相連項"
+msgstr "已連線:"
 
 #: scripts/modules/_bpy_types.py:1360
 msgid "* Missing Paths *"
@@ -193572,7 +193565,7 @@ msgstr "未找到檔案控制代碼 '%s'"
 #. :src: source/blender/editors/object/object_collection.cc:542
 #. :src: source/blender/editors/object/object_collection.cc:777
 msgid "File handler '%s' does not support collection import"
-msgstr ""
+msgstr "檔案控制代碼 '%s' 不支援集合匯入"
 
 #: source/blender/editors/object/object_collection.cc:573
 #: source/blender/editors/object/object_collection.cc:786
@@ -196781,7 +196774,7 @@ msgstr "無法開啟或寫入書籤檔案 \"%s\""
 
 #. :src: source/blender/editors/space_file/file_ops.cc:1184
 msgid "Already bookmarked: \"%s\""
-msgstr ""
+msgstr "已在書籤中: \"%s\""
 
 #: source/blender/editors/space_file/file_ops.cc:1929
 msgid "Failure to perform external file operation on \"%s\""
@@ -202297,7 +202290,7 @@ msgstr "%s: 預期 %s 型別, 而非 %s"
 
 #. :src: source/blender/makesrna/intern/rna_access.cc:4886
 msgid "%s: cannot assign to struct '%s'"
-msgstr ""
+msgstr "%s: 無法分配到結構體 '%s'"
 
 #: source/blender/makesrna/intern/rna_access.cc:4897
 msgid "%s: expected ID type, not %s"
