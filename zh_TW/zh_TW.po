@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'6c6f527b5ffb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 08:41+0000\n"
-"PO-Revision-Date: 2026-11-24 00:21+0000\n"
+"PO-Revision-Date: 2026-11-24 15:39+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -48661,7 +48661,7 @@ msgid ""
 "Bake incoming light from the world instead of just the visibility for more "
 "accurate lighting, but lose correct blending to surrounding irradiance "
 "volumes"
-msgstr "烘焙來自世界的入射光，而不僅僅是更精確的照明的可見性，但會失去與周圍輻射體積的正確混合"
+msgstr "烘焙來自世界的入射光，而不僅僅是更精確的照明的可見性，但會失去與周圍輻照度體積的正確混合"
 
 #. :src: bpy.types.LightProbeVolume.clamp_direct
 #. :src: bpy.types.CyclesRenderSettings.sample_clamp_direct
@@ -48716,7 +48716,7 @@ msgstr "朝向偏移"
 
 #. :src: bpy.types.LightProbeVolume.facing_bias
 msgid "Smoother irradiance interpolation but introduce light bleeding"
-msgstr "更平滑的輻射插值, 但引入光會滲出"
+msgstr "更平滑的輻照度插值, 但引入光會滲出"
 
 #. :src: bpy.types.LightProbeVolume.intensity
 #. :src: bpy.types.VoronoiTexture.color_mode:'INTENSITY'
@@ -48741,7 +48741,7 @@ msgstr "法向偏移"
 msgid ""
 "Offset sampling of the irradiance grid in the surface normal direction to "
 "reduce light bleeding"
-msgstr "在表面法線方向上對輻射柵格進行偏移取樣，以減少漏光"
+msgstr "在表面法線方向上對輻照度柵格進行偏移取樣，以減少漏光"
 
 #. :src: bpy.types.LightProbeVolume.resolution_x
 #. :src: bpy.types.RenderSettings.resolution_x
@@ -48820,7 +48820,7 @@ msgstr "檢視偏移"
 msgid ""
 "Offset sampling of the irradiance grid in the viewing direction to reduce "
 "light bleeding"
-msgstr "將輻射柵格在視線方向進行偏移取樣，以減少漏光"
+msgstr "在視線方向上對輻照度柵格進行偏移取樣，以減少漏光"
 
 #. :src: bpy.types.Mask
 msgid "Mask data-block defining mask for compositing"
@@ -119424,7 +119424,7 @@ msgstr "烘焙光照快取"
 
 #. :src: bpy.types.OBJECT_OT_lightprobe_cache_bake
 msgid "Bake irradiance volume light cache"
-msgstr "烘焙輻射體積光快取"
+msgstr "烘焙輻照度體積光快取"
 
 #. :src: bpy.types.OBJECT_OT_lightprobe_cache_bake.subset
 #. :src: bpy.types.OBJECT_OT_lightprobe_cache_free.subset
@@ -155225,13 +155225,13 @@ msgstr "鉗制畫素強度以減少反射立方體貼圖中光澤反射內的噪
 
 #. :src: bpy.types.SceneEEVEE.gi_irradiance_pool_size
 msgid "Irradiance Pool Size"
-msgstr "輻射池尺寸"
+msgstr "輻照度池尺寸"
 
 #. :src: bpy.types.SceneEEVEE.gi_irradiance_pool_size
 msgid ""
 "Size of the irradiance pool, a bigger pool size allows for more irradiance "
 "grid in the scene but might not fit into GPU memory and decrease performance"
-msgstr "輻射池的大小，池越大場景中的輻照度柵格就越多，但可能不適合GPU視訊記憶體並會降低效能"
+msgstr "輻照度池的大小，池越大場景中的輻照度柵格就越多，但可能不適合GPU視訊記憶體並會降低效能"
 
 #. :src: bpy.types.SceneEEVEE.gi_irradiance_pool_size:'16'
 #. :src: bpy.types.SceneEEVEE.shadow_pool_size:'16'
@@ -155270,11 +155270,11 @@ msgstr "1 GB"
 
 #. :src: bpy.types.SceneEEVEE.gi_visibility_resolution
 msgid "Irradiance Visibility Size"
-msgstr "輻射可見性尺寸"
+msgstr "輻照度可見性尺寸"
 
 #. :src: bpy.types.SceneEEVEE.gi_visibility_resolution
 msgid "Size of the shadow map applied to each irradiance sample"
-msgstr "用於每個輻射取樣的陰影貼圖的尺寸"
+msgstr "用於每個輻照度取樣的陰影貼圖的尺寸"
 
 #. :src: bpy.types.SceneEEVEE.gi_visibility_resolution:'8'
 msgid "8 px"
@@ -188223,15 +188223,15 @@ msgstr "警告：無法分配 {} MB 的光照探頭體積池，使用 {} MB 代�
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:120
 msgid "Irradiance Atlas texture could not be created"
-msgstr "無法建立輻射圖集紋理"
+msgstr "無法建立輻照度圖集紋理"
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:172
 msgid "Error: Malformed irradiance grid data"
-msgstr "錯誤：畸形的輻射柵格資料"
+msgstr "錯誤：畸形的輻照度柵格資料"
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:180
 msgid "Error: Too many irradiance grids in the scene"
-msgstr "錯誤：場景中輻射柵格過多"
+msgstr "錯誤：場景中輻照度柵格過多"
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:182
 msgid "Error: Too many grid visible"
@@ -188239,11 +188239,11 @@ msgstr "錯誤：可見柵格過多"
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:194
 msgid "Error: Irradiance grid allocation failed"
-msgstr "錯誤：輻射柵格分配失敗"
+msgstr "錯誤：輻照度柵格分配失敗"
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:396
 msgid "Error: Could not allocate irradiance staging texture"
-msgstr "錯誤：無法分配輻射分段紋理"
+msgstr "錯誤：無法分配輻照度暫存紋理"
 
 #: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:1057
 msgid "Error: Not enough memory to bake {}."
