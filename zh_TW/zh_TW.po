@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'6c6f527b5ffb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 08:41+0000\n"
-"PO-Revision-Date: 2026-11-24 15:39+0000\n"
+"PO-Revision-Date: 2026-11-26 15:09+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -55711,11 +55711,11 @@ msgstr "將位置附加到基於 F2-F1 的輪廓"
 
 #. :src: bpy.types.VoronoiTexture.color_mode:'POSITION_OUTLINE_INTENSITY'
 msgid "Position, Outline, and Intensity"
-msgstr "位置, 輪廓和亮度"
+msgstr "位置, 輪廓和強度"
 
 #. :src: bpy.types.VoronoiTexture.color_mode:'POSITION_OUTLINE_INTENSITY'
 msgid "Multiply position and outline by intensity"
-msgstr "將位置和輪廓與亮度相乘"
+msgstr "將位置和輪廓與強度相乘"
 
 #. :src: bpy.types.VoronoiTexture.distance_metric
 #. :src: bpy.types.ShaderNodeTexVoronoi.distance
@@ -81069,7 +81069,7 @@ msgstr "獲取屬性名稱"
 
 #. :src: bpy.types.GeometryNodeGetAttributeNames
 msgid "Retrieves attribute names as a list of strings"
-msgstr "將屬性名稱以字串列表形式返回"
+msgstr "以字串列表的形式檢索屬性名稱"
 
 #. :src: bpy.types.GeometryNodeGetGeometryBundle
 msgid "Get Geometry Bundle"
@@ -114202,7 +114202,7 @@ msgstr "根據網格面和頂點的空間位置對其進行重新排序，以提
 
 #. :src: bpy.types.MESH_OT_reveal
 msgid "Reveal all hidden vertices, edges and faces"
-msgstr "恢復顯示所有頂點、邊或面"
+msgstr "恢復顯示所有隱藏的頂點、邊或面"
 
 #. :src: bpy.types.MESH_OT_rip
 #. :src: bpy.types.MESH_OT_rip_move
@@ -143689,7 +143689,7 @@ msgstr "粒子毛髮關鍵體"
 
 #. :src: bpy.types.ParticleHairKey
 msgid "Particle key for hair particle system"
-msgstr "毛髮粒子的粒子關鍵體"
+msgstr "毛髮粒子系統的粒子關鍵體"
 
 #. :src: bpy.types.ParticleHairKey.co
 msgid "Location (Object Space)"
@@ -213202,7 +213202,7 @@ msgstr ""
 
 #: source/blender/nodes/shader/nodes/node_shader_light_info.cc:25
 msgid "Radiant intensity divided by PI"
-msgstr "輻射通量除以 π"
+msgstr "輻射強度除以 π"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_info.cc:26
 msgid "Light position"
