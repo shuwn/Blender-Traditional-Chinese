@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'6c6f527b5ffb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 08:41+0000\n"
-"PO-Revision-Date: 2026-11-26 15:09+0000\n"
+"PO-Revision-Date: 2026-11-27 19:41+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -166641,7 +166641,7 @@ msgstr "柵格縮放單位"
 
 #. :src: bpy.types.View3DOverlay.grid_scale_unit
 msgid "Grid cell size scaled by scene unit system settings"
-msgstr "按場景單位設定來縮放柵格單元尺寸"
+msgstr "按場景系統單位設定來縮放柵格單元尺寸"
 
 #. :src: bpy.types.View3DOverlay.grid_subdivisions
 msgid "Grid Subdivisions"
