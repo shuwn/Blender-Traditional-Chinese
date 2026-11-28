@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: Blender 5.4.0 Alpha (b'6c6f527b5ffb')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 08:41+0000\n"
-"PO-Revision-Date: 2026-11-27 19:41+0000\n"
+"PO-Revision-Date: 2026-11-28 03:20+0000\n"
 "Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -2610,8 +2610,8 @@ msgid ""
 "available in the cache. This can result in additional CPU usage for a brief "
 "time (tens of seconds)"
 msgstr ""
-"可以基於場景內容最佳化核心。在算繪開始時需要最佳化過的核心。如果最佳化過的核心不可用，則使用通用核心繼續算繪，直到最佳化過的工具集在快取中可用。這可能會導致在短時間內"
-" (數十秒) 佔用額外的 CPU 效能"
+"可以基於場景內容最佳化核心。在算繪開始時需要最佳化過的核心。如果最佳化過的核心不可用，則使用通用核心繼續算繪，直到最佳化過的核心集在快取中可用。這可能會導致在短時間內"
+" (數十秒) 額外佔用 CPU"
 
 #. :src: bpy.types.CyclesPreferences.kernel_optimization_level:'OFF'
 #. :src: bpy.types.CyclesPreferences.metalrt:'OFF'
@@ -26183,7 +26183,7 @@ msgstr "約束目標"
 
 #. :src: bpy.types.ConstraintTarget
 msgid "Target object for multi-target constraints"
-msgstr "多目標約束的物體"
+msgstr "多目標約束的目標物體"
 
 #. :src: bpy.types.ConstraintTargetBone
 msgid "Constraint Target Bone"
@@ -42420,7 +42420,7 @@ msgstr "克隆"
 
 #. :src: bpy.types.Brush.gpencil_sculpt_brush_type:'CLONE'
 msgid "Paste copies of the strokes stored on the internal clipboard"
-msgstr "貼上儲存在剪貼簿上的筆畫副本"
+msgstr "貼上儲存在內部剪貼簿上的筆畫副本"
 
 #. :src: bpy.types.Brush.gpencil_settings
 msgid "Gpencil Settings"
@@ -54934,7 +54934,7 @@ msgstr "Blender 原生"
 #. :src: bpy.types.StucciTexture.noise_basis:'BLENDER_ORIGINAL'
 #. :src: bpy.types.WoodTexture.noise_basis:'BLENDER_ORIGINAL'
 msgid "Noise algorithm - Blender original: Smooth interpolated noise"
-msgstr "噪波演算法 - Blender原始型: 平滑差值噪波"
+msgstr "噪波演算法 - Blender原始型: 平滑插值噪波"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'ORIGINAL_PERLIN'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'ORIGINAL_PERLIN'
@@ -54954,7 +54954,7 @@ msgstr "原始型 Perlin"
 #. :src: bpy.types.StucciTexture.noise_basis:'ORIGINAL_PERLIN'
 #. :src: bpy.types.WoodTexture.noise_basis:'ORIGINAL_PERLIN'
 msgid "Noise algorithm - Original Perlin: Smooth interpolated noise"
-msgstr "噪波演算法 - 原始型 Perlin: 平滑差值噪波"
+msgstr "噪波演算法 - 原始型 Perlin: 平滑插值噪波"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'IMPROVED_PERLIN'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'IMPROVED_PERLIN'
@@ -54974,7 +54974,7 @@ msgstr "增強型 Perlin"
 #. :src: bpy.types.StucciTexture.noise_basis:'IMPROVED_PERLIN'
 #. :src: bpy.types.WoodTexture.noise_basis:'IMPROVED_PERLIN'
 msgid "Noise algorithm - Improved Perlin: Smooth interpolated noise"
-msgstr "噪波演算法 - 增強型 Perlin: 平滑差值噪波"
+msgstr "噪波演算法 - 增強型 Perlin: 平滑插值噪波"
 
 #. :src: bpy.types.CloudsTexture.noise_basis:'VORONOI_F1'
 #. :src: bpy.types.DistortedNoiseTexture.noise_basis:'VORONOI_F1'
@@ -56679,7 +56679,7 @@ msgstr "UI 標籤"
 msgid ""
 "UI label to display in dedicated view of the Outliner, in place of the "
 "actual UI widget to edit the value"
-msgstr "在大綱的專用檢視中顯示的 UI 標籤，用於替代用於編輯值的實際 UI 控制元件"
+msgstr "在大綱的專用檢視中顯示的 UI 標籤，用於替代用於編輯值的實際 UI 部件"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation
 #. :src: bpy.types.BooleanModifier.operation
@@ -74500,7 +74500,7 @@ msgstr "整理新生成的三角面 (慢)"
 #. :src: bpy.types.WM_OT_usd_export.ngon_method:'CLIP'
 #: source/blender/nodes/geometry/nodes/node_geo_triangulate.cc:53
 msgid "Split the polygons with an ear clipping algorithm"
-msgstr "使用耳切法拆分多邊形"
+msgstr "使用耳切演算法拆分多邊形"
 
 #. :src: bpy.types.TriangulateModifier.quad_method
 #. :src: bpy.types.MESH_OT_quads_convert_to_tris.quad_method
@@ -94747,7 +94747,7 @@ msgstr "貼上驅動器"
 
 #. :src: bpy.types.ANIM_OT_paste_driver_button
 msgid "Paste the driver in the internal clipboard to the highlighted button"
-msgstr "將內建剪貼簿中的驅動器貼上到高亮顯示的按鈕上"
+msgstr "將內部剪貼簿中的驅動器貼上到高亮顯示的按鈕上"
 
 #. :src: bpy.types.ANIM_OT_previewrange_clear
 #: scripts/startup/bl_ui/space_sequencer.py:359
@@ -98965,7 +98965,7 @@ msgstr "複製軌跡"
 
 #. :src: bpy.types.CLIP_OT_copy_tracks
 msgid "Copy the selected tracks to the internal clipboard"
-msgstr "將所選軌跡複製到內建剪貼簿"
+msgstr "將所選軌跡複製到內部剪貼簿"
 
 #. :src: bpy.types.CLIP_OT_create_plane_track
 msgctxt "Operator"
@@ -99388,7 +99388,7 @@ msgstr "貼上軌跡"
 
 #. :src: bpy.types.CLIP_OT_paste_tracks
 msgid "Paste tracks from the internal clipboard"
-msgstr "從內建剪貼簿中貼上軌跡"
+msgstr "從內部剪貼簿中貼上軌跡"
 
 #. :src: bpy.types.CLIP_OT_prefetch
 msgctxt "Operator"
@@ -121195,7 +121195,7 @@ msgstr "更改活動物體全部形態鍵的鎖定狀態"
 #. :src: bpy.types.OBJECT_OT_shape_key_lock.action
 #. :src: bpy.types.OBJECT_OT_vertex_group_lock.action
 msgid "Lock action to execute on vertex groups"
-msgstr "鎖定要處理頂點組的動作"
+msgstr "鎖定要在頂點組上執行的動作"
 
 #. :src: bpy.types.OBJECT_OT_shape_key_lock.action:'LOCK'
 msgid "Lock all shape keys"
@@ -146224,7 +146224,7 @@ msgstr "自動透視模式"
 msgid ""
 "Automatically switch between orthographic and perspective when changing from"
 " top/front/side views"
-msgstr "在頂 / 前 / 側檢視視角切換之間, 自動轉換檢視模式和透視模式"
+msgstr "在切換頂/前/側檢視時, 自動轉換正交模式和透視模式"
 
 #. :src: bpy.types.PreferencesInput.use_drag_immediately
 msgid "Release Confirms"
@@ -148358,7 +148358,7 @@ msgstr "使用權重繪製色彩區間"
 #. :src: bpy.types.PreferencesView.use_weight_color_range
 msgid ""
 "Enable color range used for weight visualization in weight painting mode"
-msgstr "開啟用於權重繪製的色彩區間"
+msgstr "在權重繪製模式下開啟用於權重視覺化的顏色範圍"
 
 #. :src: bpy.types.PreferencesView.view2d_grid_spacing_min
 msgid "2D View Minimum Grid Spacing"
@@ -148409,7 +148409,7 @@ msgstr "權重繪製色彩範圍"
 
 #. :src: bpy.types.PreferencesView.weight_color_range
 msgid "Color range used for weight visualization in weight painting mode"
-msgstr "設定用於權重繪製的色彩區間"
+msgstr "權重繪製模式中用於權重視覺化的顏色範圍"
 
 #. :src: bpy.types.PrimitiveBoolean
 msgid "Primitive Boolean"
@@ -158310,7 +158310,7 @@ msgstr "線上條樣式中編輯著色節點"
 
 #. :src: bpy.types.SpaceNodeEditor.show_backdrop
 msgid "Use active Viewer Node output as backdrop for compositing nodes"
-msgstr "在背景上顯示啟用的預覽器節點輸出"
+msgstr "將活動預覽器節點的輸出用作合成節點的背景"
 
 #. :src: bpy.types.SpaceNodeEditor.supports_previews
 msgid "Supports Previews"
@@ -163080,7 +163080,7 @@ msgstr "色彩化約束"
 
 #. :src: bpy.types.ThemeBoneColorSet.show_colored_constraints
 msgid "Allow the use of colors indicating constraints/keyed status"
-msgstr "使用色彩來顯示約束 / 關鍵影格"
+msgstr "使用色彩來標示約束/關鍵影格狀態"
 
 #. :src: bpy.types.ThemeClipEditor
 msgid "Theme Clip Editor"
@@ -196254,7 +196254,7 @@ msgstr "簡化函式曲線並移除空的或冗餘通道。"
 #: source/blender/editors/space_action/action_edit.cc:643
 #: source/blender/editors/space_graph/graph_edit.cc:551
 msgid "No keyframes copied to the internal clipboard"
-msgstr "沒有關鍵影格被複製至剪貼簿"
+msgstr "沒有關鍵影格被複制到內部剪貼簿"
 
 #: source/blender/editors/space_action/action_edit.cc:632
 msgid "Keyframe pasting is not available for mask mode"
@@ -201943,7 +201943,7 @@ msgstr "圖元固定網格: %s"
 
 #: source/blender/io/usd/intern/usd_reader_mesh.cc:1082
 msgid "%s: Couldn't compute geom bind transform for %s"
-msgstr "%s: 無法計算 %s 的幾何變換"
+msgstr "%s: 無法計算 %s 的幾何繫結變換"
 
 #: source/blender/io/usd/intern/usd_reader_shape.cc:123
 #: source/blender/io/usd/intern/usd_reader_shape.cc:328
@@ -209769,7 +209769,7 @@ msgid ""
 "The shortest angle in radians between two faces where they meet at an edge. "
 "Flat edges and Non-manifold edges have an angle of zero. Computing this "
 "value is faster than the signed angle"
-msgstr "兩個面在邊上相交處的弧度中最小角度，平邊和非流形邊的角度為零，計算此值比有角度的速度快"
+msgstr "兩個面在邊上相交處的弧度中最小角度，平邊和非流形邊的角度為零，計算此值比計算帶符號夾角更快"
 
 #: source/blender/nodes/geometry/nodes/node_geo_input_mesh_edge_angle.cc:24
 msgid ""
